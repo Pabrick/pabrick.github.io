@@ -1,0 +1,361 @@
+/* ===================
+    ATUAD AZUL: PABLOS;
+   =================== */
+
+.sprite {
+    background-image: url(../images/ui/p-atlas.png);
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+}
+.atlas2001.general{ background-position: -0px -0px; }
+.atlas2001.winter { background-position: -150px -0px; }
+.atlas2001.spring { background-position: -300px -0px; }
+.atlas2001.summer { background-position: -450px -0px; }
+.atlas2001.autumn { background-position: -600px -0px; }
+
+.atlas2002.general{ background-position: -0px -150px; }
+.atlas2002.winter { background-position: -150px -150px; }
+.atlas2002.spring { background-position: -300px -150px; }
+.atlas2002.summer { background-position: -450px -150px; }
+.atlas2002.autumn { background-position: -600px -150px; }
+
+.atlas2003.general{ background-position: -0px -300px; }
+.atlas2003.winter { background-position: -150px -300px; }
+.atlas2003.spring { background-position: -300px -300px; }
+.atlas2003.summer { background-position: -450px -300px; }
+.atlas2003.autumn { background-position: -600px -300px; }
+
+.atlas2004.general{ background-position: -0px -450px; }
+.atlas2004.winter { background-position: -150px -450px; }
+.atlas2004.spring { background-position: -300px -450px; }
+.atlas2004.summer { background-position: -450px -450px; }
+.atlas2004.autumn { background-position: -600px -450px; }
+
+.atlas2005.general{ background-position: -0px -600px; }
+.atlas2005.winter { background-position: -150px -600px; }
+.atlas2005.spring { background-position: -300px -600px; }
+.atlas2005.summer { background-position: -450px -600px; }
+.atlas2005.autumn { background-position: -600px -600px; }
+
+.atlas2006.general{ background-position: -0px -750px; }
+.atlas2006.winter { background-position: -150px -750px; }
+.atlas2006.spring { background-position: -300px -750px; }
+.atlas2006.summer { background-position: -450px -750px; }
+.atlas2006.autumn { background-position: -600px -750px; }
+
+.atlas2007.general{ background-position: -0px -900px; }
+.atlas2007.winter { background-position: -150px -900px; }
+.atlas2007.spring { background-position: -300px -900px; }
+.atlas2007.summer { background-position: -450px -900px; }
+.atlas2007.autumn { background-position: -600px -900px; }
+
+.atlas2008.general{ background-position: -0px -1050px; }
+.atlas2008.winter { background-position: -150px -1050px; }
+.atlas2008.spring { background-position: -300px -1050px; }
+.atlas2008.summer { background-position: -450px -1050px; }
+.atlas2008.autumn { background-position: -600px -1050px; }
+
+.atlas2009.general{ background-position: -0px -1200px; }
+.atlas2009.winter { background-position: -150px -1200px; }
+.atlas2009.spring { background-position: -300px -1200px; }
+.atlas2009.summer { background-position: -450px -1200px; }
+.atlas2009.autumn { background-position: -600px -1200px; }
+
+.atlas2010.general{ background-position: -0px -1350px; }
+.atlas2010.winter { background-position: -150px -1350px; }
+.atlas2010.spring { background-position: -300px -1350px; }
+.atlas2010.summer { background-position: -450px -1350px; }
+.atlas2010.autumn { background-position: -600px -1350px; }
+
+.atlas2011.general{ background-position: -0px -1500px; }
+.atlas2011.winter { background-position: -150px -1500px; }
+.atlas2011.spring { background-position: -300px -1500px; }
+.atlas2011.summer { background-position: -450px -1500px; }
+.atlas2011.autumn { background-position: -600px -1500px; }
+
+.atlas2012.general{ background-position: -0px -1650px; }
+.atlas2012.winter { background-position: -150px -1650px; }
+.atlas2012.spring { background-position: -300px -1650px; }
+.atlas2012.summer { background-position: -450px -1650px; }
+.atlas2012.autumn { background-position: -600px -1650px; }
+
+.atlas2013.general{ background-position: -0px -1800px; }
+.atlas2013.winter { background-position: -150px -1800px; }
+.atlas2013.spring { background-position: -300px -1800px; }
+.atlas2013.summer { background-position: -450px -1800px; }
+.atlas2013.autumn { background-position: -600px -1800px; }
+
+.atlas2014.general{ background-position: -0px -1950px; }
+.atlas2014.winter { background-position: -150px -1950px; }
+.atlas2014.spring { background-position: -300px -1950px; }
+.atlas2014.summer { background-position: -450px -1950px; }
+.atlas2014.autumn { background-position: -600px -1950px; }
+
+@media only screen and (min-width: 960px) {
+    .sprite {
+        width: 200px;
+        height: 200px;
+    }
+    .atlas2001.general{ background-position: -0px -0px; }
+    .atlas2001.winter { background-position: -200px -0px; }
+    .atlas2001.spring { background-position: -400px -0px; }
+    .atlas2001.summer { background-position: -600px -0px; }
+    .atlas2001.autumn { background-position: -800px -0px; }
+
+    .atlas2002.general{ background-position: -0px -200px; }
+    .atlas2002.winter { background-position: -200px -200px; }
+    .atlas2002.spring { background-position: -400px -200px; }
+    .atlas2002.summer { background-position: -600px -200px; }
+    .atlas2002.autumn { background-position: -800px -200px; }
+
+    .atlas2003.general{ background-position: -0px -400px; }
+    .atlas2003.winter { background-position: -200px -400px; }
+    .atlas2003.spring { background-position: -400px -400px; }
+    .atlas2003.summer { background-position: -600px -400px; }
+    .atlas2003.autumn { background-position: -800px -400px; }
+
+    .atlas2004.general{ background-position: -0px -600px; }
+    .atlas2004.winter { background-position: -200px -600px; }
+    .atlas2004.spring { background-position: -400px -600px; }
+    .atlas2004.summer { background-position: -600px -600px; }
+    .atlas2004.autumn { background-position: -800px -600px; }
+
+    .atlas2005.general{ background-position: -0px -800px; }
+    .atlas2005.winter { background-position: -200px -800px; }
+    .atlas2005.spring { background-position: -400px -800px; }
+    .atlas2005.summer { background-position: -600px -800px; }
+    .atlas2005.autumn { background-position: -800px -800px; }
+
+    .atlas2006.general{ background-position: -0px -1000px; }
+    .atlas2006.winter { background-position: -200px -1000px; }
+    .atlas2006.spring { background-position: -400px -1000px; }
+    .atlas2006.summer { background-position: -600px -1000px; }
+    .atlas2006.autumn { background-position: -800px -1000px; }
+
+    .atlas2007.general{ background-position: -0px -1200px; }
+    .atlas2007.winter { background-position: -200px -1200px; }
+    .atlas2007.spring { background-position: -400px -1200px; }
+    .atlas2007.summer { background-position: -600px -1200px; }
+    .atlas2007.autumn { background-position: -800px -1200px; }
+
+    .atlas2008.general{ background-position: -0px -1400px; }
+    .atlas2008.winter { background-position: -200px -1400px; }
+    .atlas2008.spring { background-position: -400px -1400px; }
+    .atlas2008.summer { background-position: -600px -1400px; }
+    .atlas2008.autumn { background-position: -800px -1400px; }
+
+    .atlas2009.general{ background-position: -0px -1600px; }
+    .atlas2009.winter { background-position: -200px -1600px; }
+    .atlas2009.spring { background-position: -400px -1600px; }
+    .atlas2009.summer { background-position: -600px -1600px; }
+    .atlas2009.autumn { background-position: -800px -1600px; }
+
+    .atlas2010.general{ background-position: -0px -1800px; }
+    .atlas2010.winter { background-position: -200px -1800px; }
+    .atlas2010.spring { background-position: -400px -1800px; }
+    .atlas2010.summer { background-position: -600px -1800px; }
+    .atlas2010.autumn { background-position: -800px -1800px; }
+
+    .atlas2011.general{ background-position: -0px -2000px; }
+    .atlas2011.winter { background-position: -200px -2000px; }
+    .atlas2011.spring { background-position: -400px -2000px; }
+    .atlas2011.summer { background-position: -600px -2000px; }
+    .atlas2011.autumn { background-position: -800px -2000px; }
+
+    .atlas2012.general{ background-position: -0px -2200px; }
+    .atlas2012.winter { background-position: -200px -2200px; }
+    .atlas2012.spring { background-position: -400px -2200px; }
+    .atlas2012.summer { background-position: -600px -2200px; }
+    .atlas2012.autumn { background-position: -800px -2200px; }
+
+    .atlas2013.general{ background-position: -0px -2400px; }
+    .atlas2013.winter { background-position: -200px -2400px; }
+    .atlas2013.spring { background-position: -400px -2400px; }
+    .atlas2013.summer { background-position: -600px -2400px; }
+    .atlas2013.autumn { background-position: -800px -2400px; }
+
+    .atlas2014.general{ background-position: -0px -2600px; }
+    .atlas2014.winter { background-position: -200px -2600px; }
+    .atlas2014.spring { background-position: -400px -2600px; }
+    .atlas2014.summer { background-position: -600px -2600px; }
+    .atlas2014.autumn { background-position: -800px -2600px; }
+}
+@media only screen and (min-width: 1024px) {
+    .sprite {
+        width: 250px;
+        height: 250px;
+    }
+    .atlas2001.general{ background-position: -0px -0px; }
+    .atlas2001.winter { background-position: -250px -0px; }
+    .atlas2001.spring { background-position: -500px -0px; }
+    .atlas2001.summer { background-position: -750px -0px; }
+    .atlas2001.autumn { background-position: -1000px -0px; }
+
+    .atlas2002.general{ background-position: -0px -250px; }
+    .atlas2002.winter { background-position: -250px -250px; }
+    .atlas2002.spring { background-position: -500px -250px; }
+    .atlas2002.summer { background-position: -750px -250px; }
+    .atlas2002.autumn { background-position: -1000px -250px; }
+
+    .atlas2003.general{ background-position: -0px -500px; }
+    .atlas2003.winter { background-position: -250px -500px; }
+    .atlas2003.spring { background-position: -500px -500px; }
+    .atlas2003.summer { background-position: -750px -500px; }
+    .atlas2003.autumn { background-position: -1000px -500px; }
+
+    .atlas2004.general{ background-position: -0px -750px; }
+    .atlas2004.winter { background-position: -250px -750px; }
+    .atlas2004.spring { background-position: -500px -750px; }
+    .atlas2004.summer { background-position: -750px -750px; }
+    .atlas2004.autumn { background-position: -1000px -750px; }
+
+    .atlas2005.general{ background-position: -0px -1000px; }
+    .atlas2005.winter { background-position: -250px -1000px; }
+    .atlas2005.spring { background-position: -500px -1000px; }
+    .atlas2005.summer { background-position: -750px -1000px; }
+    .atlas2005.autumn { background-position: -1000px -1000px; }
+
+    .atlas2006.general{ background-position: -0px -1250px; }
+    .atlas2006.winter { background-position: -250px -1250px; }
+    .atlas2006.spring { background-position: -500px -1250px; }
+    .atlas2006.summer { background-position: -750px -1250px; }
+    .atlas2006.autumn { background-position: -1000px -1250px; }
+
+    .atlas2007.general{ background-position: -0px -1500px; }
+    .atlas2007.winter { background-position: -250px -1500px; }
+    .atlas2007.spring { background-position: -500px -1500px; }
+    .atlas2007.summer { background-position: -750px -1500px; }
+    .atlas2007.autumn { background-position: -1000px -1500px; }
+
+    .atlas2008.general{ background-position: -0px -1750px; }
+    .atlas2008.winter { background-position: -250px -1750px; }
+    .atlas2008.spring { background-position: -500px -1750px; }
+    .atlas2008.summer { background-position: -750px -1750px; }
+    .atlas2008.autumn { background-position: -1000px -1750px; }
+
+    .atlas2009.general{ background-position: -0px -2000px; }
+    .atlas2009.winter { background-position: -250px -2000px; }
+    .atlas2009.spring { background-position: -500px -2000px; }
+    .atlas2009.summer { background-position: -750px -2000px; }
+    .atlas2009.autumn { background-position: -1000px -2000px; }
+
+    .atlas2010.general{ background-position: -0px -2250px; }
+    .atlas2010.winter { background-position: -250px -2250px; }
+    .atlas2010.spring { background-position: -500px -2250px; }
+    .atlas2010.summer { background-position: -750px -2250px; }
+    .atlas2010.autumn { background-position: -1000px -2250px; }
+
+    .atlas2011.general{ background-position: -0px -2500px; }
+    .atlas2011.winter { background-position: -250px -2500px; }
+    .atlas2011.spring { background-position: -500px -2500px; }
+    .atlas2011.summer { background-position: -750px -2500px; }
+    .atlas2011.autumn { background-position: -1000px -2500px; }
+
+    .atlas2012.general{ background-position: -0px -2750px; }
+    .atlas2012.winter { background-position: -250px -2750px; }
+    .atlas2012.spring { background-position: -500px -2750px; }
+    .atlas2012.summer { background-position: -750px -2750px; }
+    .atlas2012.autumn { background-position: -1000px -2750px; }
+
+    .atlas2013.general{ background-position: -0px -3000px; }
+    .atlas2013.winter { background-position: -250px -3000px; }
+    .atlas2013.spring { background-position: -500px -3000px; }
+    .atlas2013.summer { background-position: -750px -3000px; }
+    .atlas2013.autumn { background-position: -1000px -3000px; }
+
+    .atlas2014.general{ background-position: -0px -3250px; }
+    .atlas2014.winter { background-position: -250px -3250px; }
+    .atlas2014.spring { background-position: -500px -3250px; }
+    .atlas2014.summer { background-position: -750px -3250px; }
+    .atlas2014.autumn { background-position: -1000px -3250px; }
+}
+@media only screen and (min-width: 1160px) {
+    .sprite {
+        width: 300px;
+        height: 300px;
+    }
+    .atlas2001.general{ background-position: -0px -0px; }
+    .atlas2001.winter { background-position: -300px -0px; }
+    .atlas2001.spring { background-position: -600px -0px; }
+    .atlas2001.summer { background-position: -900px -0px; }
+    .atlas2001.autumn { background-position: -1200px -0px; }
+
+    .atlas2002.general{ background-position: -0px -300px; }
+    .atlas2002.winter { background-position: -300px -300px; }
+    .atlas2002.spring { background-position: -600px -300px; }
+    .atlas2002.summer { background-position: -900px -300px; }
+    .atlas2002.autumn { background-position: -1200px -300px; }
+
+    .atlas2003.general{ background-position: -0px -600px; }
+    .atlas2003.winter { background-position: -300px -600px; }
+    .atlas2003.spring { background-position: -600px -600px; }
+    .atlas2003.summer { background-position: -900px -600px; }
+    .atlas2003.autumn { background-position: -1200px -600px; }
+
+    .atlas2004.general{ background-position: -0px -900px; }
+    .atlas2004.winter { background-position: -300px -900px; }
+    .atlas2004.spring { background-position: -600px -900px; }
+    .atlas2004.summer { background-position: -900px -900px; }
+    .atlas2004.autumn { background-position: -1200px -900px; }
+
+    .atlas2005.general{ background-position: -0px -1200px; }
+    .atlas2005.winter { background-position: -300px -1200px; }
+    .atlas2005.spring { background-position: -600px -1200px; }
+    .atlas2005.summer { background-position: -900px -1200px; }
+    .atlas2005.autumn { background-position: -1200px -1200px; }
+
+    .atlas2006.general{ background-position: -0px -1500px; }
+    .atlas2006.winter { background-position: -300px -1500px; }
+    .atlas2006.spring { background-position: -600px -1500px; }
+    .atlas2006.summer { background-position: -900px -1500px; }
+    .atlas2006.autumn { background-position: -1200px -1500px; }
+
+    .atlas2007.general{ background-position: -0px -1800px; }
+    .atlas2007.winter { background-position: -300px -1800px; }
+    .atlas2007.spring { background-position: -600px -1800px; }
+    .atlas2007.summer { background-position: -900px -1800px; }
+    .atlas2007.autumn { background-position: -1200px -1800px; }
+
+    .atlas2008.general{ background-position: -0px -2100px; }
+    .atlas2008.winter { background-position: -300px -2100px; }
+    .atlas2008.spring { background-position: -600px -2100px; }
+    .atlas2008.summer { background-position: -900px -2100px; }
+    .atlas2008.autumn { background-position: -1200px -2100px; }
+
+    .atlas2009.general{ background-position: -0px -2400px; }
+    .atlas2009.winter { background-position: -300px -2400px; }
+    .atlas2009.spring { background-position: -600px -2400px; }
+    .atlas2009.summer { background-position: -900px -2400px; }
+    .atlas2009.autumn { background-position: -1200px -2400px; }
+
+    .atlas2010.general{ background-position: -0px -2700px; }
+    .atlas2010.winter { background-position: -300px -2700px; }
+    .atlas2010.spring { background-position: -600px -2700px; }
+    .atlas2010.summer { background-position: -900px -2700px; }
+    .atlas2010.autumn { background-position: -1200px -2700px; }
+
+    .atlas2011.general{ background-position: -0px -3000px; }
+    .atlas2011.winter { background-position: -300px -3000px; }
+    .atlas2011.spring { background-position: -600px -3000px; }
+    .atlas2011.summer { background-position: -900px -3000px; }
+    .atlas2011.autumn { background-position: -1200px -3000px; }
+
+    .atlas2012.general{ background-position: -0px -3300px; }
+    .atlas2012.winter { background-position: -300px -3300px; }
+    .atlas2012.spring { background-position: -600px -3300px; }
+    .atlas2012.summer { background-position: -900px -3300px; }
+    .atlas2012.autumn { background-position: -1200px -3300px; }
+
+    .atlas2013.general{ background-position: -0px -3600px; }
+    .atlas2013.winter { background-position: -300px -3600px; }
+    .atlas2013.spring { background-position: -600px -3600px; }
+    .atlas2013.summer { background-position: -900px -3600px; }
+    .atlas2013.autumn { background-position: -1200px -3600px; }
+
+    .atlas2014.general{ background-position: -0px -3900px; }
+    .atlas2014.winter { background-position: -300px -3900px; }
+    .atlas2014.spring { background-position: -600px -3900px; }
+    .atlas2014.summer { background-position: -900px -3900px; }
+    .atlas2014.autumn { background-position: -1200px -3900px; }
+}

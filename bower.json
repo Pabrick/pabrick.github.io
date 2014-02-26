@@ -1,0 +1,31 @@
+{
+  "name": "Ataud Azul",
+  "version": "0.0.1",
+  "description": "Site personal de Pablo J. Beneyto",
+  "main": "index.html",
+  "keywords": [
+    "Ataud Azul",
+    "Pablo Jiménez Beneyto"
+  ],
+  "authors": [
+    "Pabrick"
+  ],
+  "license": "MIT",
+  "homepage": "Ataud Azul",
+  "dependencies": {
+    "backbone": "~1.1.0",
+    "underscore": "~1.5.0",
+    "jquery": "~2.0.0",
+    "todomvc-common": "~0.1.4",
+    "backbone.localStorage": "~1.1.0",
+    "requirejs": "~2.1.5",
+    "requirejs-text": "~2.0.5"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

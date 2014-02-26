@@ -1,0 +1,306 @@
+/* ===================
+    ATUAD AZUL
+   =================== */
+
+@font-face {
+    font-family: 'Gibson';
+    src: url('../fonts/gibson/Gibson-SemiBold-webfont.eot?3');
+    src: url('../fonts/gibson/Gibson-SemiBold-webfont.eot?3?#iefix') format('embedded-opentype'),
+         url('../fonts/gibson/Gibson-SemiBold-webfont.woff?3') format('woff'),
+         url('../fonts/gibson/Gibson-SemiBold-webfont.ttf?3') format('truetype'),
+         url('../fonts/gibson/Gibson-SemiBold-webfont.svg?3#GibsonLightBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'icons';
+    src: url('fonts/aaIcons.eot');
+    src: url('../fonts/icons/aaicons.eot') format('embedded-opentype'),
+         url('../fonts/icons/aaIcons.woff') format('woff'),
+         url('../fonts/icons/aaIcons.ttf') format('truetype'),
+         url('../fonts/icons/aaIcons.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* -COLORS AND BACKGROUNDS COLORS- */
+.bg-programacion {
+    background-color: #ABDA92;
+}
+.bg-maquetacion {
+    background-color: #ADB1E0;
+}
+.bg-montaje {
+    background-color: #A7745F;
+}
+.bg-alpha {
+    background-color: rgba(0,0,0,.5);
+}
+.color-init {
+    color: #94ABD7;
+}
+.color-cvdossier {
+    color: #FDD23B;
+}
+.color-timeline {
+    color: #CC3333;
+}
+.color-laboratory {
+    color: #588E3E;
+}
+
+/* -TAGS- */
+header {
+    overflow: visible;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+header .wrapper {
+    background-color: #94ABD7;
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+}
+header .triangle {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: -15px;
+    border-style: solid;
+    border-width: 15px 15px 0 15px;
+    border-color: #94ABD7 transparent transparent transparent;
+}
+header .triangle-container {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 50px;
+    left: 50%;
+}
+footer {
+    background-color: #385180;
+    bottom: 0px;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+footer .wrapper {
+    width: 320px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li{
+    cursor: pointer;
+    float: left;
+    list-style: none;
+    height: 50px;
+    width: 50px;
+}
+nav ul li:nth-child(1){
+    height: auto;
+    width: auto;
+}
+nav ul li:nth-child(2){
+    background-color: #FDD23B;
+}
+nav ul li:nth-child(3){
+    background-color: #CC3333;
+}
+nav ul li:nth-child(4){
+    background-color: #588E3E;
+}
+nav ul li figure {
+    background-size: 50px;
+    float: left;
+    height: 50px;   
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 50px;
+}
+nav ul li:nth-child(2) figure {
+    background-image: url(../images/ui/icon-cvdossier.png);
+}
+nav ul li:nth-child(3) figure {
+    background-image: url(../images/ui/icon-timeline.png);
+}
+nav ul li:nth-child(4) figure {
+    background-image: url(../images/ui/icon-laboratory.png);
+}
+nav ul li figcaption {
+    color: #EEE;
+    display: table;
+    font-family: 'Gibson';
+    font-weight: bold;
+    font-size: 17px;
+    float: left;
+    line-height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 19px;
+    text-shadow: 2px 2px 0px rgba(0,0,0, 0.7);
+    visibility: hidden;
+}
+.pab {
+    background-image: url(../images/ui/p2014.png);
+    background-size: 150px;
+    /*background-size: 750px 2100px;*/
+    display: block;
+    margin-top: -50px;
+    margin-left: -45px;
+    margin-bottom: 0px;
+    height: 150px;
+    padding-bottom: 0px;
+    width: 150px;
+}
+
+/* -CLASSES- */
+.body-container {
+    bottom: 50px;
+    /*display: table;*/
+    margin: 0;
+    overflow: visible;
+    padding: 0;    
+    position: relative;
+    top: 50px;
+    width: 100%;
+
+    background-color: #F00;
+}
+.logo {
+    background-image: url(../images/logo/200.png);
+    background-size: 50px;
+    cursor: pointer;
+    margin-top: -14px;
+    height: 50px;
+    width: 50px;
+}
+
+.social {
+    float: right;
+    font-size: 1.6em;
+    height: auto;
+    margin-top: -40px;
+    right: 0px;
+    width: 162px;
+}
+.social a {
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'icons';
+    margin-right: 0px;
+    text-decoration: none;
+}
+
+.subtitle {
+    height: 30px;
+    text-align: left;
+    text-shadow: 2px 2px 0px rgba(0,0,0, 0.1);
+    overflow-y: hidden; 
+}
+
+.title {
+    color: #FFF;
+    cursor: pointer;
+    float: left;
+    font-family: 'Gibson';
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 1px;
+    line-height: 70%;
+    margin-left: 60px;
+    margin-top: -36px;
+    min-width: 500px;
+    text-align: left;
+    text-shadow: 3px 3px #385180;
+    visibility: hidden;
+}
+
+.index-text {
+    background-color: #FFF;
+    font-family: 'Gibson';
+    font-size: 16px;
+    line-height: normal;
+    margin-left: 75px;
+    margin-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    text-align: justify;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width : 320px) {
+    .social {
+        font-size: 2em;
+        margin-top: -43px;
+        width: 208px;
+    }
+}
+/* iPhone 3 (landscape) ----------- */
+@media only screen and (min-width : 480px) {
+    .title {
+        visibility: visible;
+    } 
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 768px) {
+    header .wrapper {
+        height: 80px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    header .triangle-container {
+        top: 100px;
+    }
+    .body-container {
+        top: 100px;
+    }
+    .logo {
+        background-size: 100px;
+        margin-top: -20px;
+        height: 100px;
+        width: 100px;
+    }
+    .social {
+        font-size: 2.4em;
+        margin-top: -72px;
+        width: 250px;
+    }
+    .title {
+        font-size: 4em;
+        margin-left: 120px;
+        margin-top: -72px;
+        min-width: 500px;
+        text-shadow: 4px 4px #385180;
+    } 
+}
+/* iPhone 4 (landscape) ----------- */
+@media only screen and (min-width : 960px) {
+    .body-wrapper {
+        margin-left: 50px;
+    }
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 1024px) {
+    .body-wrapper {
+        margin-left: 100px;
+    }
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    .body-wrapper {
+        margin-left: 150px;
+    }
+}
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+}
