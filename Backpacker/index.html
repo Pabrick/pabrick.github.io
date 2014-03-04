@@ -161,11 +161,25 @@
         <script src="_site/js/run_prettify.js"></script>
         -->
         <script src="js/phaser.min.js"></script>
-        <script src="js/main.js"></script>
+        <!-- <script src="js/main.js"></script> -->
     </head>
     <body>
 
-    <canvas width="800" height="600" style="display: block; -webkit-user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: default;"></canvas>
+    <!-- <canvas width="800" height="600" style="display: block; -webkit-user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: default;"></canvas> -->
+    <script type="text/javascript">
+    window.onload = function() {
+        var game = new Phaser.Game(600, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create });
+        function preload() {
+            game.load.atlasJSONHash('bucky', 'assets/bucky_atlas.png', 'assets/bucky_atlas.json');
+        }
+        function create() {
+            var bot = game.add.sprite(98, 98, 'bucky');
+            bot.animations.add('run');
+            bot.animations.play('run', 15, true);
+
+        }
+    };
+    </script>
 
     </body>
 </html>

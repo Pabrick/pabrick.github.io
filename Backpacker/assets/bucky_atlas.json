@@ -1,44 +1,44 @@
-{"frames": [
+{"frames": {
 
+"Bucky00.png":
 {
-	"filename": "run0",
-	"frame": {"x":0,"y":0,"w":98,"h":98},
+	"frame": {"x":2,"y":2,"w":98,"h":98},
 	"rotated": false,
-	"trimmed": true,
+	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":98},
 	"sourceSize": {"w":98,"h":98}
 },
+"Bucky01.png":
 {
-	"filename": "run1",
-	"frame": {"x":98,"y":0,"w":98,"h":98},
+	"frame": {"x":102,"y":2,"w":98,"h":98},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":3,"y":2,"w":50,"h":60},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":98},
 	"sourceSize": {"w":98,"h":98}
 },
+"Bucky02.png":
 {
-	"filename": "run2",
-	"frame": {"x":0,"y":98,"w":98,"h":98},
+	"frame": {"x":2,"y":102,"w":98,"h":98},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":11,"y":0,"w":34,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":98},
 	"sourceSize": {"w":98,"h":98}
 },
+"Bucky03.png":
 {
-	"filename": "run3",
-	"frame": {"x":98,"y":98,"w":98,"h":98},
+	"frame": {"x":102,"y":102,"w":98,"h":98},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":3,"w":56,"h":58},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":98},
 	"sourceSize": {"w":98,"h":98}
-}],
+}},
 "meta": {
-	"app": "http://www.texturepacker.com",
+	"app": "http://www.codeandweb.com/texturepacker ",
 	"version": "1.0",
 	"image": "bucky_atlas.png",
 	"format": "RGBA8888",
-	"size": {"w":196,"h":196},
-	"scale": "0.2",
-	"smartupdate": "$TexturePacker:SmartUpdate:fb56f261b1eb04e3215824426595f64c$"
+	"size": {"w":256,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:fa671f07758a60abf20c5e63aaf6c464:0719847d8efca24fd1c4b7a9b563484e:57798563111efe15cc995ec00a68ccc4$"
 }
 }
