@@ -1,3717 +1,2761 @@
-
-
-
-
-
-<!DOCTYPE html>
-<html>
-  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>phaser/build/phaser.d.ts at master · photonstorm/phaser</title>
-    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
-    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
-    <meta property="fb:app_id" content="1401488693436528"/>
-
-      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="photonstorm/phaser" name="twitter:title" /><meta content="phaser - Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering." name="twitter:description" /><meta content="https://1.gravatar.com/avatar/4a45b26416268cd8d20fcea241019b8d?d=https%3A%2F%2Fidenticons.github.com%2Fe2f5623c17028b688842e1330642ff5d.png&amp;r=x&amp;s=400" name="twitter:image:src" />
-<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://1.gravatar.com/avatar/4a45b26416268cd8d20fcea241019b8d?d=https%3A%2F%2Fidenticons.github.com%2Fe2f5623c17028b688842e1330642ff5d.png&amp;r=x&amp;s=400" property="og:image" /><meta content="photonstorm/phaser" property="og:title" /><meta content="https://github.com/photonstorm/phaser" property="og:url" /><meta content="phaser - Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering." property="og:description" />
-
-    <meta name="hostname" content="github-fe124-cp1-prd.iad.github.net">
-    <meta name="ruby" content="ruby 2.1.0p0-github-tcmalloc (87c9373a41) [x86_64-linux]">
-    <link rel="assets" href="https://github.global.ssl.fastly.net/">
-    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
-    <link rel="xhr-socket" href="/_sockets" />
-
-
-    <meta name="msapplication-TileImage" content="/windows-tile.png" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="selected-link" value="repo_source" data-pjax-transient />
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="506734F1:1E8B:62E6F8:531671FC" name="octolytics-dimension-request_id" /><meta content="6522747" name="octolytics-actor-id" /><meta content="Pabrick" name="octolytics-actor-login" /><meta content="fe39962ce2585e050f3740ba3960b5ecea401243af0ffc98cd762cd9fe3871f7" name="octolytics-actor-hash" />
-    
-
-    
-    
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-
-    <meta content="authenticity_token" name="csrf-param" />
-<meta content="ERaJ4TdrwbvNR+2NWHHoOoZ/+dD6N9mgpxAkbGFbSs4=" name="csrf-token" />
-
-    <link href="https://github.global.ssl.fastly.net/assets/github-144f6fbd93cc11df8cc03bc000351f75fa1e5875.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="https://github.global.ssl.fastly.net/assets/github2-e78754b61713d6654d18e641a08d640c76bd5ba2.css" media="all" rel="stylesheet" type="text/css" />
-    
-    
-
-
-      <script crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/frameworks-490867a148cf94468c141093ccd4e56ed2144eb9.js" type="text/javascript"></script>
-      <script async="async" crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/github-3e40bad6e91fbbace9ebaa606f72e6fb100546c0.js" type="text/javascript"></script>
-      
-      <meta http-equiv="x-pjax-version" content="a101843396cb8eb0fa5af14c202201ae">
-
-        <link data-pjax-transient rel='permalink' href='/photonstorm/phaser/blob/4f0c764b63d0de67fb998af0abddb6ab68214be1/build/phaser.d.ts'>
-
-  <meta name="description" content="phaser - Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering." />
-
-  <meta content="164476" name="octolytics-dimension-user_id" /><meta content="photonstorm" name="octolytics-dimension-user_login" /><meta content="9393759" name="octolytics-dimension-repository_id" /><meta content="photonstorm/phaser" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="9393759" name="octolytics-dimension-repository_network_root_id" /><meta content="photonstorm/phaser" name="octolytics-dimension-repository_network_root_nwo" />
-  <link href="https://github.com/photonstorm/phaser/commits/master.atom" rel="alternate" title="Recent Commits to phaser:master" type="application/atom+xml" />
-
-  </head>
-
-
-  <body class="logged_in  env-production macintosh vis-public page-blob tipsy-tooltips">
-    <div class="wrapper">
-      
-      
-      
-      
-
-
-      <div class="header header-logged-in true">
-  <div class="container clearfix">
-
-    <a class="header-logo-invertocat" href="https://github.com/">
-  <span class="mega-octicon octicon-mark-github"></span>
-</a>
-
-    
-    <a href="/notifications" aria-label="You have no unread notifications" class="notification-indicator tooltipped tooltipped-s" data-gotokey="n">
-        <span class="mail-status all-read"></span>
-</a>
-
-      <div class="command-bar js-command-bar  in-repository">
-          <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
-
-<input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
-    
-    data-username="Pabrick"
-      data-repo="photonstorm/phaser"
-      data-branch="master"
-      data-sha="fb9b95663c7b70ee1808cfca77629efe3f1df207"
-  >
-
-    <input type="hidden" name="nwo" value="photonstorm/phaser" />
-
-    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
-      <span class="minibutton select-menu-button js-menu-target" role="button" aria-haspopup="true">
-        <span class="js-select-button">This repository</span>
-      </span>
-
-      <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
-        <div class="select-menu-modal">
-
-          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
-            <span class="select-menu-item-icon octicon octicon-check"></span>
-            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
-            <div class="select-menu-item-text js-select-button-text">This repository</div>
-          </div> <!-- /.select-menu-item -->
-
-          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
-            <span class="select-menu-item-icon octicon octicon-check"></span>
-            <input type="radio" name="search_target" value="global" />
-            <div class="select-menu-item-text js-select-button-text">All repositories</div>
-          </div> <!-- /.select-menu-item -->
-
-        </div>
-      </div>
-    </div>
-
-  <span class="help tooltipped tooltipped-s" aria-label="Show command bar help">
-    <span class="octicon octicon-question"></span>
-  </span>
-
-
-  <input type="hidden" name="ref" value="cmdform">
-
-</form>
-        <ul class="top-nav">
-          <li class="explore"><a href="/explore">Explore</a></li>
-            <li><a href="https://gist.github.com">Gist</a></li>
-            <li><a href="/blog">Blog</a></li>
-          <li><a href="https://help.github.com">Help</a></li>
-        </ul>
-      </div>
-
-    
-
-
-  <ul id="user-links">
-    <li>
-      <a href="/Pabrick" class="name">
-        <img alt="Pabrick" class=" js-avatar" data-user="6522747" height="20" src="https://avatars.githubusercontent.com/u/6522747" width="20" /> Pabrick
-      </a>
-    </li>
-
-    <li class="new-menu dropdown-toggle js-menu-container">
-      <a href="#" class="js-menu-target tooltipped tooltipped-s" aria-label="Create new...">
-        <span class="octicon octicon-plus"></span>
-        <span class="dropdown-arrow"></span>
-      </a>
-
-      <div class="new-menu-content js-menu-content">
-      </div>
-    </li>
-
-    <li>
-      <a href="/settings/profile" id="account_settings"
-        class="tooltipped tooltipped-s"
-        aria-label="Account settings ">
-        <span class="octicon octicon-tools"></span>
-      </a>
-    </li>
-    <li>
-      <a class="tooltipped tooltipped-s" href="/logout" data-method="post" id="logout" aria-label="Sign out">
-        <span class="octicon octicon-log-out"></span>
-      </a>
-    </li>
-
-  </ul>
-
-<div class="js-new-dropdown-contents hidden">
-  
-
-<ul class="dropdown-menu">
-  <li>
-    <a href="/new"><span class="octicon octicon-repo-create"></span> New repository</a>
-  </li>
-  <li>
-    <a href="/organizations/new"><span class="octicon octicon-organization"></span> New organization</a>
-  </li>
-
-
-    <li class="section-title">
-      <span title="photonstorm/phaser">This repository</span>
-    </li>
-      <li>
-        <a href="/photonstorm/phaser/issues/new"><span class="octicon octicon-issue-opened"></span> New issue</a>
-      </li>
-</ul>
-
-</div>
-
-
-    
-  </div>
-</div>
-
-      
-
-        
-
-
-
-
-          <div class="site" itemscope itemtype="http://schema.org/WebPage">
-    
-    <div class="pagehead repohead instapaper_ignore readability-menu">
-      <div class="container">
-        
-
-<ul class="pagehead-actions">
-
-    <li class="subscription">
-      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="ERaJ4TdrwbvNR+2NWHHoOoZ/+dD6N9mgpxAkbGFbSs4=" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="9393759" />
-
-    <div class="select-menu js-menu-container js-select-menu">
-      <a class="social-count js-social-count" href="/photonstorm/phaser/watchers">
-        277
-      </a>
-      <span class="minibutton select-menu-button with-count js-menu-target" role="button" tabindex="0" aria-haspopup="true">
-        <span class="js-select-button">
-          <span class="octicon octicon-eye-unwatch"></span>
-          Unwatch
-        </span>
-      </span>
-
-      <div class="select-menu-modal-holder">
-        <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
-          <div class="select-menu-header">
-            <span class="select-menu-title">Notification status</span>
-            <span class="octicon octicon-remove-close js-menu-close"></span>
-          </div> <!-- /.select-menu-header -->
-
-          <div class="select-menu-list js-navigation-container" role="menu">
-
-            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <div class="select-menu-item-text">
-                <input id="do_included" name="do" type="radio" value="included" />
-                <h4>Not watching</h4>
-                <span class="description">You only receive notifications for conversations in which you participate or are @mentioned.</span>
-                <span class="js-select-button-text hidden-select-button-text">
-                  <span class="octicon octicon-eye-watch"></span>
-                  Watch
-                </span>
-              </div>
-            </div> <!-- /.select-menu-item -->
-
-            <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
-              <span class="select-menu-item-icon octicon octicon octicon-check"></span>
-              <div class="select-menu-item-text">
-                <input checked="checked" id="do_subscribed" name="do" type="radio" value="subscribed" />
-                <h4>Watching</h4>
-                <span class="description">You receive notifications for all conversations in this repository.</span>
-                <span class="js-select-button-text hidden-select-button-text">
-                  <span class="octicon octicon-eye-unwatch"></span>
-                  Unwatch
-                </span>
-              </div>
-            </div> <!-- /.select-menu-item -->
-
-            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <div class="select-menu-item-text">
-                <input id="do_ignore" name="do" type="radio" value="ignore" />
-                <h4>Ignoring</h4>
-                <span class="description">You do not receive any notifications for conversations in this repository.</span>
-                <span class="js-select-button-text hidden-select-button-text">
-                  <span class="octicon octicon-mute"></span>
-                  Stop ignoring
-                </span>
-              </div>
-            </div> <!-- /.select-menu-item -->
-
-          </div> <!-- /.select-menu-list -->
-
-        </div> <!-- /.select-menu-modal -->
-      </div> <!-- /.select-menu-modal-holder -->
-    </div> <!-- /.select-menu -->
-
-</form>
-    </li>
-
-  <li>
-  
-
-  <div class="js-toggler-container js-social-container starring-container on">
-    <a href="/photonstorm/phaser/unstar"
-      class="minibutton with-count js-toggler-target star-button starred"
-      aria-label="Unstar this repository" data-remote="true" data-method="post" rel="nofollow">
-      <span class="octicon octicon-star-delete"></span><span class="text">Unstar</span>
-    </a>
-
-    <a href="/photonstorm/phaser/star"
-      class="minibutton with-count js-toggler-target star-button unstarred"
-      aria-label="Star this repository" data-remote="true" data-method="post" rel="nofollow">
-      <span class="octicon octicon-star"></span><span class="text">Star</span>
-    </a>
-
-      <a class="social-count js-social-count" href="/photonstorm/phaser/stargazers">
-        3,050
-      </a>
-  </div>
-
-  </li>
-
-
-        <li>
-          <a href="/photonstorm/phaser/fork" class="minibutton with-count js-toggler-target fork-button lighter tooltipped-n" title="Fork this repo" rel="facebox nofollow">
-            <span class="octicon octicon-git-branch-create"></span><span class="text">Fork</span>
-          </a>
-          <a href="/photonstorm/phaser/network" class="social-count">727</a>
-        </li>
-
-
-</ul>
-
-        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
-          <span class="repo-label"><span>public</span></span>
-          <span class="mega-octicon octicon-repo"></span>
-          <span class="author">
-            <a href="/photonstorm" class="url fn" itemprop="url" rel="author"><span itemprop="title">photonstorm</span></a>
-          </span>
-          <span class="repohead-name-divider">/</span>
-          <strong><a href="/photonstorm/phaser" class="js-current-repository js-repo-home-link">phaser</a></strong>
-
-          <span class="page-context-loader">
-            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
-          </span>
-
-        </h1>
-      </div><!-- /.container -->
-    </div><!-- /.repohead -->
-
-    <div class="container">
-      <div class="repository-with-sidebar repo-container new-discussion-timeline js-new-discussion-timeline  ">
-        <div class="repository-sidebar clearfix">
-            
-
-<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders">
-  <div class="sunken-menu-contents">
-    <ul class="sunken-menu-group">
-      <li class="tooltipped tooltipped-w" aria-label="Code">
-        <a href="/photonstorm/phaser" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /photonstorm/phaser">
-          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
-          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
-</a>      </li>
-
-        <li class="tooltipped tooltipped-w" aria-label="Issues">
-          <a href="/photonstorm/phaser/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /photonstorm/phaser/issues">
-            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
-            <span class='counter'>6</span>
-            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
-</a>        </li>
-
-      <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
-        <a href="/photonstorm/phaser/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /photonstorm/phaser/pulls">
-            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
-            <span class='counter'>2</span>
-            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
-</a>      </li>
-
-
-        <li class="tooltipped tooltipped-w" aria-label="Wiki">
-          <a href="/photonstorm/phaser/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_wiki /photonstorm/phaser/wiki">
-            <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
-            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
-</a>        </li>
-    </ul>
-    <div class="sunken-menu-separator"></div>
-    <ul class="sunken-menu-group">
-
-      <li class="tooltipped tooltipped-w" aria-label="Pulse">
-        <a href="/photonstorm/phaser/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /photonstorm/phaser/pulse">
-          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
-          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
-</a>      </li>
-
-      <li class="tooltipped tooltipped-w" aria-label="Graphs">
-        <a href="/photonstorm/phaser/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /photonstorm/phaser/graphs">
-          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
-          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
-</a>      </li>
-
-      <li class="tooltipped tooltipped-w" aria-label="Network">
-        <a href="/photonstorm/phaser/network" aria-label="Network" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-selected-links="repo_network /photonstorm/phaser/network">
-          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
-          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
-</a>      </li>
-    </ul>
-
-
-  </div>
-</div>
-
-              <div class="only-with-full-nav">
-                
-
-  
-
-<div class="clone-url open"
-  data-protocol-type="http"
-  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
-  <h3><strong>HTTPS</strong> clone URL</h3>
-  <div class="clone-url-box">
-    <input type="text" class="clone js-url-field"
-           value="https://github.com/photonstorm/phaser.git" readonly="readonly">
-
-    <span aria-label="copy to clipboard" class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/photonstorm/phaser.git" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
-  </div>
-</div>
-
-  
-
-<div class="clone-url "
-  data-protocol-type="ssh"
-  data-url="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone">
-  <h3><strong>SSH</strong> clone URL</h3>
-  <div class="clone-url-box">
-    <input type="text" class="clone js-url-field"
-           value="git@github.com:photonstorm/phaser.git" readonly="readonly">
-
-    <span aria-label="copy to clipboard" class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="git@github.com:photonstorm/phaser.git" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
-  </div>
-</div>
-
-  
-
-<div class="clone-url "
-  data-protocol-type="subversion"
-  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
-  <h3><strong>Subversion</strong> checkout URL</h3>
-  <div class="clone-url-box">
-    <input type="text" class="clone js-url-field"
-           value="https://github.com/photonstorm/phaser" readonly="readonly">
-
-    <span aria-label="copy to clipboard" class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/photonstorm/phaser" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
-  </div>
-</div>
-
-
-<p class="clone-options">You can clone with
-      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
-      <a href="#" class="js-clone-selector" data-protocol="ssh">SSH</a>,
-      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
-  <span class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
-    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
-    <span class="octicon octicon-question"></span>
-    </a>
-  </span>
-</p>
-
-  <a href="http://mac.github.com" data-url="github-mac://openRepo/https://github.com/photonstorm/phaser" class="minibutton sidebar-button js-conduit-rewrite-url">
-    <span class="octicon octicon-device-desktop"></span>
-    Clone in Desktop
-  </a>
-
-
-                <a href="/photonstorm/phaser/archive/master.zip"
-                   class="minibutton sidebar-button"
-                   title="Download this repository as a zip file"
-                   rel="nofollow">
-                  <span class="octicon octicon-cloud-download"></span>
-                  Download ZIP
-                </a>
-              </div>
-        </div><!-- /.repository-sidebar -->
-
-        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
-          
-
-
-<!-- blob contrib key: blob_contributors:v21:5dbc60c44f3adb66b6b09e0dec1f39a5 -->
-
-<p title="This is a placeholder element" class="js-history-link-replace hidden"></p>
-
-<a href="/photonstorm/phaser/find/master" data-pjax data-hotkey="t" class="js-show-file-finder" style="display:none">Show File Finder</a>
-
-<div class="file-navigation">
-  
-
-<div class="select-menu js-menu-container js-select-menu" >
-  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
-    data-master-branch="master"
-    data-ref="master"
-    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
-    <span class="octicon octicon-git-branch"></span>
-    <i>branch:</i>
-    <span class="js-select-button">master</span>
-  </span>
-
-  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
-
-    <div class="select-menu-modal">
-      <div class="select-menu-header">
-        <span class="select-menu-title">Switch branches/tags</span>
-        <span class="octicon octicon-remove-close js-menu-close"></span>
-      </div> <!-- /.select-menu-header -->
-
-      <div class="select-menu-filters">
-        <div class="select-menu-text-filter">
-          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
-        </div>
-        <div class="select-menu-tabs">
-          <ul>
-            <li class="select-menu-tab">
-              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
-            </li>
-            <li class="select-menu-tab">
-              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
-            </li>
-          </ul>
-        </div><!-- /.select-menu-tabs -->
-      </div><!-- /.select-menu-filters -->
-
-      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
-
-        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
-
-
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/blob/1.2/build/phaser.d.ts"
-                 data-name="1.2"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="1.2">1.2</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/blob/dev/build/phaser.d.ts"
-                 data-name="dev"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="dev">dev</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item selected">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/blob/master/build/phaser.d.ts"
-                 data-name="master"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="master">master</a>
-            </div> <!-- /.select-menu-item -->
-        </div>
-
-          <div class="select-menu-no-results">Nothing to show</div>
-      </div> <!-- /.select-menu-list -->
-
-      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
-        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
-
-
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/1.1.6/build/phaser.d.ts"
-                 data-name="1.1.6"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="1.1.6">1.1.6</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/1.1.5/build/phaser.d.ts"
-                 data-name="1.1.5"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="1.1.5">1.1.5</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/1.1.4/build/phaser.d.ts"
-                 data-name="1.1.4"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="1.1.4">1.1.4</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/1.1.3/build/phaser.d.ts"
-                 data-name="1.1.3"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="1.1.3">1.1.3</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/1.1.2/build/phaser.d.ts"
-                 data-name="1.1.2"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="1.1.2">1.1.2</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/1.1.1/build/phaser.d.ts"
-                 data-name="1.1.1"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="1.1.1">1.1.1</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/1.1/build/phaser.d.ts"
-                 data-name="1.1"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="1.1">1.1</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/1.0.6/build/phaser.d.ts"
-                 data-name="1.0.6"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="1.0.6">1.0.6</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/1.0.5/build/phaser.d.ts"
-                 data-name="1.0.5"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="1.0.5">1.0.5</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/1.0.4/build/phaser.d.ts"
-                 data-name="1.0.4"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="1.0.4">1.0.4</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/1.0.3/build/phaser.d.ts"
-                 data-name="1.0.3"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="1.0.3">1.0.3</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/1.0.2/build/phaser.d.ts"
-                 data-name="1.0.2"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="1.0.2">1.0.2</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/1.0.1/build/phaser.d.ts"
-                 data-name="1.0.1"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="1.0.1">1.0.1</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/1.0/build/phaser.d.ts"
-                 data-name="1.0"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="1.0">1.0</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/0.9.7/build/phaser.d.ts"
-                 data-name="0.9.7"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="0.9.7">0.9.7</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/0.9.6/build/phaser.d.ts"
-                 data-name="0.9.6"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="0.9.6">0.9.6</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/0.9.5/build/phaser.d.ts"
-                 data-name="0.9.5"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="0.9.5">0.9.5</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/0.9.4/build/phaser.d.ts"
-                 data-name="0.9.4"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="0.9.4">0.9.4</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/0.9.3/build/phaser.d.ts"
-                 data-name="0.9.3"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="0.9.3">0.9.3</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/0.9.2/build/phaser.d.ts"
-                 data-name="0.9.2"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="0.9.2">0.9.2</a>
-            </div> <!-- /.select-menu-item -->
-            <div class="select-menu-item js-navigation-item ">
-              <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/photonstorm/phaser/tree/0.9.1/build/phaser.d.ts"
-                 data-name="0.9.1"
-                 data-skip-pjax="true"
-                 rel="nofollow"
-                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
-                 title="0.9.1">0.9.1</a>
-            </div> <!-- /.select-menu-item -->
-        </div>
-
-        <div class="select-menu-no-results">Nothing to show</div>
-      </div> <!-- /.select-menu-list -->
-
-    </div> <!-- /.select-menu-modal -->
-  </div> <!-- /.select-menu-modal-holder -->
-</div> <!-- /.select-menu -->
-
-  <div class="breadcrumb">
-    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/photonstorm/phaser" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">phaser</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/photonstorm/phaser/tree/master/build" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">build</span></a></span><span class="separator"> / </span><strong class="final-path">phaser.d.ts</strong> <span aria-label="copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="build/phaser.d.ts" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
-  </div>
-</div>
-
-
-  <div class="commit file-history-tease">
-    <img alt="Strato" class="main-avatar js-avatar" data-user="662430" height="24" src="https://avatars.githubusercontent.com/u/662430" width="24" />
-    <span class="author"><a href="/Strato" rel="author">Strato</a></span>
-    <time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-02-25T10:03:30-08:00" title="2014-02-25 10:03:30">February 25, 2014</time>
-    <div class="commit-title">
-        <a href="/photonstorm/phaser/commit/375da5db1469a25d26e3b41746bbf70169a45252" class="message" data-pjax="true" title="Update phaser.d.ts
-
-Missing json() method on Phaser.Loader.">Update phaser.d.ts</a>
-    </div>
-
-    <div class="participation">
-      <p class="quickstat"><a href="#blob_contributors_box" rel="facebox"><strong>10</strong> contributors</a></p>
-          <a class="avatar tooltipped tooltipped-s" aria-label="photonstorm" href="/photonstorm/phaser/commits/master/build/phaser.d.ts?author=photonstorm"><img alt="Richard Davey" class=" js-avatar" data-user="164476" height="20" src="https://avatars.githubusercontent.com/u/164476" width="20" /></a>
-    <a class="avatar tooltipped tooltipped-s" aria-label="qdrj" href="/photonstorm/phaser/commits/master/build/phaser.d.ts?author=qdrj"><img alt="qdrj" class=" js-avatar" data-user="190223" height="20" src="https://avatars.githubusercontent.com/u/190223" width="20" /></a>
-    <a class="avatar tooltipped tooltipped-s" aria-label="Niondir" href="/photonstorm/phaser/commits/master/build/phaser.d.ts?author=Niondir"><img alt="Niondir" class=" js-avatar" data-user="373559" height="20" src="https://avatars.githubusercontent.com/u/373559" width="20" /></a>
-    <a class="avatar tooltipped tooltipped-s" aria-label="gareththegeek" href="/photonstorm/phaser/commits/master/build/phaser.d.ts?author=gareththegeek"><img alt="gareththegeek" class=" js-avatar" data-user="6231841" height="20" src="https://avatars.githubusercontent.com/u/6231841" width="20" /></a>
-    <a class="avatar tooltipped tooltipped-s" aria-label="gltovar" href="/photonstorm/phaser/commits/master/build/phaser.d.ts?author=gltovar"><img alt="gltovar" class=" js-avatar" data-user="723877" height="20" src="https://avatars.githubusercontent.com/u/723877" width="20" /></a>
-    <a class="avatar tooltipped tooltipped-s" aria-label="inductible-dev" href="/photonstorm/phaser/commits/master/build/phaser.d.ts?author=inductible-dev"><img alt="inductible-dev" class=" js-avatar" data-user="5497131" height="20" src="https://avatars.githubusercontent.com/u/5497131" width="20" /></a>
-    <a class="avatar tooltipped tooltipped-s" aria-label="clark-stevenson" href="/photonstorm/phaser/commits/master/build/phaser.d.ts?author=clark-stevenson"><img alt="clark-stevenson" class=" js-avatar" data-user="4239553" height="20" src="https://avatars.githubusercontent.com/u/4239553" width="20" /></a>
-    <a class="avatar tooltipped tooltipped-s" aria-label="miguelangelgonzalez" href="/photonstorm/phaser/commits/master/build/phaser.d.ts?author=miguelangelgonzalez"><img alt="Miguel Angel Gonzalez" class=" js-avatar" data-user="1280092" height="20" src="https://avatars.githubusercontent.com/u/1280092" width="20" /></a>
-    <a class="avatar tooltipped tooltipped-s" aria-label="Strato" href="/photonstorm/phaser/commits/master/build/phaser.d.ts?author=Strato"><img alt="Strato" class=" js-avatar" data-user="662430" height="20" src="https://avatars.githubusercontent.com/u/662430" width="20" /></a>
-    <a class="avatar tooltipped tooltipped-s" aria-label="hstolte" href="/photonstorm/phaser/commits/master/build/phaser.d.ts?author=hstolte"><img alt="Hermann Stolte" class=" js-avatar" data-user="5741670" height="20" src="https://avatars.githubusercontent.com/u/5741670" width="20" /></a>
-
-
-    </div>
-    <div id="blob_contributors_box" style="display:none">
-      <h2 class="facebox-header">Users who have contributed to this file</h2>
-      <ul class="facebox-user-list">
-          <li class="facebox-user-list-item">
-            <img alt="Richard Davey" class=" js-avatar" data-user="164476" height="24" src="https://avatars.githubusercontent.com/u/164476" width="24" />
-            <a href="/photonstorm">photonstorm</a>
-          </li>
-          <li class="facebox-user-list-item">
-            <img alt="qdrj" class=" js-avatar" data-user="190223" height="24" src="https://avatars.githubusercontent.com/u/190223" width="24" />
-            <a href="/qdrj">qdrj</a>
-          </li>
-          <li class="facebox-user-list-item">
-            <img alt="Niondir" class=" js-avatar" data-user="373559" height="24" src="https://avatars.githubusercontent.com/u/373559" width="24" />
-            <a href="/Niondir">Niondir</a>
-          </li>
-          <li class="facebox-user-list-item">
-            <img alt="gareththegeek" class=" js-avatar" data-user="6231841" height="24" src="https://avatars.githubusercontent.com/u/6231841" width="24" />
-            <a href="/gareththegeek">gareththegeek</a>
-          </li>
-          <li class="facebox-user-list-item">
-            <img alt="gltovar" class=" js-avatar" data-user="723877" height="24" src="https://avatars.githubusercontent.com/u/723877" width="24" />
-            <a href="/gltovar">gltovar</a>
-          </li>
-          <li class="facebox-user-list-item">
-            <img alt="inductible-dev" class=" js-avatar" data-user="5497131" height="24" src="https://avatars.githubusercontent.com/u/5497131" width="24" />
-            <a href="/inductible-dev">inductible-dev</a>
-          </li>
-          <li class="facebox-user-list-item">
-            <img alt="clark-stevenson" class=" js-avatar" data-user="4239553" height="24" src="https://avatars.githubusercontent.com/u/4239553" width="24" />
-            <a href="/clark-stevenson">clark-stevenson</a>
-          </li>
-          <li class="facebox-user-list-item">
-            <img alt="Miguel Angel Gonzalez" class=" js-avatar" data-user="1280092" height="24" src="https://avatars.githubusercontent.com/u/1280092" width="24" />
-            <a href="/miguelangelgonzalez">miguelangelgonzalez</a>
-          </li>
-          <li class="facebox-user-list-item">
-            <img alt="Strato" class=" js-avatar" data-user="662430" height="24" src="https://avatars.githubusercontent.com/u/662430" width="24" />
-            <a href="/Strato">Strato</a>
-          </li>
-          <li class="facebox-user-list-item">
-            <img alt="Hermann Stolte" class=" js-avatar" data-user="5741670" height="24" src="https://avatars.githubusercontent.com/u/5741670" width="24" />
-            <a href="/hstolte">hstolte</a>
-          </li>
-      </ul>
-    </div>
-  </div>
-
-<div class="file-box">
-  <div class="file">
-    <div class="meta clearfix">
-      <div class="info file-name">
-        <span class="icon"><b class="octicon octicon-file-text"></b></span>
-        <span class="mode" title="File Mode">file</span>
-        <span class="meta-divider"></span>
-          <span>2762 lines (2655 sloc)</span>
-          <span class="meta-divider"></span>
-        <span>106.767 kb</span>
-      </div>
-      <div class="actions">
-        <div class="button-group">
-            <a class="minibutton tooltipped tooltipped-w js-conduit-openfile-check"
-               href="http://mac.github.com"
-               data-url="github-mac://openRepo/https://github.com/photonstorm/phaser?branch=master&amp;filepath=build%2Fphaser.d.ts"
-               aria-label="Open this file in GitHub for Mac"
-               data-failed-title="Your version of GitHub for Mac is too old to open this file. Try checking for updates.">
-                <span class="octicon octicon-device-desktop"></span> Open
-            </a>
-                <a class="minibutton tooltipped tooltipped-n js-update-url-with-hash"
-                   aria-label="Clicking this button will automatically fork this project so you can edit the file"
-                   href="/photonstorm/phaser/edit/master/build/phaser.d.ts"
-                   data-method="post" rel="nofollow">Edit</a>
-          <a href="/photonstorm/phaser/raw/master/build/phaser.d.ts" class="button minibutton " id="raw-url">Raw</a>
-            <a href="/photonstorm/phaser/blame/master/build/phaser.d.ts" class="button minibutton js-update-url-with-hash">Blame</a>
-          <a href="/photonstorm/phaser/commits/master/build/phaser.d.ts" class="button minibutton " rel="nofollow">History</a>
-        </div><!-- /.button-group -->
-          <a class="minibutton danger empty-icon tooltipped tooltipped-s"
-             href="/photonstorm/phaser/delete/master/build/phaser.d.ts"
-             aria-label="Fork this project and delete file"
-             data-method="post" data-test-id="delete-blob-file" rel="nofollow">
-          Delete
-        </a>
-      </div><!-- /.actions -->
-    </div>
-        <div class="blob-wrapper data type-typescript js-blob-data">
-        <table class="file-code file-diff tab-size-8">
-          <tr class="file-code-line">
-            <td class="blob-line-nums">
-              <span id="L1" rel="#L1">1</span>
-<span id="L2" rel="#L2">2</span>
-<span id="L3" rel="#L3">3</span>
-<span id="L4" rel="#L4">4</span>
-<span id="L5" rel="#L5">5</span>
-<span id="L6" rel="#L6">6</span>
-<span id="L7" rel="#L7">7</span>
-<span id="L8" rel="#L8">8</span>
-<span id="L9" rel="#L9">9</span>
-<span id="L10" rel="#L10">10</span>
-<span id="L11" rel="#L11">11</span>
-<span id="L12" rel="#L12">12</span>
-<span id="L13" rel="#L13">13</span>
-<span id="L14" rel="#L14">14</span>
-<span id="L15" rel="#L15">15</span>
-<span id="L16" rel="#L16">16</span>
-<span id="L17" rel="#L17">17</span>
-<span id="L18" rel="#L18">18</span>
-<span id="L19" rel="#L19">19</span>
-<span id="L20" rel="#L20">20</span>
-<span id="L21" rel="#L21">21</span>
-<span id="L22" rel="#L22">22</span>
-<span id="L23" rel="#L23">23</span>
-<span id="L24" rel="#L24">24</span>
-<span id="L25" rel="#L25">25</span>
-<span id="L26" rel="#L26">26</span>
-<span id="L27" rel="#L27">27</span>
-<span id="L28" rel="#L28">28</span>
-<span id="L29" rel="#L29">29</span>
-<span id="L30" rel="#L30">30</span>
-<span id="L31" rel="#L31">31</span>
-<span id="L32" rel="#L32">32</span>
-<span id="L33" rel="#L33">33</span>
-<span id="L34" rel="#L34">34</span>
-<span id="L35" rel="#L35">35</span>
-<span id="L36" rel="#L36">36</span>
-<span id="L37" rel="#L37">37</span>
-<span id="L38" rel="#L38">38</span>
-<span id="L39" rel="#L39">39</span>
-<span id="L40" rel="#L40">40</span>
-<span id="L41" rel="#L41">41</span>
-<span id="L42" rel="#L42">42</span>
-<span id="L43" rel="#L43">43</span>
-<span id="L44" rel="#L44">44</span>
-<span id="L45" rel="#L45">45</span>
-<span id="L46" rel="#L46">46</span>
-<span id="L47" rel="#L47">47</span>
-<span id="L48" rel="#L48">48</span>
-<span id="L49" rel="#L49">49</span>
-<span id="L50" rel="#L50">50</span>
-<span id="L51" rel="#L51">51</span>
-<span id="L52" rel="#L52">52</span>
-<span id="L53" rel="#L53">53</span>
-<span id="L54" rel="#L54">54</span>
-<span id="L55" rel="#L55">55</span>
-<span id="L56" rel="#L56">56</span>
-<span id="L57" rel="#L57">57</span>
-<span id="L58" rel="#L58">58</span>
-<span id="L59" rel="#L59">59</span>
-<span id="L60" rel="#L60">60</span>
-<span id="L61" rel="#L61">61</span>
-<span id="L62" rel="#L62">62</span>
-<span id="L63" rel="#L63">63</span>
-<span id="L64" rel="#L64">64</span>
-<span id="L65" rel="#L65">65</span>
-<span id="L66" rel="#L66">66</span>
-<span id="L67" rel="#L67">67</span>
-<span id="L68" rel="#L68">68</span>
-<span id="L69" rel="#L69">69</span>
-<span id="L70" rel="#L70">70</span>
-<span id="L71" rel="#L71">71</span>
-<span id="L72" rel="#L72">72</span>
-<span id="L73" rel="#L73">73</span>
-<span id="L74" rel="#L74">74</span>
-<span id="L75" rel="#L75">75</span>
-<span id="L76" rel="#L76">76</span>
-<span id="L77" rel="#L77">77</span>
-<span id="L78" rel="#L78">78</span>
-<span id="L79" rel="#L79">79</span>
-<span id="L80" rel="#L80">80</span>
-<span id="L81" rel="#L81">81</span>
-<span id="L82" rel="#L82">82</span>
-<span id="L83" rel="#L83">83</span>
-<span id="L84" rel="#L84">84</span>
-<span id="L85" rel="#L85">85</span>
-<span id="L86" rel="#L86">86</span>
-<span id="L87" rel="#L87">87</span>
-<span id="L88" rel="#L88">88</span>
-<span id="L89" rel="#L89">89</span>
-<span id="L90" rel="#L90">90</span>
-<span id="L91" rel="#L91">91</span>
-<span id="L92" rel="#L92">92</span>
-<span id="L93" rel="#L93">93</span>
-<span id="L94" rel="#L94">94</span>
-<span id="L95" rel="#L95">95</span>
-<span id="L96" rel="#L96">96</span>
-<span id="L97" rel="#L97">97</span>
-<span id="L98" rel="#L98">98</span>
-<span id="L99" rel="#L99">99</span>
-<span id="L100" rel="#L100">100</span>
-<span id="L101" rel="#L101">101</span>
-<span id="L102" rel="#L102">102</span>
-<span id="L103" rel="#L103">103</span>
-<span id="L104" rel="#L104">104</span>
-<span id="L105" rel="#L105">105</span>
-<span id="L106" rel="#L106">106</span>
-<span id="L107" rel="#L107">107</span>
-<span id="L108" rel="#L108">108</span>
-<span id="L109" rel="#L109">109</span>
-<span id="L110" rel="#L110">110</span>
-<span id="L111" rel="#L111">111</span>
-<span id="L112" rel="#L112">112</span>
-<span id="L113" rel="#L113">113</span>
-<span id="L114" rel="#L114">114</span>
-<span id="L115" rel="#L115">115</span>
-<span id="L116" rel="#L116">116</span>
-<span id="L117" rel="#L117">117</span>
-<span id="L118" rel="#L118">118</span>
-<span id="L119" rel="#L119">119</span>
-<span id="L120" rel="#L120">120</span>
-<span id="L121" rel="#L121">121</span>
-<span id="L122" rel="#L122">122</span>
-<span id="L123" rel="#L123">123</span>
-<span id="L124" rel="#L124">124</span>
-<span id="L125" rel="#L125">125</span>
-<span id="L126" rel="#L126">126</span>
-<span id="L127" rel="#L127">127</span>
-<span id="L128" rel="#L128">128</span>
-<span id="L129" rel="#L129">129</span>
-<span id="L130" rel="#L130">130</span>
-<span id="L131" rel="#L131">131</span>
-<span id="L132" rel="#L132">132</span>
-<span id="L133" rel="#L133">133</span>
-<span id="L134" rel="#L134">134</span>
-<span id="L135" rel="#L135">135</span>
-<span id="L136" rel="#L136">136</span>
-<span id="L137" rel="#L137">137</span>
-<span id="L138" rel="#L138">138</span>
-<span id="L139" rel="#L139">139</span>
-<span id="L140" rel="#L140">140</span>
-<span id="L141" rel="#L141">141</span>
-<span id="L142" rel="#L142">142</span>
-<span id="L143" rel="#L143">143</span>
-<span id="L144" rel="#L144">144</span>
-<span id="L145" rel="#L145">145</span>
-<span id="L146" rel="#L146">146</span>
-<span id="L147" rel="#L147">147</span>
-<span id="L148" rel="#L148">148</span>
-<span id="L149" rel="#L149">149</span>
-<span id="L150" rel="#L150">150</span>
-<span id="L151" rel="#L151">151</span>
-<span id="L152" rel="#L152">152</span>
-<span id="L153" rel="#L153">153</span>
-<span id="L154" rel="#L154">154</span>
-<span id="L155" rel="#L155">155</span>
-<span id="L156" rel="#L156">156</span>
-<span id="L157" rel="#L157">157</span>
-<span id="L158" rel="#L158">158</span>
-<span id="L159" rel="#L159">159</span>
-<span id="L160" rel="#L160">160</span>
-<span id="L161" rel="#L161">161</span>
-<span id="L162" rel="#L162">162</span>
-<span id="L163" rel="#L163">163</span>
-<span id="L164" rel="#L164">164</span>
-<span id="L165" rel="#L165">165</span>
-<span id="L166" rel="#L166">166</span>
-<span id="L167" rel="#L167">167</span>
-<span id="L168" rel="#L168">168</span>
-<span id="L169" rel="#L169">169</span>
-<span id="L170" rel="#L170">170</span>
-<span id="L171" rel="#L171">171</span>
-<span id="L172" rel="#L172">172</span>
-<span id="L173" rel="#L173">173</span>
-<span id="L174" rel="#L174">174</span>
-<span id="L175" rel="#L175">175</span>
-<span id="L176" rel="#L176">176</span>
-<span id="L177" rel="#L177">177</span>
-<span id="L178" rel="#L178">178</span>
-<span id="L179" rel="#L179">179</span>
-<span id="L180" rel="#L180">180</span>
-<span id="L181" rel="#L181">181</span>
-<span id="L182" rel="#L182">182</span>
-<span id="L183" rel="#L183">183</span>
-<span id="L184" rel="#L184">184</span>
-<span id="L185" rel="#L185">185</span>
-<span id="L186" rel="#L186">186</span>
-<span id="L187" rel="#L187">187</span>
-<span id="L188" rel="#L188">188</span>
-<span id="L189" rel="#L189">189</span>
-<span id="L190" rel="#L190">190</span>
-<span id="L191" rel="#L191">191</span>
-<span id="L192" rel="#L192">192</span>
-<span id="L193" rel="#L193">193</span>
-<span id="L194" rel="#L194">194</span>
-<span id="L195" rel="#L195">195</span>
-<span id="L196" rel="#L196">196</span>
-<span id="L197" rel="#L197">197</span>
-<span id="L198" rel="#L198">198</span>
-<span id="L199" rel="#L199">199</span>
-<span id="L200" rel="#L200">200</span>
-<span id="L201" rel="#L201">201</span>
-<span id="L202" rel="#L202">202</span>
-<span id="L203" rel="#L203">203</span>
-<span id="L204" rel="#L204">204</span>
-<span id="L205" rel="#L205">205</span>
-<span id="L206" rel="#L206">206</span>
-<span id="L207" rel="#L207">207</span>
-<span id="L208" rel="#L208">208</span>
-<span id="L209" rel="#L209">209</span>
-<span id="L210" rel="#L210">210</span>
-<span id="L211" rel="#L211">211</span>
-<span id="L212" rel="#L212">212</span>
-<span id="L213" rel="#L213">213</span>
-<span id="L214" rel="#L214">214</span>
-<span id="L215" rel="#L215">215</span>
-<span id="L216" rel="#L216">216</span>
-<span id="L217" rel="#L217">217</span>
-<span id="L218" rel="#L218">218</span>
-<span id="L219" rel="#L219">219</span>
-<span id="L220" rel="#L220">220</span>
-<span id="L221" rel="#L221">221</span>
-<span id="L222" rel="#L222">222</span>
-<span id="L223" rel="#L223">223</span>
-<span id="L224" rel="#L224">224</span>
-<span id="L225" rel="#L225">225</span>
-<span id="L226" rel="#L226">226</span>
-<span id="L227" rel="#L227">227</span>
-<span id="L228" rel="#L228">228</span>
-<span id="L229" rel="#L229">229</span>
-<span id="L230" rel="#L230">230</span>
-<span id="L231" rel="#L231">231</span>
-<span id="L232" rel="#L232">232</span>
-<span id="L233" rel="#L233">233</span>
-<span id="L234" rel="#L234">234</span>
-<span id="L235" rel="#L235">235</span>
-<span id="L236" rel="#L236">236</span>
-<span id="L237" rel="#L237">237</span>
-<span id="L238" rel="#L238">238</span>
-<span id="L239" rel="#L239">239</span>
-<span id="L240" rel="#L240">240</span>
-<span id="L241" rel="#L241">241</span>
-<span id="L242" rel="#L242">242</span>
-<span id="L243" rel="#L243">243</span>
-<span id="L244" rel="#L244">244</span>
-<span id="L245" rel="#L245">245</span>
-<span id="L246" rel="#L246">246</span>
-<span id="L247" rel="#L247">247</span>
-<span id="L248" rel="#L248">248</span>
-<span id="L249" rel="#L249">249</span>
-<span id="L250" rel="#L250">250</span>
-<span id="L251" rel="#L251">251</span>
-<span id="L252" rel="#L252">252</span>
-<span id="L253" rel="#L253">253</span>
-<span id="L254" rel="#L254">254</span>
-<span id="L255" rel="#L255">255</span>
-<span id="L256" rel="#L256">256</span>
-<span id="L257" rel="#L257">257</span>
-<span id="L258" rel="#L258">258</span>
-<span id="L259" rel="#L259">259</span>
-<span id="L260" rel="#L260">260</span>
-<span id="L261" rel="#L261">261</span>
-<span id="L262" rel="#L262">262</span>
-<span id="L263" rel="#L263">263</span>
-<span id="L264" rel="#L264">264</span>
-<span id="L265" rel="#L265">265</span>
-<span id="L266" rel="#L266">266</span>
-<span id="L267" rel="#L267">267</span>
-<span id="L268" rel="#L268">268</span>
-<span id="L269" rel="#L269">269</span>
-<span id="L270" rel="#L270">270</span>
-<span id="L271" rel="#L271">271</span>
-<span id="L272" rel="#L272">272</span>
-<span id="L273" rel="#L273">273</span>
-<span id="L274" rel="#L274">274</span>
-<span id="L275" rel="#L275">275</span>
-<span id="L276" rel="#L276">276</span>
-<span id="L277" rel="#L277">277</span>
-<span id="L278" rel="#L278">278</span>
-<span id="L279" rel="#L279">279</span>
-<span id="L280" rel="#L280">280</span>
-<span id="L281" rel="#L281">281</span>
-<span id="L282" rel="#L282">282</span>
-<span id="L283" rel="#L283">283</span>
-<span id="L284" rel="#L284">284</span>
-<span id="L285" rel="#L285">285</span>
-<span id="L286" rel="#L286">286</span>
-<span id="L287" rel="#L287">287</span>
-<span id="L288" rel="#L288">288</span>
-<span id="L289" rel="#L289">289</span>
-<span id="L290" rel="#L290">290</span>
-<span id="L291" rel="#L291">291</span>
-<span id="L292" rel="#L292">292</span>
-<span id="L293" rel="#L293">293</span>
-<span id="L294" rel="#L294">294</span>
-<span id="L295" rel="#L295">295</span>
-<span id="L296" rel="#L296">296</span>
-<span id="L297" rel="#L297">297</span>
-<span id="L298" rel="#L298">298</span>
-<span id="L299" rel="#L299">299</span>
-<span id="L300" rel="#L300">300</span>
-<span id="L301" rel="#L301">301</span>
-<span id="L302" rel="#L302">302</span>
-<span id="L303" rel="#L303">303</span>
-<span id="L304" rel="#L304">304</span>
-<span id="L305" rel="#L305">305</span>
-<span id="L306" rel="#L306">306</span>
-<span id="L307" rel="#L307">307</span>
-<span id="L308" rel="#L308">308</span>
-<span id="L309" rel="#L309">309</span>
-<span id="L310" rel="#L310">310</span>
-<span id="L311" rel="#L311">311</span>
-<span id="L312" rel="#L312">312</span>
-<span id="L313" rel="#L313">313</span>
-<span id="L314" rel="#L314">314</span>
-<span id="L315" rel="#L315">315</span>
-<span id="L316" rel="#L316">316</span>
-<span id="L317" rel="#L317">317</span>
-<span id="L318" rel="#L318">318</span>
-<span id="L319" rel="#L319">319</span>
-<span id="L320" rel="#L320">320</span>
-<span id="L321" rel="#L321">321</span>
-<span id="L322" rel="#L322">322</span>
-<span id="L323" rel="#L323">323</span>
-<span id="L324" rel="#L324">324</span>
-<span id="L325" rel="#L325">325</span>
-<span id="L326" rel="#L326">326</span>
-<span id="L327" rel="#L327">327</span>
-<span id="L328" rel="#L328">328</span>
-<span id="L329" rel="#L329">329</span>
-<span id="L330" rel="#L330">330</span>
-<span id="L331" rel="#L331">331</span>
-<span id="L332" rel="#L332">332</span>
-<span id="L333" rel="#L333">333</span>
-<span id="L334" rel="#L334">334</span>
-<span id="L335" rel="#L335">335</span>
-<span id="L336" rel="#L336">336</span>
-<span id="L337" rel="#L337">337</span>
-<span id="L338" rel="#L338">338</span>
-<span id="L339" rel="#L339">339</span>
-<span id="L340" rel="#L340">340</span>
-<span id="L341" rel="#L341">341</span>
-<span id="L342" rel="#L342">342</span>
-<span id="L343" rel="#L343">343</span>
-<span id="L344" rel="#L344">344</span>
-<span id="L345" rel="#L345">345</span>
-<span id="L346" rel="#L346">346</span>
-<span id="L347" rel="#L347">347</span>
-<span id="L348" rel="#L348">348</span>
-<span id="L349" rel="#L349">349</span>
-<span id="L350" rel="#L350">350</span>
-<span id="L351" rel="#L351">351</span>
-<span id="L352" rel="#L352">352</span>
-<span id="L353" rel="#L353">353</span>
-<span id="L354" rel="#L354">354</span>
-<span id="L355" rel="#L355">355</span>
-<span id="L356" rel="#L356">356</span>
-<span id="L357" rel="#L357">357</span>
-<span id="L358" rel="#L358">358</span>
-<span id="L359" rel="#L359">359</span>
-<span id="L360" rel="#L360">360</span>
-<span id="L361" rel="#L361">361</span>
-<span id="L362" rel="#L362">362</span>
-<span id="L363" rel="#L363">363</span>
-<span id="L364" rel="#L364">364</span>
-<span id="L365" rel="#L365">365</span>
-<span id="L366" rel="#L366">366</span>
-<span id="L367" rel="#L367">367</span>
-<span id="L368" rel="#L368">368</span>
-<span id="L369" rel="#L369">369</span>
-<span id="L370" rel="#L370">370</span>
-<span id="L371" rel="#L371">371</span>
-<span id="L372" rel="#L372">372</span>
-<span id="L373" rel="#L373">373</span>
-<span id="L374" rel="#L374">374</span>
-<span id="L375" rel="#L375">375</span>
-<span id="L376" rel="#L376">376</span>
-<span id="L377" rel="#L377">377</span>
-<span id="L378" rel="#L378">378</span>
-<span id="L379" rel="#L379">379</span>
-<span id="L380" rel="#L380">380</span>
-<span id="L381" rel="#L381">381</span>
-<span id="L382" rel="#L382">382</span>
-<span id="L383" rel="#L383">383</span>
-<span id="L384" rel="#L384">384</span>
-<span id="L385" rel="#L385">385</span>
-<span id="L386" rel="#L386">386</span>
-<span id="L387" rel="#L387">387</span>
-<span id="L388" rel="#L388">388</span>
-<span id="L389" rel="#L389">389</span>
-<span id="L390" rel="#L390">390</span>
-<span id="L391" rel="#L391">391</span>
-<span id="L392" rel="#L392">392</span>
-<span id="L393" rel="#L393">393</span>
-<span id="L394" rel="#L394">394</span>
-<span id="L395" rel="#L395">395</span>
-<span id="L396" rel="#L396">396</span>
-<span id="L397" rel="#L397">397</span>
-<span id="L398" rel="#L398">398</span>
-<span id="L399" rel="#L399">399</span>
-<span id="L400" rel="#L400">400</span>
-<span id="L401" rel="#L401">401</span>
-<span id="L402" rel="#L402">402</span>
-<span id="L403" rel="#L403">403</span>
-<span id="L404" rel="#L404">404</span>
-<span id="L405" rel="#L405">405</span>
-<span id="L406" rel="#L406">406</span>
-<span id="L407" rel="#L407">407</span>
-<span id="L408" rel="#L408">408</span>
-<span id="L409" rel="#L409">409</span>
-<span id="L410" rel="#L410">410</span>
-<span id="L411" rel="#L411">411</span>
-<span id="L412" rel="#L412">412</span>
-<span id="L413" rel="#L413">413</span>
-<span id="L414" rel="#L414">414</span>
-<span id="L415" rel="#L415">415</span>
-<span id="L416" rel="#L416">416</span>
-<span id="L417" rel="#L417">417</span>
-<span id="L418" rel="#L418">418</span>
-<span id="L419" rel="#L419">419</span>
-<span id="L420" rel="#L420">420</span>
-<span id="L421" rel="#L421">421</span>
-<span id="L422" rel="#L422">422</span>
-<span id="L423" rel="#L423">423</span>
-<span id="L424" rel="#L424">424</span>
-<span id="L425" rel="#L425">425</span>
-<span id="L426" rel="#L426">426</span>
-<span id="L427" rel="#L427">427</span>
-<span id="L428" rel="#L428">428</span>
-<span id="L429" rel="#L429">429</span>
-<span id="L430" rel="#L430">430</span>
-<span id="L431" rel="#L431">431</span>
-<span id="L432" rel="#L432">432</span>
-<span id="L433" rel="#L433">433</span>
-<span id="L434" rel="#L434">434</span>
-<span id="L435" rel="#L435">435</span>
-<span id="L436" rel="#L436">436</span>
-<span id="L437" rel="#L437">437</span>
-<span id="L438" rel="#L438">438</span>
-<span id="L439" rel="#L439">439</span>
-<span id="L440" rel="#L440">440</span>
-<span id="L441" rel="#L441">441</span>
-<span id="L442" rel="#L442">442</span>
-<span id="L443" rel="#L443">443</span>
-<span id="L444" rel="#L444">444</span>
-<span id="L445" rel="#L445">445</span>
-<span id="L446" rel="#L446">446</span>
-<span id="L447" rel="#L447">447</span>
-<span id="L448" rel="#L448">448</span>
-<span id="L449" rel="#L449">449</span>
-<span id="L450" rel="#L450">450</span>
-<span id="L451" rel="#L451">451</span>
-<span id="L452" rel="#L452">452</span>
-<span id="L453" rel="#L453">453</span>
-<span id="L454" rel="#L454">454</span>
-<span id="L455" rel="#L455">455</span>
-<span id="L456" rel="#L456">456</span>
-<span id="L457" rel="#L457">457</span>
-<span id="L458" rel="#L458">458</span>
-<span id="L459" rel="#L459">459</span>
-<span id="L460" rel="#L460">460</span>
-<span id="L461" rel="#L461">461</span>
-<span id="L462" rel="#L462">462</span>
-<span id="L463" rel="#L463">463</span>
-<span id="L464" rel="#L464">464</span>
-<span id="L465" rel="#L465">465</span>
-<span id="L466" rel="#L466">466</span>
-<span id="L467" rel="#L467">467</span>
-<span id="L468" rel="#L468">468</span>
-<span id="L469" rel="#L469">469</span>
-<span id="L470" rel="#L470">470</span>
-<span id="L471" rel="#L471">471</span>
-<span id="L472" rel="#L472">472</span>
-<span id="L473" rel="#L473">473</span>
-<span id="L474" rel="#L474">474</span>
-<span id="L475" rel="#L475">475</span>
-<span id="L476" rel="#L476">476</span>
-<span id="L477" rel="#L477">477</span>
-<span id="L478" rel="#L478">478</span>
-<span id="L479" rel="#L479">479</span>
-<span id="L480" rel="#L480">480</span>
-<span id="L481" rel="#L481">481</span>
-<span id="L482" rel="#L482">482</span>
-<span id="L483" rel="#L483">483</span>
-<span id="L484" rel="#L484">484</span>
-<span id="L485" rel="#L485">485</span>
-<span id="L486" rel="#L486">486</span>
-<span id="L487" rel="#L487">487</span>
-<span id="L488" rel="#L488">488</span>
-<span id="L489" rel="#L489">489</span>
-<span id="L490" rel="#L490">490</span>
-<span id="L491" rel="#L491">491</span>
-<span id="L492" rel="#L492">492</span>
-<span id="L493" rel="#L493">493</span>
-<span id="L494" rel="#L494">494</span>
-<span id="L495" rel="#L495">495</span>
-<span id="L496" rel="#L496">496</span>
-<span id="L497" rel="#L497">497</span>
-<span id="L498" rel="#L498">498</span>
-<span id="L499" rel="#L499">499</span>
-<span id="L500" rel="#L500">500</span>
-<span id="L501" rel="#L501">501</span>
-<span id="L502" rel="#L502">502</span>
-<span id="L503" rel="#L503">503</span>
-<span id="L504" rel="#L504">504</span>
-<span id="L505" rel="#L505">505</span>
-<span id="L506" rel="#L506">506</span>
-<span id="L507" rel="#L507">507</span>
-<span id="L508" rel="#L508">508</span>
-<span id="L509" rel="#L509">509</span>
-<span id="L510" rel="#L510">510</span>
-<span id="L511" rel="#L511">511</span>
-<span id="L512" rel="#L512">512</span>
-<span id="L513" rel="#L513">513</span>
-<span id="L514" rel="#L514">514</span>
-<span id="L515" rel="#L515">515</span>
-<span id="L516" rel="#L516">516</span>
-<span id="L517" rel="#L517">517</span>
-<span id="L518" rel="#L518">518</span>
-<span id="L519" rel="#L519">519</span>
-<span id="L520" rel="#L520">520</span>
-<span id="L521" rel="#L521">521</span>
-<span id="L522" rel="#L522">522</span>
-<span id="L523" rel="#L523">523</span>
-<span id="L524" rel="#L524">524</span>
-<span id="L525" rel="#L525">525</span>
-<span id="L526" rel="#L526">526</span>
-<span id="L527" rel="#L527">527</span>
-<span id="L528" rel="#L528">528</span>
-<span id="L529" rel="#L529">529</span>
-<span id="L530" rel="#L530">530</span>
-<span id="L531" rel="#L531">531</span>
-<span id="L532" rel="#L532">532</span>
-<span id="L533" rel="#L533">533</span>
-<span id="L534" rel="#L534">534</span>
-<span id="L535" rel="#L535">535</span>
-<span id="L536" rel="#L536">536</span>
-<span id="L537" rel="#L537">537</span>
-<span id="L538" rel="#L538">538</span>
-<span id="L539" rel="#L539">539</span>
-<span id="L540" rel="#L540">540</span>
-<span id="L541" rel="#L541">541</span>
-<span id="L542" rel="#L542">542</span>
-<span id="L543" rel="#L543">543</span>
-<span id="L544" rel="#L544">544</span>
-<span id="L545" rel="#L545">545</span>
-<span id="L546" rel="#L546">546</span>
-<span id="L547" rel="#L547">547</span>
-<span id="L548" rel="#L548">548</span>
-<span id="L549" rel="#L549">549</span>
-<span id="L550" rel="#L550">550</span>
-<span id="L551" rel="#L551">551</span>
-<span id="L552" rel="#L552">552</span>
-<span id="L553" rel="#L553">553</span>
-<span id="L554" rel="#L554">554</span>
-<span id="L555" rel="#L555">555</span>
-<span id="L556" rel="#L556">556</span>
-<span id="L557" rel="#L557">557</span>
-<span id="L558" rel="#L558">558</span>
-<span id="L559" rel="#L559">559</span>
-<span id="L560" rel="#L560">560</span>
-<span id="L561" rel="#L561">561</span>
-<span id="L562" rel="#L562">562</span>
-<span id="L563" rel="#L563">563</span>
-<span id="L564" rel="#L564">564</span>
-<span id="L565" rel="#L565">565</span>
-<span id="L566" rel="#L566">566</span>
-<span id="L567" rel="#L567">567</span>
-<span id="L568" rel="#L568">568</span>
-<span id="L569" rel="#L569">569</span>
-<span id="L570" rel="#L570">570</span>
-<span id="L571" rel="#L571">571</span>
-<span id="L572" rel="#L572">572</span>
-<span id="L573" rel="#L573">573</span>
-<span id="L574" rel="#L574">574</span>
-<span id="L575" rel="#L575">575</span>
-<span id="L576" rel="#L576">576</span>
-<span id="L577" rel="#L577">577</span>
-<span id="L578" rel="#L578">578</span>
-<span id="L579" rel="#L579">579</span>
-<span id="L580" rel="#L580">580</span>
-<span id="L581" rel="#L581">581</span>
-<span id="L582" rel="#L582">582</span>
-<span id="L583" rel="#L583">583</span>
-<span id="L584" rel="#L584">584</span>
-<span id="L585" rel="#L585">585</span>
-<span id="L586" rel="#L586">586</span>
-<span id="L587" rel="#L587">587</span>
-<span id="L588" rel="#L588">588</span>
-<span id="L589" rel="#L589">589</span>
-<span id="L590" rel="#L590">590</span>
-<span id="L591" rel="#L591">591</span>
-<span id="L592" rel="#L592">592</span>
-<span id="L593" rel="#L593">593</span>
-<span id="L594" rel="#L594">594</span>
-<span id="L595" rel="#L595">595</span>
-<span id="L596" rel="#L596">596</span>
-<span id="L597" rel="#L597">597</span>
-<span id="L598" rel="#L598">598</span>
-<span id="L599" rel="#L599">599</span>
-<span id="L600" rel="#L600">600</span>
-<span id="L601" rel="#L601">601</span>
-<span id="L602" rel="#L602">602</span>
-<span id="L603" rel="#L603">603</span>
-<span id="L604" rel="#L604">604</span>
-<span id="L605" rel="#L605">605</span>
-<span id="L606" rel="#L606">606</span>
-<span id="L607" rel="#L607">607</span>
-<span id="L608" rel="#L608">608</span>
-<span id="L609" rel="#L609">609</span>
-<span id="L610" rel="#L610">610</span>
-<span id="L611" rel="#L611">611</span>
-<span id="L612" rel="#L612">612</span>
-<span id="L613" rel="#L613">613</span>
-<span id="L614" rel="#L614">614</span>
-<span id="L615" rel="#L615">615</span>
-<span id="L616" rel="#L616">616</span>
-<span id="L617" rel="#L617">617</span>
-<span id="L618" rel="#L618">618</span>
-<span id="L619" rel="#L619">619</span>
-<span id="L620" rel="#L620">620</span>
-<span id="L621" rel="#L621">621</span>
-<span id="L622" rel="#L622">622</span>
-<span id="L623" rel="#L623">623</span>
-<span id="L624" rel="#L624">624</span>
-<span id="L625" rel="#L625">625</span>
-<span id="L626" rel="#L626">626</span>
-<span id="L627" rel="#L627">627</span>
-<span id="L628" rel="#L628">628</span>
-<span id="L629" rel="#L629">629</span>
-<span id="L630" rel="#L630">630</span>
-<span id="L631" rel="#L631">631</span>
-<span id="L632" rel="#L632">632</span>
-<span id="L633" rel="#L633">633</span>
-<span id="L634" rel="#L634">634</span>
-<span id="L635" rel="#L635">635</span>
-<span id="L636" rel="#L636">636</span>
-<span id="L637" rel="#L637">637</span>
-<span id="L638" rel="#L638">638</span>
-<span id="L639" rel="#L639">639</span>
-<span id="L640" rel="#L640">640</span>
-<span id="L641" rel="#L641">641</span>
-<span id="L642" rel="#L642">642</span>
-<span id="L643" rel="#L643">643</span>
-<span id="L644" rel="#L644">644</span>
-<span id="L645" rel="#L645">645</span>
-<span id="L646" rel="#L646">646</span>
-<span id="L647" rel="#L647">647</span>
-<span id="L648" rel="#L648">648</span>
-<span id="L649" rel="#L649">649</span>
-<span id="L650" rel="#L650">650</span>
-<span id="L651" rel="#L651">651</span>
-<span id="L652" rel="#L652">652</span>
-<span id="L653" rel="#L653">653</span>
-<span id="L654" rel="#L654">654</span>
-<span id="L655" rel="#L655">655</span>
-<span id="L656" rel="#L656">656</span>
-<span id="L657" rel="#L657">657</span>
-<span id="L658" rel="#L658">658</span>
-<span id="L659" rel="#L659">659</span>
-<span id="L660" rel="#L660">660</span>
-<span id="L661" rel="#L661">661</span>
-<span id="L662" rel="#L662">662</span>
-<span id="L663" rel="#L663">663</span>
-<span id="L664" rel="#L664">664</span>
-<span id="L665" rel="#L665">665</span>
-<span id="L666" rel="#L666">666</span>
-<span id="L667" rel="#L667">667</span>
-<span id="L668" rel="#L668">668</span>
-<span id="L669" rel="#L669">669</span>
-<span id="L670" rel="#L670">670</span>
-<span id="L671" rel="#L671">671</span>
-<span id="L672" rel="#L672">672</span>
-<span id="L673" rel="#L673">673</span>
-<span id="L674" rel="#L674">674</span>
-<span id="L675" rel="#L675">675</span>
-<span id="L676" rel="#L676">676</span>
-<span id="L677" rel="#L677">677</span>
-<span id="L678" rel="#L678">678</span>
-<span id="L679" rel="#L679">679</span>
-<span id="L680" rel="#L680">680</span>
-<span id="L681" rel="#L681">681</span>
-<span id="L682" rel="#L682">682</span>
-<span id="L683" rel="#L683">683</span>
-<span id="L684" rel="#L684">684</span>
-<span id="L685" rel="#L685">685</span>
-<span id="L686" rel="#L686">686</span>
-<span id="L687" rel="#L687">687</span>
-<span id="L688" rel="#L688">688</span>
-<span id="L689" rel="#L689">689</span>
-<span id="L690" rel="#L690">690</span>
-<span id="L691" rel="#L691">691</span>
-<span id="L692" rel="#L692">692</span>
-<span id="L693" rel="#L693">693</span>
-<span id="L694" rel="#L694">694</span>
-<span id="L695" rel="#L695">695</span>
-<span id="L696" rel="#L696">696</span>
-<span id="L697" rel="#L697">697</span>
-<span id="L698" rel="#L698">698</span>
-<span id="L699" rel="#L699">699</span>
-<span id="L700" rel="#L700">700</span>
-<span id="L701" rel="#L701">701</span>
-<span id="L702" rel="#L702">702</span>
-<span id="L703" rel="#L703">703</span>
-<span id="L704" rel="#L704">704</span>
-<span id="L705" rel="#L705">705</span>
-<span id="L706" rel="#L706">706</span>
-<span id="L707" rel="#L707">707</span>
-<span id="L708" rel="#L708">708</span>
-<span id="L709" rel="#L709">709</span>
-<span id="L710" rel="#L710">710</span>
-<span id="L711" rel="#L711">711</span>
-<span id="L712" rel="#L712">712</span>
-<span id="L713" rel="#L713">713</span>
-<span id="L714" rel="#L714">714</span>
-<span id="L715" rel="#L715">715</span>
-<span id="L716" rel="#L716">716</span>
-<span id="L717" rel="#L717">717</span>
-<span id="L718" rel="#L718">718</span>
-<span id="L719" rel="#L719">719</span>
-<span id="L720" rel="#L720">720</span>
-<span id="L721" rel="#L721">721</span>
-<span id="L722" rel="#L722">722</span>
-<span id="L723" rel="#L723">723</span>
-<span id="L724" rel="#L724">724</span>
-<span id="L725" rel="#L725">725</span>
-<span id="L726" rel="#L726">726</span>
-<span id="L727" rel="#L727">727</span>
-<span id="L728" rel="#L728">728</span>
-<span id="L729" rel="#L729">729</span>
-<span id="L730" rel="#L730">730</span>
-<span id="L731" rel="#L731">731</span>
-<span id="L732" rel="#L732">732</span>
-<span id="L733" rel="#L733">733</span>
-<span id="L734" rel="#L734">734</span>
-<span id="L735" rel="#L735">735</span>
-<span id="L736" rel="#L736">736</span>
-<span id="L737" rel="#L737">737</span>
-<span id="L738" rel="#L738">738</span>
-<span id="L739" rel="#L739">739</span>
-<span id="L740" rel="#L740">740</span>
-<span id="L741" rel="#L741">741</span>
-<span id="L742" rel="#L742">742</span>
-<span id="L743" rel="#L743">743</span>
-<span id="L744" rel="#L744">744</span>
-<span id="L745" rel="#L745">745</span>
-<span id="L746" rel="#L746">746</span>
-<span id="L747" rel="#L747">747</span>
-<span id="L748" rel="#L748">748</span>
-<span id="L749" rel="#L749">749</span>
-<span id="L750" rel="#L750">750</span>
-<span id="L751" rel="#L751">751</span>
-<span id="L752" rel="#L752">752</span>
-<span id="L753" rel="#L753">753</span>
-<span id="L754" rel="#L754">754</span>
-<span id="L755" rel="#L755">755</span>
-<span id="L756" rel="#L756">756</span>
-<span id="L757" rel="#L757">757</span>
-<span id="L758" rel="#L758">758</span>
-<span id="L759" rel="#L759">759</span>
-<span id="L760" rel="#L760">760</span>
-<span id="L761" rel="#L761">761</span>
-<span id="L762" rel="#L762">762</span>
-<span id="L763" rel="#L763">763</span>
-<span id="L764" rel="#L764">764</span>
-<span id="L765" rel="#L765">765</span>
-<span id="L766" rel="#L766">766</span>
-<span id="L767" rel="#L767">767</span>
-<span id="L768" rel="#L768">768</span>
-<span id="L769" rel="#L769">769</span>
-<span id="L770" rel="#L770">770</span>
-<span id="L771" rel="#L771">771</span>
-<span id="L772" rel="#L772">772</span>
-<span id="L773" rel="#L773">773</span>
-<span id="L774" rel="#L774">774</span>
-<span id="L775" rel="#L775">775</span>
-<span id="L776" rel="#L776">776</span>
-<span id="L777" rel="#L777">777</span>
-<span id="L778" rel="#L778">778</span>
-<span id="L779" rel="#L779">779</span>
-<span id="L780" rel="#L780">780</span>
-<span id="L781" rel="#L781">781</span>
-<span id="L782" rel="#L782">782</span>
-<span id="L783" rel="#L783">783</span>
-<span id="L784" rel="#L784">784</span>
-<span id="L785" rel="#L785">785</span>
-<span id="L786" rel="#L786">786</span>
-<span id="L787" rel="#L787">787</span>
-<span id="L788" rel="#L788">788</span>
-<span id="L789" rel="#L789">789</span>
-<span id="L790" rel="#L790">790</span>
-<span id="L791" rel="#L791">791</span>
-<span id="L792" rel="#L792">792</span>
-<span id="L793" rel="#L793">793</span>
-<span id="L794" rel="#L794">794</span>
-<span id="L795" rel="#L795">795</span>
-<span id="L796" rel="#L796">796</span>
-<span id="L797" rel="#L797">797</span>
-<span id="L798" rel="#L798">798</span>
-<span id="L799" rel="#L799">799</span>
-<span id="L800" rel="#L800">800</span>
-<span id="L801" rel="#L801">801</span>
-<span id="L802" rel="#L802">802</span>
-<span id="L803" rel="#L803">803</span>
-<span id="L804" rel="#L804">804</span>
-<span id="L805" rel="#L805">805</span>
-<span id="L806" rel="#L806">806</span>
-<span id="L807" rel="#L807">807</span>
-<span id="L808" rel="#L808">808</span>
-<span id="L809" rel="#L809">809</span>
-<span id="L810" rel="#L810">810</span>
-<span id="L811" rel="#L811">811</span>
-<span id="L812" rel="#L812">812</span>
-<span id="L813" rel="#L813">813</span>
-<span id="L814" rel="#L814">814</span>
-<span id="L815" rel="#L815">815</span>
-<span id="L816" rel="#L816">816</span>
-<span id="L817" rel="#L817">817</span>
-<span id="L818" rel="#L818">818</span>
-<span id="L819" rel="#L819">819</span>
-<span id="L820" rel="#L820">820</span>
-<span id="L821" rel="#L821">821</span>
-<span id="L822" rel="#L822">822</span>
-<span id="L823" rel="#L823">823</span>
-<span id="L824" rel="#L824">824</span>
-<span id="L825" rel="#L825">825</span>
-<span id="L826" rel="#L826">826</span>
-<span id="L827" rel="#L827">827</span>
-<span id="L828" rel="#L828">828</span>
-<span id="L829" rel="#L829">829</span>
-<span id="L830" rel="#L830">830</span>
-<span id="L831" rel="#L831">831</span>
-<span id="L832" rel="#L832">832</span>
-<span id="L833" rel="#L833">833</span>
-<span id="L834" rel="#L834">834</span>
-<span id="L835" rel="#L835">835</span>
-<span id="L836" rel="#L836">836</span>
-<span id="L837" rel="#L837">837</span>
-<span id="L838" rel="#L838">838</span>
-<span id="L839" rel="#L839">839</span>
-<span id="L840" rel="#L840">840</span>
-<span id="L841" rel="#L841">841</span>
-<span id="L842" rel="#L842">842</span>
-<span id="L843" rel="#L843">843</span>
-<span id="L844" rel="#L844">844</span>
-<span id="L845" rel="#L845">845</span>
-<span id="L846" rel="#L846">846</span>
-<span id="L847" rel="#L847">847</span>
-<span id="L848" rel="#L848">848</span>
-<span id="L849" rel="#L849">849</span>
-<span id="L850" rel="#L850">850</span>
-<span id="L851" rel="#L851">851</span>
-<span id="L852" rel="#L852">852</span>
-<span id="L853" rel="#L853">853</span>
-<span id="L854" rel="#L854">854</span>
-<span id="L855" rel="#L855">855</span>
-<span id="L856" rel="#L856">856</span>
-<span id="L857" rel="#L857">857</span>
-<span id="L858" rel="#L858">858</span>
-<span id="L859" rel="#L859">859</span>
-<span id="L860" rel="#L860">860</span>
-<span id="L861" rel="#L861">861</span>
-<span id="L862" rel="#L862">862</span>
-<span id="L863" rel="#L863">863</span>
-<span id="L864" rel="#L864">864</span>
-<span id="L865" rel="#L865">865</span>
-<span id="L866" rel="#L866">866</span>
-<span id="L867" rel="#L867">867</span>
-<span id="L868" rel="#L868">868</span>
-<span id="L869" rel="#L869">869</span>
-<span id="L870" rel="#L870">870</span>
-<span id="L871" rel="#L871">871</span>
-<span id="L872" rel="#L872">872</span>
-<span id="L873" rel="#L873">873</span>
-<span id="L874" rel="#L874">874</span>
-<span id="L875" rel="#L875">875</span>
-<span id="L876" rel="#L876">876</span>
-<span id="L877" rel="#L877">877</span>
-<span id="L878" rel="#L878">878</span>
-<span id="L879" rel="#L879">879</span>
-<span id="L880" rel="#L880">880</span>
-<span id="L881" rel="#L881">881</span>
-<span id="L882" rel="#L882">882</span>
-<span id="L883" rel="#L883">883</span>
-<span id="L884" rel="#L884">884</span>
-<span id="L885" rel="#L885">885</span>
-<span id="L886" rel="#L886">886</span>
-<span id="L887" rel="#L887">887</span>
-<span id="L888" rel="#L888">888</span>
-<span id="L889" rel="#L889">889</span>
-<span id="L890" rel="#L890">890</span>
-<span id="L891" rel="#L891">891</span>
-<span id="L892" rel="#L892">892</span>
-<span id="L893" rel="#L893">893</span>
-<span id="L894" rel="#L894">894</span>
-<span id="L895" rel="#L895">895</span>
-<span id="L896" rel="#L896">896</span>
-<span id="L897" rel="#L897">897</span>
-<span id="L898" rel="#L898">898</span>
-<span id="L899" rel="#L899">899</span>
-<span id="L900" rel="#L900">900</span>
-<span id="L901" rel="#L901">901</span>
-<span id="L902" rel="#L902">902</span>
-<span id="L903" rel="#L903">903</span>
-<span id="L904" rel="#L904">904</span>
-<span id="L905" rel="#L905">905</span>
-<span id="L906" rel="#L906">906</span>
-<span id="L907" rel="#L907">907</span>
-<span id="L908" rel="#L908">908</span>
-<span id="L909" rel="#L909">909</span>
-<span id="L910" rel="#L910">910</span>
-<span id="L911" rel="#L911">911</span>
-<span id="L912" rel="#L912">912</span>
-<span id="L913" rel="#L913">913</span>
-<span id="L914" rel="#L914">914</span>
-<span id="L915" rel="#L915">915</span>
-<span id="L916" rel="#L916">916</span>
-<span id="L917" rel="#L917">917</span>
-<span id="L918" rel="#L918">918</span>
-<span id="L919" rel="#L919">919</span>
-<span id="L920" rel="#L920">920</span>
-<span id="L921" rel="#L921">921</span>
-<span id="L922" rel="#L922">922</span>
-<span id="L923" rel="#L923">923</span>
-<span id="L924" rel="#L924">924</span>
-<span id="L925" rel="#L925">925</span>
-<span id="L926" rel="#L926">926</span>
-<span id="L927" rel="#L927">927</span>
-<span id="L928" rel="#L928">928</span>
-<span id="L929" rel="#L929">929</span>
-<span id="L930" rel="#L930">930</span>
-<span id="L931" rel="#L931">931</span>
-<span id="L932" rel="#L932">932</span>
-<span id="L933" rel="#L933">933</span>
-<span id="L934" rel="#L934">934</span>
-<span id="L935" rel="#L935">935</span>
-<span id="L936" rel="#L936">936</span>
-<span id="L937" rel="#L937">937</span>
-<span id="L938" rel="#L938">938</span>
-<span id="L939" rel="#L939">939</span>
-<span id="L940" rel="#L940">940</span>
-<span id="L941" rel="#L941">941</span>
-<span id="L942" rel="#L942">942</span>
-<span id="L943" rel="#L943">943</span>
-<span id="L944" rel="#L944">944</span>
-<span id="L945" rel="#L945">945</span>
-<span id="L946" rel="#L946">946</span>
-<span id="L947" rel="#L947">947</span>
-<span id="L948" rel="#L948">948</span>
-<span id="L949" rel="#L949">949</span>
-<span id="L950" rel="#L950">950</span>
-<span id="L951" rel="#L951">951</span>
-<span id="L952" rel="#L952">952</span>
-<span id="L953" rel="#L953">953</span>
-<span id="L954" rel="#L954">954</span>
-<span id="L955" rel="#L955">955</span>
-<span id="L956" rel="#L956">956</span>
-<span id="L957" rel="#L957">957</span>
-<span id="L958" rel="#L958">958</span>
-<span id="L959" rel="#L959">959</span>
-<span id="L960" rel="#L960">960</span>
-<span id="L961" rel="#L961">961</span>
-<span id="L962" rel="#L962">962</span>
-<span id="L963" rel="#L963">963</span>
-<span id="L964" rel="#L964">964</span>
-<span id="L965" rel="#L965">965</span>
-<span id="L966" rel="#L966">966</span>
-<span id="L967" rel="#L967">967</span>
-<span id="L968" rel="#L968">968</span>
-<span id="L969" rel="#L969">969</span>
-<span id="L970" rel="#L970">970</span>
-<span id="L971" rel="#L971">971</span>
-<span id="L972" rel="#L972">972</span>
-<span id="L973" rel="#L973">973</span>
-<span id="L974" rel="#L974">974</span>
-<span id="L975" rel="#L975">975</span>
-<span id="L976" rel="#L976">976</span>
-<span id="L977" rel="#L977">977</span>
-<span id="L978" rel="#L978">978</span>
-<span id="L979" rel="#L979">979</span>
-<span id="L980" rel="#L980">980</span>
-<span id="L981" rel="#L981">981</span>
-<span id="L982" rel="#L982">982</span>
-<span id="L983" rel="#L983">983</span>
-<span id="L984" rel="#L984">984</span>
-<span id="L985" rel="#L985">985</span>
-<span id="L986" rel="#L986">986</span>
-<span id="L987" rel="#L987">987</span>
-<span id="L988" rel="#L988">988</span>
-<span id="L989" rel="#L989">989</span>
-<span id="L990" rel="#L990">990</span>
-<span id="L991" rel="#L991">991</span>
-<span id="L992" rel="#L992">992</span>
-<span id="L993" rel="#L993">993</span>
-<span id="L994" rel="#L994">994</span>
-<span id="L995" rel="#L995">995</span>
-<span id="L996" rel="#L996">996</span>
-<span id="L997" rel="#L997">997</span>
-<span id="L998" rel="#L998">998</span>
-<span id="L999" rel="#L999">999</span>
-<span id="L1000" rel="#L1000">1000</span>
-<span id="L1001" rel="#L1001">1001</span>
-<span id="L1002" rel="#L1002">1002</span>
-<span id="L1003" rel="#L1003">1003</span>
-<span id="L1004" rel="#L1004">1004</span>
-<span id="L1005" rel="#L1005">1005</span>
-<span id="L1006" rel="#L1006">1006</span>
-<span id="L1007" rel="#L1007">1007</span>
-<span id="L1008" rel="#L1008">1008</span>
-<span id="L1009" rel="#L1009">1009</span>
-<span id="L1010" rel="#L1010">1010</span>
-<span id="L1011" rel="#L1011">1011</span>
-<span id="L1012" rel="#L1012">1012</span>
-<span id="L1013" rel="#L1013">1013</span>
-<span id="L1014" rel="#L1014">1014</span>
-<span id="L1015" rel="#L1015">1015</span>
-<span id="L1016" rel="#L1016">1016</span>
-<span id="L1017" rel="#L1017">1017</span>
-<span id="L1018" rel="#L1018">1018</span>
-<span id="L1019" rel="#L1019">1019</span>
-<span id="L1020" rel="#L1020">1020</span>
-<span id="L1021" rel="#L1021">1021</span>
-<span id="L1022" rel="#L1022">1022</span>
-<span id="L1023" rel="#L1023">1023</span>
-<span id="L1024" rel="#L1024">1024</span>
-<span id="L1025" rel="#L1025">1025</span>
-<span id="L1026" rel="#L1026">1026</span>
-<span id="L1027" rel="#L1027">1027</span>
-<span id="L1028" rel="#L1028">1028</span>
-<span id="L1029" rel="#L1029">1029</span>
-<span id="L1030" rel="#L1030">1030</span>
-<span id="L1031" rel="#L1031">1031</span>
-<span id="L1032" rel="#L1032">1032</span>
-<span id="L1033" rel="#L1033">1033</span>
-<span id="L1034" rel="#L1034">1034</span>
-<span id="L1035" rel="#L1035">1035</span>
-<span id="L1036" rel="#L1036">1036</span>
-<span id="L1037" rel="#L1037">1037</span>
-<span id="L1038" rel="#L1038">1038</span>
-<span id="L1039" rel="#L1039">1039</span>
-<span id="L1040" rel="#L1040">1040</span>
-<span id="L1041" rel="#L1041">1041</span>
-<span id="L1042" rel="#L1042">1042</span>
-<span id="L1043" rel="#L1043">1043</span>
-<span id="L1044" rel="#L1044">1044</span>
-<span id="L1045" rel="#L1045">1045</span>
-<span id="L1046" rel="#L1046">1046</span>
-<span id="L1047" rel="#L1047">1047</span>
-<span id="L1048" rel="#L1048">1048</span>
-<span id="L1049" rel="#L1049">1049</span>
-<span id="L1050" rel="#L1050">1050</span>
-<span id="L1051" rel="#L1051">1051</span>
-<span id="L1052" rel="#L1052">1052</span>
-<span id="L1053" rel="#L1053">1053</span>
-<span id="L1054" rel="#L1054">1054</span>
-<span id="L1055" rel="#L1055">1055</span>
-<span id="L1056" rel="#L1056">1056</span>
-<span id="L1057" rel="#L1057">1057</span>
-<span id="L1058" rel="#L1058">1058</span>
-<span id="L1059" rel="#L1059">1059</span>
-<span id="L1060" rel="#L1060">1060</span>
-<span id="L1061" rel="#L1061">1061</span>
-<span id="L1062" rel="#L1062">1062</span>
-<span id="L1063" rel="#L1063">1063</span>
-<span id="L1064" rel="#L1064">1064</span>
-<span id="L1065" rel="#L1065">1065</span>
-<span id="L1066" rel="#L1066">1066</span>
-<span id="L1067" rel="#L1067">1067</span>
-<span id="L1068" rel="#L1068">1068</span>
-<span id="L1069" rel="#L1069">1069</span>
-<span id="L1070" rel="#L1070">1070</span>
-<span id="L1071" rel="#L1071">1071</span>
-<span id="L1072" rel="#L1072">1072</span>
-<span id="L1073" rel="#L1073">1073</span>
-<span id="L1074" rel="#L1074">1074</span>
-<span id="L1075" rel="#L1075">1075</span>
-<span id="L1076" rel="#L1076">1076</span>
-<span id="L1077" rel="#L1077">1077</span>
-<span id="L1078" rel="#L1078">1078</span>
-<span id="L1079" rel="#L1079">1079</span>
-<span id="L1080" rel="#L1080">1080</span>
-<span id="L1081" rel="#L1081">1081</span>
-<span id="L1082" rel="#L1082">1082</span>
-<span id="L1083" rel="#L1083">1083</span>
-<span id="L1084" rel="#L1084">1084</span>
-<span id="L1085" rel="#L1085">1085</span>
-<span id="L1086" rel="#L1086">1086</span>
-<span id="L1087" rel="#L1087">1087</span>
-<span id="L1088" rel="#L1088">1088</span>
-<span id="L1089" rel="#L1089">1089</span>
-<span id="L1090" rel="#L1090">1090</span>
-<span id="L1091" rel="#L1091">1091</span>
-<span id="L1092" rel="#L1092">1092</span>
-<span id="L1093" rel="#L1093">1093</span>
-<span id="L1094" rel="#L1094">1094</span>
-<span id="L1095" rel="#L1095">1095</span>
-<span id="L1096" rel="#L1096">1096</span>
-<span id="L1097" rel="#L1097">1097</span>
-<span id="L1098" rel="#L1098">1098</span>
-<span id="L1099" rel="#L1099">1099</span>
-<span id="L1100" rel="#L1100">1100</span>
-<span id="L1101" rel="#L1101">1101</span>
-<span id="L1102" rel="#L1102">1102</span>
-<span id="L1103" rel="#L1103">1103</span>
-<span id="L1104" rel="#L1104">1104</span>
-<span id="L1105" rel="#L1105">1105</span>
-<span id="L1106" rel="#L1106">1106</span>
-<span id="L1107" rel="#L1107">1107</span>
-<span id="L1108" rel="#L1108">1108</span>
-<span id="L1109" rel="#L1109">1109</span>
-<span id="L1110" rel="#L1110">1110</span>
-<span id="L1111" rel="#L1111">1111</span>
-<span id="L1112" rel="#L1112">1112</span>
-<span id="L1113" rel="#L1113">1113</span>
-<span id="L1114" rel="#L1114">1114</span>
-<span id="L1115" rel="#L1115">1115</span>
-<span id="L1116" rel="#L1116">1116</span>
-<span id="L1117" rel="#L1117">1117</span>
-<span id="L1118" rel="#L1118">1118</span>
-<span id="L1119" rel="#L1119">1119</span>
-<span id="L1120" rel="#L1120">1120</span>
-<span id="L1121" rel="#L1121">1121</span>
-<span id="L1122" rel="#L1122">1122</span>
-<span id="L1123" rel="#L1123">1123</span>
-<span id="L1124" rel="#L1124">1124</span>
-<span id="L1125" rel="#L1125">1125</span>
-<span id="L1126" rel="#L1126">1126</span>
-<span id="L1127" rel="#L1127">1127</span>
-<span id="L1128" rel="#L1128">1128</span>
-<span id="L1129" rel="#L1129">1129</span>
-<span id="L1130" rel="#L1130">1130</span>
-<span id="L1131" rel="#L1131">1131</span>
-<span id="L1132" rel="#L1132">1132</span>
-<span id="L1133" rel="#L1133">1133</span>
-<span id="L1134" rel="#L1134">1134</span>
-<span id="L1135" rel="#L1135">1135</span>
-<span id="L1136" rel="#L1136">1136</span>
-<span id="L1137" rel="#L1137">1137</span>
-<span id="L1138" rel="#L1138">1138</span>
-<span id="L1139" rel="#L1139">1139</span>
-<span id="L1140" rel="#L1140">1140</span>
-<span id="L1141" rel="#L1141">1141</span>
-<span id="L1142" rel="#L1142">1142</span>
-<span id="L1143" rel="#L1143">1143</span>
-<span id="L1144" rel="#L1144">1144</span>
-<span id="L1145" rel="#L1145">1145</span>
-<span id="L1146" rel="#L1146">1146</span>
-<span id="L1147" rel="#L1147">1147</span>
-<span id="L1148" rel="#L1148">1148</span>
-<span id="L1149" rel="#L1149">1149</span>
-<span id="L1150" rel="#L1150">1150</span>
-<span id="L1151" rel="#L1151">1151</span>
-<span id="L1152" rel="#L1152">1152</span>
-<span id="L1153" rel="#L1153">1153</span>
-<span id="L1154" rel="#L1154">1154</span>
-<span id="L1155" rel="#L1155">1155</span>
-<span id="L1156" rel="#L1156">1156</span>
-<span id="L1157" rel="#L1157">1157</span>
-<span id="L1158" rel="#L1158">1158</span>
-<span id="L1159" rel="#L1159">1159</span>
-<span id="L1160" rel="#L1160">1160</span>
-<span id="L1161" rel="#L1161">1161</span>
-<span id="L1162" rel="#L1162">1162</span>
-<span id="L1163" rel="#L1163">1163</span>
-<span id="L1164" rel="#L1164">1164</span>
-<span id="L1165" rel="#L1165">1165</span>
-<span id="L1166" rel="#L1166">1166</span>
-<span id="L1167" rel="#L1167">1167</span>
-<span id="L1168" rel="#L1168">1168</span>
-<span id="L1169" rel="#L1169">1169</span>
-<span id="L1170" rel="#L1170">1170</span>
-<span id="L1171" rel="#L1171">1171</span>
-<span id="L1172" rel="#L1172">1172</span>
-<span id="L1173" rel="#L1173">1173</span>
-<span id="L1174" rel="#L1174">1174</span>
-<span id="L1175" rel="#L1175">1175</span>
-<span id="L1176" rel="#L1176">1176</span>
-<span id="L1177" rel="#L1177">1177</span>
-<span id="L1178" rel="#L1178">1178</span>
-<span id="L1179" rel="#L1179">1179</span>
-<span id="L1180" rel="#L1180">1180</span>
-<span id="L1181" rel="#L1181">1181</span>
-<span id="L1182" rel="#L1182">1182</span>
-<span id="L1183" rel="#L1183">1183</span>
-<span id="L1184" rel="#L1184">1184</span>
-<span id="L1185" rel="#L1185">1185</span>
-<span id="L1186" rel="#L1186">1186</span>
-<span id="L1187" rel="#L1187">1187</span>
-<span id="L1188" rel="#L1188">1188</span>
-<span id="L1189" rel="#L1189">1189</span>
-<span id="L1190" rel="#L1190">1190</span>
-<span id="L1191" rel="#L1191">1191</span>
-<span id="L1192" rel="#L1192">1192</span>
-<span id="L1193" rel="#L1193">1193</span>
-<span id="L1194" rel="#L1194">1194</span>
-<span id="L1195" rel="#L1195">1195</span>
-<span id="L1196" rel="#L1196">1196</span>
-<span id="L1197" rel="#L1197">1197</span>
-<span id="L1198" rel="#L1198">1198</span>
-<span id="L1199" rel="#L1199">1199</span>
-<span id="L1200" rel="#L1200">1200</span>
-<span id="L1201" rel="#L1201">1201</span>
-<span id="L1202" rel="#L1202">1202</span>
-<span id="L1203" rel="#L1203">1203</span>
-<span id="L1204" rel="#L1204">1204</span>
-<span id="L1205" rel="#L1205">1205</span>
-<span id="L1206" rel="#L1206">1206</span>
-<span id="L1207" rel="#L1207">1207</span>
-<span id="L1208" rel="#L1208">1208</span>
-<span id="L1209" rel="#L1209">1209</span>
-<span id="L1210" rel="#L1210">1210</span>
-<span id="L1211" rel="#L1211">1211</span>
-<span id="L1212" rel="#L1212">1212</span>
-<span id="L1213" rel="#L1213">1213</span>
-<span id="L1214" rel="#L1214">1214</span>
-<span id="L1215" rel="#L1215">1215</span>
-<span id="L1216" rel="#L1216">1216</span>
-<span id="L1217" rel="#L1217">1217</span>
-<span id="L1218" rel="#L1218">1218</span>
-<span id="L1219" rel="#L1219">1219</span>
-<span id="L1220" rel="#L1220">1220</span>
-<span id="L1221" rel="#L1221">1221</span>
-<span id="L1222" rel="#L1222">1222</span>
-<span id="L1223" rel="#L1223">1223</span>
-<span id="L1224" rel="#L1224">1224</span>
-<span id="L1225" rel="#L1225">1225</span>
-<span id="L1226" rel="#L1226">1226</span>
-<span id="L1227" rel="#L1227">1227</span>
-<span id="L1228" rel="#L1228">1228</span>
-<span id="L1229" rel="#L1229">1229</span>
-<span id="L1230" rel="#L1230">1230</span>
-<span id="L1231" rel="#L1231">1231</span>
-<span id="L1232" rel="#L1232">1232</span>
-<span id="L1233" rel="#L1233">1233</span>
-<span id="L1234" rel="#L1234">1234</span>
-<span id="L1235" rel="#L1235">1235</span>
-<span id="L1236" rel="#L1236">1236</span>
-<span id="L1237" rel="#L1237">1237</span>
-<span id="L1238" rel="#L1238">1238</span>
-<span id="L1239" rel="#L1239">1239</span>
-<span id="L1240" rel="#L1240">1240</span>
-<span id="L1241" rel="#L1241">1241</span>
-<span id="L1242" rel="#L1242">1242</span>
-<span id="L1243" rel="#L1243">1243</span>
-<span id="L1244" rel="#L1244">1244</span>
-<span id="L1245" rel="#L1245">1245</span>
-<span id="L1246" rel="#L1246">1246</span>
-<span id="L1247" rel="#L1247">1247</span>
-<span id="L1248" rel="#L1248">1248</span>
-<span id="L1249" rel="#L1249">1249</span>
-<span id="L1250" rel="#L1250">1250</span>
-<span id="L1251" rel="#L1251">1251</span>
-<span id="L1252" rel="#L1252">1252</span>
-<span id="L1253" rel="#L1253">1253</span>
-<span id="L1254" rel="#L1254">1254</span>
-<span id="L1255" rel="#L1255">1255</span>
-<span id="L1256" rel="#L1256">1256</span>
-<span id="L1257" rel="#L1257">1257</span>
-<span id="L1258" rel="#L1258">1258</span>
-<span id="L1259" rel="#L1259">1259</span>
-<span id="L1260" rel="#L1260">1260</span>
-<span id="L1261" rel="#L1261">1261</span>
-<span id="L1262" rel="#L1262">1262</span>
-<span id="L1263" rel="#L1263">1263</span>
-<span id="L1264" rel="#L1264">1264</span>
-<span id="L1265" rel="#L1265">1265</span>
-<span id="L1266" rel="#L1266">1266</span>
-<span id="L1267" rel="#L1267">1267</span>
-<span id="L1268" rel="#L1268">1268</span>
-<span id="L1269" rel="#L1269">1269</span>
-<span id="L1270" rel="#L1270">1270</span>
-<span id="L1271" rel="#L1271">1271</span>
-<span id="L1272" rel="#L1272">1272</span>
-<span id="L1273" rel="#L1273">1273</span>
-<span id="L1274" rel="#L1274">1274</span>
-<span id="L1275" rel="#L1275">1275</span>
-<span id="L1276" rel="#L1276">1276</span>
-<span id="L1277" rel="#L1277">1277</span>
-<span id="L1278" rel="#L1278">1278</span>
-<span id="L1279" rel="#L1279">1279</span>
-<span id="L1280" rel="#L1280">1280</span>
-<span id="L1281" rel="#L1281">1281</span>
-<span id="L1282" rel="#L1282">1282</span>
-<span id="L1283" rel="#L1283">1283</span>
-<span id="L1284" rel="#L1284">1284</span>
-<span id="L1285" rel="#L1285">1285</span>
-<span id="L1286" rel="#L1286">1286</span>
-<span id="L1287" rel="#L1287">1287</span>
-<span id="L1288" rel="#L1288">1288</span>
-<span id="L1289" rel="#L1289">1289</span>
-<span id="L1290" rel="#L1290">1290</span>
-<span id="L1291" rel="#L1291">1291</span>
-<span id="L1292" rel="#L1292">1292</span>
-<span id="L1293" rel="#L1293">1293</span>
-<span id="L1294" rel="#L1294">1294</span>
-<span id="L1295" rel="#L1295">1295</span>
-<span id="L1296" rel="#L1296">1296</span>
-<span id="L1297" rel="#L1297">1297</span>
-<span id="L1298" rel="#L1298">1298</span>
-<span id="L1299" rel="#L1299">1299</span>
-<span id="L1300" rel="#L1300">1300</span>
-<span id="L1301" rel="#L1301">1301</span>
-<span id="L1302" rel="#L1302">1302</span>
-<span id="L1303" rel="#L1303">1303</span>
-<span id="L1304" rel="#L1304">1304</span>
-<span id="L1305" rel="#L1305">1305</span>
-<span id="L1306" rel="#L1306">1306</span>
-<span id="L1307" rel="#L1307">1307</span>
-<span id="L1308" rel="#L1308">1308</span>
-<span id="L1309" rel="#L1309">1309</span>
-<span id="L1310" rel="#L1310">1310</span>
-<span id="L1311" rel="#L1311">1311</span>
-<span id="L1312" rel="#L1312">1312</span>
-<span id="L1313" rel="#L1313">1313</span>
-<span id="L1314" rel="#L1314">1314</span>
-<span id="L1315" rel="#L1315">1315</span>
-<span id="L1316" rel="#L1316">1316</span>
-<span id="L1317" rel="#L1317">1317</span>
-<span id="L1318" rel="#L1318">1318</span>
-<span id="L1319" rel="#L1319">1319</span>
-<span id="L1320" rel="#L1320">1320</span>
-<span id="L1321" rel="#L1321">1321</span>
-<span id="L1322" rel="#L1322">1322</span>
-<span id="L1323" rel="#L1323">1323</span>
-<span id="L1324" rel="#L1324">1324</span>
-<span id="L1325" rel="#L1325">1325</span>
-<span id="L1326" rel="#L1326">1326</span>
-<span id="L1327" rel="#L1327">1327</span>
-<span id="L1328" rel="#L1328">1328</span>
-<span id="L1329" rel="#L1329">1329</span>
-<span id="L1330" rel="#L1330">1330</span>
-<span id="L1331" rel="#L1331">1331</span>
-<span id="L1332" rel="#L1332">1332</span>
-<span id="L1333" rel="#L1333">1333</span>
-<span id="L1334" rel="#L1334">1334</span>
-<span id="L1335" rel="#L1335">1335</span>
-<span id="L1336" rel="#L1336">1336</span>
-<span id="L1337" rel="#L1337">1337</span>
-<span id="L1338" rel="#L1338">1338</span>
-<span id="L1339" rel="#L1339">1339</span>
-<span id="L1340" rel="#L1340">1340</span>
-<span id="L1341" rel="#L1341">1341</span>
-<span id="L1342" rel="#L1342">1342</span>
-<span id="L1343" rel="#L1343">1343</span>
-<span id="L1344" rel="#L1344">1344</span>
-<span id="L1345" rel="#L1345">1345</span>
-<span id="L1346" rel="#L1346">1346</span>
-<span id="L1347" rel="#L1347">1347</span>
-<span id="L1348" rel="#L1348">1348</span>
-<span id="L1349" rel="#L1349">1349</span>
-<span id="L1350" rel="#L1350">1350</span>
-<span id="L1351" rel="#L1351">1351</span>
-<span id="L1352" rel="#L1352">1352</span>
-<span id="L1353" rel="#L1353">1353</span>
-<span id="L1354" rel="#L1354">1354</span>
-<span id="L1355" rel="#L1355">1355</span>
-<span id="L1356" rel="#L1356">1356</span>
-<span id="L1357" rel="#L1357">1357</span>
-<span id="L1358" rel="#L1358">1358</span>
-<span id="L1359" rel="#L1359">1359</span>
-<span id="L1360" rel="#L1360">1360</span>
-<span id="L1361" rel="#L1361">1361</span>
-<span id="L1362" rel="#L1362">1362</span>
-<span id="L1363" rel="#L1363">1363</span>
-<span id="L1364" rel="#L1364">1364</span>
-<span id="L1365" rel="#L1365">1365</span>
-<span id="L1366" rel="#L1366">1366</span>
-<span id="L1367" rel="#L1367">1367</span>
-<span id="L1368" rel="#L1368">1368</span>
-<span id="L1369" rel="#L1369">1369</span>
-<span id="L1370" rel="#L1370">1370</span>
-<span id="L1371" rel="#L1371">1371</span>
-<span id="L1372" rel="#L1372">1372</span>
-<span id="L1373" rel="#L1373">1373</span>
-<span id="L1374" rel="#L1374">1374</span>
-<span id="L1375" rel="#L1375">1375</span>
-<span id="L1376" rel="#L1376">1376</span>
-<span id="L1377" rel="#L1377">1377</span>
-<span id="L1378" rel="#L1378">1378</span>
-<span id="L1379" rel="#L1379">1379</span>
-<span id="L1380" rel="#L1380">1380</span>
-<span id="L1381" rel="#L1381">1381</span>
-<span id="L1382" rel="#L1382">1382</span>
-<span id="L1383" rel="#L1383">1383</span>
-<span id="L1384" rel="#L1384">1384</span>
-<span id="L1385" rel="#L1385">1385</span>
-<span id="L1386" rel="#L1386">1386</span>
-<span id="L1387" rel="#L1387">1387</span>
-<span id="L1388" rel="#L1388">1388</span>
-<span id="L1389" rel="#L1389">1389</span>
-<span id="L1390" rel="#L1390">1390</span>
-<span id="L1391" rel="#L1391">1391</span>
-<span id="L1392" rel="#L1392">1392</span>
-<span id="L1393" rel="#L1393">1393</span>
-<span id="L1394" rel="#L1394">1394</span>
-<span id="L1395" rel="#L1395">1395</span>
-<span id="L1396" rel="#L1396">1396</span>
-<span id="L1397" rel="#L1397">1397</span>
-<span id="L1398" rel="#L1398">1398</span>
-<span id="L1399" rel="#L1399">1399</span>
-<span id="L1400" rel="#L1400">1400</span>
-<span id="L1401" rel="#L1401">1401</span>
-<span id="L1402" rel="#L1402">1402</span>
-<span id="L1403" rel="#L1403">1403</span>
-<span id="L1404" rel="#L1404">1404</span>
-<span id="L1405" rel="#L1405">1405</span>
-<span id="L1406" rel="#L1406">1406</span>
-<span id="L1407" rel="#L1407">1407</span>
-<span id="L1408" rel="#L1408">1408</span>
-<span id="L1409" rel="#L1409">1409</span>
-<span id="L1410" rel="#L1410">1410</span>
-<span id="L1411" rel="#L1411">1411</span>
-<span id="L1412" rel="#L1412">1412</span>
-<span id="L1413" rel="#L1413">1413</span>
-<span id="L1414" rel="#L1414">1414</span>
-<span id="L1415" rel="#L1415">1415</span>
-<span id="L1416" rel="#L1416">1416</span>
-<span id="L1417" rel="#L1417">1417</span>
-<span id="L1418" rel="#L1418">1418</span>
-<span id="L1419" rel="#L1419">1419</span>
-<span id="L1420" rel="#L1420">1420</span>
-<span id="L1421" rel="#L1421">1421</span>
-<span id="L1422" rel="#L1422">1422</span>
-<span id="L1423" rel="#L1423">1423</span>
-<span id="L1424" rel="#L1424">1424</span>
-<span id="L1425" rel="#L1425">1425</span>
-<span id="L1426" rel="#L1426">1426</span>
-<span id="L1427" rel="#L1427">1427</span>
-<span id="L1428" rel="#L1428">1428</span>
-<span id="L1429" rel="#L1429">1429</span>
-<span id="L1430" rel="#L1430">1430</span>
-<span id="L1431" rel="#L1431">1431</span>
-<span id="L1432" rel="#L1432">1432</span>
-<span id="L1433" rel="#L1433">1433</span>
-<span id="L1434" rel="#L1434">1434</span>
-<span id="L1435" rel="#L1435">1435</span>
-<span id="L1436" rel="#L1436">1436</span>
-<span id="L1437" rel="#L1437">1437</span>
-<span id="L1438" rel="#L1438">1438</span>
-<span id="L1439" rel="#L1439">1439</span>
-<span id="L1440" rel="#L1440">1440</span>
-<span id="L1441" rel="#L1441">1441</span>
-<span id="L1442" rel="#L1442">1442</span>
-<span id="L1443" rel="#L1443">1443</span>
-<span id="L1444" rel="#L1444">1444</span>
-<span id="L1445" rel="#L1445">1445</span>
-<span id="L1446" rel="#L1446">1446</span>
-<span id="L1447" rel="#L1447">1447</span>
-<span id="L1448" rel="#L1448">1448</span>
-<span id="L1449" rel="#L1449">1449</span>
-<span id="L1450" rel="#L1450">1450</span>
-<span id="L1451" rel="#L1451">1451</span>
-<span id="L1452" rel="#L1452">1452</span>
-<span id="L1453" rel="#L1453">1453</span>
-<span id="L1454" rel="#L1454">1454</span>
-<span id="L1455" rel="#L1455">1455</span>
-<span id="L1456" rel="#L1456">1456</span>
-<span id="L1457" rel="#L1457">1457</span>
-<span id="L1458" rel="#L1458">1458</span>
-<span id="L1459" rel="#L1459">1459</span>
-<span id="L1460" rel="#L1460">1460</span>
-<span id="L1461" rel="#L1461">1461</span>
-<span id="L1462" rel="#L1462">1462</span>
-<span id="L1463" rel="#L1463">1463</span>
-<span id="L1464" rel="#L1464">1464</span>
-<span id="L1465" rel="#L1465">1465</span>
-<span id="L1466" rel="#L1466">1466</span>
-<span id="L1467" rel="#L1467">1467</span>
-<span id="L1468" rel="#L1468">1468</span>
-<span id="L1469" rel="#L1469">1469</span>
-<span id="L1470" rel="#L1470">1470</span>
-<span id="L1471" rel="#L1471">1471</span>
-<span id="L1472" rel="#L1472">1472</span>
-<span id="L1473" rel="#L1473">1473</span>
-<span id="L1474" rel="#L1474">1474</span>
-<span id="L1475" rel="#L1475">1475</span>
-<span id="L1476" rel="#L1476">1476</span>
-<span id="L1477" rel="#L1477">1477</span>
-<span id="L1478" rel="#L1478">1478</span>
-<span id="L1479" rel="#L1479">1479</span>
-<span id="L1480" rel="#L1480">1480</span>
-<span id="L1481" rel="#L1481">1481</span>
-<span id="L1482" rel="#L1482">1482</span>
-<span id="L1483" rel="#L1483">1483</span>
-<span id="L1484" rel="#L1484">1484</span>
-<span id="L1485" rel="#L1485">1485</span>
-<span id="L1486" rel="#L1486">1486</span>
-<span id="L1487" rel="#L1487">1487</span>
-<span id="L1488" rel="#L1488">1488</span>
-<span id="L1489" rel="#L1489">1489</span>
-<span id="L1490" rel="#L1490">1490</span>
-<span id="L1491" rel="#L1491">1491</span>
-<span id="L1492" rel="#L1492">1492</span>
-<span id="L1493" rel="#L1493">1493</span>
-<span id="L1494" rel="#L1494">1494</span>
-<span id="L1495" rel="#L1495">1495</span>
-<span id="L1496" rel="#L1496">1496</span>
-<span id="L1497" rel="#L1497">1497</span>
-<span id="L1498" rel="#L1498">1498</span>
-<span id="L1499" rel="#L1499">1499</span>
-<span id="L1500" rel="#L1500">1500</span>
-<span id="L1501" rel="#L1501">1501</span>
-<span id="L1502" rel="#L1502">1502</span>
-<span id="L1503" rel="#L1503">1503</span>
-<span id="L1504" rel="#L1504">1504</span>
-<span id="L1505" rel="#L1505">1505</span>
-<span id="L1506" rel="#L1506">1506</span>
-<span id="L1507" rel="#L1507">1507</span>
-<span id="L1508" rel="#L1508">1508</span>
-<span id="L1509" rel="#L1509">1509</span>
-<span id="L1510" rel="#L1510">1510</span>
-<span id="L1511" rel="#L1511">1511</span>
-<span id="L1512" rel="#L1512">1512</span>
-<span id="L1513" rel="#L1513">1513</span>
-<span id="L1514" rel="#L1514">1514</span>
-<span id="L1515" rel="#L1515">1515</span>
-<span id="L1516" rel="#L1516">1516</span>
-<span id="L1517" rel="#L1517">1517</span>
-<span id="L1518" rel="#L1518">1518</span>
-<span id="L1519" rel="#L1519">1519</span>
-<span id="L1520" rel="#L1520">1520</span>
-<span id="L1521" rel="#L1521">1521</span>
-<span id="L1522" rel="#L1522">1522</span>
-<span id="L1523" rel="#L1523">1523</span>
-<span id="L1524" rel="#L1524">1524</span>
-<span id="L1525" rel="#L1525">1525</span>
-<span id="L1526" rel="#L1526">1526</span>
-<span id="L1527" rel="#L1527">1527</span>
-<span id="L1528" rel="#L1528">1528</span>
-<span id="L1529" rel="#L1529">1529</span>
-<span id="L1530" rel="#L1530">1530</span>
-<span id="L1531" rel="#L1531">1531</span>
-<span id="L1532" rel="#L1532">1532</span>
-<span id="L1533" rel="#L1533">1533</span>
-<span id="L1534" rel="#L1534">1534</span>
-<span id="L1535" rel="#L1535">1535</span>
-<span id="L1536" rel="#L1536">1536</span>
-<span id="L1537" rel="#L1537">1537</span>
-<span id="L1538" rel="#L1538">1538</span>
-<span id="L1539" rel="#L1539">1539</span>
-<span id="L1540" rel="#L1540">1540</span>
-<span id="L1541" rel="#L1541">1541</span>
-<span id="L1542" rel="#L1542">1542</span>
-<span id="L1543" rel="#L1543">1543</span>
-<span id="L1544" rel="#L1544">1544</span>
-<span id="L1545" rel="#L1545">1545</span>
-<span id="L1546" rel="#L1546">1546</span>
-<span id="L1547" rel="#L1547">1547</span>
-<span id="L1548" rel="#L1548">1548</span>
-<span id="L1549" rel="#L1549">1549</span>
-<span id="L1550" rel="#L1550">1550</span>
-<span id="L1551" rel="#L1551">1551</span>
-<span id="L1552" rel="#L1552">1552</span>
-<span id="L1553" rel="#L1553">1553</span>
-<span id="L1554" rel="#L1554">1554</span>
-<span id="L1555" rel="#L1555">1555</span>
-<span id="L1556" rel="#L1556">1556</span>
-<span id="L1557" rel="#L1557">1557</span>
-<span id="L1558" rel="#L1558">1558</span>
-<span id="L1559" rel="#L1559">1559</span>
-<span id="L1560" rel="#L1560">1560</span>
-<span id="L1561" rel="#L1561">1561</span>
-<span id="L1562" rel="#L1562">1562</span>
-<span id="L1563" rel="#L1563">1563</span>
-<span id="L1564" rel="#L1564">1564</span>
-<span id="L1565" rel="#L1565">1565</span>
-<span id="L1566" rel="#L1566">1566</span>
-<span id="L1567" rel="#L1567">1567</span>
-<span id="L1568" rel="#L1568">1568</span>
-<span id="L1569" rel="#L1569">1569</span>
-<span id="L1570" rel="#L1570">1570</span>
-<span id="L1571" rel="#L1571">1571</span>
-<span id="L1572" rel="#L1572">1572</span>
-<span id="L1573" rel="#L1573">1573</span>
-<span id="L1574" rel="#L1574">1574</span>
-<span id="L1575" rel="#L1575">1575</span>
-<span id="L1576" rel="#L1576">1576</span>
-<span id="L1577" rel="#L1577">1577</span>
-<span id="L1578" rel="#L1578">1578</span>
-<span id="L1579" rel="#L1579">1579</span>
-<span id="L1580" rel="#L1580">1580</span>
-<span id="L1581" rel="#L1581">1581</span>
-<span id="L1582" rel="#L1582">1582</span>
-<span id="L1583" rel="#L1583">1583</span>
-<span id="L1584" rel="#L1584">1584</span>
-<span id="L1585" rel="#L1585">1585</span>
-<span id="L1586" rel="#L1586">1586</span>
-<span id="L1587" rel="#L1587">1587</span>
-<span id="L1588" rel="#L1588">1588</span>
-<span id="L1589" rel="#L1589">1589</span>
-<span id="L1590" rel="#L1590">1590</span>
-<span id="L1591" rel="#L1591">1591</span>
-<span id="L1592" rel="#L1592">1592</span>
-<span id="L1593" rel="#L1593">1593</span>
-<span id="L1594" rel="#L1594">1594</span>
-<span id="L1595" rel="#L1595">1595</span>
-<span id="L1596" rel="#L1596">1596</span>
-<span id="L1597" rel="#L1597">1597</span>
-<span id="L1598" rel="#L1598">1598</span>
-<span id="L1599" rel="#L1599">1599</span>
-<span id="L1600" rel="#L1600">1600</span>
-<span id="L1601" rel="#L1601">1601</span>
-<span id="L1602" rel="#L1602">1602</span>
-<span id="L1603" rel="#L1603">1603</span>
-<span id="L1604" rel="#L1604">1604</span>
-<span id="L1605" rel="#L1605">1605</span>
-<span id="L1606" rel="#L1606">1606</span>
-<span id="L1607" rel="#L1607">1607</span>
-<span id="L1608" rel="#L1608">1608</span>
-<span id="L1609" rel="#L1609">1609</span>
-<span id="L1610" rel="#L1610">1610</span>
-<span id="L1611" rel="#L1611">1611</span>
-<span id="L1612" rel="#L1612">1612</span>
-<span id="L1613" rel="#L1613">1613</span>
-<span id="L1614" rel="#L1614">1614</span>
-<span id="L1615" rel="#L1615">1615</span>
-<span id="L1616" rel="#L1616">1616</span>
-<span id="L1617" rel="#L1617">1617</span>
-<span id="L1618" rel="#L1618">1618</span>
-<span id="L1619" rel="#L1619">1619</span>
-<span id="L1620" rel="#L1620">1620</span>
-<span id="L1621" rel="#L1621">1621</span>
-<span id="L1622" rel="#L1622">1622</span>
-<span id="L1623" rel="#L1623">1623</span>
-<span id="L1624" rel="#L1624">1624</span>
-<span id="L1625" rel="#L1625">1625</span>
-<span id="L1626" rel="#L1626">1626</span>
-<span id="L1627" rel="#L1627">1627</span>
-<span id="L1628" rel="#L1628">1628</span>
-<span id="L1629" rel="#L1629">1629</span>
-<span id="L1630" rel="#L1630">1630</span>
-<span id="L1631" rel="#L1631">1631</span>
-<span id="L1632" rel="#L1632">1632</span>
-<span id="L1633" rel="#L1633">1633</span>
-<span id="L1634" rel="#L1634">1634</span>
-<span id="L1635" rel="#L1635">1635</span>
-<span id="L1636" rel="#L1636">1636</span>
-<span id="L1637" rel="#L1637">1637</span>
-<span id="L1638" rel="#L1638">1638</span>
-<span id="L1639" rel="#L1639">1639</span>
-<span id="L1640" rel="#L1640">1640</span>
-<span id="L1641" rel="#L1641">1641</span>
-<span id="L1642" rel="#L1642">1642</span>
-<span id="L1643" rel="#L1643">1643</span>
-<span id="L1644" rel="#L1644">1644</span>
-<span id="L1645" rel="#L1645">1645</span>
-<span id="L1646" rel="#L1646">1646</span>
-<span id="L1647" rel="#L1647">1647</span>
-<span id="L1648" rel="#L1648">1648</span>
-<span id="L1649" rel="#L1649">1649</span>
-<span id="L1650" rel="#L1650">1650</span>
-<span id="L1651" rel="#L1651">1651</span>
-<span id="L1652" rel="#L1652">1652</span>
-<span id="L1653" rel="#L1653">1653</span>
-<span id="L1654" rel="#L1654">1654</span>
-<span id="L1655" rel="#L1655">1655</span>
-<span id="L1656" rel="#L1656">1656</span>
-<span id="L1657" rel="#L1657">1657</span>
-<span id="L1658" rel="#L1658">1658</span>
-<span id="L1659" rel="#L1659">1659</span>
-<span id="L1660" rel="#L1660">1660</span>
-<span id="L1661" rel="#L1661">1661</span>
-<span id="L1662" rel="#L1662">1662</span>
-<span id="L1663" rel="#L1663">1663</span>
-<span id="L1664" rel="#L1664">1664</span>
-<span id="L1665" rel="#L1665">1665</span>
-<span id="L1666" rel="#L1666">1666</span>
-<span id="L1667" rel="#L1667">1667</span>
-<span id="L1668" rel="#L1668">1668</span>
-<span id="L1669" rel="#L1669">1669</span>
-<span id="L1670" rel="#L1670">1670</span>
-<span id="L1671" rel="#L1671">1671</span>
-<span id="L1672" rel="#L1672">1672</span>
-<span id="L1673" rel="#L1673">1673</span>
-<span id="L1674" rel="#L1674">1674</span>
-<span id="L1675" rel="#L1675">1675</span>
-<span id="L1676" rel="#L1676">1676</span>
-<span id="L1677" rel="#L1677">1677</span>
-<span id="L1678" rel="#L1678">1678</span>
-<span id="L1679" rel="#L1679">1679</span>
-<span id="L1680" rel="#L1680">1680</span>
-<span id="L1681" rel="#L1681">1681</span>
-<span id="L1682" rel="#L1682">1682</span>
-<span id="L1683" rel="#L1683">1683</span>
-<span id="L1684" rel="#L1684">1684</span>
-<span id="L1685" rel="#L1685">1685</span>
-<span id="L1686" rel="#L1686">1686</span>
-<span id="L1687" rel="#L1687">1687</span>
-<span id="L1688" rel="#L1688">1688</span>
-<span id="L1689" rel="#L1689">1689</span>
-<span id="L1690" rel="#L1690">1690</span>
-<span id="L1691" rel="#L1691">1691</span>
-<span id="L1692" rel="#L1692">1692</span>
-<span id="L1693" rel="#L1693">1693</span>
-<span id="L1694" rel="#L1694">1694</span>
-<span id="L1695" rel="#L1695">1695</span>
-<span id="L1696" rel="#L1696">1696</span>
-<span id="L1697" rel="#L1697">1697</span>
-<span id="L1698" rel="#L1698">1698</span>
-<span id="L1699" rel="#L1699">1699</span>
-<span id="L1700" rel="#L1700">1700</span>
-<span id="L1701" rel="#L1701">1701</span>
-<span id="L1702" rel="#L1702">1702</span>
-<span id="L1703" rel="#L1703">1703</span>
-<span id="L1704" rel="#L1704">1704</span>
-<span id="L1705" rel="#L1705">1705</span>
-<span id="L1706" rel="#L1706">1706</span>
-<span id="L1707" rel="#L1707">1707</span>
-<span id="L1708" rel="#L1708">1708</span>
-<span id="L1709" rel="#L1709">1709</span>
-<span id="L1710" rel="#L1710">1710</span>
-<span id="L1711" rel="#L1711">1711</span>
-<span id="L1712" rel="#L1712">1712</span>
-<span id="L1713" rel="#L1713">1713</span>
-<span id="L1714" rel="#L1714">1714</span>
-<span id="L1715" rel="#L1715">1715</span>
-<span id="L1716" rel="#L1716">1716</span>
-<span id="L1717" rel="#L1717">1717</span>
-<span id="L1718" rel="#L1718">1718</span>
-<span id="L1719" rel="#L1719">1719</span>
-<span id="L1720" rel="#L1720">1720</span>
-<span id="L1721" rel="#L1721">1721</span>
-<span id="L1722" rel="#L1722">1722</span>
-<span id="L1723" rel="#L1723">1723</span>
-<span id="L1724" rel="#L1724">1724</span>
-<span id="L1725" rel="#L1725">1725</span>
-<span id="L1726" rel="#L1726">1726</span>
-<span id="L1727" rel="#L1727">1727</span>
-<span id="L1728" rel="#L1728">1728</span>
-<span id="L1729" rel="#L1729">1729</span>
-<span id="L1730" rel="#L1730">1730</span>
-<span id="L1731" rel="#L1731">1731</span>
-<span id="L1732" rel="#L1732">1732</span>
-<span id="L1733" rel="#L1733">1733</span>
-<span id="L1734" rel="#L1734">1734</span>
-<span id="L1735" rel="#L1735">1735</span>
-<span id="L1736" rel="#L1736">1736</span>
-<span id="L1737" rel="#L1737">1737</span>
-<span id="L1738" rel="#L1738">1738</span>
-<span id="L1739" rel="#L1739">1739</span>
-<span id="L1740" rel="#L1740">1740</span>
-<span id="L1741" rel="#L1741">1741</span>
-<span id="L1742" rel="#L1742">1742</span>
-<span id="L1743" rel="#L1743">1743</span>
-<span id="L1744" rel="#L1744">1744</span>
-<span id="L1745" rel="#L1745">1745</span>
-<span id="L1746" rel="#L1746">1746</span>
-<span id="L1747" rel="#L1747">1747</span>
-<span id="L1748" rel="#L1748">1748</span>
-<span id="L1749" rel="#L1749">1749</span>
-<span id="L1750" rel="#L1750">1750</span>
-<span id="L1751" rel="#L1751">1751</span>
-<span id="L1752" rel="#L1752">1752</span>
-<span id="L1753" rel="#L1753">1753</span>
-<span id="L1754" rel="#L1754">1754</span>
-<span id="L1755" rel="#L1755">1755</span>
-<span id="L1756" rel="#L1756">1756</span>
-<span id="L1757" rel="#L1757">1757</span>
-<span id="L1758" rel="#L1758">1758</span>
-<span id="L1759" rel="#L1759">1759</span>
-<span id="L1760" rel="#L1760">1760</span>
-<span id="L1761" rel="#L1761">1761</span>
-<span id="L1762" rel="#L1762">1762</span>
-<span id="L1763" rel="#L1763">1763</span>
-<span id="L1764" rel="#L1764">1764</span>
-<span id="L1765" rel="#L1765">1765</span>
-<span id="L1766" rel="#L1766">1766</span>
-<span id="L1767" rel="#L1767">1767</span>
-<span id="L1768" rel="#L1768">1768</span>
-<span id="L1769" rel="#L1769">1769</span>
-<span id="L1770" rel="#L1770">1770</span>
-<span id="L1771" rel="#L1771">1771</span>
-<span id="L1772" rel="#L1772">1772</span>
-<span id="L1773" rel="#L1773">1773</span>
-<span id="L1774" rel="#L1774">1774</span>
-<span id="L1775" rel="#L1775">1775</span>
-<span id="L1776" rel="#L1776">1776</span>
-<span id="L1777" rel="#L1777">1777</span>
-<span id="L1778" rel="#L1778">1778</span>
-<span id="L1779" rel="#L1779">1779</span>
-<span id="L1780" rel="#L1780">1780</span>
-<span id="L1781" rel="#L1781">1781</span>
-<span id="L1782" rel="#L1782">1782</span>
-<span id="L1783" rel="#L1783">1783</span>
-<span id="L1784" rel="#L1784">1784</span>
-<span id="L1785" rel="#L1785">1785</span>
-<span id="L1786" rel="#L1786">1786</span>
-<span id="L1787" rel="#L1787">1787</span>
-<span id="L1788" rel="#L1788">1788</span>
-<span id="L1789" rel="#L1789">1789</span>
-<span id="L1790" rel="#L1790">1790</span>
-<span id="L1791" rel="#L1791">1791</span>
-<span id="L1792" rel="#L1792">1792</span>
-<span id="L1793" rel="#L1793">1793</span>
-<span id="L1794" rel="#L1794">1794</span>
-<span id="L1795" rel="#L1795">1795</span>
-<span id="L1796" rel="#L1796">1796</span>
-<span id="L1797" rel="#L1797">1797</span>
-<span id="L1798" rel="#L1798">1798</span>
-<span id="L1799" rel="#L1799">1799</span>
-<span id="L1800" rel="#L1800">1800</span>
-<span id="L1801" rel="#L1801">1801</span>
-<span id="L1802" rel="#L1802">1802</span>
-<span id="L1803" rel="#L1803">1803</span>
-<span id="L1804" rel="#L1804">1804</span>
-<span id="L1805" rel="#L1805">1805</span>
-<span id="L1806" rel="#L1806">1806</span>
-<span id="L1807" rel="#L1807">1807</span>
-<span id="L1808" rel="#L1808">1808</span>
-<span id="L1809" rel="#L1809">1809</span>
-<span id="L1810" rel="#L1810">1810</span>
-<span id="L1811" rel="#L1811">1811</span>
-<span id="L1812" rel="#L1812">1812</span>
-<span id="L1813" rel="#L1813">1813</span>
-<span id="L1814" rel="#L1814">1814</span>
-<span id="L1815" rel="#L1815">1815</span>
-<span id="L1816" rel="#L1816">1816</span>
-<span id="L1817" rel="#L1817">1817</span>
-<span id="L1818" rel="#L1818">1818</span>
-<span id="L1819" rel="#L1819">1819</span>
-<span id="L1820" rel="#L1820">1820</span>
-<span id="L1821" rel="#L1821">1821</span>
-<span id="L1822" rel="#L1822">1822</span>
-<span id="L1823" rel="#L1823">1823</span>
-<span id="L1824" rel="#L1824">1824</span>
-<span id="L1825" rel="#L1825">1825</span>
-<span id="L1826" rel="#L1826">1826</span>
-<span id="L1827" rel="#L1827">1827</span>
-<span id="L1828" rel="#L1828">1828</span>
-<span id="L1829" rel="#L1829">1829</span>
-<span id="L1830" rel="#L1830">1830</span>
-<span id="L1831" rel="#L1831">1831</span>
-<span id="L1832" rel="#L1832">1832</span>
-<span id="L1833" rel="#L1833">1833</span>
-<span id="L1834" rel="#L1834">1834</span>
-<span id="L1835" rel="#L1835">1835</span>
-<span id="L1836" rel="#L1836">1836</span>
-<span id="L1837" rel="#L1837">1837</span>
-<span id="L1838" rel="#L1838">1838</span>
-<span id="L1839" rel="#L1839">1839</span>
-<span id="L1840" rel="#L1840">1840</span>
-<span id="L1841" rel="#L1841">1841</span>
-<span id="L1842" rel="#L1842">1842</span>
-<span id="L1843" rel="#L1843">1843</span>
-<span id="L1844" rel="#L1844">1844</span>
-<span id="L1845" rel="#L1845">1845</span>
-<span id="L1846" rel="#L1846">1846</span>
-<span id="L1847" rel="#L1847">1847</span>
-<span id="L1848" rel="#L1848">1848</span>
-<span id="L1849" rel="#L1849">1849</span>
-<span id="L1850" rel="#L1850">1850</span>
-<span id="L1851" rel="#L1851">1851</span>
-<span id="L1852" rel="#L1852">1852</span>
-<span id="L1853" rel="#L1853">1853</span>
-<span id="L1854" rel="#L1854">1854</span>
-<span id="L1855" rel="#L1855">1855</span>
-<span id="L1856" rel="#L1856">1856</span>
-<span id="L1857" rel="#L1857">1857</span>
-<span id="L1858" rel="#L1858">1858</span>
-<span id="L1859" rel="#L1859">1859</span>
-<span id="L1860" rel="#L1860">1860</span>
-<span id="L1861" rel="#L1861">1861</span>
-<span id="L1862" rel="#L1862">1862</span>
-<span id="L1863" rel="#L1863">1863</span>
-<span id="L1864" rel="#L1864">1864</span>
-<span id="L1865" rel="#L1865">1865</span>
-<span id="L1866" rel="#L1866">1866</span>
-<span id="L1867" rel="#L1867">1867</span>
-<span id="L1868" rel="#L1868">1868</span>
-<span id="L1869" rel="#L1869">1869</span>
-<span id="L1870" rel="#L1870">1870</span>
-<span id="L1871" rel="#L1871">1871</span>
-<span id="L1872" rel="#L1872">1872</span>
-<span id="L1873" rel="#L1873">1873</span>
-<span id="L1874" rel="#L1874">1874</span>
-<span id="L1875" rel="#L1875">1875</span>
-<span id="L1876" rel="#L1876">1876</span>
-<span id="L1877" rel="#L1877">1877</span>
-<span id="L1878" rel="#L1878">1878</span>
-<span id="L1879" rel="#L1879">1879</span>
-<span id="L1880" rel="#L1880">1880</span>
-<span id="L1881" rel="#L1881">1881</span>
-<span id="L1882" rel="#L1882">1882</span>
-<span id="L1883" rel="#L1883">1883</span>
-<span id="L1884" rel="#L1884">1884</span>
-<span id="L1885" rel="#L1885">1885</span>
-<span id="L1886" rel="#L1886">1886</span>
-<span id="L1887" rel="#L1887">1887</span>
-<span id="L1888" rel="#L1888">1888</span>
-<span id="L1889" rel="#L1889">1889</span>
-<span id="L1890" rel="#L1890">1890</span>
-<span id="L1891" rel="#L1891">1891</span>
-<span id="L1892" rel="#L1892">1892</span>
-<span id="L1893" rel="#L1893">1893</span>
-<span id="L1894" rel="#L1894">1894</span>
-<span id="L1895" rel="#L1895">1895</span>
-<span id="L1896" rel="#L1896">1896</span>
-<span id="L1897" rel="#L1897">1897</span>
-<span id="L1898" rel="#L1898">1898</span>
-<span id="L1899" rel="#L1899">1899</span>
-<span id="L1900" rel="#L1900">1900</span>
-<span id="L1901" rel="#L1901">1901</span>
-<span id="L1902" rel="#L1902">1902</span>
-<span id="L1903" rel="#L1903">1903</span>
-<span id="L1904" rel="#L1904">1904</span>
-<span id="L1905" rel="#L1905">1905</span>
-<span id="L1906" rel="#L1906">1906</span>
-<span id="L1907" rel="#L1907">1907</span>
-<span id="L1908" rel="#L1908">1908</span>
-<span id="L1909" rel="#L1909">1909</span>
-<span id="L1910" rel="#L1910">1910</span>
-<span id="L1911" rel="#L1911">1911</span>
-<span id="L1912" rel="#L1912">1912</span>
-<span id="L1913" rel="#L1913">1913</span>
-<span id="L1914" rel="#L1914">1914</span>
-<span id="L1915" rel="#L1915">1915</span>
-<span id="L1916" rel="#L1916">1916</span>
-<span id="L1917" rel="#L1917">1917</span>
-<span id="L1918" rel="#L1918">1918</span>
-<span id="L1919" rel="#L1919">1919</span>
-<span id="L1920" rel="#L1920">1920</span>
-<span id="L1921" rel="#L1921">1921</span>
-<span id="L1922" rel="#L1922">1922</span>
-<span id="L1923" rel="#L1923">1923</span>
-<span id="L1924" rel="#L1924">1924</span>
-<span id="L1925" rel="#L1925">1925</span>
-<span id="L1926" rel="#L1926">1926</span>
-<span id="L1927" rel="#L1927">1927</span>
-<span id="L1928" rel="#L1928">1928</span>
-<span id="L1929" rel="#L1929">1929</span>
-<span id="L1930" rel="#L1930">1930</span>
-<span id="L1931" rel="#L1931">1931</span>
-<span id="L1932" rel="#L1932">1932</span>
-<span id="L1933" rel="#L1933">1933</span>
-<span id="L1934" rel="#L1934">1934</span>
-<span id="L1935" rel="#L1935">1935</span>
-<span id="L1936" rel="#L1936">1936</span>
-<span id="L1937" rel="#L1937">1937</span>
-<span id="L1938" rel="#L1938">1938</span>
-<span id="L1939" rel="#L1939">1939</span>
-<span id="L1940" rel="#L1940">1940</span>
-<span id="L1941" rel="#L1941">1941</span>
-<span id="L1942" rel="#L1942">1942</span>
-<span id="L1943" rel="#L1943">1943</span>
-<span id="L1944" rel="#L1944">1944</span>
-<span id="L1945" rel="#L1945">1945</span>
-<span id="L1946" rel="#L1946">1946</span>
-<span id="L1947" rel="#L1947">1947</span>
-<span id="L1948" rel="#L1948">1948</span>
-<span id="L1949" rel="#L1949">1949</span>
-<span id="L1950" rel="#L1950">1950</span>
-<span id="L1951" rel="#L1951">1951</span>
-<span id="L1952" rel="#L1952">1952</span>
-<span id="L1953" rel="#L1953">1953</span>
-<span id="L1954" rel="#L1954">1954</span>
-<span id="L1955" rel="#L1955">1955</span>
-<span id="L1956" rel="#L1956">1956</span>
-<span id="L1957" rel="#L1957">1957</span>
-<span id="L1958" rel="#L1958">1958</span>
-<span id="L1959" rel="#L1959">1959</span>
-<span id="L1960" rel="#L1960">1960</span>
-<span id="L1961" rel="#L1961">1961</span>
-<span id="L1962" rel="#L1962">1962</span>
-<span id="L1963" rel="#L1963">1963</span>
-<span id="L1964" rel="#L1964">1964</span>
-<span id="L1965" rel="#L1965">1965</span>
-<span id="L1966" rel="#L1966">1966</span>
-<span id="L1967" rel="#L1967">1967</span>
-<span id="L1968" rel="#L1968">1968</span>
-<span id="L1969" rel="#L1969">1969</span>
-<span id="L1970" rel="#L1970">1970</span>
-<span id="L1971" rel="#L1971">1971</span>
-<span id="L1972" rel="#L1972">1972</span>
-<span id="L1973" rel="#L1973">1973</span>
-<span id="L1974" rel="#L1974">1974</span>
-<span id="L1975" rel="#L1975">1975</span>
-<span id="L1976" rel="#L1976">1976</span>
-<span id="L1977" rel="#L1977">1977</span>
-<span id="L1978" rel="#L1978">1978</span>
-<span id="L1979" rel="#L1979">1979</span>
-<span id="L1980" rel="#L1980">1980</span>
-<span id="L1981" rel="#L1981">1981</span>
-<span id="L1982" rel="#L1982">1982</span>
-<span id="L1983" rel="#L1983">1983</span>
-<span id="L1984" rel="#L1984">1984</span>
-<span id="L1985" rel="#L1985">1985</span>
-<span id="L1986" rel="#L1986">1986</span>
-<span id="L1987" rel="#L1987">1987</span>
-<span id="L1988" rel="#L1988">1988</span>
-<span id="L1989" rel="#L1989">1989</span>
-<span id="L1990" rel="#L1990">1990</span>
-<span id="L1991" rel="#L1991">1991</span>
-<span id="L1992" rel="#L1992">1992</span>
-<span id="L1993" rel="#L1993">1993</span>
-<span id="L1994" rel="#L1994">1994</span>
-<span id="L1995" rel="#L1995">1995</span>
-<span id="L1996" rel="#L1996">1996</span>
-<span id="L1997" rel="#L1997">1997</span>
-<span id="L1998" rel="#L1998">1998</span>
-<span id="L1999" rel="#L1999">1999</span>
-<span id="L2000" rel="#L2000">2000</span>
-<span id="L2001" rel="#L2001">2001</span>
-<span id="L2002" rel="#L2002">2002</span>
-<span id="L2003" rel="#L2003">2003</span>
-<span id="L2004" rel="#L2004">2004</span>
-<span id="L2005" rel="#L2005">2005</span>
-<span id="L2006" rel="#L2006">2006</span>
-<span id="L2007" rel="#L2007">2007</span>
-<span id="L2008" rel="#L2008">2008</span>
-<span id="L2009" rel="#L2009">2009</span>
-<span id="L2010" rel="#L2010">2010</span>
-<span id="L2011" rel="#L2011">2011</span>
-<span id="L2012" rel="#L2012">2012</span>
-<span id="L2013" rel="#L2013">2013</span>
-<span id="L2014" rel="#L2014">2014</span>
-<span id="L2015" rel="#L2015">2015</span>
-<span id="L2016" rel="#L2016">2016</span>
-<span id="L2017" rel="#L2017">2017</span>
-<span id="L2018" rel="#L2018">2018</span>
-<span id="L2019" rel="#L2019">2019</span>
-<span id="L2020" rel="#L2020">2020</span>
-<span id="L2021" rel="#L2021">2021</span>
-<span id="L2022" rel="#L2022">2022</span>
-<span id="L2023" rel="#L2023">2023</span>
-<span id="L2024" rel="#L2024">2024</span>
-<span id="L2025" rel="#L2025">2025</span>
-<span id="L2026" rel="#L2026">2026</span>
-<span id="L2027" rel="#L2027">2027</span>
-<span id="L2028" rel="#L2028">2028</span>
-<span id="L2029" rel="#L2029">2029</span>
-<span id="L2030" rel="#L2030">2030</span>
-<span id="L2031" rel="#L2031">2031</span>
-<span id="L2032" rel="#L2032">2032</span>
-<span id="L2033" rel="#L2033">2033</span>
-<span id="L2034" rel="#L2034">2034</span>
-<span id="L2035" rel="#L2035">2035</span>
-<span id="L2036" rel="#L2036">2036</span>
-<span id="L2037" rel="#L2037">2037</span>
-<span id="L2038" rel="#L2038">2038</span>
-<span id="L2039" rel="#L2039">2039</span>
-<span id="L2040" rel="#L2040">2040</span>
-<span id="L2041" rel="#L2041">2041</span>
-<span id="L2042" rel="#L2042">2042</span>
-<span id="L2043" rel="#L2043">2043</span>
-<span id="L2044" rel="#L2044">2044</span>
-<span id="L2045" rel="#L2045">2045</span>
-<span id="L2046" rel="#L2046">2046</span>
-<span id="L2047" rel="#L2047">2047</span>
-<span id="L2048" rel="#L2048">2048</span>
-<span id="L2049" rel="#L2049">2049</span>
-<span id="L2050" rel="#L2050">2050</span>
-<span id="L2051" rel="#L2051">2051</span>
-<span id="L2052" rel="#L2052">2052</span>
-<span id="L2053" rel="#L2053">2053</span>
-<span id="L2054" rel="#L2054">2054</span>
-<span id="L2055" rel="#L2055">2055</span>
-<span id="L2056" rel="#L2056">2056</span>
-<span id="L2057" rel="#L2057">2057</span>
-<span id="L2058" rel="#L2058">2058</span>
-<span id="L2059" rel="#L2059">2059</span>
-<span id="L2060" rel="#L2060">2060</span>
-<span id="L2061" rel="#L2061">2061</span>
-<span id="L2062" rel="#L2062">2062</span>
-<span id="L2063" rel="#L2063">2063</span>
-<span id="L2064" rel="#L2064">2064</span>
-<span id="L2065" rel="#L2065">2065</span>
-<span id="L2066" rel="#L2066">2066</span>
-<span id="L2067" rel="#L2067">2067</span>
-<span id="L2068" rel="#L2068">2068</span>
-<span id="L2069" rel="#L2069">2069</span>
-<span id="L2070" rel="#L2070">2070</span>
-<span id="L2071" rel="#L2071">2071</span>
-<span id="L2072" rel="#L2072">2072</span>
-<span id="L2073" rel="#L2073">2073</span>
-<span id="L2074" rel="#L2074">2074</span>
-<span id="L2075" rel="#L2075">2075</span>
-<span id="L2076" rel="#L2076">2076</span>
-<span id="L2077" rel="#L2077">2077</span>
-<span id="L2078" rel="#L2078">2078</span>
-<span id="L2079" rel="#L2079">2079</span>
-<span id="L2080" rel="#L2080">2080</span>
-<span id="L2081" rel="#L2081">2081</span>
-<span id="L2082" rel="#L2082">2082</span>
-<span id="L2083" rel="#L2083">2083</span>
-<span id="L2084" rel="#L2084">2084</span>
-<span id="L2085" rel="#L2085">2085</span>
-<span id="L2086" rel="#L2086">2086</span>
-<span id="L2087" rel="#L2087">2087</span>
-<span id="L2088" rel="#L2088">2088</span>
-<span id="L2089" rel="#L2089">2089</span>
-<span id="L2090" rel="#L2090">2090</span>
-<span id="L2091" rel="#L2091">2091</span>
-<span id="L2092" rel="#L2092">2092</span>
-<span id="L2093" rel="#L2093">2093</span>
-<span id="L2094" rel="#L2094">2094</span>
-<span id="L2095" rel="#L2095">2095</span>
-<span id="L2096" rel="#L2096">2096</span>
-<span id="L2097" rel="#L2097">2097</span>
-<span id="L2098" rel="#L2098">2098</span>
-<span id="L2099" rel="#L2099">2099</span>
-<span id="L2100" rel="#L2100">2100</span>
-<span id="L2101" rel="#L2101">2101</span>
-<span id="L2102" rel="#L2102">2102</span>
-<span id="L2103" rel="#L2103">2103</span>
-<span id="L2104" rel="#L2104">2104</span>
-<span id="L2105" rel="#L2105">2105</span>
-<span id="L2106" rel="#L2106">2106</span>
-<span id="L2107" rel="#L2107">2107</span>
-<span id="L2108" rel="#L2108">2108</span>
-<span id="L2109" rel="#L2109">2109</span>
-<span id="L2110" rel="#L2110">2110</span>
-<span id="L2111" rel="#L2111">2111</span>
-<span id="L2112" rel="#L2112">2112</span>
-<span id="L2113" rel="#L2113">2113</span>
-<span id="L2114" rel="#L2114">2114</span>
-<span id="L2115" rel="#L2115">2115</span>
-<span id="L2116" rel="#L2116">2116</span>
-<span id="L2117" rel="#L2117">2117</span>
-<span id="L2118" rel="#L2118">2118</span>
-<span id="L2119" rel="#L2119">2119</span>
-<span id="L2120" rel="#L2120">2120</span>
-<span id="L2121" rel="#L2121">2121</span>
-<span id="L2122" rel="#L2122">2122</span>
-<span id="L2123" rel="#L2123">2123</span>
-<span id="L2124" rel="#L2124">2124</span>
-<span id="L2125" rel="#L2125">2125</span>
-<span id="L2126" rel="#L2126">2126</span>
-<span id="L2127" rel="#L2127">2127</span>
-<span id="L2128" rel="#L2128">2128</span>
-<span id="L2129" rel="#L2129">2129</span>
-<span id="L2130" rel="#L2130">2130</span>
-<span id="L2131" rel="#L2131">2131</span>
-<span id="L2132" rel="#L2132">2132</span>
-<span id="L2133" rel="#L2133">2133</span>
-<span id="L2134" rel="#L2134">2134</span>
-<span id="L2135" rel="#L2135">2135</span>
-<span id="L2136" rel="#L2136">2136</span>
-<span id="L2137" rel="#L2137">2137</span>
-<span id="L2138" rel="#L2138">2138</span>
-<span id="L2139" rel="#L2139">2139</span>
-<span id="L2140" rel="#L2140">2140</span>
-<span id="L2141" rel="#L2141">2141</span>
-<span id="L2142" rel="#L2142">2142</span>
-<span id="L2143" rel="#L2143">2143</span>
-<span id="L2144" rel="#L2144">2144</span>
-<span id="L2145" rel="#L2145">2145</span>
-<span id="L2146" rel="#L2146">2146</span>
-<span id="L2147" rel="#L2147">2147</span>
-<span id="L2148" rel="#L2148">2148</span>
-<span id="L2149" rel="#L2149">2149</span>
-<span id="L2150" rel="#L2150">2150</span>
-<span id="L2151" rel="#L2151">2151</span>
-<span id="L2152" rel="#L2152">2152</span>
-<span id="L2153" rel="#L2153">2153</span>
-<span id="L2154" rel="#L2154">2154</span>
-<span id="L2155" rel="#L2155">2155</span>
-<span id="L2156" rel="#L2156">2156</span>
-<span id="L2157" rel="#L2157">2157</span>
-<span id="L2158" rel="#L2158">2158</span>
-<span id="L2159" rel="#L2159">2159</span>
-<span id="L2160" rel="#L2160">2160</span>
-<span id="L2161" rel="#L2161">2161</span>
-<span id="L2162" rel="#L2162">2162</span>
-<span id="L2163" rel="#L2163">2163</span>
-<span id="L2164" rel="#L2164">2164</span>
-<span id="L2165" rel="#L2165">2165</span>
-<span id="L2166" rel="#L2166">2166</span>
-<span id="L2167" rel="#L2167">2167</span>
-<span id="L2168" rel="#L2168">2168</span>
-<span id="L2169" rel="#L2169">2169</span>
-<span id="L2170" rel="#L2170">2170</span>
-<span id="L2171" rel="#L2171">2171</span>
-<span id="L2172" rel="#L2172">2172</span>
-<span id="L2173" rel="#L2173">2173</span>
-<span id="L2174" rel="#L2174">2174</span>
-<span id="L2175" rel="#L2175">2175</span>
-<span id="L2176" rel="#L2176">2176</span>
-<span id="L2177" rel="#L2177">2177</span>
-<span id="L2178" rel="#L2178">2178</span>
-<span id="L2179" rel="#L2179">2179</span>
-<span id="L2180" rel="#L2180">2180</span>
-<span id="L2181" rel="#L2181">2181</span>
-<span id="L2182" rel="#L2182">2182</span>
-<span id="L2183" rel="#L2183">2183</span>
-<span id="L2184" rel="#L2184">2184</span>
-<span id="L2185" rel="#L2185">2185</span>
-<span id="L2186" rel="#L2186">2186</span>
-<span id="L2187" rel="#L2187">2187</span>
-<span id="L2188" rel="#L2188">2188</span>
-<span id="L2189" rel="#L2189">2189</span>
-<span id="L2190" rel="#L2190">2190</span>
-<span id="L2191" rel="#L2191">2191</span>
-<span id="L2192" rel="#L2192">2192</span>
-<span id="L2193" rel="#L2193">2193</span>
-<span id="L2194" rel="#L2194">2194</span>
-<span id="L2195" rel="#L2195">2195</span>
-<span id="L2196" rel="#L2196">2196</span>
-<span id="L2197" rel="#L2197">2197</span>
-<span id="L2198" rel="#L2198">2198</span>
-<span id="L2199" rel="#L2199">2199</span>
-<span id="L2200" rel="#L2200">2200</span>
-<span id="L2201" rel="#L2201">2201</span>
-<span id="L2202" rel="#L2202">2202</span>
-<span id="L2203" rel="#L2203">2203</span>
-<span id="L2204" rel="#L2204">2204</span>
-<span id="L2205" rel="#L2205">2205</span>
-<span id="L2206" rel="#L2206">2206</span>
-<span id="L2207" rel="#L2207">2207</span>
-<span id="L2208" rel="#L2208">2208</span>
-<span id="L2209" rel="#L2209">2209</span>
-<span id="L2210" rel="#L2210">2210</span>
-<span id="L2211" rel="#L2211">2211</span>
-<span id="L2212" rel="#L2212">2212</span>
-<span id="L2213" rel="#L2213">2213</span>
-<span id="L2214" rel="#L2214">2214</span>
-<span id="L2215" rel="#L2215">2215</span>
-<span id="L2216" rel="#L2216">2216</span>
-<span id="L2217" rel="#L2217">2217</span>
-<span id="L2218" rel="#L2218">2218</span>
-<span id="L2219" rel="#L2219">2219</span>
-<span id="L2220" rel="#L2220">2220</span>
-<span id="L2221" rel="#L2221">2221</span>
-<span id="L2222" rel="#L2222">2222</span>
-<span id="L2223" rel="#L2223">2223</span>
-<span id="L2224" rel="#L2224">2224</span>
-<span id="L2225" rel="#L2225">2225</span>
-<span id="L2226" rel="#L2226">2226</span>
-<span id="L2227" rel="#L2227">2227</span>
-<span id="L2228" rel="#L2228">2228</span>
-<span id="L2229" rel="#L2229">2229</span>
-<span id="L2230" rel="#L2230">2230</span>
-<span id="L2231" rel="#L2231">2231</span>
-<span id="L2232" rel="#L2232">2232</span>
-<span id="L2233" rel="#L2233">2233</span>
-<span id="L2234" rel="#L2234">2234</span>
-<span id="L2235" rel="#L2235">2235</span>
-<span id="L2236" rel="#L2236">2236</span>
-<span id="L2237" rel="#L2237">2237</span>
-<span id="L2238" rel="#L2238">2238</span>
-<span id="L2239" rel="#L2239">2239</span>
-<span id="L2240" rel="#L2240">2240</span>
-<span id="L2241" rel="#L2241">2241</span>
-<span id="L2242" rel="#L2242">2242</span>
-<span id="L2243" rel="#L2243">2243</span>
-<span id="L2244" rel="#L2244">2244</span>
-<span id="L2245" rel="#L2245">2245</span>
-<span id="L2246" rel="#L2246">2246</span>
-<span id="L2247" rel="#L2247">2247</span>
-<span id="L2248" rel="#L2248">2248</span>
-<span id="L2249" rel="#L2249">2249</span>
-<span id="L2250" rel="#L2250">2250</span>
-<span id="L2251" rel="#L2251">2251</span>
-<span id="L2252" rel="#L2252">2252</span>
-<span id="L2253" rel="#L2253">2253</span>
-<span id="L2254" rel="#L2254">2254</span>
-<span id="L2255" rel="#L2255">2255</span>
-<span id="L2256" rel="#L2256">2256</span>
-<span id="L2257" rel="#L2257">2257</span>
-<span id="L2258" rel="#L2258">2258</span>
-<span id="L2259" rel="#L2259">2259</span>
-<span id="L2260" rel="#L2260">2260</span>
-<span id="L2261" rel="#L2261">2261</span>
-<span id="L2262" rel="#L2262">2262</span>
-<span id="L2263" rel="#L2263">2263</span>
-<span id="L2264" rel="#L2264">2264</span>
-<span id="L2265" rel="#L2265">2265</span>
-<span id="L2266" rel="#L2266">2266</span>
-<span id="L2267" rel="#L2267">2267</span>
-<span id="L2268" rel="#L2268">2268</span>
-<span id="L2269" rel="#L2269">2269</span>
-<span id="L2270" rel="#L2270">2270</span>
-<span id="L2271" rel="#L2271">2271</span>
-<span id="L2272" rel="#L2272">2272</span>
-<span id="L2273" rel="#L2273">2273</span>
-<span id="L2274" rel="#L2274">2274</span>
-<span id="L2275" rel="#L2275">2275</span>
-<span id="L2276" rel="#L2276">2276</span>
-<span id="L2277" rel="#L2277">2277</span>
-<span id="L2278" rel="#L2278">2278</span>
-<span id="L2279" rel="#L2279">2279</span>
-<span id="L2280" rel="#L2280">2280</span>
-<span id="L2281" rel="#L2281">2281</span>
-<span id="L2282" rel="#L2282">2282</span>
-<span id="L2283" rel="#L2283">2283</span>
-<span id="L2284" rel="#L2284">2284</span>
-<span id="L2285" rel="#L2285">2285</span>
-<span id="L2286" rel="#L2286">2286</span>
-<span id="L2287" rel="#L2287">2287</span>
-<span id="L2288" rel="#L2288">2288</span>
-<span id="L2289" rel="#L2289">2289</span>
-<span id="L2290" rel="#L2290">2290</span>
-<span id="L2291" rel="#L2291">2291</span>
-<span id="L2292" rel="#L2292">2292</span>
-<span id="L2293" rel="#L2293">2293</span>
-<span id="L2294" rel="#L2294">2294</span>
-<span id="L2295" rel="#L2295">2295</span>
-<span id="L2296" rel="#L2296">2296</span>
-<span id="L2297" rel="#L2297">2297</span>
-<span id="L2298" rel="#L2298">2298</span>
-<span id="L2299" rel="#L2299">2299</span>
-<span id="L2300" rel="#L2300">2300</span>
-<span id="L2301" rel="#L2301">2301</span>
-<span id="L2302" rel="#L2302">2302</span>
-<span id="L2303" rel="#L2303">2303</span>
-<span id="L2304" rel="#L2304">2304</span>
-<span id="L2305" rel="#L2305">2305</span>
-<span id="L2306" rel="#L2306">2306</span>
-<span id="L2307" rel="#L2307">2307</span>
-<span id="L2308" rel="#L2308">2308</span>
-<span id="L2309" rel="#L2309">2309</span>
-<span id="L2310" rel="#L2310">2310</span>
-<span id="L2311" rel="#L2311">2311</span>
-<span id="L2312" rel="#L2312">2312</span>
-<span id="L2313" rel="#L2313">2313</span>
-<span id="L2314" rel="#L2314">2314</span>
-<span id="L2315" rel="#L2315">2315</span>
-<span id="L2316" rel="#L2316">2316</span>
-<span id="L2317" rel="#L2317">2317</span>
-<span id="L2318" rel="#L2318">2318</span>
-<span id="L2319" rel="#L2319">2319</span>
-<span id="L2320" rel="#L2320">2320</span>
-<span id="L2321" rel="#L2321">2321</span>
-<span id="L2322" rel="#L2322">2322</span>
-<span id="L2323" rel="#L2323">2323</span>
-<span id="L2324" rel="#L2324">2324</span>
-<span id="L2325" rel="#L2325">2325</span>
-<span id="L2326" rel="#L2326">2326</span>
-<span id="L2327" rel="#L2327">2327</span>
-<span id="L2328" rel="#L2328">2328</span>
-<span id="L2329" rel="#L2329">2329</span>
-<span id="L2330" rel="#L2330">2330</span>
-<span id="L2331" rel="#L2331">2331</span>
-<span id="L2332" rel="#L2332">2332</span>
-<span id="L2333" rel="#L2333">2333</span>
-<span id="L2334" rel="#L2334">2334</span>
-<span id="L2335" rel="#L2335">2335</span>
-<span id="L2336" rel="#L2336">2336</span>
-<span id="L2337" rel="#L2337">2337</span>
-<span id="L2338" rel="#L2338">2338</span>
-<span id="L2339" rel="#L2339">2339</span>
-<span id="L2340" rel="#L2340">2340</span>
-<span id="L2341" rel="#L2341">2341</span>
-<span id="L2342" rel="#L2342">2342</span>
-<span id="L2343" rel="#L2343">2343</span>
-<span id="L2344" rel="#L2344">2344</span>
-<span id="L2345" rel="#L2345">2345</span>
-<span id="L2346" rel="#L2346">2346</span>
-<span id="L2347" rel="#L2347">2347</span>
-<span id="L2348" rel="#L2348">2348</span>
-<span id="L2349" rel="#L2349">2349</span>
-<span id="L2350" rel="#L2350">2350</span>
-<span id="L2351" rel="#L2351">2351</span>
-<span id="L2352" rel="#L2352">2352</span>
-<span id="L2353" rel="#L2353">2353</span>
-<span id="L2354" rel="#L2354">2354</span>
-<span id="L2355" rel="#L2355">2355</span>
-<span id="L2356" rel="#L2356">2356</span>
-<span id="L2357" rel="#L2357">2357</span>
-<span id="L2358" rel="#L2358">2358</span>
-<span id="L2359" rel="#L2359">2359</span>
-<span id="L2360" rel="#L2360">2360</span>
-<span id="L2361" rel="#L2361">2361</span>
-<span id="L2362" rel="#L2362">2362</span>
-<span id="L2363" rel="#L2363">2363</span>
-<span id="L2364" rel="#L2364">2364</span>
-<span id="L2365" rel="#L2365">2365</span>
-<span id="L2366" rel="#L2366">2366</span>
-<span id="L2367" rel="#L2367">2367</span>
-<span id="L2368" rel="#L2368">2368</span>
-<span id="L2369" rel="#L2369">2369</span>
-<span id="L2370" rel="#L2370">2370</span>
-<span id="L2371" rel="#L2371">2371</span>
-<span id="L2372" rel="#L2372">2372</span>
-<span id="L2373" rel="#L2373">2373</span>
-<span id="L2374" rel="#L2374">2374</span>
-<span id="L2375" rel="#L2375">2375</span>
-<span id="L2376" rel="#L2376">2376</span>
-<span id="L2377" rel="#L2377">2377</span>
-<span id="L2378" rel="#L2378">2378</span>
-<span id="L2379" rel="#L2379">2379</span>
-<span id="L2380" rel="#L2380">2380</span>
-<span id="L2381" rel="#L2381">2381</span>
-<span id="L2382" rel="#L2382">2382</span>
-<span id="L2383" rel="#L2383">2383</span>
-<span id="L2384" rel="#L2384">2384</span>
-<span id="L2385" rel="#L2385">2385</span>
-<span id="L2386" rel="#L2386">2386</span>
-<span id="L2387" rel="#L2387">2387</span>
-<span id="L2388" rel="#L2388">2388</span>
-<span id="L2389" rel="#L2389">2389</span>
-<span id="L2390" rel="#L2390">2390</span>
-<span id="L2391" rel="#L2391">2391</span>
-<span id="L2392" rel="#L2392">2392</span>
-<span id="L2393" rel="#L2393">2393</span>
-<span id="L2394" rel="#L2394">2394</span>
-<span id="L2395" rel="#L2395">2395</span>
-<span id="L2396" rel="#L2396">2396</span>
-<span id="L2397" rel="#L2397">2397</span>
-<span id="L2398" rel="#L2398">2398</span>
-<span id="L2399" rel="#L2399">2399</span>
-<span id="L2400" rel="#L2400">2400</span>
-<span id="L2401" rel="#L2401">2401</span>
-<span id="L2402" rel="#L2402">2402</span>
-<span id="L2403" rel="#L2403">2403</span>
-<span id="L2404" rel="#L2404">2404</span>
-<span id="L2405" rel="#L2405">2405</span>
-<span id="L2406" rel="#L2406">2406</span>
-<span id="L2407" rel="#L2407">2407</span>
-<span id="L2408" rel="#L2408">2408</span>
-<span id="L2409" rel="#L2409">2409</span>
-<span id="L2410" rel="#L2410">2410</span>
-<span id="L2411" rel="#L2411">2411</span>
-<span id="L2412" rel="#L2412">2412</span>
-<span id="L2413" rel="#L2413">2413</span>
-<span id="L2414" rel="#L2414">2414</span>
-<span id="L2415" rel="#L2415">2415</span>
-<span id="L2416" rel="#L2416">2416</span>
-<span id="L2417" rel="#L2417">2417</span>
-<span id="L2418" rel="#L2418">2418</span>
-<span id="L2419" rel="#L2419">2419</span>
-<span id="L2420" rel="#L2420">2420</span>
-<span id="L2421" rel="#L2421">2421</span>
-<span id="L2422" rel="#L2422">2422</span>
-<span id="L2423" rel="#L2423">2423</span>
-<span id="L2424" rel="#L2424">2424</span>
-<span id="L2425" rel="#L2425">2425</span>
-<span id="L2426" rel="#L2426">2426</span>
-<span id="L2427" rel="#L2427">2427</span>
-<span id="L2428" rel="#L2428">2428</span>
-<span id="L2429" rel="#L2429">2429</span>
-<span id="L2430" rel="#L2430">2430</span>
-<span id="L2431" rel="#L2431">2431</span>
-<span id="L2432" rel="#L2432">2432</span>
-<span id="L2433" rel="#L2433">2433</span>
-<span id="L2434" rel="#L2434">2434</span>
-<span id="L2435" rel="#L2435">2435</span>
-<span id="L2436" rel="#L2436">2436</span>
-<span id="L2437" rel="#L2437">2437</span>
-<span id="L2438" rel="#L2438">2438</span>
-<span id="L2439" rel="#L2439">2439</span>
-<span id="L2440" rel="#L2440">2440</span>
-<span id="L2441" rel="#L2441">2441</span>
-<span id="L2442" rel="#L2442">2442</span>
-<span id="L2443" rel="#L2443">2443</span>
-<span id="L2444" rel="#L2444">2444</span>
-<span id="L2445" rel="#L2445">2445</span>
-<span id="L2446" rel="#L2446">2446</span>
-<span id="L2447" rel="#L2447">2447</span>
-<span id="L2448" rel="#L2448">2448</span>
-<span id="L2449" rel="#L2449">2449</span>
-<span id="L2450" rel="#L2450">2450</span>
-<span id="L2451" rel="#L2451">2451</span>
-<span id="L2452" rel="#L2452">2452</span>
-<span id="L2453" rel="#L2453">2453</span>
-<span id="L2454" rel="#L2454">2454</span>
-<span id="L2455" rel="#L2455">2455</span>
-<span id="L2456" rel="#L2456">2456</span>
-<span id="L2457" rel="#L2457">2457</span>
-<span id="L2458" rel="#L2458">2458</span>
-<span id="L2459" rel="#L2459">2459</span>
-<span id="L2460" rel="#L2460">2460</span>
-<span id="L2461" rel="#L2461">2461</span>
-<span id="L2462" rel="#L2462">2462</span>
-<span id="L2463" rel="#L2463">2463</span>
-<span id="L2464" rel="#L2464">2464</span>
-<span id="L2465" rel="#L2465">2465</span>
-<span id="L2466" rel="#L2466">2466</span>
-<span id="L2467" rel="#L2467">2467</span>
-<span id="L2468" rel="#L2468">2468</span>
-<span id="L2469" rel="#L2469">2469</span>
-<span id="L2470" rel="#L2470">2470</span>
-<span id="L2471" rel="#L2471">2471</span>
-<span id="L2472" rel="#L2472">2472</span>
-<span id="L2473" rel="#L2473">2473</span>
-<span id="L2474" rel="#L2474">2474</span>
-<span id="L2475" rel="#L2475">2475</span>
-<span id="L2476" rel="#L2476">2476</span>
-<span id="L2477" rel="#L2477">2477</span>
-<span id="L2478" rel="#L2478">2478</span>
-<span id="L2479" rel="#L2479">2479</span>
-<span id="L2480" rel="#L2480">2480</span>
-<span id="L2481" rel="#L2481">2481</span>
-<span id="L2482" rel="#L2482">2482</span>
-<span id="L2483" rel="#L2483">2483</span>
-<span id="L2484" rel="#L2484">2484</span>
-<span id="L2485" rel="#L2485">2485</span>
-<span id="L2486" rel="#L2486">2486</span>
-<span id="L2487" rel="#L2487">2487</span>
-<span id="L2488" rel="#L2488">2488</span>
-<span id="L2489" rel="#L2489">2489</span>
-<span id="L2490" rel="#L2490">2490</span>
-<span id="L2491" rel="#L2491">2491</span>
-<span id="L2492" rel="#L2492">2492</span>
-<span id="L2493" rel="#L2493">2493</span>
-<span id="L2494" rel="#L2494">2494</span>
-<span id="L2495" rel="#L2495">2495</span>
-<span id="L2496" rel="#L2496">2496</span>
-<span id="L2497" rel="#L2497">2497</span>
-<span id="L2498" rel="#L2498">2498</span>
-<span id="L2499" rel="#L2499">2499</span>
-<span id="L2500" rel="#L2500">2500</span>
-<span id="L2501" rel="#L2501">2501</span>
-<span id="L2502" rel="#L2502">2502</span>
-<span id="L2503" rel="#L2503">2503</span>
-<span id="L2504" rel="#L2504">2504</span>
-<span id="L2505" rel="#L2505">2505</span>
-<span id="L2506" rel="#L2506">2506</span>
-<span id="L2507" rel="#L2507">2507</span>
-<span id="L2508" rel="#L2508">2508</span>
-<span id="L2509" rel="#L2509">2509</span>
-<span id="L2510" rel="#L2510">2510</span>
-<span id="L2511" rel="#L2511">2511</span>
-<span id="L2512" rel="#L2512">2512</span>
-<span id="L2513" rel="#L2513">2513</span>
-<span id="L2514" rel="#L2514">2514</span>
-<span id="L2515" rel="#L2515">2515</span>
-<span id="L2516" rel="#L2516">2516</span>
-<span id="L2517" rel="#L2517">2517</span>
-<span id="L2518" rel="#L2518">2518</span>
-<span id="L2519" rel="#L2519">2519</span>
-<span id="L2520" rel="#L2520">2520</span>
-<span id="L2521" rel="#L2521">2521</span>
-<span id="L2522" rel="#L2522">2522</span>
-<span id="L2523" rel="#L2523">2523</span>
-<span id="L2524" rel="#L2524">2524</span>
-<span id="L2525" rel="#L2525">2525</span>
-<span id="L2526" rel="#L2526">2526</span>
-<span id="L2527" rel="#L2527">2527</span>
-<span id="L2528" rel="#L2528">2528</span>
-<span id="L2529" rel="#L2529">2529</span>
-<span id="L2530" rel="#L2530">2530</span>
-<span id="L2531" rel="#L2531">2531</span>
-<span id="L2532" rel="#L2532">2532</span>
-<span id="L2533" rel="#L2533">2533</span>
-<span id="L2534" rel="#L2534">2534</span>
-<span id="L2535" rel="#L2535">2535</span>
-<span id="L2536" rel="#L2536">2536</span>
-<span id="L2537" rel="#L2537">2537</span>
-<span id="L2538" rel="#L2538">2538</span>
-<span id="L2539" rel="#L2539">2539</span>
-<span id="L2540" rel="#L2540">2540</span>
-<span id="L2541" rel="#L2541">2541</span>
-<span id="L2542" rel="#L2542">2542</span>
-<span id="L2543" rel="#L2543">2543</span>
-<span id="L2544" rel="#L2544">2544</span>
-<span id="L2545" rel="#L2545">2545</span>
-<span id="L2546" rel="#L2546">2546</span>
-<span id="L2547" rel="#L2547">2547</span>
-<span id="L2548" rel="#L2548">2548</span>
-<span id="L2549" rel="#L2549">2549</span>
-<span id="L2550" rel="#L2550">2550</span>
-<span id="L2551" rel="#L2551">2551</span>
-<span id="L2552" rel="#L2552">2552</span>
-<span id="L2553" rel="#L2553">2553</span>
-<span id="L2554" rel="#L2554">2554</span>
-<span id="L2555" rel="#L2555">2555</span>
-<span id="L2556" rel="#L2556">2556</span>
-<span id="L2557" rel="#L2557">2557</span>
-<span id="L2558" rel="#L2558">2558</span>
-<span id="L2559" rel="#L2559">2559</span>
-<span id="L2560" rel="#L2560">2560</span>
-<span id="L2561" rel="#L2561">2561</span>
-<span id="L2562" rel="#L2562">2562</span>
-<span id="L2563" rel="#L2563">2563</span>
-<span id="L2564" rel="#L2564">2564</span>
-<span id="L2565" rel="#L2565">2565</span>
-<span id="L2566" rel="#L2566">2566</span>
-<span id="L2567" rel="#L2567">2567</span>
-<span id="L2568" rel="#L2568">2568</span>
-<span id="L2569" rel="#L2569">2569</span>
-<span id="L2570" rel="#L2570">2570</span>
-<span id="L2571" rel="#L2571">2571</span>
-<span id="L2572" rel="#L2572">2572</span>
-<span id="L2573" rel="#L2573">2573</span>
-<span id="L2574" rel="#L2574">2574</span>
-<span id="L2575" rel="#L2575">2575</span>
-<span id="L2576" rel="#L2576">2576</span>
-<span id="L2577" rel="#L2577">2577</span>
-<span id="L2578" rel="#L2578">2578</span>
-<span id="L2579" rel="#L2579">2579</span>
-<span id="L2580" rel="#L2580">2580</span>
-<span id="L2581" rel="#L2581">2581</span>
-<span id="L2582" rel="#L2582">2582</span>
-<span id="L2583" rel="#L2583">2583</span>
-<span id="L2584" rel="#L2584">2584</span>
-<span id="L2585" rel="#L2585">2585</span>
-<span id="L2586" rel="#L2586">2586</span>
-<span id="L2587" rel="#L2587">2587</span>
-<span id="L2588" rel="#L2588">2588</span>
-<span id="L2589" rel="#L2589">2589</span>
-<span id="L2590" rel="#L2590">2590</span>
-<span id="L2591" rel="#L2591">2591</span>
-<span id="L2592" rel="#L2592">2592</span>
-<span id="L2593" rel="#L2593">2593</span>
-<span id="L2594" rel="#L2594">2594</span>
-<span id="L2595" rel="#L2595">2595</span>
-<span id="L2596" rel="#L2596">2596</span>
-<span id="L2597" rel="#L2597">2597</span>
-<span id="L2598" rel="#L2598">2598</span>
-<span id="L2599" rel="#L2599">2599</span>
-<span id="L2600" rel="#L2600">2600</span>
-<span id="L2601" rel="#L2601">2601</span>
-<span id="L2602" rel="#L2602">2602</span>
-<span id="L2603" rel="#L2603">2603</span>
-<span id="L2604" rel="#L2604">2604</span>
-<span id="L2605" rel="#L2605">2605</span>
-<span id="L2606" rel="#L2606">2606</span>
-<span id="L2607" rel="#L2607">2607</span>
-<span id="L2608" rel="#L2608">2608</span>
-<span id="L2609" rel="#L2609">2609</span>
-<span id="L2610" rel="#L2610">2610</span>
-<span id="L2611" rel="#L2611">2611</span>
-<span id="L2612" rel="#L2612">2612</span>
-<span id="L2613" rel="#L2613">2613</span>
-<span id="L2614" rel="#L2614">2614</span>
-<span id="L2615" rel="#L2615">2615</span>
-<span id="L2616" rel="#L2616">2616</span>
-<span id="L2617" rel="#L2617">2617</span>
-<span id="L2618" rel="#L2618">2618</span>
-<span id="L2619" rel="#L2619">2619</span>
-<span id="L2620" rel="#L2620">2620</span>
-<span id="L2621" rel="#L2621">2621</span>
-<span id="L2622" rel="#L2622">2622</span>
-<span id="L2623" rel="#L2623">2623</span>
-<span id="L2624" rel="#L2624">2624</span>
-<span id="L2625" rel="#L2625">2625</span>
-<span id="L2626" rel="#L2626">2626</span>
-<span id="L2627" rel="#L2627">2627</span>
-<span id="L2628" rel="#L2628">2628</span>
-<span id="L2629" rel="#L2629">2629</span>
-<span id="L2630" rel="#L2630">2630</span>
-<span id="L2631" rel="#L2631">2631</span>
-<span id="L2632" rel="#L2632">2632</span>
-<span id="L2633" rel="#L2633">2633</span>
-<span id="L2634" rel="#L2634">2634</span>
-<span id="L2635" rel="#L2635">2635</span>
-<span id="L2636" rel="#L2636">2636</span>
-<span id="L2637" rel="#L2637">2637</span>
-<span id="L2638" rel="#L2638">2638</span>
-<span id="L2639" rel="#L2639">2639</span>
-<span id="L2640" rel="#L2640">2640</span>
-<span id="L2641" rel="#L2641">2641</span>
-<span id="L2642" rel="#L2642">2642</span>
-<span id="L2643" rel="#L2643">2643</span>
-<span id="L2644" rel="#L2644">2644</span>
-<span id="L2645" rel="#L2645">2645</span>
-<span id="L2646" rel="#L2646">2646</span>
-<span id="L2647" rel="#L2647">2647</span>
-<span id="L2648" rel="#L2648">2648</span>
-<span id="L2649" rel="#L2649">2649</span>
-<span id="L2650" rel="#L2650">2650</span>
-<span id="L2651" rel="#L2651">2651</span>
-<span id="L2652" rel="#L2652">2652</span>
-<span id="L2653" rel="#L2653">2653</span>
-<span id="L2654" rel="#L2654">2654</span>
-<span id="L2655" rel="#L2655">2655</span>
-<span id="L2656" rel="#L2656">2656</span>
-<span id="L2657" rel="#L2657">2657</span>
-<span id="L2658" rel="#L2658">2658</span>
-<span id="L2659" rel="#L2659">2659</span>
-<span id="L2660" rel="#L2660">2660</span>
-<span id="L2661" rel="#L2661">2661</span>
-<span id="L2662" rel="#L2662">2662</span>
-<span id="L2663" rel="#L2663">2663</span>
-<span id="L2664" rel="#L2664">2664</span>
-<span id="L2665" rel="#L2665">2665</span>
-<span id="L2666" rel="#L2666">2666</span>
-<span id="L2667" rel="#L2667">2667</span>
-<span id="L2668" rel="#L2668">2668</span>
-<span id="L2669" rel="#L2669">2669</span>
-<span id="L2670" rel="#L2670">2670</span>
-<span id="L2671" rel="#L2671">2671</span>
-<span id="L2672" rel="#L2672">2672</span>
-<span id="L2673" rel="#L2673">2673</span>
-<span id="L2674" rel="#L2674">2674</span>
-<span id="L2675" rel="#L2675">2675</span>
-<span id="L2676" rel="#L2676">2676</span>
-<span id="L2677" rel="#L2677">2677</span>
-<span id="L2678" rel="#L2678">2678</span>
-<span id="L2679" rel="#L2679">2679</span>
-<span id="L2680" rel="#L2680">2680</span>
-<span id="L2681" rel="#L2681">2681</span>
-<span id="L2682" rel="#L2682">2682</span>
-<span id="L2683" rel="#L2683">2683</span>
-<span id="L2684" rel="#L2684">2684</span>
-<span id="L2685" rel="#L2685">2685</span>
-<span id="L2686" rel="#L2686">2686</span>
-<span id="L2687" rel="#L2687">2687</span>
-<span id="L2688" rel="#L2688">2688</span>
-<span id="L2689" rel="#L2689">2689</span>
-<span id="L2690" rel="#L2690">2690</span>
-<span id="L2691" rel="#L2691">2691</span>
-<span id="L2692" rel="#L2692">2692</span>
-<span id="L2693" rel="#L2693">2693</span>
-<span id="L2694" rel="#L2694">2694</span>
-<span id="L2695" rel="#L2695">2695</span>
-<span id="L2696" rel="#L2696">2696</span>
-<span id="L2697" rel="#L2697">2697</span>
-<span id="L2698" rel="#L2698">2698</span>
-<span id="L2699" rel="#L2699">2699</span>
-<span id="L2700" rel="#L2700">2700</span>
-<span id="L2701" rel="#L2701">2701</span>
-<span id="L2702" rel="#L2702">2702</span>
-<span id="L2703" rel="#L2703">2703</span>
-<span id="L2704" rel="#L2704">2704</span>
-<span id="L2705" rel="#L2705">2705</span>
-<span id="L2706" rel="#L2706">2706</span>
-<span id="L2707" rel="#L2707">2707</span>
-<span id="L2708" rel="#L2708">2708</span>
-<span id="L2709" rel="#L2709">2709</span>
-<span id="L2710" rel="#L2710">2710</span>
-<span id="L2711" rel="#L2711">2711</span>
-<span id="L2712" rel="#L2712">2712</span>
-<span id="L2713" rel="#L2713">2713</span>
-<span id="L2714" rel="#L2714">2714</span>
-<span id="L2715" rel="#L2715">2715</span>
-<span id="L2716" rel="#L2716">2716</span>
-<span id="L2717" rel="#L2717">2717</span>
-<span id="L2718" rel="#L2718">2718</span>
-<span id="L2719" rel="#L2719">2719</span>
-<span id="L2720" rel="#L2720">2720</span>
-<span id="L2721" rel="#L2721">2721</span>
-<span id="L2722" rel="#L2722">2722</span>
-<span id="L2723" rel="#L2723">2723</span>
-<span id="L2724" rel="#L2724">2724</span>
-<span id="L2725" rel="#L2725">2725</span>
-<span id="L2726" rel="#L2726">2726</span>
-<span id="L2727" rel="#L2727">2727</span>
-<span id="L2728" rel="#L2728">2728</span>
-<span id="L2729" rel="#L2729">2729</span>
-<span id="L2730" rel="#L2730">2730</span>
-<span id="L2731" rel="#L2731">2731</span>
-<span id="L2732" rel="#L2732">2732</span>
-<span id="L2733" rel="#L2733">2733</span>
-<span id="L2734" rel="#L2734">2734</span>
-<span id="L2735" rel="#L2735">2735</span>
-<span id="L2736" rel="#L2736">2736</span>
-<span id="L2737" rel="#L2737">2737</span>
-<span id="L2738" rel="#L2738">2738</span>
-<span id="L2739" rel="#L2739">2739</span>
-<span id="L2740" rel="#L2740">2740</span>
-<span id="L2741" rel="#L2741">2741</span>
-<span id="L2742" rel="#L2742">2742</span>
-<span id="L2743" rel="#L2743">2743</span>
-<span id="L2744" rel="#L2744">2744</span>
-<span id="L2745" rel="#L2745">2745</span>
-<span id="L2746" rel="#L2746">2746</span>
-<span id="L2747" rel="#L2747">2747</span>
-<span id="L2748" rel="#L2748">2748</span>
-<span id="L2749" rel="#L2749">2749</span>
-<span id="L2750" rel="#L2750">2750</span>
-<span id="L2751" rel="#L2751">2751</span>
-<span id="L2752" rel="#L2752">2752</span>
-<span id="L2753" rel="#L2753">2753</span>
-<span id="L2754" rel="#L2754">2754</span>
-<span id="L2755" rel="#L2755">2755</span>
-<span id="L2756" rel="#L2756">2756</span>
-<span id="L2757" rel="#L2757">2757</span>
-<span id="L2758" rel="#L2758">2758</span>
-<span id="L2759" rel="#L2759">2759</span>
-<span id="L2760" rel="#L2760">2760</span>
-<span id="L2761" rel="#L2761">2761</span>
-
-            </td>
-            <td class="blob-line-code"><div class="code-body highlight"><pre><div class='line' id='LC1'><span class="kr">declare</span> <span class="kr">class</span> <span class="nx">SAT</span> <span class="p">{</span></div><div class='line' id='LC2'><br/></div><div class='line' id='LC3'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">flattenPointsOn</span><span class="p">(</span><span class="nx">points</span>: <span class="kt">Array</span><span class="o">&lt;</span><span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="o">&gt;</span><span class="p">,</span> <span class="nx">normal</span>: <span class="kt">SAT.Vector</span><span class="p">,</span> <span class="nx">result</span>: <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">number</span><span class="o">&gt;</span><span class="p">)</span><span class="o">:</span> <span class="nb">Array</span><span class="o">&lt;</span><span class="kt">number</span><span class="o">&gt;</span><span class="p">;</span></div><div class='line' id='LC4'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isSeparatingAxis</span><span class="p">(</span><span class="nx">aPos</span>: <span class="kt">SAT.Vector</span><span class="p">,</span> <span class="nx">bPos</span>: <span class="kt">SAT.Vector</span><span class="p">,</span> <span class="nx">aPoints</span>: <span class="kt">Array</span><span class="o">&lt;</span><span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="o">&gt;</span><span class="p">,</span> <span class="nx">bPoints</span>: <span class="kt">Array</span><span class="o">&lt;</span><span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="o">&gt;</span><span class="p">,</span> <span class="nx">axis</span>: <span class="kt">SAT.Vector</span><span class="p">,</span> <span class="nx">response</span>: <span class="kt">SAT.Response</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC5'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">vornoiRegion</span><span class="p">(</span><span class="nx">line</span>: <span class="kt">SAT.Vector</span><span class="p">,</span> <span class="nx">point</span>: <span class="kt">SAT.Vector</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC6'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">testCircleCircle</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">SAT.Circle</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">SAT.Circle</span><span class="p">,</span> <span class="nx">response</span>: <span class="kt">SAT.Response</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC7'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">testPolygonCircle</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">SAT.Polygon</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">SAT.Circle</span><span class="p">,</span> <span class="nx">response</span>: <span class="kt">SAT.Response</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC8'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">testCirclePolygon</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">SAT.Circle</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">SAT.Polygon</span><span class="p">,</span> <span class="nx">response</span>: <span class="kt">SAT.Response</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC9'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">testPolygonPolygon</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">SAT.Polygon</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">SAT.Polygon</span><span class="p">,</span> <span class="nx">response</span>: <span class="kt">SAT.Response</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC10'><br/></div><div class='line' id='LC11'><span class="p">}</span></div><div class='line' id='LC12'><br/></div><div class='line' id='LC13'><span class="kr">declare</span> <span class="kr">module</span> <span class="nx">SAT</span> <span class="p">{</span></div><div class='line' id='LC14'><br/></div><div class='line' id='LC15'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Vector</span> <span class="p">{</span></div><div class='line' id='LC16'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC17'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC18'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC19'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">copy</span><span class="p">(</span><span class="nx">other</span>: <span class="kt">SAT.Vector</span><span class="p">)</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC20'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">perp</span><span class="p">()</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC21'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">rotate</span><span class="p">(</span><span class="nx">angle</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC22'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">rotatePrecalc</span><span class="p">(</span><span class="nx">sin</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">cos</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC23'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reverse</span><span class="p">()</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC24'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">normalize</span><span class="p">()</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC25'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span><span class="p">(</span><span class="nx">other</span>: <span class="kt">SAT.Vector</span><span class="p">)</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC26'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">sub</span><span class="p">(</span><span class="nx">other</span>: <span class="kt">SAT.Vector</span><span class="p">)</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC27'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scale</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC28'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">project</span><span class="p">(</span><span class="nx">other</span>: <span class="kt">SAT.Vector</span><span class="p">)</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC29'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">projectN</span><span class="p">(</span><span class="nx">other</span>: <span class="kt">SAT.Vector</span><span class="p">)</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC30'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reflect</span><span class="p">(</span><span class="nx">axis</span>: <span class="kt">SAT.Vector</span><span class="p">)</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC31'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reflectN</span><span class="p">(</span><span class="nx">axis</span>: <span class="kt">SAT.Vector</span><span class="p">)</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC32'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">dot</span><span class="p">(</span><span class="nx">other</span>: <span class="kt">SAT.Vector</span><span class="p">)</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC33'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">len2</span><span class="p">()</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC34'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">len</span><span class="p">()</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="p">;</span></div><div class='line' id='LC35'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC36'><br/></div><div class='line' id='LC37'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Circle</span> <span class="p">{</span></div><div class='line' id='LC38'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">pos</span>: <span class="kt">SAT.Vector</span><span class="p">,</span> <span class="nx">radius</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC39'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pos</span>: <span class="kt">SAT.Vector</span><span class="p">;</span></div><div class='line' id='LC40'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">r</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC41'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC42'><br/></div><div class='line' id='LC43'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Polygon</span> <span class="p">{</span></div><div class='line' id='LC44'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">pos</span>: <span class="kt">SAT.Vector</span><span class="p">,</span> <span class="nx">points</span>: <span class="kt">Array</span><span class="o">&lt;</span><span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="o">&gt;</span><span class="p">);</span></div><div class='line' id='LC45'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pos</span>: <span class="kt">SAT.Vector</span><span class="p">;</span></div><div class='line' id='LC46'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">points</span>: <span class="kt">Array</span><span class="o">&lt;</span><span class="nx">SAT</span><span class="p">.</span><span class="nx">Vector</span><span class="o">&gt;</span><span class="p">;</span></div><div class='line' id='LC47'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">recalc</span><span class="p">()</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Polygon</span><span class="p">;</span></div><div class='line' id='LC48'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">rotate</span><span class="p">(</span><span class="nx">angle</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Polygon</span><span class="p">;</span></div><div class='line' id='LC49'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scale</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Polygon</span><span class="p">;</span></div><div class='line' id='LC50'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">translate</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Polygon</span><span class="p">;</span></div><div class='line' id='LC51'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC52'><br/></div><div class='line' id='LC53'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Box</span> <span class="p">{</span></div><div class='line' id='LC54'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">pos</span>: <span class="kt">SAT.Vector</span><span class="p">,</span> <span class="nx">w</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">h</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC55'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pos</span>: <span class="kt">SAT.Vector</span><span class="p">;</span></div><div class='line' id='LC56'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">w</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC57'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">h</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC58'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">toPolygon</span><span class="p">()</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Polygon</span><span class="p">;</span></div><div class='line' id='LC59'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC60'><br/></div><div class='line' id='LC61'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Response</span> <span class="p">{</span></div><div class='line' id='LC62'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">();</span></div><div class='line' id='LC63'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">a</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC64'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">b</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC65'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">overlapN</span>: <span class="kt">SAT.Vector</span><span class="p">;</span></div><div class='line' id='LC66'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">overlapV</span>: <span class="kt">SAT.Vector</span><span class="p">;</span></div><div class='line' id='LC67'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clear</span><span class="p">()</span><span class="o">:</span> <span class="nx">SAT</span><span class="p">.</span><span class="nx">Response</span><span class="p">;</span></div><div class='line' id='LC68'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">aInB</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC69'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bInA</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC70'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">overlap</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC71'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC72'><span class="p">}</span></div><div class='line' id='LC73'><br/></div><div class='line' id='LC74'><span class="kr">declare</span> <span class="kr">class</span> <span class="nx">Phaser</span> <span class="p">{</span></div><div class='line' id='LC75'><br/></div><div class='line' id='LC76'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">VERSION</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC77'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">DEV_VERSION</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC78'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">GAMES</span>: <span class="kt">Phaser.Game</span><span class="p">[];</span></div><div class='line' id='LC79'><br/></div><div class='line' id='LC80'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">AUTO</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC81'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">CANVAS</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC82'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">WEBGL</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC83'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">HEADLESS</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC84'><br/></div><div class='line' id='LC85'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">SPRITE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC86'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">BUTTON</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC87'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">BULLET</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC88'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">GRAPHICS</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC89'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">TEXT</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC90'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">TILESPRITE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC91'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">BITMAPTEXT</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC92'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">GROUP</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC93'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">RENDERTEXTURE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC94'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">TILEMAP</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC95'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">TILEMAPLAYER</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC96'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">EMITTER</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC97'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">POLYGON</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC98'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">BITMAPDATA</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC99'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">CANVAS_FILTER</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC100'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">WEBGL_FILTER</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC101'><br/></div><div class='line' id='LC102'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NONE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC103'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">LEFT</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC104'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">RIGHT</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC105'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">UP</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC106'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">DOWN</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC107'><br/></div><div class='line' id='LC108'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">CANVAS_PX_ROUND</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC109'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">CANVAS_CLEAR_RECT</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC110'><span class="p">}</span></div><div class='line' id='LC111'><br/></div><div class='line' id='LC112'><span class="kr">declare</span> <span class="kr">module</span> <span class="nx">Phaser</span> <span class="p">{</span></div><div class='line' id='LC113'><br/></div><div class='line' id='LC114'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Animation</span> <span class="p">{</span></div><div class='line' id='LC115'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC116'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">parent</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">frameData</span>: <span class="kt">Phaser.FrameData</span><span class="p">,</span> <span class="nx">frames</span>: <span class="kt">string</span><span class="p">[],</span> <span class="nx">delay</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">looped</span>: <span class="kt">boolean</span><span class="p">);</span></div><div class='line' id='LC117'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">parent</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">frameData</span>: <span class="kt">Phaser.FrameData</span><span class="p">,</span> <span class="nx">frames</span>: <span class="kt">number</span><span class="p">[],</span> <span class="nx">delay</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">looped</span>: <span class="kt">boolean</span><span class="p">);</span></div><div class='line' id='LC118'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//properties</span></div><div class='line' id='LC119'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">currentFrame</span>: <span class="kt">Phaser.Frame</span><span class="p">;</span></div><div class='line' id='LC120'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">delay</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC121'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">frame</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC122'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">frameTotal</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC123'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC124'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isFinished</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC125'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isPaused</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC126'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isPlaying</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC127'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">killOnComplete</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC128'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">looped</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC129'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC130'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">paused</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC131'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static methods</span></div><div class='line' id='LC132'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">generateFrameNames</span><span class="p">(</span><span class="nx">prefix</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">start</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">stop</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">suffix?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">zeroPad?</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC133'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC134'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC135'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onComplete</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC136'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">play</span><span class="p">(</span><span class="nx">frameRate?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">loop?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">killOnComplete?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Animation</span><span class="p">;</span></div><div class='line' id='LC137'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">restart</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC138'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stop</span><span class="p">(</span><span class="nx">resetFrame?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC139'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC140'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC141'><br/></div><div class='line' id='LC142'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">AnimationManager</span> <span class="p">{</span></div><div class='line' id='LC143'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC144'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">);</span></div><div class='line' id='LC145'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC146'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">currentFrame</span>: <span class="kt">Phaser.Frame</span><span class="p">;</span></div><div class='line' id='LC147'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">frame</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC148'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">frameData</span>: <span class="kt">Phaser.FrameData</span><span class="p">;</span></div><div class='line' id='LC149'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">frameName</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">frameTotal</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC151'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC152'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isLoaded</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC153'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">paused</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC154'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">;</span></div><div class='line' id='LC155'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updateIfVisible</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC156'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC157'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">frames?</span>: <span class="kt">number</span><span class="p">[],</span> <span class="nx">frameRate?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">loop?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">useNumericIndex?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Animation</span><span class="p">;</span></div><div class='line' id='LC158'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">frames?</span>: <span class="kt">string</span><span class="p">[],</span> <span class="nx">frameRate?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">loop?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">useNumericIndex?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Animation</span><span class="p">;</span></div><div class='line' id='LC159'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC160'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getAnimation</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Animation</span><span class="p">;</span></div><div class='line' id='LC161'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">loadFrameData</span><span class="p">(</span><span class="nx">frameData</span>: <span class="kt">Phaser.FrameData</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC162'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">play</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">frameRate?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">loop?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Animation</span><span class="p">;</span></div><div class='line' id='LC163'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">refreshFrame</span><span class="p">();</span></div><div class='line' id='LC164'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stop</span><span class="p">(</span><span class="nx">name?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">resetFrame?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC165'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC166'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">validateFrames</span><span class="p">(</span><span class="nx">frames</span>: <span class="kt">Phaser.Frame</span><span class="p">[],</span> <span class="nx">useNumericIndex?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC167'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC168'><br/></div><div class='line' id='LC169'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">AnimationParser</span> <span class="p">{</span></div><div class='line' id='LC170'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static methods</span></div><div class='line' id='LC171'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">JSONData</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">json</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">cacheKey</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">FrameData</span><span class="p">;</span></div><div class='line' id='LC172'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">JSONDataHash</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">json</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">cacheKey</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">FrameData</span><span class="p">;</span></div><div class='line' id='LC173'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">spriteSheet</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">frameWidth</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">frameHeight</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">frameMax?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">margin?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">spacing?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">FrameData</span><span class="p">;</span></div><div class='line' id='LC174'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">XMLData</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">xml</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">cacheKey</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">FrameData</span><span class="p">;</span></div><div class='line' id='LC175'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC176'><br/></div><div class='line' id='LC177'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">BitmapData</span> <span class="p">{</span></div><div class='line' id='LC178'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC179'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">width?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height?</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC180'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC181'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">baseTexture</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC182'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">canvas</span>: <span class="kt">HTMLCanvasElement</span><span class="p">;</span></div><div class='line' id='LC183'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">context</span>: <span class="kt">CanvasRenderingContext2D</span><span class="p">;</span></div><div class='line' id='LC184'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC185'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">height</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC186'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">imageData</span>: <span class="kt">any</span><span class="p">[];</span></div><div class='line' id='LC187'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC188'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pixels</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC189'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">texture</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC190'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">textureFrame</span>: <span class="kt">Phaser.Frame</span><span class="p">;</span></div><div class='line' id='LC191'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">type</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC192'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">width</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC193'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC194'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span><span class="p">(</span><span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC195'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addTo</span><span class="p">(</span><span class="nx">sprites</span>: <span class="kt">Phaser.Sprite</span><span class="p">[])</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC196'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">arc</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">radius</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">startAngle</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">endAngle</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">anticlockwise?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span><span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC197'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">arcTo</span><span class="p">(</span><span class="nx">x1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x2</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y2</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC198'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">beginFill</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC199'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">beginLinearGradientFill</span><span class="p">(</span><span class="nx">colors</span>: <span class="kt">string</span><span class="p">[],</span> <span class="nx">ratios</span>: <span class="kt">number</span><span class="p">[],</span> <span class="nx">x0</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y0</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y1</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC200'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">beginPath</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC201'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">beginRadialGradientStroke</span><span class="p">(</span><span class="nx">colors</span>: <span class="kt">string</span><span class="p">[],</span> <span class="nx">ratios</span>: <span class="kt">number</span><span class="p">[],</span> <span class="nx">x0</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y0</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">r0</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">r1</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC202'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">beginStoke</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC203'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bezierCurveTo</span><span class="p">(</span><span class="nx">cp1x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">cp1y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">cp2x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">cp2y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC204'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">circle</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">radius</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC205'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clear</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC206'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clearRect</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC207'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clip</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC208'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">closePath</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC209'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">createLinearGradient</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">CanvasGradient</span><span class="p">;</span></div><div class='line' id='LC210'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">createRadialGradient</span><span class="p">(</span><span class="nx">x0</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y0</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">r0</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">r1</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">CanvasGradient</span><span class="p">;</span></div><div class='line' id='LC211'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">ellipse</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">w</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">h</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC212'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fill</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC213'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fllRect</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC214'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fillStyle</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC215'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">font</span><span class="p">(</span><span class="nx">font</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC216'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getPixel</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC217'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getPixel32</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC218'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getPixels</span><span class="p">(</span><span class="nx">rect</span>: <span class="kt">Phaser.Rectangle</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">[];</span></div><div class='line' id='LC219'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">globalAlpha</span><span class="p">(</span><span class="nx">alpha</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC220'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">globalCompositeOperation</span><span class="p">(</span><span class="nx">operation</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC221'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">lineCap</span><span class="p">(</span><span class="nx">style</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC222'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">lineDashOffset</span><span class="p">(</span><span class="nx">offset</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC223'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">lineJoin</span><span class="p">(</span><span class="nx">join</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC224'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">lineTo</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC225'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">lineWidth</span><span class="p">(</span><span class="nx">width</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC226'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">miterLimit</span><span class="p">(</span><span class="nx">limit</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC227'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">moveTo</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC228'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">quadraticCurveTo</span><span class="p">(</span><span class="nx">cpx</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">cpy</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC229'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">rect</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC230'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">render</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC231'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">restore</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC232'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">rotate</span><span class="p">(</span><span class="nx">angle</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC233'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">save</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC234'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scale</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC235'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scrollPathIntoView</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC236'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setPixel</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">red</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">green</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">blue</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC237'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setPixel32</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">red</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">green</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">blue</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">alpha</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC238'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setStrokeStyle</span><span class="p">(</span><span class="nx">thickness</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">caps?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">joints?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">miterLimit?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">ignoreScale?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC239'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setStrokeStyle</span><span class="p">(</span><span class="nx">thickness</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">caps?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">joints?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">miterLimit?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">ignoreScale?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC240'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stroke</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC241'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">strokeRect</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC242'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">strokeStyle</span><span class="p">(</span><span class="nx">style</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC243'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC244'><br/></div><div class='line' id='LC245'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">BitmapText</span> <span class="kr">extends</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Text</span> <span class="p">{</span></div><div class='line' id='LC246'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC247'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">x?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">text?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">style?</span>: <span class="kt">Object</span><span class="p">);</span></div><div class='line' id='LC248'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC249'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">alive</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC250'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">anchor</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC251'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">angle</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC252'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">exists</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC253'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC254'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">group</span>: <span class="kt">Phaser.Group</span><span class="p">;</span></div><div class='line' id='LC255'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC256'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scale</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC257'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">type</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC258'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC259'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC260'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//still valid member? It is not in the JS</span></div><div class='line' id='LC261'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderable</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC262'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC263'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC264'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC265'><br/></div><div class='line' id='LC266'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Button</span> <span class="kr">extends</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sprite</span> <span class="p">{</span></div><div class='line' id='LC267'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC268'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">x?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">key?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">callback?</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext?</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">overFrame?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">outFrame?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">downFrame?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">upFrame?</span>: <span class="kt">string</span><span class="p">);</span></div><div class='line' id='LC269'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">x?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">key?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">callback?</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext?</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">overFrame?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">outFrame?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">downFrame?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">upFrame?</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC270'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC271'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">forceOut</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC272'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">freezeFrames</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC273'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onDownSound</span>: <span class="kt">Phaser.Sound</span><span class="p">;</span></div><div class='line' id='LC274'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onDownSoundMarker</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC275'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onInputDown</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC276'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onInputOut</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC277'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onInputOver</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC278'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onInputUp</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC279'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onOutSound</span>: <span class="kt">Phaser.Sound</span><span class="p">;</span></div><div class='line' id='LC280'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onOutSoundMarker</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC281'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onOverSound</span>: <span class="kt">Phaser.Sound</span><span class="p">;</span></div><div class='line' id='LC282'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onOverSoundMarker</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC283'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onUpSound</span>: <span class="kt">Phaser.Sound</span><span class="p">;</span></div><div class='line' id='LC284'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onUpSoundMaker</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC285'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">type</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC286'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC287'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clearFrames</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC288'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setDownSound</span><span class="p">(</span><span class="nx">sound</span>: <span class="kt">Phaser.Sound</span><span class="p">,</span> <span class="nx">marker?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC289'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setFrames</span><span class="p">(</span><span class="nx">overFrame?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">outFrame?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">downFrame?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">upFrame?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC290'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setFrames</span><span class="p">(</span><span class="nx">overFrame?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">outFrame?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">downFrame?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">upFrame?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC291'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setOutSound</span><span class="p">(</span><span class="nx">sound</span>: <span class="kt">Phaser.Sound</span><span class="p">,</span> <span class="nx">marker?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC292'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setOverSound</span><span class="p">(</span><span class="nx">sound</span>: <span class="kt">Phaser.Sound</span><span class="p">,</span> <span class="nx">marker?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC293'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setSounds</span><span class="p">(</span><span class="nx">overSound?</span>: <span class="kt">Phaser.Sound</span><span class="p">,</span> <span class="nx">overMarker?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">downSound?</span>: <span class="kt">Phaser.Sound</span><span class="p">,</span> <span class="nx">downMarker?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">outSound?</span>: <span class="kt">Phaser.Sound</span><span class="p">,</span> <span class="nx">outMarker?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">upSound?</span>: <span class="kt">Phaser.Sound</span><span class="p">,</span> <span class="nx">upMarker?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC294'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC295'><br/></div><div class='line' id='LC296'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Cache</span> <span class="p">{</span></div><div class='line' id='LC297'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC298'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC299'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC300'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC301'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onSoundUnlock</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC302'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC303'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addBinary</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">binaryData</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC304'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addBitmapData</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">bitmapData</span>: <span class="kt">Phaser.BitmapData</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC305'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addBitmapFont</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">url</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">data</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">xmlData</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC306'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addCanvas</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">canvas</span>: <span class="kt">HTMLCanvasElement</span><span class="p">,</span> <span class="nx">context</span>: <span class="kt">CanvasRenderingContext2D</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC307'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addDefaultImage</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC308'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addImage</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">url</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">data</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC309'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addMisingImage</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC310'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addRenderTexture</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">texture</span>: <span class="kt">RenderTexture</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC311'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addSound</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">url</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">data</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">webAudio</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">audioTag</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC312'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addSpriteSheet</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">url</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">data</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">frameWidth</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">frameHeight</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">frameMax?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">margin?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">spacing?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC313'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addText</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">url</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">data</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC314'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addTextureAtlas</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">url</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">data</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">atlasData</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">format</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC315'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addTilemap</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">url</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">mapData</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">format</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC316'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkImageKey</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC317'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">decodedSound</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">data</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC318'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC319'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getBinary</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nb">Object</span><span class="p">;</span></div><div class='line' id='LC320'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getBitmapData</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC321'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getCanvas</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nb">Object</span><span class="p">;</span></div><div class='line' id='LC322'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getFrame</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Frame</span><span class="p">;</span></div><div class='line' id='LC323'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getFrameByIndex</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">frame</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Frame</span><span class="p">;</span></div><div class='line' id='LC324'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getFrameByName</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">frame</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Frame</span><span class="p">;</span></div><div class='line' id='LC325'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getFrameData</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">FrameData</span><span class="p">;</span></div><div class='line' id='LC326'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getImage</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nb">Object</span><span class="p">;</span></div><div class='line' id='LC327'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getImageKeys</span><span class="p">()</span><span class="o">:</span> <span class="kt">string</span><span class="p">[];</span></div><div class='line' id='LC328'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getKeys</span><span class="p">(</span><span class="nx">array</span>: <span class="kt">string</span><span class="p">[])</span><span class="o">:</span> <span class="kt">string</span><span class="p">[];</span></div><div class='line' id='LC329'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getSound</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sound</span><span class="p">;</span></div><div class='line' id='LC330'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getSoundData</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nb">Object</span><span class="p">;</span></div><div class='line' id='LC331'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getSoundKeys</span><span class="p">()</span><span class="o">:</span> <span class="kt">string</span><span class="p">[];</span></div><div class='line' id='LC332'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getText</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nb">Object</span><span class="p">;</span></div><div class='line' id='LC333'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTextKeys</span><span class="p">()</span><span class="o">:</span> <span class="kt">string</span><span class="p">[];</span></div><div class='line' id='LC334'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTexture</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">RenderTexture</span><span class="p">;</span></div><div class='line' id='LC335'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTextureFrame</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Frame</span><span class="p">;</span></div><div class='line' id='LC336'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTilemap</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tilemap</span><span class="p">;</span></div><div class='line' id='LC337'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isSoundDecoded</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC338'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isSoundReady</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC339'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isSpriteSheet</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC340'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reloadSound</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC341'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reloadSoundComplete</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC342'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeCanvas</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC343'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeImage</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC344'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeSound</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC345'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeText</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC346'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updateSound</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">property</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">value</span>: <span class="kt">Phaser.Sound</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC347'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC348'><br/></div><div class='line' id='LC349'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Camera</span> <span class="p">{</span></div><div class='line' id='LC350'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC351'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">id</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC352'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static members</span></div><div class='line' id='LC353'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">FOLLOW_LOCKON</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC354'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">FOLLOW_PLATFORMER</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC355'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">FOLLOW_TOPDOWN</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC356'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">FOLLOW_TOPDOWN_TIGHT</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC357'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC358'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">atLimit</span><span class="o">:</span> <span class="p">{</span> <span class="nx">x</span>: <span class="kt">boolean</span><span class="p">;</span> <span class="nx">y</span>: <span class="kt">boolean</span><span class="p">;</span> <span class="p">};</span></div><div class='line' id='LC359'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bounds</span>: <span class="kt">Phaser.Rectangle</span><span class="p">;</span></div><div class='line' id='LC360'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">deadzone</span>: <span class="kt">Phaser.Rectangle</span><span class="p">;</span></div><div class='line' id='LC361'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">displayObject</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC362'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC363'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">height</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC364'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">id</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC365'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">screenView</span>: <span class="kt">Phaser.Rectangle</span><span class="p">;</span></div><div class='line' id='LC366'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">target</span>: <span class="kt">Phaser.Sprite</span><span class="p">;</span></div><div class='line' id='LC367'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">view</span>: <span class="kt">Phaser.Rectangle</span><span class="p">;</span></div><div class='line' id='LC368'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">visible</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC369'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">width</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC370'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">world</span>: <span class="kt">Phaser.World</span><span class="p">;</span></div><div class='line' id='LC371'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC372'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC373'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC374'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkWorldBounds</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC375'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">focusOn</span><span class="p">(</span><span class="nx">displayObject</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC376'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">focusOnXY</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC377'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">follow</span><span class="p">(</span><span class="nx">target</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">style?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC378'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setBoundsToWorld</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC379'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setPosition</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC380'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setSize</span><span class="p">(</span><span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC381'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC382'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC383'><br/></div><div class='line' id='LC384'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Canvas</span> <span class="p">{</span></div><div class='line' id='LC385'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static methods</span></div><div class='line' id='LC386'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">addToDOM</span><span class="p">(</span><span class="nx">canvas</span>: <span class="kt">HTMLCanvasElement</span><span class="p">,</span> <span class="nx">parent</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">overflowHidden?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">HTMLCanvasElement</span><span class="p">;</span></div><div class='line' id='LC387'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">addToDOM</span><span class="p">(</span><span class="nx">canvas</span>: <span class="kt">HTMLCanvasElement</span><span class="p">,</span> <span class="nx">parent</span>: <span class="kt">HTMLCanvasElement</span><span class="p">,</span> <span class="nx">overflowHidden?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">HTMLCanvasElement</span><span class="p">;</span></div><div class='line' id='LC388'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">create</span><span class="p">(</span><span class="nx">width?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">id?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">HTMLCanvasElement</span><span class="p">;</span></div><div class='line' id='LC389'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">getAspectRatio</span><span class="p">(</span><span class="nx">canvas</span>: <span class="kt">HTMLCanvasElement</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC390'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">getOffset</span><span class="p">(</span><span class="nx">element</span>: <span class="kt">HTMLElement</span><span class="p">,</span> <span class="nx">point?</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC391'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">setBackgroundColor</span><span class="p">(</span><span class="nx">canvas</span>: <span class="kt">HTMLCanvasElement</span><span class="p">,</span> <span class="nx">color</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">HTMLCanvasElement</span><span class="p">;</span></div><div class='line' id='LC392'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">setImageRenderingBicubic</span><span class="p">(</span><span class="nx">canvas</span>: <span class="kt">HTMLCanvasElement</span><span class="p">)</span><span class="o">:</span> <span class="nx">HTMLCanvasElement</span><span class="p">;</span></div><div class='line' id='LC393'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">setImageRenderingCrisp</span><span class="p">(</span><span class="nx">canvas</span>: <span class="kt">HTMLCanvasElement</span><span class="p">)</span><span class="o">:</span> <span class="nx">HTMLCanvasElement</span><span class="p">;</span></div><div class='line' id='LC394'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">setSmoothingEnabled</span><span class="p">(</span><span class="nx">context</span>: <span class="kt">CanvasRenderingContext2D</span><span class="p">,</span> <span class="nx">value</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">CanvasRenderingContext2D</span><span class="p">;</span></div><div class='line' id='LC395'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">setTouchAction</span><span class="p">(</span><span class="nx">canvas</span>: <span class="kt">HTMLCanvasElement</span><span class="p">,</span> <span class="nx">value</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">HTMLCanvasElement</span><span class="p">;</span></div><div class='line' id='LC396'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">setTransform</span><span class="p">(</span><span class="nx">context</span>: <span class="kt">CanvasRenderingContext2D</span><span class="p">,</span> <span class="nx">translateX</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">translateY</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">scaleX</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">scaleY</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">skewX</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">skewY</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">CanvasRenderingContext2D</span><span class="p">;</span></div><div class='line' id='LC397'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">setUserSelect</span><span class="p">(</span><span class="nx">canvas</span>: <span class="kt">HTMLCanvasElement</span><span class="p">,</span> <span class="nx">value?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">HTMLCanvasElement</span><span class="p">;</span></div><div class='line' id='LC398'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC399'><br/></div><div class='line' id='LC400'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Circle</span> <span class="p">{</span></div><div class='line' id='LC401'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC402'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">x?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">diameter?</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC403'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC404'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">area</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC405'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bottom</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC406'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">diameter</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC407'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">empty</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC408'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">left</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC409'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">radius</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC410'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">right</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC411'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">top</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC412'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC413'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC414'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static methods</span></div><div class='line' id='LC415'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">circumferencePoint</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Circle</span><span class="p">,</span> <span class="nx">angle</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">asDegrees</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">output?</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC416'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">contains</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Circle</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC417'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">equals</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Circle</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Phaser.Circle</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC418'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">intersects</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Circle</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Phaser.Circle</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC419'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">intersectsRectangle</span><span class="p">(</span><span class="nx">c</span>: <span class="kt">Phaser.Circle</span><span class="p">,</span> <span class="nx">r</span>: <span class="kt">Phaser.Rectangle</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC420'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC421'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">circumference</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC422'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">circumferencePoint</span><span class="p">(</span><span class="nx">angle</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">asDegrees</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">output?</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC423'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clone</span><span class="p">(</span><span class="nx">out</span>: <span class="kt">Phaser.Circle</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Circle</span><span class="p">;</span></div><div class='line' id='LC424'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">contains</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC425'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">copyFrom</span><span class="p">(</span><span class="nx">source</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Circle</span><span class="p">;</span></div><div class='line' id='LC426'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">copyTo</span><span class="p">(</span><span class="nx">dest</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="nb">Object</span><span class="p">;</span></div><div class='line' id='LC427'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">distance</span><span class="p">(</span><span class="nx">dest</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">round?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC428'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">offset</span><span class="p">(</span><span class="nx">dx</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">dy</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Circle</span><span class="p">;</span></div><div class='line' id='LC429'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">offsetPoint</span><span class="p">(</span><span class="nx">point</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Circle</span><span class="p">;</span></div><div class='line' id='LC430'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setTo</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">diameter</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Circle</span><span class="p">;</span></div><div class='line' id='LC431'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">toString</span><span class="p">()</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC432'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC433'><br/></div><div class='line' id='LC434'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Color</span> <span class="p">{</span></div><div class='line' id='LC435'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static methods</span></div><div class='line' id='LC436'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">colorToHexstring</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC437'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">getAlpha</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC438'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">getAlphaFloat</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC439'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">getBlue</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC440'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">getColor</span><span class="p">(</span><span class="nx">red</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">green</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">blue</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC441'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">getColor32</span><span class="p">(</span><span class="nx">alpha</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">red</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">green</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">blue</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC442'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">getColorInfo</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC443'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">getGreen</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC444'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">getRandomColor</span><span class="p">(</span><span class="nx">min?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">alpha?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC445'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">getRed</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC446'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">getRGB</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nb">Object</span><span class="p">;</span></div><div class='line' id='LC447'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">getWebRGB</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC448'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">hexToRGB</span><span class="p">(</span><span class="nx">h</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC449'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">interpolateColor</span><span class="p">(</span><span class="nx">color1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">color2</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">steps</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">currentStep</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">alpha</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC450'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">interpolateColorWithRGB</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">r</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">g</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">steps</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">currentStep</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC451'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">interpolateRGB</span><span class="p">(</span><span class="nx">r1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">g1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">b1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">r2</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">g2</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">b2</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">steps</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">currentStep</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC452'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">RGBtoHexstring</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC453'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">RGBtoWebstring</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC454'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC455'><br/></div><div class='line' id='LC456'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">interface</span> <span class="nx">CursorKeys</span> <span class="p">{</span></div><div class='line' id='LC457'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">up</span>: <span class="kt">Phaser.Key</span><span class="p">;</span></div><div class='line' id='LC458'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">down</span>: <span class="kt">Phaser.Key</span><span class="p">;</span></div><div class='line' id='LC459'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">left</span>: <span class="kt">Phaser.Key</span><span class="p">;</span></div><div class='line' id='LC460'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">right</span>: <span class="kt">Phaser.Key</span><span class="p">;</span></div><div class='line' id='LC461'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span>   </div><div class='line' id='LC462'><br/></div><div class='line' id='LC463'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Device</span> <span class="p">{</span></div><div class='line' id='LC464'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC465'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">android</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC466'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">arora</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC467'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">audioData</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC468'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">canvas</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC469'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">chrome</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC470'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">chromeOS</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC471'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">cocoonJS</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC472'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">css3D</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC473'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">desktop</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC474'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">ejecta</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC475'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">epiphany</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC476'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">file</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC477'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fileSystem</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC478'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">firefox</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC479'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">ie</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC480'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">ieVersion</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC481'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">iOS</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC482'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">iPad</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC483'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">iPhone</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC484'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">iPhone4</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC485'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">linux</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC486'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">littleEndian</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC487'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">localStorage</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC488'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">m4a</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC489'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">macOS</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC490'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">midori</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC491'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mobileSafari</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC492'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mp3</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC493'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mspointer</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC494'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">ogg</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC495'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">opera</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC496'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">opus</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC497'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">patchAndroidClearRect</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC498'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pixelRatio</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC499'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointerLock</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC500'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">quirksMode</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC501'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">safari</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC502'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">silk</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC503'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">touch</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC504'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">trident</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC505'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tridentVersion</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC506'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">typedArray</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC507'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">vibration</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC508'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">wav</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC509'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">webApp</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC510'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">webAudio</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC511'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">webGL</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC512'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">webm</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC513'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">windows</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC514'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">worker</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC515'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC516'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">canPlayAudio</span><span class="p">(</span><span class="nx">type</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC517'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isConsoleOpen</span><span class="p">()</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC518'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC519'><br/></div><div class='line' id='LC520'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">DOMSprite</span> <span class="p">{</span></div><div class='line' id='LC521'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC522'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">id</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">text</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">style</span>: <span class="kt">Object</span><span class="p">);</span></div><div class='line' id='LC523'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC524'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">alive</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC525'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">exists</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC526'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC527'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">group</span>: <span class="kt">Phaser.Group</span><span class="p">;</span></div><div class='line' id='LC528'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC529'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">type</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC530'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">visible</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC531'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC532'><br/></div><div class='line' id='LC533'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">module</span> <span class="nx">Easing</span> <span class="p">{</span></div><div class='line' id='LC534'><br/></div><div class='line' id='LC535'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Back</span> <span class="p">{</span></div><div class='line' id='LC536'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">In</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC537'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">Out</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC538'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">InOut</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC539'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC540'><br/></div><div class='line' id='LC541'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Bounce</span> <span class="p">{</span></div><div class='line' id='LC542'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">In</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC543'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">Out</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC544'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">InOut</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC545'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC546'><br/></div><div class='line' id='LC547'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Circular</span> <span class="p">{</span></div><div class='line' id='LC548'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">In</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC549'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">Out</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC550'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">InOut</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC551'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC552'><br/></div><div class='line' id='LC553'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Cubic</span> <span class="p">{</span></div><div class='line' id='LC554'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">In</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC555'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">Out</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC556'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">InOut</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC557'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC558'><br/></div><div class='line' id='LC559'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Elastic</span> <span class="p">{</span></div><div class='line' id='LC560'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">In</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC561'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">Out</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC562'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">InOut</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC563'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC564'><br/></div><div class='line' id='LC565'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Exponential</span> <span class="p">{</span></div><div class='line' id='LC566'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">In</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC567'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">Out</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC568'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">InOut</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC569'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC570'><br/></div><div class='line' id='LC571'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Linear</span> <span class="p">{</span></div><div class='line' id='LC572'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">None</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC573'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC574'><br/></div><div class='line' id='LC575'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Quadratic</span> <span class="p">{</span></div><div class='line' id='LC576'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">In</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC577'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">Out</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC578'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">InOut</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC579'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC580'><br/></div><div class='line' id='LC581'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Quartic</span> <span class="p">{</span></div><div class='line' id='LC582'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">In</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC583'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">Out</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC584'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">InOut</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC585'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC586'><br/></div><div class='line' id='LC587'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Quintic</span> <span class="p">{</span></div><div class='line' id='LC588'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">In</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC589'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">Out</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC590'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">InOut</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC591'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC592'><br/></div><div class='line' id='LC593'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Sinusoidal</span> <span class="p">{</span></div><div class='line' id='LC594'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">In</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC595'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">Out</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC596'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">InOut</span><span class="p">(</span><span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC597'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC598'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC599'><br/></div><div class='line' id='LC600'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Events</span> <span class="p">{</span></div><div class='line' id='LC601'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constuctor</span></div><div class='line' id='LC602'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">);</span></div><div class='line' id='LC603'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC604'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">parent</span>: <span class="kt">Phaser.Sprite</span><span class="p">;</span></div><div class='line' id='LC605'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onAddedToGroup</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC606'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onRemovedFromGroup</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC607'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onKilled</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC608'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onRevived</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC609'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onOutOfBounds</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC610'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onInputOver</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC611'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onInputOut</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC612'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onInputDown</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC613'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onInputUp</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC614'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onDragStart</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC615'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onDragStop</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC616'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onAnimationStart</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC617'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onAnimationComplete</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC618'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onAnimationLoop</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC619'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onBeginContact</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC620'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onEndContact</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC621'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC622'><br/></div><div class='line' id='LC623'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Filter</span> <span class="p">{</span></div><div class='line' id='LC624'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC625'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">uniforms</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">fragmentSrc</span>: <span class="kt">any</span><span class="p">[]);</span></div><div class='line' id='LC626'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC627'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">dirty</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC628'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fragmentSrc</span>: <span class="kt">any</span><span class="p">[];</span></div><div class='line' id='LC629'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC630'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">height</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC631'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">padding</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC632'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">type</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC633'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">uniform</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC634'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">width</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC635'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC636'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC637'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">init</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC638'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setResolution</span><span class="p">(</span><span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC639'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">(</span><span class="nx">pointer?</span>: <span class="kt">Phaser.Pointer</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC640'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC641'><br/></div><div class='line' id='LC642'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Frame</span> <span class="p">{</span></div><div class='line' id='LC643'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC644'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">index</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">uuid</span>: <span class="kt">string</span><span class="p">);</span></div><div class='line' id='LC645'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC646'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">centerX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC647'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">centerY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC648'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">distance</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC649'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">height</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC650'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">index</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC651'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC652'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">rotated</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC653'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">rotationDirection</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC654'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">sourceSizeH</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC655'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">sourceSizeW</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC656'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">spriteSourcesizeH</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC657'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">spriteSourceSizeW</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC658'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">spriteSourceSizeX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC659'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">spriteSourceSizeY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC660'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">trimmed</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC661'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">uuid</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC662'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">width</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC663'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC664'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC665'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods      </span></div><div class='line' id='LC666'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setTrim</span><span class="p">(</span><span class="nx">trimmed</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">actualWidth</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">actualHeight</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">destX</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">destY</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">destWidth</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">destHeight</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC667'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC668'><br/></div><div class='line' id='LC669'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">FrameData</span> <span class="p">{</span></div><div class='line' id='LC670'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC671'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">total</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC672'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC673'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addFrame</span><span class="p">(</span><span class="nx">frame</span>: <span class="kt">Frame</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Frame</span><span class="p">;</span></div><div class='line' id='LC674'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkFrameName</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC675'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getFrame</span><span class="p">(</span><span class="nx">index</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Frame</span><span class="p">;</span></div><div class='line' id='LC676'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getFrameByName</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Frame</span><span class="p">;</span></div><div class='line' id='LC677'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getFrameIndexes</span><span class="p">(</span><span class="nx">frames</span>: <span class="kt">number</span><span class="p">[],</span> <span class="nx">useNumericIndex?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">output?</span>: <span class="kt">number</span><span class="p">[])</span><span class="o">:</span> <span class="kt">number</span><span class="p">[]</span></div><div class='line' id='LC678'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getFrameRange</span><span class="p">(</span><span class="nx">start</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">end</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">output</span>: <span class="kt">Phaser.Frame</span><span class="p">[])</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Frame</span><span class="p">[];</span></div><div class='line' id='LC679'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getFrames</span><span class="p">(</span><span class="nx">frames</span>: <span class="kt">number</span><span class="p">[],</span> <span class="nx">useNumericIndex?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">output?</span>: <span class="kt">Phaser.Frame</span><span class="p">[])</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Frame</span><span class="p">[];</span></div><div class='line' id='LC680'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//this method no longer exists and can be deleted?</span></div><div class='line' id='LC681'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkFrame</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC682'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC683'><br/></div><div class='line' id='LC684'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Game</span> <span class="p">{</span></div><div class='line' id='LC685'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC686'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">width?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">renderer?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">parent?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">state?</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">transparent?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">antialias?</span>: <span class="kt">boolean</span><span class="p">);</span></div><div class='line' id='LC687'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">width?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">renderer?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">parent?</span>: <span class="kt">HTMLElement</span><span class="p">,</span> <span class="nx">state?</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">transparent?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">antialias?</span>: <span class="kt">boolean</span><span class="p">);</span></div><div class='line' id='LC688'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC689'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span>: <span class="kt">Phaser.GameObjectFactory</span><span class="p">;</span></div><div class='line' id='LC690'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">antialias</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC691'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">cache</span>: <span class="kt">Phaser.Cache</span><span class="p">;</span></div><div class='line' id='LC692'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">camera</span>: <span class="kt">Phaser.Camera</span><span class="p">;</span></div><div class='line' id='LC693'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">canvas</span>: <span class="kt">HTMLCanvasElement</span><span class="p">;</span></div><div class='line' id='LC694'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">config</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC695'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">context</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC696'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">debug</span>: <span class="kt">Phaser.Utils.Debug</span><span class="p">;</span></div><div class='line' id='LC697'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">device</span>: <span class="kt">Phaser.Device</span><span class="p">;</span></div><div class='line' id='LC698'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">height</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC699'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">id</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC700'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">input</span>: <span class="kt">Phaser.Input</span><span class="p">;</span></div><div class='line' id='LC701'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isBooted</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC702'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isRunning</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC703'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">load</span>: <span class="kt">Phaser.Loader</span><span class="p">;</span></div><div class='line' id='LC704'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">math</span>: <span class="kt">Phaser.Math</span><span class="p">;</span></div><div class='line' id='LC705'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">net</span>: <span class="kt">Phaser.Net</span><span class="p">;</span></div><div class='line' id='LC706'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">parent</span>: <span class="kt">HTMLElement</span><span class="p">;</span></div><div class='line' id='LC707'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">particles</span>: <span class="kt">Phaser.Particles</span><span class="p">;</span></div><div class='line' id='LC708'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">paused</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC709'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pendingStep</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC710'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">physics</span>: <span class="kt">Phaser.Physics.Arcade</span></div><div class='line' id='LC711'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">raf</span>: <span class="kt">Phaser.RequestAnimationFrame</span><span class="p">;</span></div><div class='line' id='LC712'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderer</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC713'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderType</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC714'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">rnd</span>: <span class="kt">Phaser.RandomDataGenerator</span><span class="p">;</span></div><div class='line' id='LC715'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">sound</span>: <span class="kt">Phaser.SoundManager</span><span class="p">;</span></div><div class='line' id='LC716'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stage</span>: <span class="kt">Phaser.Stage</span><span class="p">;</span></div><div class='line' id='LC717'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">state</span>: <span class="kt">Phaser.StateManager</span><span class="p">;</span></div><div class='line' id='LC718'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stepCount</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC719'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stepping</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC720'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">time</span>: <span class="kt">Phaser.Time</span><span class="p">;</span></div><div class='line' id='LC721'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">transparent</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC722'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tweens</span>: <span class="kt">Phaser.TweenManager</span><span class="p">;</span></div><div class='line' id='LC723'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">width</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC724'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">world</span>: <span class="kt">Phaser.World</span><span class="p">;</span></div><div class='line' id='LC725'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC726'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">boot</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC727'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC728'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">disableStep</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC729'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">enableStep</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC730'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">loadComplete</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC731'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">parseConfig</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC732'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">parseDimensions</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC733'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setUpRenderer</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC734'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">showDebugHeader</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC735'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">step</span><span class="p">();</span></div><div class='line' id='LC736'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">(</span><span class="nx">time</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC737'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC738'><br/></div><div class='line' id='LC739'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">GameObjectFactory</span> <span class="p">{</span></div><div class='line' id='LC740'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC741'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC742'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC743'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC744'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">world</span>: <span class="kt">Phaser.World</span><span class="p">;</span></div><div class='line' id='LC745'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC746'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">audio</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">volume?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">loop?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">connect?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sound</span><span class="p">;</span></div><div class='line' id='LC747'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bitmapData</span><span class="p">(</span><span class="nx">width?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapData</span><span class="p">;</span></div><div class='line' id='LC748'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bitmapText</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">text</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">style</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">group?</span>: <span class="kt">Phaser.Group</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">BitmapText</span><span class="p">;</span></div><div class='line' id='LC749'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">button</span><span class="p">(</span><span class="nx">x?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">key?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">callback?</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext?</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">overFrame?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">outFrame?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">downFrame?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">upFrame?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">group?</span>: <span class="kt">Phaser.Group</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Button</span><span class="p">;</span></div><div class='line' id='LC750'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">child</span><span class="p">(</span><span class="nx">parent</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">key?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">frame?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sprite</span><span class="p">;</span></div><div class='line' id='LC751'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">emitter</span><span class="p">(</span><span class="nx">x?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">maxParticles?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Particles</span><span class="p">.</span><span class="nx">Arcade</span><span class="p">.</span><span class="nx">Emitter</span><span class="p">;</span></div><div class='line' id='LC752'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">existing</span><span class="p">(</span><span class="nx">object</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">any</span><span class="p">;</span></div><div class='line' id='LC753'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">filter</span><span class="p">(</span><span class="nx">filer</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">args</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Filter</span><span class="p">;</span></div><div class='line' id='LC754'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">graphics</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">group?</span>: <span class="kt">Phaser.Group</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Graphics</span><span class="p">;</span></div><div class='line' id='LC755'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">group</span><span class="p">(</span><span class="nx">parent?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">name?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Group</span><span class="p">;</span></div><div class='line' id='LC756'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderTexture</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">RenderTexture</span><span class="p">;</span></div><div class='line' id='LC757'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">sound</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">volume?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">loop?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">connect?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sound</span><span class="p">;</span> </div><div class='line' id='LC758'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">sprite</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">key?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">frame?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">group?</span>: <span class="kt">Phaser.Group</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sprite</span><span class="p">;</span></div><div class='line' id='LC759'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">text</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">text</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">style</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">group?</span>: <span class="kt">Phaser.Group</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Text</span><span class="p">;</span></div><div class='line' id='LC760'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tilemap</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">tilesets</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tilemap</span><span class="p">;</span></div><div class='line' id='LC761'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tileSprite</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">key?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">group?</span>: <span class="kt">Phaser.Group</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">TileSprite</span><span class="p">;</span></div><div class='line' id='LC762'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tween</span><span class="p">(</span><span class="nx">obj</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC763'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC764'><br/></div><div class='line' id='LC765'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">GamePad</span> <span class="p">{</span></div><div class='line' id='LC766'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC767'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC768'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC769'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">active</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC770'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC771'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">disable</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC772'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC773'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onAxisCallBack</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC774'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onConnectCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC775'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onDisconnectCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC776'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onDownCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC777'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onFloatCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC778'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onUpCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC779'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pad1</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC780'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pad2</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC781'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pad3</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC782'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pad4</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC783'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">padsConnected</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC784'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">supported</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC785'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC786'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addCallbacks</span><span class="p">(</span><span class="nx">context</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">callbacks</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC787'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isDown</span><span class="p">(</span><span class="nx">buttonCode</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC788'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justPressed</span><span class="p">(</span><span class="nx">buttonCode</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">duration?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC789'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reset</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC790'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setDeadZones</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC791'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">start</span><span class="p">();</span></div><div class='line' id='LC792'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stop</span><span class="p">();</span></div><div class='line' id='LC793'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC794'><br/></div><div class='line' id='LC795'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">GamepadButton</span> <span class="p">{</span></div><div class='line' id='LC796'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constuctor</span></div><div class='line' id='LC797'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">buttonCode</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC798'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC799'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">buttonCode</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC800'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">duration</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC801'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC802'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isDown</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC803'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isUp</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC804'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onDown</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC805'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onFloat</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC806'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onUp</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC807'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">repeats</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC808'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">timeDown</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC809'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">timeUp</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC810'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">value</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC811'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC812'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justPressed</span><span class="p">(</span><span class="nx">duration?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC813'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">processButtonDown</span><span class="p">(</span><span class="nx">value</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC814'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">processButtonFloat</span><span class="p">(</span><span class="nx">value</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC815'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">processButtonUp</span><span class="p">(</span><span class="nx">value</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC816'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC817'><br/></div><div class='line' id='LC818'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">// Actually extends PIXI.Graphics but we skip the abstraction here, since pixi is &quot;part&quot; of phaser</span></div><div class='line' id='LC819'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">// PIXI.Graphics extends PIXI.DisplayObjectContainer extends DisplayObject</span></div><div class='line' id='LC820'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Graphics</span> <span class="kr">extends</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sprite</span> <span class="p">{</span></div><div class='line' id='LC821'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC822'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC823'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC824'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">angle</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC825'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC826'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC827'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC828'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">lineStyle</span><span class="p">(</span><span class="nx">lineWidth</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">alpha?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC829'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">moveTo</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC830'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">lineTo</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC831'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">beginFill</span><span class="p">(</span><span class="nx">color</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">alpha?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC832'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">endFill</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC833'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">drawRect</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC834'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">drawCircle</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">radius</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC835'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">drawElipse</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC836'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clear</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC837'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updateFilterBounds</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC838'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC839'><br/></div><div class='line' id='LC840'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">// Wraps a PIXI.DisplayObjectContainer</span></div><div class='line' id='LC841'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Group</span> <span class="p">{</span></div><div class='line' id='LC842'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC843'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">parent?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">name?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">useStage?</span>: <span class="kt">boolean</span><span class="p">);</span></div><div class='line' id='LC844'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static members</span></div><div class='line' id='LC845'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">RETURN_CHILD</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC846'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">RETURN_NONE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC847'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">RETURN_TOTAL</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC848'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">SORT_ASCENDING</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC849'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">SORT_DESCENDING</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC850'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC851'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">alive</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC852'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">alpha</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC853'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">angle</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC854'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">cursor</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC855'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">exists</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC856'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC857'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">group</span>: <span class="kt">Phaser.Group</span><span class="p">;</span></div><div class='line' id='LC858'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">length</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC859'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC860'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pivot</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC861'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">rotation</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC862'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scale</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC863'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">total</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC864'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">type</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC865'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">visible</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC866'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC867'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC868'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC869'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span><span class="p">(</span><span class="nx">child</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">any</span><span class="p">;</span></div><div class='line' id='LC870'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addAll</span><span class="p">(</span><span class="nx">property</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">amount</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">checkAlive</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">checkVisible</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span></div><div class='line' id='LC871'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addAt</span><span class="p">(</span><span class="nx">child</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">index</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">any</span><span class="p">;</span></div><div class='line' id='LC872'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bringToTop</span><span class="p">(</span><span class="nx">child</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">any</span><span class="p">;</span></div><div class='line' id='LC873'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">callAll</span><span class="p">(</span><span class="nx">callback</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">callbackContext?</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">parameter?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC874'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">callAllExists</span><span class="p">(</span><span class="nx">callback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">existsValue</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC875'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">callbackFromArray</span><span class="p">(</span><span class="nx">child</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">callback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">length</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC876'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">childTest</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC877'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">countDead</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC878'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">countLiving</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC879'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">create</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">frame?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">exists?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sprite</span><span class="p">;</span></div><div class='line' id='LC880'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">createMultiple</span><span class="p">(</span><span class="nx">quantity</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">frame?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">exists?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sprite</span><span class="p">;</span></div><div class='line' id='LC881'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">(</span><span class="nx">destroyChildren?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC882'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">divideAll</span><span class="p">(</span><span class="nx">property</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">amount</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">checkAlive?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">checkVisible?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC883'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">forEach</span><span class="p">(</span><span class="nx">callback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">checkExists</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC884'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">forEachAlive</span><span class="p">(</span><span class="nx">callback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC885'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">forEachDead</span><span class="p">(</span><span class="nx">callback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC886'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getAt</span><span class="p">(</span><span class="nx">index</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">any</span><span class="p">;</span></div><div class='line' id='LC887'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getFirstAlive</span><span class="p">()</span><span class="o">:</span> <span class="nx">any</span><span class="p">;</span></div><div class='line' id='LC888'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getFirstDead</span><span class="p">()</span><span class="o">:</span> <span class="nx">any</span><span class="p">;</span></div><div class='line' id='LC889'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getFirstExists</span><span class="p">(</span><span class="nx">state</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">any</span><span class="p">;</span></div><div class='line' id='LC890'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getIndex</span><span class="p">(</span><span class="nx">child</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC891'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getRandom</span><span class="p">(</span><span class="nx">startIndex</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">length</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">any</span><span class="p">;</span></div><div class='line' id='LC892'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">iterate</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">value</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">returnType</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">callback?</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext?</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="nx">any</span><span class="p">;</span></div><div class='line' id='LC893'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">multiplyAll</span><span class="p">(</span><span class="nx">property</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">amount</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">checkAlive</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">checkVisible</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC894'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">next</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC895'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">previous</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC896'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">remove</span><span class="p">(</span><span class="nx">child</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC897'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeAll</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC898'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeBetween</span><span class="p">(</span><span class="nx">startIndex</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">endIndex</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC899'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">replace</span><span class="p">(</span><span class="nx">oldChild</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">newChild</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC900'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">set</span><span class="p">(</span><span class="nx">child</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">value</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">checkAlive?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">checkVisible?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">operation?</span>: <span class="kt">number</span><span class="p">)</span></div><div class='line' id='LC901'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setAll</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">value</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">checkAlive?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">checkVisible?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">operation?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC902'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setProperty</span><span class="p">(</span><span class="nx">child</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">key</span>: <span class="kt">string</span><span class="p">[],</span> <span class="nx">value</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">operation?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC903'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">sort</span><span class="p">(</span><span class="nx">index?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">order?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC904'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">subAll</span><span class="p">(</span><span class="nx">property</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">amount</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">checkAlive</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">checkVisible</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC905'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">swap</span><span class="p">(</span><span class="nx">child1</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">child2</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC906'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">swapIndex</span><span class="p">();</span></div><div class='line' id='LC907'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC908'><br/></div><div class='line' id='LC909'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Input</span> <span class="p">{</span></div><div class='line' id='LC910'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC911'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC912'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static members</span></div><div class='line' id='LC913'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">MOUSE_OVERRIDES_TOUCH</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC914'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">MOUSE_TOUCH_COMBINE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC915'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">TOUCH_OVERRIDES_MOUSE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC916'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC917'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">activePointer</span>: <span class="kt">Phaser.Pointer</span><span class="p">;</span></div><div class='line' id='LC918'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">circle</span>: <span class="kt">Phaser.Circle</span><span class="p">;</span></div><div class='line' id='LC919'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">currentPointers</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC920'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">disabled</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC921'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">doubleTapRate</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC922'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC923'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">gamepad</span>: <span class="kt">Phaser.GamePad</span><span class="p">;</span></div><div class='line' id='LC924'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">hitCanvas</span>: <span class="kt">HTMLCanvasElement</span><span class="p">;</span></div><div class='line' id='LC925'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">hitContext</span>: <span class="kt">CanvasRenderingContext2D</span><span class="p">;</span></div><div class='line' id='LC926'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">holdRate</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC927'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">interactiveItems</span>: <span class="kt">Phaser.LinkedList</span><span class="p">;</span></div><div class='line' id='LC928'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justPressedRate</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC929'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justReleasedRate</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC930'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">keyboard</span>: <span class="kt">Phaser.Keyboard</span><span class="p">;</span></div><div class='line' id='LC931'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">maxPointers</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC932'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mouse</span>: <span class="kt">Phaser.Mouse</span><span class="p">;</span></div><div class='line' id='LC933'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mousePointer</span>: <span class="kt">Phaser.Pointer</span><span class="p">;</span></div><div class='line' id='LC934'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">moveCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC935'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">moveCallbackContext</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC936'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mspointer</span>: <span class="kt">Phaser.MSPointer</span><span class="p">;</span></div><div class='line' id='LC937'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">multiInputOverride</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC938'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onDown</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC939'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onHold</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC940'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onTap</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC941'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onUp</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC942'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointer1</span>: <span class="kt">Phaser.Pointer</span><span class="p">;</span></div><div class='line' id='LC943'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointer2</span>: <span class="kt">Phaser.Pointer</span><span class="p">;</span></div><div class='line' id='LC944'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointer3</span>: <span class="kt">Phaser.Pointer</span><span class="p">;</span></div><div class='line' id='LC945'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointer4</span>: <span class="kt">Phaser.Pointer</span><span class="p">;</span></div><div class='line' id='LC946'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointer5</span>: <span class="kt">Phaser.Pointer</span><span class="p">;</span></div><div class='line' id='LC947'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointer6</span>: <span class="kt">Phaser.Pointer</span><span class="p">;</span></div><div class='line' id='LC948'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointer7</span>: <span class="kt">Phaser.Pointer</span><span class="p">;</span></div><div class='line' id='LC949'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointer8</span>: <span class="kt">Phaser.Pointer</span><span class="p">;</span></div><div class='line' id='LC950'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointer9</span>: <span class="kt">Phaser.Pointer</span><span class="p">;</span></div><div class='line' id='LC951'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointer10</span>: <span class="kt">Phaser.Pointer</span><span class="p">;</span></div><div class='line' id='LC952'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pollLocked</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC953'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pollRate</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC954'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">position</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC955'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">recordLimit</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC956'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">recordPointerHistory</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC957'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">recordRate</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC958'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scale</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC959'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">speed</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC960'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tapRate</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC961'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">totalActivePointers</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC962'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">totalInactivePointers</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC963'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">touch</span>: <span class="kt">Phaser.Touch</span><span class="p">;</span></div><div class='line' id='LC964'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">worldX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC965'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">worldY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC966'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC967'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC968'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC969'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addPointer</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Pointer</span><span class="p">;</span></div><div class='line' id='LC970'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">boot</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC971'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC972'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getPointer</span><span class="p">(</span><span class="nx">state</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Pointer</span><span class="p">;</span></div><div class='line' id='LC973'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getPointerFromIdentifier</span><span class="p">(</span><span class="nx">identifier</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Pointer</span><span class="p">;</span></div><div class='line' id='LC974'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reset</span><span class="p">(</span><span class="nx">hard?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC975'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">resetSpeed</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC976'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setMoveCallback</span><span class="p">(</span><span class="nx">callBack</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC977'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">startPointer</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">Event</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Pointer</span><span class="p">;</span></div><div class='line' id='LC978'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stopPointer</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">Event</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Pointer</span><span class="p">;</span></div><div class='line' id='LC979'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC980'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updatePointer</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">Event</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Pointer</span><span class="p">;</span></div><div class='line' id='LC981'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC982'><br/></div><div class='line' id='LC983'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">InputHandler</span> <span class="kr">extends</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">LinkedListItem</span> <span class="p">{</span></div><div class='line' id='LC984'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC985'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">);</span></div><div class='line' id='LC986'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC987'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">allowHorizontalDrag</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC988'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">allowVerticalDrag</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC989'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">boundwsRect</span>: <span class="kt">Phaser.Rectangle</span><span class="p">;</span></div><div class='line' id='LC990'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">boundsSprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">;</span></div><div class='line' id='LC991'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bringToTop</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC992'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">consumePointerEvent</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC993'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">draggable</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC994'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">enabled</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC995'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC996'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isDragged</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC997'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pixelPerfect</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC998'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pixelPerfectAlpha</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC999'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">priorityID</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1000'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">snapOffset</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1001'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">snapOffsetX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1002'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">snapOffsetY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1003'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">snapOnDrag</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1004'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">snapOnRelease</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1005'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">snapX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1006'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">snapY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1007'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">;</span></div><div class='line' id='LC1008'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">useHandCursor</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1009'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1010'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkBoundsRect</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1011'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkBoundsSprite</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1012'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkPixel</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1013'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkPointerOver</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1014'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1015'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">disableDrag</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1016'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">disableSnap</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1017'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">downDuration</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1018'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">enableDrag</span><span class="p">(</span><span class="nx">lockCenter?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">bringToTop?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">pixelPerfect?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">alphaThreshold?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">boundsRect?</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">boundsSprite?</span>: <span class="kt">Phaser.Rectangle</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1019'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">enableSnap</span><span class="p">(</span><span class="nx">snapX</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">snapY</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">onDrag?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">onRelease?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">snapOffsetX?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">snapOffsetY?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1020'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justOut</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">delay</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1021'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justOver</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">delay</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1022'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justPressed</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">delay</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1023'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justReleased</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">delay</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1024'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">overDuration</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1025'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointerDown</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1026'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointerDragged</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1027'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointerOut</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1028'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointerOver</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1029'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointerTimeDown</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1030'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointerTimeOut</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1031'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointerTimeOver</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1032'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointerTimeUp</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1033'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointerUp</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1034'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointerX</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1035'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointerY</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1036'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reset</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1037'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setDragLock</span><span class="p">(</span><span class="nx">allowHorizontal?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">allowVertical?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1038'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">start</span><span class="p">(</span><span class="nx">priority</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">useHandCursor</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sprite</span><span class="p">;</span></div><div class='line' id='LC1039'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">startDrag</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">Phaser.Pointer</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1040'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stop</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1041'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stopDrag</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">Phaser.Pointer</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1042'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">Phaser.Pointer</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1043'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updateDrag</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">Phaser.Pointer</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1044'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1045'><br/></div><div class='line' id='LC1046'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Key</span> <span class="p">{</span></div><div class='line' id='LC1047'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1048'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">keycode</span>: <span class="kt">number</span><span class="p">)</span></div><div class='line' id='LC1049'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1050'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">altKey</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1051'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">ctrlKey</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1052'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">duration</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1053'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1054'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isDown</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1055'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isUp</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1056'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">keyCode</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1057'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onDown</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC1058'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onUp</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC1059'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">repeats</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1060'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">shiftKey</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1061'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">timeDown</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1062'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">timeUp</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1063'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1064'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justPressed</span><span class="p">(</span><span class="nx">duration?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1065'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justReleased</span><span class="p">(</span><span class="nx">duration?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1066'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1067'><br/></div><div class='line' id='LC1068'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Keyboard</span> <span class="p">{</span></div><div class='line' id='LC1069'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1070'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC1071'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static members</span></div><div class='line' id='LC1072'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">A</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1073'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">B</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1074'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">C</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1075'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">D</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1076'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">E</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1077'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1078'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">G</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1079'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">H</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1080'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">I</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1081'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">J</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1082'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">K</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1083'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">L</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1084'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">M</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1085'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">N</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1086'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">O</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1087'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">P</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1088'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">Q</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1089'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">R</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1090'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">S</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1091'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">T</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1092'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">U</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1093'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">V</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1094'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">W</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1095'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">X</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1096'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">Y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1097'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">Z</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1098'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">ZERO</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1099'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">ONE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1100'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">TWO</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1101'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">THREE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1102'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">FOUR</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1103'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">FIVE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1104'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">SIX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1105'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">SEVEN</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1106'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">EIGHT</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1107'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NINE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1108'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_0</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1109'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_1</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1110'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_2</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1111'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_3</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1112'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_4</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1113'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_5</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1114'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_6</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1115'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_7</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1116'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_8</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1117'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_9</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1118'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_MULTIPLY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1119'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_ADD</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1120'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_ENTER</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1121'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_SUBTRACT</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1122'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_DECIMAL</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1123'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUMPAD_DIVIDE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1124'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F1</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1125'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F2</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1126'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F3</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1127'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F4</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1128'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F5</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1129'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F6</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1130'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F7</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1131'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F8</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1132'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F9</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1133'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F10</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1134'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F11</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1135'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F12</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1136'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F13</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1137'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F14</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1138'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">F15</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1139'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">COLON</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1140'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">EQUALS</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1141'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">UNDERSCORE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1142'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">QUESTION_MARK</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1143'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">TILDE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1144'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">OPEN_BRACKET</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1145'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">BACKWARD_SLASH</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1146'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">CLOSED_BRACKET</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1147'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">QUOTES</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1148'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">BACKSPACE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1149'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">TAB</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">CLEAR</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1151'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">ENTER</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1152'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">SHIFT</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1153'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">CONTROL</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1154'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">ALT</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1155'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">CAPS_LOCK</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1156'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">ESC</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1157'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">SPACEBAR</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1158'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">PAGE_UP</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1159'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">PAGE_DOWN</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1160'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">END</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1161'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">HOME</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1162'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">LEFT</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1163'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">UP</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1164'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">RIGHT</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1165'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">DOWN</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1166'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">INSERT</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1167'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">DELETE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1168'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">HELP</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1169'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NUM_LOCK</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1170'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1171'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC1172'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">disabled</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1173'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1174'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onDownCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC1175'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onUpCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC1176'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1177'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addCallbacks</span><span class="p">(</span><span class="nx">context</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">onDown</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">onUp?</span>: <span class="kt">Function</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1178'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addKey</span><span class="p">(</span><span class="nx">keycode</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Key</span><span class="p">;</span></div><div class='line' id='LC1179'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addKeyCapture</span><span class="p">(</span><span class="nx">keycode</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1180'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">createCursorKeys</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">CursorKeys</span><span class="p">;</span></div><div class='line' id='LC1181'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clearCaptures</span><span class="p">()</span><span class="o">:</span> <span class="nb">Object</span><span class="p">;</span></div><div class='line' id='LC1182'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isDown</span><span class="p">(</span><span class="nx">keycode</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1183'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justPressed</span><span class="p">(</span><span class="nx">keycode</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">duration?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1184'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justReleased</span><span class="p">(</span><span class="nx">keycode</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">duration?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1185'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeKey</span><span class="p">(</span><span class="nx">keycode</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1186'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeKeyCapture</span><span class="p">(</span><span class="nx">keycode</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1187'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reset</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1188'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">start</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1189'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stop</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1190'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1191'><br/></div><div class='line' id='LC1192'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Line</span> <span class="p">{</span></div><div class='line' id='LC1193'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1194'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">x1?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y1?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x2?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y2?</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC1195'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1196'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">angle</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1197'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">end</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1198'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">length</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1199'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">perpSlope</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1200'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">slope</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1201'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">start</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1202'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static methods</span></div><div class='line' id='LC1203'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">intersectsPoints</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">e</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">f</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">asSegment?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">result?</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1204'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">intersects</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Line</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Phaser.Line</span><span class="p">,</span> <span class="nx">asSegment?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">result?</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1205'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1206'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fromSprite</span><span class="p">(</span><span class="nx">startSprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">endSprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">useCenter?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Line</span><span class="p">;</span></div><div class='line' id='LC1207'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">intersects</span><span class="p">(</span><span class="nx">line</span>: <span class="kt">Phaser.Line</span><span class="p">,</span> <span class="nx">asSegment?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">result?</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1208'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointOnLine</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1209'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointOnSegment</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1210'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setTo</span><span class="p">(</span><span class="nx">x1?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y1?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x2?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y2?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Line</span><span class="p">;</span></div><div class='line' id='LC1211'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1212'><br/></div><div class='line' id='LC1213'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">LinkedListItem</span> <span class="p">{</span></div><div class='line' id='LC1214'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1215'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">next</span>: <span class="kt">LinkedListItem</span><span class="p">;</span></div><div class='line' id='LC1216'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">prev</span>: <span class="kt">LinkedListItem</span><span class="p">;</span></div><div class='line' id='LC1217'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">first</span>: <span class="kt">LinkedListItem</span><span class="p">;</span></div><div class='line' id='LC1218'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">last</span>: <span class="kt">LinkedListItem</span><span class="p">;</span></div><div class='line' id='LC1219'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1220'><br/></div><div class='line' id='LC1221'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">LinkedList</span> <span class="kr">extends</span> <span class="nx">LinkedListItem</span> <span class="p">{</span></div><div class='line' id='LC1222'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1223'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">first</span>: <span class="kt">LinkedListItem</span><span class="p">;</span></div><div class='line' id='LC1224'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">last</span>: <span class="kt">LinkedListItem</span><span class="p">;</span></div><div class='line' id='LC1225'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">next</span>: <span class="kt">LinkedListItem</span><span class="p">;</span></div><div class='line' id='LC1226'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">prev</span>: <span class="kt">LinkedListItem</span><span class="p">;</span></div><div class='line' id='LC1227'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">total</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1228'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1229'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span><span class="p">(</span><span class="nx">child</span>: <span class="kt">LinkedListItem</span><span class="p">)</span><span class="o">:</span> <span class="nx">LinkedListItem</span><span class="p">;</span></div><div class='line' id='LC1230'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">callAll</span><span class="p">(</span><span class="nx">callback</span>: <span class="kt">Function</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1231'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">remove</span><span class="p">(</span><span class="nx">child</span>: <span class="kt">LinkedListItem</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1232'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1233'><br/></div><div class='line' id='LC1234'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Loader</span> <span class="p">{</span></div><div class='line' id='LC1235'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1236'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC1237'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static members</span></div><div class='line' id='LC1238'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">TEXTURE_ATLAS_JSON_ARRAY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1239'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">TEXTURE_ATLAS_JSON_HASH</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1240'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">TEXTURE_ATLAS_XML_STARLING</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1241'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1242'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">baseURL</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC1243'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">crossOrigin</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC1244'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1245'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">hasLoaded</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1246'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isLoading</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1247'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onFileComplete</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC1248'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onFileError</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC1249'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onLoadComplete</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC1250'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onLoadStart</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC1251'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">preloadSprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">;</span></div><div class='line' id='LC1252'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">progress</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1253'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">progressFloat</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1254'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1255'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addToFileList</span><span class="p">(</span><span class="nx">type</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">url</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">properties</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1256'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">atlas</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">textureURL</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">atlasURL?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">atlasData?</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">format?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Loader</span><span class="p">;</span></div><div class='line' id='LC1257'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">atlasJSONArray</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">textureURL</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">atlasURL?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">atlasData?</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Loader</span><span class="p">;</span></div><div class='line' id='LC1258'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">atlasJSONHash</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">textureURL</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">atlasURL?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">atlasData?</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Loader</span><span class="p">;</span></div><div class='line' id='LC1259'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">atlasXML</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">textureURL</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">atlasURL?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">atlasData?</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Loader</span><span class="p">;</span></div><div class='line' id='LC1260'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">audio</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">urls</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">autoDecode?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Loader</span><span class="p">;</span></div><div class='line' id='LC1261'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">binary</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">url</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">callback?</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext?</span>: <span class="kt">Function</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Loader</span><span class="p">;</span></div><div class='line' id='LC1262'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bitmapFont</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">textureURL</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">xmlURL?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">xmlData?</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Loader</span><span class="p">;</span></div><div class='line' id='LC1263'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkKeyExists</span><span class="p">(</span><span class="nx">type</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1264'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">csvLoadComplete</span><span class="p">(</span><span class="nx">index</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1265'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">dataLoadError</span><span class="p">(</span><span class="nx">index</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1266'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fileComplete</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1267'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fileError</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1268'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getAsset</span><span class="p">(</span><span class="nx">type</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">any</span><span class="p">;</span></div><div class='line' id='LC1269'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">image</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">url</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">overwrite?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Loader</span><span class="p">;</span></div><div class='line' id='LC1270'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">json</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">url</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Loader</span><span class="p">;</span></div><div class='line' id='LC1271'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">jsonLoadComplete</span><span class="p">(</span><span class="nx">index</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1272'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeAll</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1273'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeFile</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">type</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1274'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reset</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1275'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">script</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">url</span>: <span class="kt">String</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Loader</span><span class="p">;</span></div><div class='line' id='LC1276'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setPreloadSprite</span><span class="p">(</span><span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">direction?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1277'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">spritesheet</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">url</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">frameWidth</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">frameHeight</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">frameMax?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">margin?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">spacing?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Loader</span><span class="p">;</span></div><div class='line' id='LC1278'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">start</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1279'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">text</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">url</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">overwrite?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Loader</span><span class="p">;</span></div><div class='line' id='LC1280'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tilemap</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">mapDataURL?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">mapData?</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">format?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Loader</span><span class="p">;</span></div><div class='line' id='LC1281'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">totalLoadedFiles</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1282'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">totalQueuedFiles</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1283'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">xmlLoadComplete</span><span class="p">(</span><span class="nx">index</span>:<span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1284'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members no longer used?</span></div><div class='line' id='LC1285'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tileset</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">url</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">tileWidth</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tileHeight</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tileMargin?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tileSpacing?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">rows?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">columns?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">limit?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1286'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1287'><br/></div><div class='line' id='LC1288'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">LoaderParser</span> <span class="p">{</span></div><div class='line' id='LC1289'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static methods</span></div><div class='line' id='LC1290'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">bitmapFont</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">xml</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">cacheKey</span>: <span class="kt">Phaser.FrameData</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">FrameData</span><span class="p">;</span></div><div class='line' id='LC1291'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1292'><br/></div><div class='line' id='LC1293'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nb">Math</span> <span class="p">{</span></div><div class='line' id='LC1294'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static methods</span></div><div class='line' id='LC1295'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">angleBetween</span><span class="p">(</span><span class="nx">x1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x2</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y2</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1296'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">angleLimit</span><span class="p">(</span><span class="nx">angle</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">min</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1297'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">average</span><span class="p">(...</span><span class="nx">numbers</span>: <span class="kt">number</span><span class="p">[])</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1298'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">bernstein</span><span class="p">(</span><span class="nx">n</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">i</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1299'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">bezierInterpolation</span><span class="p">(</span><span class="nx">v</span>: <span class="kt">number</span><span class="p">[],</span> <span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1300'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">catmullRom</span><span class="p">(</span><span class="nx">p0</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">p1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">p2</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">p3</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">t</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1301'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">catmullRomInterpolation</span><span class="p">(</span><span class="nx">v</span>: <span class="kt">number</span><span class="p">[],</span> <span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1302'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">ceil</span><span class="p">(</span><span class="nx">value</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1303'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">ceilTo</span><span class="p">(</span><span class="nx">value</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">place?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">base?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1304'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">chanceRoll</span><span class="p">(</span><span class="nx">chance</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1305'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">clamp</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">a</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1306'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">clampBottom</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">a</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1307'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">degToRad</span><span class="p">(</span><span class="nx">degrees</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1308'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">difference</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1309'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">distance</span><span class="p">(</span><span class="nx">x1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x2</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y2</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1310'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">distancePow</span><span class="p">(</span><span class="nx">xy</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x2</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y2</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">pow?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1311'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">distanceRounded</span><span class="p">(</span><span class="nx">x1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x2</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y2</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1312'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">floor</span><span class="p">(</span><span class="nx">value</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1313'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">floorTo</span><span class="p">(</span><span class="nx">value</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">place</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">base</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1314'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">fuzzyCeil</span><span class="p">(</span><span class="nx">val</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">epsilon?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1315'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">fuzzyEqual</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">epsilon?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1316'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">fuzzyFloor</span><span class="p">(</span><span class="nx">val</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">epsilon?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1317'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">fuzzyGreaterThan</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">epsilon?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1318'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">fuzzyLessThan</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">epsilon?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1319'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">getRandom</span><span class="p">(</span><span class="nx">objects</span>: <span class="kt">Object</span><span class="p">[],</span> <span class="nx">startIndex?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">length?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nb">Object</span><span class="p">;</span></div><div class='line' id='LC1320'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">interpolateAngles</span><span class="p">(</span><span class="nx">a1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">a2</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">weight</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">radians?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">ease?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1321'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">interpolateFloat</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">weight</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1322'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">isEven</span><span class="p">(</span><span class="nx">n</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1323'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">isOdd</span><span class="p">(</span><span class="nx">n</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1324'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">linear</span><span class="p">(</span><span class="nx">p0</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">p1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">t</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1325'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">linearInterpolation</span><span class="p">(</span><span class="nx">v</span>: <span class="kt">number</span><span class="p">[],</span> <span class="nx">k</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1326'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">mapLinear</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">a1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">a2</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">b1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">b2</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1327'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">max</span><span class="p">(...</span><span class="nx">numbers</span>: <span class="kt">number</span><span class="p">[])</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1328'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">maxAdd</span><span class="p">(</span><span class="nx">value</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">amount</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1329'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">maxProperty</span><span class="p">(...</span><span class="nx">numbers</span>: <span class="kt">number</span><span class="p">[])</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1330'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">min</span><span class="p">(...</span><span class="nx">numbers</span>: <span class="kt">number</span><span class="p">[])</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1331'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">minProperty</span><span class="p">(...</span><span class="nx">numbers</span>: <span class="kt">number</span><span class="p">[])</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1332'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">minSub</span><span class="p">(</span><span class="nx">value</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">amount</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">min</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1333'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">nearestAngleBetween</span><span class="p">(</span><span class="nx">a1</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">a2</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">radians?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1334'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">normalizeAngle</span><span class="p">(</span><span class="nx">angle</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">radians?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1335'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">normalizeLatitude</span><span class="p">(</span><span class="nx">lat</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1336'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">normalizeLongitude</span><span class="p">(</span><span class="nx">lng</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1337'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">numberArray</span><span class="p">(</span><span class="nx">min</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">[];</span></div><div class='line' id='LC1338'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">PI2</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1339'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">radToDeg</span><span class="p">(</span><span class="nx">radians</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1340'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">randomSign</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1341'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">reverseAngle</span><span class="p">(</span><span class="nx">angleRed</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1342'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">roundTo</span><span class="p">(</span><span class="nx">value</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">place?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">base?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1343'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">shear</span><span class="p">(</span><span class="nx">n</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1344'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">shift</span><span class="p">(</span><span class="nx">stack</span>: <span class="kt">any</span><span class="p">[])</span><span class="o">:</span> <span class="nx">any</span><span class="p">;</span></div><div class='line' id='LC1345'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">shuffleArray</span><span class="p">(</span><span class="nx">array</span>: <span class="kt">any</span><span class="p">[])</span><span class="o">:</span> <span class="nx">any</span><span class="p">[];</span></div><div class='line' id='LC1346'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">sign</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1347'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">sinCosGenerator</span><span class="p">(</span><span class="nx">length</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">sinAmplitude?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">cosAmplitude?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">frequency?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="p">{</span> <span class="nx">sin</span>: <span class="kt">number</span><span class="p">[];</span> <span class="nx">cos</span>: <span class="kt">number</span><span class="p">[];</span> <span class="p">};</span></div><div class='line' id='LC1348'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">smootherstep</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">min</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1349'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">smoothstep</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">min</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1350'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">snapTo</span><span class="p">(</span><span class="nx">input</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">gap</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">start?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1351'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">snapToCeil</span><span class="p">(</span><span class="nx">input</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">gap</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">start?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1352'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">snapToFloor</span><span class="p">(</span><span class="nx">input</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">gap</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">start?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1353'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">snapToInArray</span><span class="p">(</span><span class="nx">input</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">arr</span>: <span class="kt">number</span><span class="p">[],</span> <span class="nx">sort?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1354'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">truncate</span><span class="p">(</span><span class="nx">n</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1355'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">within</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tolerance</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1356'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">wrap</span><span class="p">(</span><span class="nx">value</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">min</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1357'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">wrapAngle</span><span class="p">(</span><span class="nx">angle</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1358'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">wrapValue</span><span class="p">(</span><span class="nx">value</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">amount</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span>       </div><div class='line' id='LC1359'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1360'><br/></div><div class='line' id='LC1361'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Mouse</span> <span class="p">{</span></div><div class='line' id='LC1362'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1363'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">)</span></div><div class='line' id='LC1364'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static members</span></div><div class='line' id='LC1365'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">LEFT_BUTTON</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1366'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">MIDDLE_BUTTON</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1367'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NO_BUTTON</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1368'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">RIGHT_BUTTON</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1369'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1370'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">button</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1371'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC1372'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">capture</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1373'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">disabled</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1374'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">event</span>: <span class="kt">MouseEvent</span><span class="p">;</span></div><div class='line' id='LC1375'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1376'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">locked</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1377'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mouseDownCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC1378'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mouseMoveCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC1379'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mouseUpCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC1380'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointerLock</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC1381'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1382'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onMouseDown</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1383'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onMouseMove</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1384'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onMouseUp</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1385'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pointerLockChange</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1386'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">releasePointerLock</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1387'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">requestPointerLock</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1388'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">start</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1389'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stop</span><span class="p">();</span></div><div class='line' id='LC1390'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1391'><br/></div><div class='line' id='LC1392'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">MSPointer</span> <span class="p">{</span></div><div class='line' id='LC1393'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1394'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC1395'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1396'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC1397'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">disabled</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1398'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1399'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1400'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onPointerDown</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1401'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onPointerMove</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1402'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onPointerUp</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1403'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mouseDownCallback</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1404'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mouseMoveCallback</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1405'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mouseUpCallback</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1406'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">start</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1407'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stop</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1408'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1409'><br/></div><div class='line' id='LC1410'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Net</span> <span class="p">{</span></div><div class='line' id='LC1411'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1412'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC1413'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1414'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1415'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1416'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkDomainName</span><span class="p">(</span><span class="nx">domain</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1417'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nb">decodeURI</span><span class="p">(</span><span class="nx">value</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC1418'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getHostName</span><span class="p">()</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC1419'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updateQueryString</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">value</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">redirect?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">url?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC1420'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getQueryString</span><span class="p">(</span><span class="nx">parameter?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC1421'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1422'><br/></div><div class='line' id='LC1423'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Particles</span> <span class="p">{</span></div><div class='line' id='LC1424'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1425'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC1426'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1427'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">emitters</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC1428'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1429'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">ID</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1430'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1431'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span><span class="p">(</span><span class="nx">emitter</span>: <span class="kt">Phaser.Particles.Arcade.Emitter</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Particles</span><span class="p">.</span><span class="nx">Arcade</span><span class="p">.</span><span class="nx">Emitter</span><span class="p">;</span></div><div class='line' id='LC1432'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">remove</span><span class="p">(</span><span class="nx">emitter</span>: <span class="kt">Phaser.Particles.Arcade.Emitter</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1433'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1434'><br/></div><div class='line' id='LC1435'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">module</span> <span class="nx">Particles</span> <span class="p">{</span></div><div class='line' id='LC1436'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">module</span> <span class="nx">Arcade</span> <span class="p">{</span></div><div class='line' id='LC1437'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Emitter</span> <span class="kr">extends</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Group</span> <span class="p">{</span></div><div class='line' id='LC1438'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1439'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">x?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">maxParticles?</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC1440'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1441'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">alpha</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1442'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">angularDrag</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1443'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bottom</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1444'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bounce</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1445'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">emitX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1446'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">emitY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1447'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">exists</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1448'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">frequency</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1449'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">gravity</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1450'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">group</span>: <span class="kt">Phaser.Group</span><span class="p">;</span></div><div class='line' id='LC1451'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">height</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1452'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">left</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1453'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">lifespan</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1454'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">maxParticles</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1455'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">maxParticleScale</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1456'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">maxParticleSpeed</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1457'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">maxRotation</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1458'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">minParticleScale</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1459'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">minParticleSpeed</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1460'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">minRotation</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1461'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC1462'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">on</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1463'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">particleClass</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC1464'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">particleFriction</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1465'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">right</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1466'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">top</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1467'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">type</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1468'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">visible</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1469'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">width</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1470'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1471'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1472'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//this old and no longer used?</span></div><div class='line' id='LC1473'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">particleDrag</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1474'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1475'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">at</span><span class="p">(</span><span class="nx">object</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1476'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">emitParticle</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1477'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">kill</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1478'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">makeParticles</span><span class="p">(</span><span class="nx">keys</span>: <span class="kt">string</span><span class="p">[],</span> <span class="nx">frames</span>: <span class="kt">number</span><span class="p">[],</span> <span class="nx">quantity</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">collide?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">collideWorldBounds?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Particles</span><span class="p">.</span><span class="nx">Arcade</span><span class="p">.</span><span class="nx">Emitter</span><span class="p">;</span></div><div class='line' id='LC1479'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setRotation</span><span class="p">(</span><span class="nx">min?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1480'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setSize</span><span class="p">(</span><span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1481'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setXSpeed</span><span class="p">(</span><span class="nx">min</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1482'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setYSpeed</span><span class="p">(</span><span class="nx">min</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1483'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">start</span><span class="p">(</span><span class="nx">explode?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">lifespan?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">frequency?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">quantity?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1484'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1485'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">revive</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1486'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1487'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1488'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1489'><br/></div><div class='line' id='LC1490'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">module</span> <span class="nx">Physics</span> <span class="p">{</span></div><div class='line' id='LC1491'><br/></div><div class='line' id='LC1492'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Arcade</span> <span class="p">{</span></div><div class='line' id='LC1493'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1494'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC1495'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static methods</span></div><div class='line' id='LC1496'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">CIRCLE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1497'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">POLYGON</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1498'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">RECT</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1499'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1500'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1501'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">gravity</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1502'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">maxLevels</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1503'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">maxObjects</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1504'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">quadTree</span>: <span class="kt">Phaser.QuadTree</span><span class="p">;</span></div><div class='line' id='LC1505'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">worldBottom</span>: <span class="kt">SAT.Box</span><span class="p">;</span></div><div class='line' id='LC1506'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">worldLeft</span>: <span class="kt">SAT.Box</span><span class="p">;</span></div><div class='line' id='LC1507'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">worldPolys</span>: <span class="kt">SAT.Polygon</span><span class="p">;</span></div><div class='line' id='LC1508'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">worldRight</span>: <span class="kt">SAT.Box</span><span class="p">;</span></div><div class='line' id='LC1509'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">worldTop</span>: <span class="kt">SAT.Box</span><span class="p">;</span></div><div class='line' id='LC1510'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1511'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">accelerateToObject</span><span class="p">(</span><span class="nx">displayObject</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">destination</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">speed?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">xSpeedMax?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">ySpeedMax?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1512'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">accelerateToPointer</span><span class="p">(</span><span class="nx">displayObject</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">pointer</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">speed?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">xSpeedMax?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">ySpeedMax?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1513'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">accelerateToXY</span><span class="p">(</span><span class="nx">displayObject</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">speed?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">xSpeedMax?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">ySpeedMax?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1514'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">angleBetween</span><span class="p">(</span><span class="nx">source</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">target</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1515'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">angleToPointer</span><span class="p">(</span><span class="nx">displayObject</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">pointer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1516'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">angleToXY</span><span class="p">(</span><span class="nx">displayObject</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1517'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkBounds</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1518'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collide</span><span class="p">(</span><span class="nx">object1</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">object2</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">collideCallback?</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">processCallback?</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1519'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">distanceBetween</span><span class="p">(</span><span class="nx">source</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">target</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1520'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">distanceToPointer</span><span class="p">(</span><span class="nx">displayObject</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">pointer</span>: <span class="kt">Phaser.Pointer</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1521'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">distanceToXY</span><span class="p">(</span><span class="nx">displayObject</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1522'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">intersects</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1523'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">moveToObject</span><span class="p">(</span><span class="nx">displayObject</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">destination</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">speed?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">maxTime?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1524'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">moveToPointer</span><span class="p">(</span><span class="nx">displayObject</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">speed?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">pointer?</span>: <span class="kt">Phaser.Pointer</span><span class="p">,</span> <span class="nx">maxTime?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1525'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">moveToXY</span><span class="p">(</span><span class="nx">displayObject</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">speed?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">maxTime?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1526'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">overlap</span><span class="p">(</span><span class="nx">object1</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">object2</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">overlapCallback?</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">processCallback?</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1527'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">processTileSeparation</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1528'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">separate</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">,</span> <span class="nx">body2</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">,</span> <span class="nx">processCallback?</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">overlapOnly?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1529'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">separateTile</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">,</span> <span class="nx">tile</span>: <span class="kt">Phaser.Tile</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1530'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">separateTiles</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">,</span> <span class="nx">tiles</span>: <span class="kt">Phaser.Tile</span><span class="p">[])</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1531'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setBounds</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">left?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">right?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">top?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">bottom?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1532'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setBoundsToWorld</span><span class="p">(</span><span class="nx">left?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">right?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">top?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">bottom?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1533'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tileIntersects</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">,</span> <span class="nx">tile</span>: <span class="kt">Phaser.Tile</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1534'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updateMotion</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1535'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">velocityFromAngle</span><span class="p">(</span><span class="nx">angle</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">speed?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">point?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1536'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">velocityFromRotation</span><span class="p">(</span><span class="nx">rotation</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">speed?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">point?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1537'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//I left these methods but I do not think they should be here?</span></div><div class='line' id='LC1538'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideHandler</span><span class="p">(</span><span class="nx">object1</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">object2</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">collideCallback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">processCallback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">overlapOnly</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1539'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideSpriteVsSprite</span><span class="p">(</span><span class="nx">sprite1</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">sprite2</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">collideCallback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">processCallback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">overlapOnly</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1540'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideSpriteVsGroup</span><span class="p">(</span><span class="nx">sprite1</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">group</span>: <span class="kt">Phaser.Group</span><span class="p">,</span> <span class="nx">collideCallback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">processCallback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">overlapOnly</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1541'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideGroupVsSelf</span><span class="p">(</span><span class="nx">group</span>: <span class="kt">Phaser.Group</span><span class="p">,</span> <span class="nx">collideCallback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">processCallback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">overlapOnly</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1542'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideGroupVsGroup</span><span class="p">(</span><span class="nx">group</span>: <span class="kt">Phaser.Group</span><span class="p">,</span> <span class="nx">group2</span>: <span class="kt">Phaser.Group</span><span class="p">,</span> <span class="nx">collideCallback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">processCallback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">overlapOnly</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1543'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideSpriteVsTilemapLayer</span><span class="p">(</span><span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">tilemapLayer</span>: <span class="kt">Phaser.TilemapLayer</span><span class="p">,</span> <span class="nx">collideCallback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">processCallback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1544'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideGroupVsTilemapLayer</span><span class="p">(</span><span class="nx">group</span>: <span class="kt">Phaser.Group</span><span class="p">,</span> <span class="nx">tilemapLayer</span>: <span class="kt">Phaser.TilemapLayer</span><span class="p">,</span> <span class="nx">collideCallback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">processCallback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1545'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">distanceTo</span><span class="p">(</span><span class="nx">source</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">target</span>: <span class="kt">Phaser.Sprite</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1546'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1547'><br/></div><div class='line' id='LC1548'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">module</span> <span class="nx">Arcade</span> <span class="p">{</span></div><div class='line' id='LC1549'><br/></div><div class='line' id='LC1550'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Body</span> <span class="p">{</span></div><div class='line' id='LC1551'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1552'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">);</span></div><div class='line' id='LC1553'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static members</span></div><div class='line' id='LC1554'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">CIRCLE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1555'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">POLYGON</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1556'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">RECT</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1557'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1558'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">acceleration</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1559'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">allowGravity</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1560'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">allowRotation</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1561'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">angle</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1562'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">angularAcceleration</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1563'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">angularDrag</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1564'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">angularVelocity</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1565'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">blocked</span>: <span class="kt">FaceChoices</span><span class="p">;</span></div><div class='line' id='LC1566'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bottom</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1567'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bounce</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1568'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkCollision</span>: <span class="kt">FaceChoices</span><span class="p">;</span></div><div class='line' id='LC1569'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideCallback</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC1570'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideCallbackContext</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC1571'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideWorldBounds</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1572'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">contacts</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">[];</span></div><div class='line' id='LC1573'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">customSeparateCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC1574'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">customSeparateContext</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC1575'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">facing</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1576'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1577'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">gravity</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1578'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">height</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1579'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">immovable</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1580'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">left</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1581'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">linearDamping</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1582'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mass</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1583'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">maxAngular</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1584'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">maxVelocity</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1585'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">minVelocity</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1586'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">moves</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1587'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">offset</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1588'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">overlapX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1589'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">overlapY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1590'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">polygon</span>: <span class="kt">SAT.Polygon</span><span class="p">;</span></div><div class='line' id='LC1591'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">preRotation</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1592'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">preX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1593'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">preY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1594'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">rebound</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1595'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">right</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1596'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">rotation</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1597'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">shape</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC1598'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">speed</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1599'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">;</span></div><div class='line' id='LC1600'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">top</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1601'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">touching</span>: <span class="kt">FaceChoices</span><span class="p">;</span></div><div class='line' id='LC1602'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">type</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC1603'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">velocity</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1604'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">width</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1605'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1606'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1607'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1608'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span><span class="p">(</span><span class="nx">v</span>:<span class="kt">SAT.Vector</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1609'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addContact</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1610'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">applyDamping</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1611'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkBlocked</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1612'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">deltaX</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1613'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">deltaY</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1614'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">deltaZ</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1615'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1616'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">exchange</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1617'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getDownwardForce</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1618'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getUpwardForce</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1619'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">give</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">,</span> <span class="nx">response</span>: <span class="kt">SAT.Response</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1620'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">hitBottom</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">,</span> <span class="nx">response</span>: <span class="kt">SAT.Response</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1621'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">hitLeft</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">,</span> <span class="nx">response</span>: <span class="kt">SAT.Response</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1622'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">hitRight</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">,</span> <span class="nx">response</span>: <span class="kt">SAT.Response</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1623'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">hitTop</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">,</span> <span class="nx">response</span>: <span class="kt">SAT.Response</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1624'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">inContact</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1625'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">integrateVelocity</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1626'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onFloor</span><span class="p">()</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1627'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onWall</span><span class="p">()</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1628'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">overlap</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">,</span> <span class="nx">response</span>: <span class="kt">SAT.Response</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1629'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">postUpdate</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1630'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">preUpdate</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1631'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">processRebound</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1632'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reboundCheck</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">rebound</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1633'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeContact</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1634'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reset</span><span class="p">(</span><span class="nx">full</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1635'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">separate</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">,</span> <span class="nx">response</span>: <span class="kt">SAT.Response</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1636'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setCircle</span><span class="p">(</span><span class="nx">radius</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">offsetX?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">offsetY?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1637'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setPolygon</span><span class="p">(</span><span class="nx">points</span>: <span class="kt">any</span><span class="p">[])</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span> </div><div class='line' id='LC1638'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setRectangle</span><span class="p">(</span><span class="nx">width?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">translateX?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">translateY?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1639'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">split</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">,</span> <span class="nx">response</span>: <span class="kt">SAT.Response</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1640'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">sub</span><span class="p">(</span><span class="nx">v</span>: <span class="kt">SAT.Vector</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1641'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">take</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">,</span> <span class="nx">response</span>: <span class="kt">SAT.Response</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1642'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">translate</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1643'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updateBounds</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1644'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updateScale</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1645'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1646'><br/></div><div class='line' id='LC1647'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">FaceChoices</span> <span class="p">{</span></div><div class='line' id='LC1648'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">none</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1649'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">any</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1650'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">up</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1651'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">down</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1652'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">left</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1653'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">right</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1654'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1655'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1656'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1657'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1658'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1659'><br/></div><div class='line' id='LC1660'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Plugin</span> <span class="kr">extends</span> <span class="nx">StateCycle</span> <span class="p">{</span></div><div class='line' id='LC1661'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constrctor</span></div><div class='line' id='LC1662'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">parent</span>: <span class="kt">any</span><span class="p">);</span></div><div class='line' id='LC1663'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1664'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">active</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1665'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1666'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">hasPostRender</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1667'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">hasPostUpdate</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1668'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">hasPreUpdate</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1669'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">hasRender</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1670'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">hasUpdate</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1671'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">parent</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC1672'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">visible</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1673'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1674'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1675'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">postRender</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1676'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">preUpdate</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1677'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">render</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1678'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1679'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1680'><br/></div><div class='line' id='LC1681'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">PluginManager</span> <span class="kr">extends</span> <span class="nx">StateCycle</span> <span class="p">{</span></div><div class='line' id='LC1682'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1683'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">parent</span>: <span class="kt">any</span><span class="p">);</span></div><div class='line' id='LC1684'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1685'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1686'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">plugins</span>: <span class="kt">Phaser.Plugin</span><span class="p">[];</span></div><div class='line' id='LC1687'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1688'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span><span class="p">(</span><span class="nx">plugin</span>: <span class="kt">Phaser.Plugin</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Plugin</span><span class="p">;</span></div><div class='line' id='LC1689'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1690'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">postRender</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1691'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">postUpdate</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1692'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">preUpdate</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1693'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">remove</span><span class="p">(</span><span class="nx">plugin</span>: <span class="kt">Phaser.Plugin</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1694'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeAll</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1695'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">render</span><span class="p">();</span></div><div class='line' id='LC1696'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">();</span></div><div class='line' id='LC1697'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1698'><br/></div><div class='line' id='LC1699'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Point</span> <span class="p">{</span></div><div class='line' id='LC1700'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1701'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">x?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y?</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC1702'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1703'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1704'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1705'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static methods</span></div><div class='line' id='LC1706'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">add</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">out?</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1707'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">distance</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">round?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1708'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">divide</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">out?</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1709'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">equals</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1710'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">multiply</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">out?</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1711'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">rotate</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">angle</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">asDegrees</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">distance</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1712'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">subtract</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">out?</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1713'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1714'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1715'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clamp</span><span class="p">(</span><span class="nx">min</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1716'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clampX</span><span class="p">(</span><span class="nx">min</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1717'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clampY</span><span class="p">(</span><span class="nx">min</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1718'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clone</span><span class="p">(</span><span class="nx">output</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1719'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">copyFrom</span><span class="p">(</span><span class="nx">source</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1720'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">copyTo</span><span class="p">(</span><span class="nx">dest</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nb">Object</span><span class="p">;</span></div><div class='line' id='LC1721'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">distance</span><span class="p">(</span><span class="nx">dest</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">round?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1722'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">divide</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1723'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">equals</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1724'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getMagnitude</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1725'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getMagnitude</span><span class="p">(</span><span class="nx">magnitude</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1726'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">invert</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1727'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isZero</span><span class="p">()</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1728'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">multiply</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1729'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">normalise</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1730'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">rotate</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">angle</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">asDegrees</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">distance?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1731'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setTo</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1732'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">subtract</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1733'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">toString</span><span class="p">()</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC1734'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1735'><br/></div><div class='line' id='LC1736'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Pointer</span> <span class="p">{</span></div><div class='line' id='LC1737'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constrctor</span></div><div class='line' id='LC1738'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">id</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC1739'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1740'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">active</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1741'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">circle</span>: <span class="kt">Phaser.Circle</span><span class="p">;</span></div><div class='line' id='LC1742'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clientX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1743'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clientY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1744'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">duation</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1745'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1746'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">id</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1747'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isDown</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1748'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isMouse</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1749'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isUp</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1750'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">msSinceLastClick</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1751'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pageX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1752'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pageY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1753'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">position</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1754'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">positionDown</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1755'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">previousTapTime</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1756'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">screenX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1757'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">screenY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1758'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">targetObject</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC1759'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">timeDown</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1760'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">timeUp</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1761'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">totalTouches</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1762'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">withinGame</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1763'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">worldX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1764'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">worldY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1765'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1766'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1767'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1768'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justPressed</span><span class="p">(</span><span class="nx">duration?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1769'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justReleased</span><span class="p">(</span><span class="nx">duration?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1770'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">leave</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1771'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">move</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1772'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reset</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1773'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">start</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Pointer</span><span class="p">;</span></div><div class='line' id='LC1774'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stop</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1775'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1776'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">toString</span><span class="p">()</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC1777'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1778'><br/></div><div class='line' id='LC1779'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">QuadTree</span> <span class="p">{</span></div><div class='line' id='LC1780'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1781'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">maxObject?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">maxLevels?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">level?</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC1782'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1783'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clear</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1784'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getIndex</span><span class="p">(</span><span class="nx">rect</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1785'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">insert</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1786'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">populate</span><span class="p">(</span><span class="nx">group</span>: <span class="kt">Phaser.Group</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1787'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">populateHandler</span><span class="p">(</span><span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1788'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">retrieve</span><span class="p">(</span><span class="nx">sprite</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="nx">any</span><span class="p">[];</span></div><div class='line' id='LC1789'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">split</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1790'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//I am not sure these are relevant? Searching in the code yeilds no result</span></div><div class='line' id='LC1791'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">maxObjects</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1792'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">maxLevels</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1793'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">level</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1794'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bounds</span><span class="o">:</span> <span class="p">{</span></div><div class='line' id='LC1795'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1796'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1797'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">width</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1798'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">height</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1799'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">subWidth</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1800'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">subHeight</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1801'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">right</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1802'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bottom</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1803'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">};</span></div><div class='line' id='LC1804'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">objects</span>: <span class="kt">Array</span><span class="o">&lt;</span><span class="nx">any</span><span class="o">&gt;</span><span class="p">;</span></div><div class='line' id='LC1805'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">nodes</span>: <span class="kt">Array</span><span class="o">&lt;</span><span class="nx">any</span><span class="o">&gt;</span><span class="p">;</span></div><div class='line' id='LC1806'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1807'><br/></div><div class='line' id='LC1808'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">RandomDataGenerator</span> <span class="p">{</span></div><div class='line' id='LC1809'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1810'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">seeds</span>: <span class="kt">number</span><span class="p">[]);</span></div><div class='line' id='LC1811'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1812'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">c</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1813'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">s0</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1814'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">s1</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1815'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">s2</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1816'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1817'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">angle</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1818'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">frac</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1819'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">hash</span><span class="p">(</span><span class="nx">data</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1820'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">integer</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1821'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">integerInRange</span><span class="p">(</span><span class="nx">min</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1822'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">normal</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1823'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pick</span><span class="p">(</span><span class="nx">ary</span>: <span class="kt">number</span><span class="p">[])</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1824'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">real</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1825'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">realInRange</span><span class="p">(</span><span class="nx">min</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">max</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1826'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">rnd</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1827'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">sow</span><span class="p">(</span><span class="nx">seeds</span>: <span class="kt">any</span><span class="p">[])</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1828'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">timestamp</span><span class="p">(</span><span class="nx">a?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">b?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1829'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">uuid</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1830'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">weightedPick</span><span class="p">(</span><span class="nx">ary</span>: <span class="kt">number</span><span class="p">[])</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1831'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1832'><br/></div><div class='line' id='LC1833'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Rectangle</span> <span class="p">{</span></div><div class='line' id='LC1834'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1835'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC1836'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1837'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bottom</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1838'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bottomRight</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1839'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">centerX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1840'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">centerY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1841'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">empty</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1842'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">halfHeight</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1843'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">halfWidth</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1844'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">height</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1845'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">left</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1846'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">perimeter</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1847'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">right</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1848'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">top</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1849'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">topLeft</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC1850'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">volume</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1851'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">width</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1852'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1853'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1854'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static methods</span></div><div class='line' id='LC1855'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">clone</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">output?</span>: <span class="kt">Phaser.Rectangle</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Rectangle</span><span class="p">;</span></div><div class='line' id='LC1856'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">contains</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1857'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">containsPoint</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">point</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1858'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">containsRect</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Phaser.Rectangle</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1859'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">equals</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Phaser.Rectangle</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1860'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">inflate</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">dx</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">dy</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Rectangle</span><span class="p">;</span></div><div class='line' id='LC1861'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">inflatePoint</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">point</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Rectangle</span><span class="p">;</span></div><div class='line' id='LC1862'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">intersection</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">out?</span>: <span class="kt">Phaser.Rectangle</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Rectangle</span><span class="p">;</span></div><div class='line' id='LC1863'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">intersects</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">tolerance</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1864'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">intersectsRaw</span><span class="p">(</span><span class="nx">left</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">right</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">top</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">bottom</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tolerance</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1865'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">size</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">output?</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1866'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">union</span><span class="p">(</span><span class="nx">a</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">b</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">out?</span>: <span class="kt">Phaser.Rectangle</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Rectangle</span><span class="p">;</span></div><div class='line' id='LC1867'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1868'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">clone</span><span class="p">(</span><span class="nx">output</span>: <span class="kt">Phaser.Rectangle</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Rectangle</span><span class="p">;</span></div><div class='line' id='LC1869'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">contains</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1870'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">containsRect</span><span class="p">(</span><span class="nx">b</span>: <span class="kt">Phaser.Rectangle</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1871'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">copyFrom</span><span class="p">(</span><span class="nx">source</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Rectangle</span><span class="p">;</span></div><div class='line' id='LC1872'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">copyTo</span><span class="p">(</span><span class="nx">dest</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nb">Object</span><span class="p">;</span></div><div class='line' id='LC1873'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">equals</span><span class="p">(</span><span class="nx">b</span>: <span class="kt">Phaser.Rectangle</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1874'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">floor</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1875'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">floorAll</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1876'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">inflate</span><span class="p">(</span><span class="nx">dx</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">dy</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Rectangle</span><span class="p">;</span></div><div class='line' id='LC1877'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">intersection</span><span class="p">(</span><span class="nx">b</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">out</span>: <span class="kt">Phaser.Rectangle</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Rectangle</span><span class="p">;</span></div><div class='line' id='LC1878'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">intersects</span><span class="p">(</span><span class="nx">b</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">tolerance</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1879'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">intersectsRaw</span><span class="p">(</span><span class="nx">left</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">right</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">top</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">bottom</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tolerance</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1880'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">offset</span><span class="p">(</span><span class="nx">dx</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">dy</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Rectangle</span><span class="p">;</span></div><div class='line' id='LC1881'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">offsetPoint</span><span class="p">(</span><span class="nx">point</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Rectangle</span><span class="p">;</span></div><div class='line' id='LC1882'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setTo</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Rectangle</span><span class="p">;</span></div><div class='line' id='LC1883'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">size</span><span class="p">(</span><span class="nx">output?</span>: <span class="kt">Phaser.Point</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC1884'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">toString</span><span class="p">()</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC1885'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">union</span><span class="p">(</span><span class="nx">b</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">out?</span>: <span class="kt">Phaser.Rectangle</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Rectangle</span><span class="p">;</span></div><div class='line' id='LC1886'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1887'><br/></div><div class='line' id='LC1888'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">RenderTexture</span> <span class="p">{</span></div><div class='line' id='LC1889'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1890'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC1891'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1892'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">frame</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC1893'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1894'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">height</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1895'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">indentityMatrix</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC1896'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC1897'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">type</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1898'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">width</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1899'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1900'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">render</span><span class="p">(</span><span class="nx">displayObject</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">position?</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">clear?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">renderHidden?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1901'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderXY</span><span class="p">(</span><span class="nx">displayObject</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">clear?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">renderHidden?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1902'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">resize</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1903'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1904'><br/></div><div class='line' id='LC1905'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">RequestAnimationFrame</span> <span class="p">{</span></div><div class='line' id='LC1906'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1907'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC1908'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1909'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1910'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isRunning</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1911'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1912'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isRAF</span><span class="p">()</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1913'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isSetTimeOut</span><span class="p">()</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1914'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">start</span><span class="p">()</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1915'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stop</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1916'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updateRAF</span><span class="p">(</span><span class="nx">time</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1917'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updateSetTimeout</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1918'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1919'><br/></div><div class='line' id='LC1920'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Signal</span> <span class="p">{</span></div><div class='line' id='LC1921'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1922'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">active</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1923'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">memorize</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1924'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1925'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span><span class="p">(</span><span class="nx">listener</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">listenerContext?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">priority?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">SignalBinding</span><span class="p">;</span></div><div class='line' id='LC1926'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addOnce</span><span class="p">(</span><span class="nx">listener</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">listenerContext?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">priority?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">SignalBinding</span><span class="p">;</span></div><div class='line' id='LC1927'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">dispatch</span><span class="p">(...</span><span class="nx">params</span>: <span class="kt">any</span><span class="p">[])</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1928'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">dispose</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1929'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">forget</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1930'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getNumListeners</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1931'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">halt</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1932'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">has</span><span class="p">(</span><span class="nx">listener</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">context?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1933'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">remove</span><span class="p">(</span><span class="nx">listener</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">context?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nb">Function</span><span class="p">;</span></div><div class='line' id='LC1934'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeAll</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1935'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">toString</span><span class="p">()</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC1936'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">validateListener</span><span class="p">(</span><span class="nx">listener</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">fnName</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1937'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1938'><br/></div><div class='line' id='LC1939'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">SignalBinding</span> <span class="p">{</span></div><div class='line' id='LC1940'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1941'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">signal</span>: <span class="kt">Phaser.Signal</span><span class="p">,</span> <span class="nx">listener</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">isOnce</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">listenerContext?</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">priority?</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC1942'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1943'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">active</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1944'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">context</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC1945'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">params</span>: <span class="kt">any</span><span class="p">[];</span></div><div class='line' id='LC1946'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1947'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">execute</span><span class="p">(</span><span class="nx">paramsArr?</span>: <span class="kt">any</span><span class="p">[])</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1948'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">detach</span><span class="p">()</span><span class="o">:</span> <span class="nb">Function</span><span class="p">;</span></div><div class='line' id='LC1949'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isBound</span><span class="p">()</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1950'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isOnce</span><span class="p">()</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1951'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getListener</span><span class="p">()</span><span class="o">:</span> <span class="nb">Function</span><span class="p">;</span></div><div class='line' id='LC1952'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getSignal</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Signal</span><span class="p">;</span></div><div class='line' id='LC1953'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">toString</span><span class="p">()</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC1954'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1955'><br/></div><div class='line' id='LC1956'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">SinglePad</span> <span class="p">{</span></div><div class='line' id='LC1957'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1958'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">padParent</span>: <span class="kt">Object</span><span class="p">);</span></div><div class='line' id='LC1959'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1960'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC1961'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">connected</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1962'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">deadZone</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1963'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1964'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">index</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1965'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onAxisCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC1966'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onConnectCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC1967'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onDisconnectCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC1968'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onDownCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC1969'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onFloatCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC1970'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onUpCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC1971'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC1972'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addButton</span><span class="p">(</span><span class="nx">buttonCode</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">GamepadButton</span><span class="p">;</span></div><div class='line' id='LC1973'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">buttonValue</span><span class="p">(</span><span class="nx">buttonCode</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1974'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">connect</span><span class="p">(</span><span class="nx">rawPad</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1975'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">disconnect</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1976'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">axis</span><span class="p">(</span><span class="nx">axisCode</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1977'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isDown</span><span class="p">(</span><span class="nx">buttonCode</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1978'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justPressed</span><span class="p">(</span><span class="nx">buttonCode</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">duration?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1979'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">justReleased</span><span class="p">(</span><span class="nx">buttonCode</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">duration?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC1980'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pollStatus</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1981'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">processAxisChange</span><span class="p">(</span><span class="nx">axisState</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1982'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">processButtonDown</span><span class="p">(</span><span class="nx">buttonCode</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">value</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1983'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">processButtonFloat</span><span class="p">(</span><span class="nx">buttonCode</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">value</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1984'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">processButtonUp</span><span class="p">(</span><span class="nx">buttonCode</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">value</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1985'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reset</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC1986'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC1987'><br/></div><div class='line' id='LC1988'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Sound</span> <span class="p">{</span></div><div class='line' id='LC1989'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC1990'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">volume?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">loop?</span>: <span class="kt">boolean</span><span class="p">);</span></div><div class='line' id='LC1991'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC1992'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">autoplay</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC1993'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">context</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC1994'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">currentMarker</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC1995'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">currentTime</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1996'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">duration</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC1997'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">externalNode</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC1998'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC1999'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isDecoded</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2000'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isDecoding</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2001'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isPlaying</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2002'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">key</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2003'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">loop</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2004'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">markers</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC2005'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mute</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2006'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2007'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onDecoded</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2008'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onLoop</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2009'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onMarkerComplete</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2010'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onMute</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2011'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onPause</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2012'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onPlay</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2013'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onResume</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2014'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onStop</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2015'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">override</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2016'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">paused</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2017'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pausedPosition</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2018'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pausedTime</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2019'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pendingPlayback</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2020'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">startTime</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2021'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stopTime</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2022'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">totalDuration</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2023'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">usingAudioTag</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2024'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">usingWebAudio</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2025'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">volume</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2026'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2027'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addMarker</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">start</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">stop</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">volume?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">loop?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2028'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pause</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2029'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">play</span><span class="p">(</span><span class="nx">marker?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">position?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">volume?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">loop?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">forceRestart?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sound</span><span class="p">;</span></div><div class='line' id='LC2030'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeMarker</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2031'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">restart</span><span class="p">(</span><span class="nx">marker</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">position</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">volume?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">loop?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2032'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">resume</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2033'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">soundHasUnlocked</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2034'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stop</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2035'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2036'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2037'><br/></div><div class='line' id='LC2038'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">SoundManager</span> <span class="p">{</span></div><div class='line' id='LC2039'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2040'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC2041'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2042'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">channels</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2043'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">connectToMaster</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2044'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">context</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC2045'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2046'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mute</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2047'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">noAudio</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2048'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onSoundDecode</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2049'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">touchLocked</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2050'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">usingAudioTag</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2051'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">usingWebAudio</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2052'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">volume</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2053'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2054'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">volume?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">loop?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">connect?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sound</span><span class="p">;</span></div><div class='line' id='LC2055'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">boot</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2056'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">decode</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">sound?</span>: <span class="kt">Phaser.Sound</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2057'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pauseAll</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2058'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">play</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">volume?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">loop?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">destroyOnComplete?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sound</span><span class="p">;</span></div><div class='line' id='LC2059'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">resumeAll</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2060'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stopAll</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2061'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">unlock</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2062'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2063'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2064'><br/></div><div class='line' id='LC2065'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Sprite</span> <span class="p">{</span></div><div class='line' id='LC2066'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2067'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">x?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">key?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">frame?</span>: <span class="kt">any</span><span class="p">);</span></div><div class='line' id='LC2068'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2069'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">alive</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2070'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">anchor</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2071'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">angle</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2072'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">animations</span>: <span class="kt">Phaser.AnimationManager</span><span class="p">;</span></div><div class='line' id='LC2073'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">autoCull</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2074'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">;</span></div><div class='line' id='LC2075'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bottomLeft</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2076'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bottomRight</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2077'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bounds</span>: <span class="kt">Phaser.Rectangle</span><span class="p">;</span></div><div class='line' id='LC2078'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">cameraOffset</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2079'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">center</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2080'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">crop</span>: <span class="kt">Phaser.Rectangle</span><span class="p">;</span></div><div class='line' id='LC2081'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">cropEnabled</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2082'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">currentFrame</span>: <span class="kt">Phaser.Frame</span><span class="p">;</span></div><div class='line' id='LC2083'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">debug</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2084'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">deltaX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2085'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">deltaY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2086'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">events</span>: <span class="kt">Phaser.Events</span><span class="p">;</span></div><div class='line' id='LC2087'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">exists</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2088'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fixedToCamera</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2089'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">frame</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2090'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">frameName</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2091'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2092'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">group</span>: <span class="kt">Phaser.Group</span><span class="p">;</span></div><div class='line' id='LC2093'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">health</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2094'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">height</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2095'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">inCamera</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2096'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">input</span>: <span class="kt">Phaser.InputHandler</span><span class="p">;</span></div><div class='line' id='LC2097'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">inputEnabled</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2098'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">inWorld</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2099'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">inWorldThreshold</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2100'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">key</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC2101'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">lifespan</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2102'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2103'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">offset</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2104'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">outOfBoundsKill</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2105'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">position</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2106'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderable</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2107'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderOrderID</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2108'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scale</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2109'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">textureRegion</span>: <span class="kt">Phaser.Rectangle</span><span class="p">;</span></div><div class='line' id='LC2110'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">topLeft</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2111'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">topRight</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2112'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">type</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2113'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">visible</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2114'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">width</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2115'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">world</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2116'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">worldCenterX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2117'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">worldCenterY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2118'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2119'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2120'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2121'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bringToTop</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sprite</span><span class="p">;</span></div><div class='line' id='LC2122'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">centerOn</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sprite</span><span class="p">;</span></div><div class='line' id='LC2123'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">damage</span><span class="p">(</span><span class="nx">amount</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sprite</span><span class="p">;</span></div><div class='line' id='LC2124'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2125'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getLocalPosition</span><span class="p">(</span><span class="nx">p</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC2126'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getLocalUnmodifiedPosition</span><span class="p">(</span><span class="nx">p</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Point</span><span class="p">;</span></div><div class='line' id='LC2127'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">kill</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sprite</span><span class="p">;</span></div><div class='line' id='LC2128'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">loadTexture</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">frame</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2129'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">play</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">frameRate?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">loop?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">killOnComplete?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Animation</span><span class="p">;</span></div><div class='line' id='LC2130'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">postUpdate</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2131'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">preUpdate</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2132'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reset</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">health?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sprite</span><span class="p">;</span></div><div class='line' id='LC2133'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">resetCrop</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2134'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">revive</span><span class="p">(</span><span class="nx">health?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Sprite</span><span class="p">;</span></div><div class='line' id='LC2135'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updateAnimation</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2136'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updateBounds</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2137'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updateCache</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2138'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updateCrop</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2139'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//unknown/still applicable?</span></div><div class='line' id='LC2140'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scrollFactor</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2141'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//I cannot see this in the Sprite.JS code!</span></div><div class='line' id='LC2142'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">alpha</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2143'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2144'><br/></div><div class='line' id='LC2145'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Stage</span> <span class="p">{</span></div><div class='line' id='LC2146'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2147'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC2148'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2149'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">aspectRatio</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">backgroundColor</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC2151'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">canvas</span>: <span class="kt">HTMLCanvasElement</span><span class="p">;</span></div><div class='line' id='LC2152'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkOffsetInterval</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC2153'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">disableVisibilityChange</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2154'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">display</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC2155'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2156'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">offset</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2157'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scale</span>: <span class="kt">Phaser.StageScaleMode</span><span class="p">;</span></div><div class='line' id='LC2158'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scaleMode</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2159'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2160'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">parseConfig</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2161'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">boot</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2162'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">visibilityChange</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">Event</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2163'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2164'><br/></div><div class='line' id='LC2165'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">StageScaleMode</span> <span class="p">{</span></div><div class='line' id='LC2166'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2167'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC2168'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static members</span></div><div class='line' id='LC2169'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">EXACT_FIT</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2170'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">NO_SCALE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2171'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">SHOW_ALL</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2172'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2173'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">aspectRatio</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2174'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">enterIncorrectOrientation</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2175'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">enterLandscape</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2176'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">enterPortrait</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2177'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">event</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC2178'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">forceLandscape</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2179'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">forcePortrait</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2180'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2181'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">hasResized</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2182'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">height</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2183'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">incorrectOrientation</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2184'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isFullScreen</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2185'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isLandscape</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2186'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isPortrait</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2187'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">leaveIncorrectOrientation</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2188'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">margin</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2189'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">maxHeight</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2190'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">maxIterations</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2191'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">maxWidth</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2192'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">minHeight</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2193'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">minWidth</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2194'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">orientation</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2195'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">orientationSprite</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC2196'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pageAlignHorizontally</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2197'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pageAlignVertically</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2198'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scaleFactor</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2199'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scaleFactorInversed</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2200'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">width</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2201'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2202'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkOrientation</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2203'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkOrientationState</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2204'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkResize</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2205'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">forceOrientation</span><span class="p">(</span><span class="nx">forceLandscape</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">forcePortrait?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">orientationImage?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2206'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fullScreenChange</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2207'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">refresh</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2208'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setExactFit</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2209'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setMaximum</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2210'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setScreenSize</span><span class="p">(</span><span class="nx">force</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2211'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setShowAll</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2212'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setSize</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2213'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">startFullScreen</span><span class="p">(</span><span class="nx">antialias</span>:<span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2214'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stopFullScreen</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2215'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2216'><br/></div><div class='line' id='LC2217'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">State</span> <span class="p">{</span></div><div class='line' id='LC2218'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2219'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span>: <span class="kt">Phaser.GameObjectFactory</span><span class="p">;</span></div><div class='line' id='LC2220'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">cache</span>: <span class="kt">Phaser.Cache</span><span class="p">;</span></div><div class='line' id='LC2221'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">camera</span>: <span class="kt">Phaser.Camera</span><span class="p">;</span></div><div class='line' id='LC2222'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2223'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">input</span>: <span class="kt">Phaser.Input</span><span class="p">;</span></div><div class='line' id='LC2224'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">load</span>: <span class="kt">Phaser.Loader</span><span class="p">;</span></div><div class='line' id='LC2225'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">math</span>: <span class="kt">Phaser.Math</span><span class="p">;</span></div><div class='line' id='LC2226'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">particles</span>: <span class="kt">Phaser.Particles</span><span class="p">;</span></div><div class='line' id='LC2227'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">physics</span>: <span class="kt">Phaser.Physics.Arcade</span><span class="p">;</span></div><div class='line' id='LC2228'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">sound</span>: <span class="kt">Phaser.SoundManager</span><span class="p">;</span></div><div class='line' id='LC2229'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stage</span>: <span class="kt">Phaser.Stage</span><span class="p">;</span></div><div class='line' id='LC2230'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">time</span>: <span class="kt">Phaser.Time</span><span class="p">;</span></div><div class='line' id='LC2231'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tweens</span>: <span class="kt">Phaser.TweenManager</span><span class="p">;</span></div><div class='line' id='LC2232'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">world</span>: <span class="kt">Phaser.World</span><span class="p">;</span></div><div class='line' id='LC2233'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2234'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">create</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2235'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2236'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">loadRender</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2237'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">loadUpdate</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2238'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">paused</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2239'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">preload</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2240'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">render</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2241'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2242'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2243'><br/></div><div class='line' id='LC2244'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">StateCycle</span> <span class="p">{</span></div><div class='line' id='LC2245'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">preUpdate</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2246'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2247'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">render</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2248'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">postRender</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2249'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2250'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2251'><br/></div><div class='line' id='LC2252'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">StateManager</span> <span class="p">{</span></div><div class='line' id='LC2253'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2254'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">pendingState?</span>: <span class="kt">Phaser.State</span><span class="p">);</span></div><div class='line' id='LC2255'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2256'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">current</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2257'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2258'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onCreateCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2259'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onInitCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2260'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onLoadRenderCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2261'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onLoadUpdateCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2262'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onPausedCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2263'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onPreloadCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2264'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onPreRenderCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2265'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onRenderCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2266'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onShutDownCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2267'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onUpdateCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2268'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">states</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC2269'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2270'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">state</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">autoStart?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2271'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">boot</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2272'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkState</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC2273'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2274'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">dummy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2275'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getCurrentState</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">State</span><span class="p">;</span></div><div class='line' id='LC2276'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">link</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2277'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">loadComplete</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2278'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pause</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2279'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">preRender</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2280'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">remove</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2281'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">render</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2282'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">resume</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2283'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">start</span><span class="p">(</span><span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">clearWorld?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">clearCache?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2284'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2285'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2286'><br/></div><div class='line' id='LC2287'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Text</span> <span class="p">{</span></div><div class='line' id='LC2288'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2289'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">text</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">style</span>: <span class="kt">any</span><span class="p">);</span></div><div class='line' id='LC2290'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2291'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">alive</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2292'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">anchor</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2293'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">angle</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2294'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">cameraOffset</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2295'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">content</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2296'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">exists</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2297'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fixedToCamera</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2298'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">font</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2299'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2300'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">group</span>: <span class="kt">Phaser.Group</span><span class="p">;</span></div><div class='line' id='LC2301'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2302'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">position</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2303'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderable</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2304'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scale</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2305'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">type</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2306'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">text</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2307'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">style</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC2308'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2309'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2310'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">visible</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2311'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//is this member still used?</span></div><div class='line' id='LC2312'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scrollFactor</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2313'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2314'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2315'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2316'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2317'><br/></div><div class='line' id='LC2318'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Tile</span> <span class="p">{</span></div><div class='line' id='LC2319'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2320'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">layer</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">index</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">Number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC2321'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2322'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">alpha</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2323'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bottom</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2324'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">callback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2325'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC2326'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">canCollide</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2327'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideDown</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2328'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideLeft</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2329'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideNone</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2330'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideRight</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2331'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collides</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2332'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideUp</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2333'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">faceBottom</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2334'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">faceLeft</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2335'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">faceRight</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2336'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">faceTop</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2337'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2338'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">height</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2339'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">index</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2340'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">layer</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2341'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">left</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2342'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">properties</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC2343'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">right</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2344'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scanned</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2345'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">top</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2346'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">width</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2347'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">x</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2348'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">y</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2349'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//are these members still used?</span></div><div class='line' id='LC2350'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mass</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2351'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">separateX</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2352'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">separateY</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2353'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tilemap</span>: <span class="kt">Tilemap</span><span class="p">;</span></div><div class='line' id='LC2354'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2355'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2356'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">resetCollsion</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2357'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setCollision</span><span class="p">(</span><span class="nx">left</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">right</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">up</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">down</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">reset</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">seperateX</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">seperateY</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2358'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setCollisionCallback</span><span class="p">(</span><span class="nx">callback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">context</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2359'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//is this method still valid?</span></div><div class='line' id='LC2360'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">toString</span><span class="p">()</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2361'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">copy</span><span class="p">(</span><span class="nx">tile</span>: <span class="kt">Phaser.Tile</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2362'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2363'><br/></div><div class='line' id='LC2364'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Tilemap</span> <span class="p">{</span></div><div class='line' id='LC2365'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2366'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">key?</span>: <span class="kt">string</span><span class="p">);</span></div><div class='line' id='LC2367'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static members</span></div><div class='line' id='LC2368'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">CSV</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2369'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">TILED_JSON</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2370'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2371'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">currentLayer</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2372'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">debugMap</span>: <span class="kt">any</span><span class="p">[];</span></div><div class='line' id='LC2373'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2374'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">height</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2375'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">heightInPixels</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2376'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">images</span>: <span class="kt">any</span><span class="p">[];</span></div><div class='line' id='LC2377'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">key</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2378'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">layers</span>: <span class="kt">Phaser.TilemapLayer</span><span class="p">[];</span></div><div class='line' id='LC2379'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">objects</span>: <span class="kt">any</span><span class="p">[];</span></div><div class='line' id='LC2380'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">orientation</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2381'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">properties</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC2382'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tileHeight</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2383'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tiles</span>: <span class="kt">Phaser.Tile</span><span class="p">[];</span></div><div class='line' id='LC2384'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tilesets</span>: <span class="kt">Phaser.Tileset</span><span class="p">[];</span></div><div class='line' id='LC2385'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tileWidth</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2386'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">version</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2387'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">width</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2388'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">widthInPixels</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2389'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//are these members still valid?</span></div><div class='line' id='LC2390'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">group</span>: <span class="kt">Phaser.Group</span><span class="p">;</span></div><div class='line' id='LC2391'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2392'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderOrderID</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2393'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collisionCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2394'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">exists</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2395'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">visible</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2396'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">position</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2397'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">type</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2398'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">mapFormat</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2399'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2400'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">addTilesetImage</span><span class="p">(</span><span class="nx">tileset</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">key?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2401'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">calculateFaces</span><span class="p">(</span><span class="nx">layer</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2402'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">copy</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tile</span><span class="p">[];</span></div><div class='line' id='LC2403'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">create</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2404'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">createFromObjects</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">gid</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">frame?</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">exists?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">autoCull?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">group?</span>: <span class="kt">Phaser.Group</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2405'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">createLayer</span><span class="p">(</span><span class="nx">layer</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">width?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">group?</span>: <span class="kt">Phaser.Group</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">TilemapLayer</span><span class="p">;</span></div><div class='line' id='LC2406'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2407'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">dump</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2408'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fill</span><span class="p">(</span><span class="nx">index</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2409'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">forEach</span><span class="p">(</span><span class="nx">callback</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">context</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">Number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2410'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getImageIndex</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2411'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getIndex</span><span class="p">(</span><span class="nx">location</span>: <span class="kt">any</span><span class="p">[],</span> <span class="nx">name</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2412'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getLayer</span><span class="p">(</span><span class="nx">layer</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2413'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getLayerIndex</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2414'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getObjectIndex</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2415'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTile</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tile</span><span class="p">;</span></div><div class='line' id='LC2416'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTileAbove</span><span class="p">(</span><span class="nx">layer</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tile</span><span class="p">;</span></div><div class='line' id='LC2417'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTileBelow</span><span class="p">(</span><span class="nx">layer</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tile</span><span class="p">;</span></div><div class='line' id='LC2418'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTileLeft</span><span class="p">(</span><span class="nx">layer</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tile</span><span class="p">;</span></div><div class='line' id='LC2419'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTileRight</span><span class="p">(</span><span class="nx">layer</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tile</span><span class="p">;</span></div><div class='line' id='LC2420'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTilesetIndex</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2421'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTileWorld</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tile</span><span class="p">;</span></div><div class='line' id='LC2422'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">paste</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tileblock</span>: <span class="kt">Phaser.Tile</span><span class="p">[],</span> <span class="nx">layer?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2423'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">putTile</span><span class="p">(</span><span class="nx">tile</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2424'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">putTileWorldXY</span><span class="p">(</span><span class="nx">tile</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tileWidth</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tileHeight</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2425'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">random</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2426'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeAllLayers</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2427'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">replace</span><span class="p">(</span><span class="nx">source</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">dest</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2428'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setCollision</span><span class="p">(</span><span class="nx">indexes</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">collides?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2429'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setCollisionBetween</span><span class="p">(</span><span class="nx">start</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">stop</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">collides?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2430'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setCollisionByExclusion</span><span class="p">(</span><span class="nx">indexes</span>: <span class="kt">any</span><span class="p">[],</span> <span class="nx">collides?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2431'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setCollisionByIndex</span><span class="p">(</span><span class="nx">index</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">collides?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">recalculate?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2432'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setCollisionCallback</span><span class="p">(</span><span class="nx">callback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2433'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setLayer</span><span class="p">(</span><span class="nx">layer</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2434'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setTileIndexCallback</span><span class="p">(</span><span class="nx">indes</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">callback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2435'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setTileLocationCallback</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">callback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2436'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">shuffle</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">layer</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2437'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">swapTile</span><span class="p">(</span><span class="nx">tileA</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tileB</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">layer</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2438'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//are these methods still valid?</span></div><div class='line' id='LC2439'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">parseCSV</span><span class="p">(</span><span class="nx">data</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">tileWidth</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tileHeight</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2440'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">parseTiledJSON</span><span class="p">(</span><span class="nx">json</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2441'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">generateTiles</span><span class="p">(</span><span class="nx">quantity</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2442'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setCollisionRange</span><span class="p">(</span><span class="nx">start</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">end</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">collision</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">resetCollisions?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">separateX?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">separateY?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2443'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTileByIndex</span><span class="p">(</span><span class="nx">value</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Tile</span><span class="p">;</span></div><div class='line' id='LC2444'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTileFromWorldXY</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">layer?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Tile</span><span class="p">;</span></div><div class='line' id='LC2445'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTileFromInputXY</span><span class="p">(</span><span class="nx">layer?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Tile</span><span class="p">;</span></div><div class='line' id='LC2446'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTileOverlaps</span><span class="p">(</span><span class="nx">object</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="nb">Array</span><span class="o">&lt;</span><span class="nx">any</span><span class="o">&gt;</span><span class="p">;</span></div><div class='line' id='LC2447'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collide</span><span class="p">(</span><span class="nx">objectOrGroup</span>: <span class="kt">any</span><span class="p">,</span> <span class="nx">callback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">context</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC2448'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collideGameObject</span><span class="p">(</span><span class="nx">object</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC2449'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2450'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2451'><br/></div><div class='line' id='LC2452'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">TilemapLayer</span> <span class="p">{</span></div><div class='line' id='LC2453'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2454'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">tilemap</span>: <span class="kt">Phaser.Tilemap</span><span class="p">,</span> <span class="nx">index</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">);</span></div><div class='line' id='LC2455'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2456'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">alpha</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2457'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">baseTexture</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC2458'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">cameraOffset</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2459'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">canvas</span>: <span class="kt">HTMLCanvasElement</span><span class="p">;</span></div><div class='line' id='LC2460'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collisionHeight</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2461'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">collisionWidth</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2462'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">context</span>: <span class="kt">CanvasRenderingContext2D</span><span class="p">;</span></div><div class='line' id='LC2463'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">debug</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2464'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">debugAlpha</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2465'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">debugCallbackColor</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2466'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">debugColor</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2467'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">debugFill</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2468'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">debugFillColor</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2469'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">dirty</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2470'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fixedToCamera</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2471'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2472'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">index</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2473'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">layer</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC2474'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">map</span>: <span class="kt">Phaser.Tilemap</span><span class="p">;</span></div><div class='line' id='LC2475'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2476'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scrollFactorX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2477'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scrollFactorY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2478'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scrollX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2479'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">scrollY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2480'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">texture</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC2481'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">textureFrame</span>: <span class="kt">Phaser.Frame</span><span class="p">;</span></div><div class='line' id='LC2482'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tileColor</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2483'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">type</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2484'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">visible</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2485'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2486'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTiles</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">collides?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">any</span><span class="p">[];</span></div><div class='line' id='LC2487'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTileX</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tile</span><span class="p">;</span></div><div class='line' id='LC2488'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTileXY</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">point</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="nx">any</span><span class="p">;</span></div><div class='line' id='LC2489'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTileY</span><span class="p">(</span><span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tile</span><span class="p">;</span></div><div class='line' id='LC2490'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">postUpdate</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2491'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">render</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2492'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderDebug</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2493'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">resizeWorld</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2494'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">updateMax</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2495'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2496'><br/></div><div class='line' id='LC2497'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">TilemapParser</span> <span class="p">{</span></div><div class='line' id='LC2498'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static methods</span></div><div class='line' id='LC2499'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">parse</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">key</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tileset</span><span class="p">;</span></div><div class='line' id='LC2500'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">parseCSV</span><span class="p">(</span><span class="nx">data</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tilemap</span><span class="p">;</span></div><div class='line' id='LC2501'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">parseJSON</span><span class="p">(</span><span class="nx">json</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tilemap</span><span class="p">;</span></div><div class='line' id='LC2502'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">tileset</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">key</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">tileWidth</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tileHeight</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tileMargin?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tileSpacing?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">rows?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">colums?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">total?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tileset</span><span class="p">;</span></div><div class='line' id='LC2503'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2504'><br/></div><div class='line' id='LC2505'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Tileset</span> <span class="p">{</span></div><div class='line' id='LC2506'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2507'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">firstgid</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">margin</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">spacing</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">properties</span>: <span class="kt">Object</span><span class="p">);</span></div><div class='line' id='LC2508'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2509'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">colums</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2510'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">firstgid</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2511'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">image</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC2512'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2513'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">properties</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC2514'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">rows</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2515'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tileHeight</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2516'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tileMargin</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2517'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tileSpacing</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2518'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tileWidth</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2519'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">total</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2520'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2521'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">checkTileIndex</span><span class="p">(</span><span class="nx">index</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC2522'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTile</span><span class="p">(</span><span class="nx">index</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tile</span><span class="p">;</span></div><div class='line' id='LC2523'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTileX</span><span class="p">(</span><span class="nx">index</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tile</span><span class="p">;</span></div><div class='line' id='LC2524'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getTileY</span><span class="p">(</span><span class="nx">index</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tile</span><span class="p">;</span></div><div class='line' id='LC2525'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setSpacing</span><span class="p">(</span><span class="nx">tileMargin?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tileSpacing?</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2526'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2527'><br/></div><div class='line' id='LC2528'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">TileSprite</span> <span class="kr">extends</span> <span class="nx">Sprite</span> <span class="p">{</span></div><div class='line' id='LC2529'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2530'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">key?</span>: <span class="kt">any</span><span class="p">);</span></div><div class='line' id='LC2531'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2532'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">texture</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC2533'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tilePosition</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2534'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tileScale</span>: <span class="kt">Phaser.Point</span><span class="p">;</span></div><div class='line' id='LC2535'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2536'><br/></div><div class='line' id='LC2537'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Time</span> <span class="p">{</span></div><div class='line' id='LC2538'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2539'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC2540'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2541'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">elapsed</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2542'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">events</span>: <span class="kt">Phaser.Timer</span><span class="p">;</span></div><div class='line' id='LC2543'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fps</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2544'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fpsMax</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2545'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">fpsMin</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2546'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">frames</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2547'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2548'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">lastTime</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2549'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">msMax</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2550'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">msMin</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2551'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">now</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2552'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pausedTime</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2553'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pauseDuration</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2554'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">physicsElapsed</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2555'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">time</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2556'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">timeToCall</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2557'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2558'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">boot</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2559'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">create</span><span class="p">(</span><span class="nx">autoDestroy?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Timer</span><span class="p">;</span></div><div class='line' id='LC2560'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">elapsedSecondsSince</span><span class="p">(</span><span class="nx">since</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2561'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">elapsedSince</span><span class="p">(</span><span class="nx">since</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2562'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeAll</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2563'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">reset</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2564'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">totalElapsedSeconds</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2565'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">(</span><span class="nx">time</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2566'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2567'><br/></div><div class='line' id='LC2568'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Timer</span> <span class="p">{</span></div><div class='line' id='LC2569'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2570'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">,</span> <span class="nx">autoDestroy?</span>: <span class="kt">boolean</span><span class="p">);</span></div><div class='line' id='LC2571'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//static members</span></div><div class='line' id='LC2572'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">HALF</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2573'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">MINUTE</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2574'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">QUARTER</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2575'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">static</span> <span class="nx">SECOND</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2576'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2577'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">autoDestroy</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2578'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">duration</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2579'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">events</span>: <span class="kt">Phaser.TimerEvent</span><span class="p">[];</span></div><div class='line' id='LC2580'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">expired</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2581'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2582'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">length</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2583'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">ms</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2584'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">next</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2585'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">nextTick</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2586'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onComplete</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2587'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">running</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2588'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">paused</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2589'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">seconds</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2590'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2591'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span><span class="p">(</span><span class="nx">delay</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">callback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">,</span> <span class="p">...</span><span class="nx">args</span>: <span class="kt">any</span><span class="p">[])</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">TimerEvent</span><span class="p">;</span></div><div class='line' id='LC2592'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2593'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">loop</span><span class="p">(</span><span class="nx">delay</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">callback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">,</span> <span class="p">...</span><span class="nx">args</span>: <span class="kt">any</span><span class="p">[])</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">TimerEvent</span><span class="p">;</span></div><div class='line' id='LC2594'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">order</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2595'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pause</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2596'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">remove</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">Phaser.TimerEvent</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC2597'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">repeat</span><span class="p">(</span><span class="nx">delay</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">repeatCount</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">callback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">,</span> <span class="p">...</span><span class="nx">args</span>: <span class="kt">any</span><span class="p">[])</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">TimerEvent</span><span class="p">;</span></div><div class='line' id='LC2598'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">resume</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2599'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">sortHandler</span><span class="p">()</span><span class="o">:</span> <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2600'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">start</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2601'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stop</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2602'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">(</span><span class="nx">time</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC2603'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2604'><br/></div><div class='line' id='LC2605'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">TimerEvent</span> <span class="p">{</span></div><div class='line' id='LC2606'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2607'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">timer</span>: <span class="kt">Phaser.Timer</span><span class="p">,</span> <span class="nx">delay</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">tick</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">repeatCount</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">loop</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">callback</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">callbackContext</span><span class="p">,</span> <span class="nb">Object</span><span class="p">,</span> <span class="nx">args</span>: <span class="kt">any</span><span class="p">[]);</span></div><div class='line' id='LC2608'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2609'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">args</span>: <span class="kt">any</span><span class="p">[];</span></div><div class='line' id='LC2610'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">callback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2611'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC2612'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">delay</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2613'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">loop</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2614'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pendingDelete</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2615'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">repeatCount</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2616'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">tick</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2617'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">timer</span>: <span class="kt">Phaser.Timer</span><span class="p">;</span></div><div class='line' id='LC2618'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2619'><br/></div><div class='line' id='LC2620'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Touch</span> <span class="p">{</span></div><div class='line' id='LC2621'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2622'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC2623'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2624'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">callbackContext</span>: <span class="kt">Object</span><span class="p">;</span></div><div class='line' id='LC2625'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">disabled</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2626'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">event</span>: <span class="kt">any</span><span class="p">;</span></div><div class='line' id='LC2627'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2628'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">preventDefault</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2629'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">touchCancelCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2630'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">touchEndCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2631'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">touchEnterCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2632'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">touchLeaveCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2633'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">touchMoveCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2634'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">touchStartCallback</span>: <span class="kt">Function</span><span class="p">;</span></div><div class='line' id='LC2635'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2636'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">consumeTouchMove</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2637'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onTouchCancel</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2638'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onTouchEnd</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2639'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onTouchEnter</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2640'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onTouchLeave</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2641'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onTouchMove</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2642'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onTouchStart</span><span class="p">(</span><span class="nx">event</span>: <span class="kt">any</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2643'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">start</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2644'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">consumeDocumentTouches</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2645'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stop</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2646'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2647'><br/></div><div class='line' id='LC2648'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Tween</span> <span class="p">{</span></div><div class='line' id='LC2649'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2650'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">object</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC2651'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2652'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2653'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isRunning</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2654'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onComplete</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2655'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onLoop</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2656'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onStart</span>: <span class="kt">Phaser.Signal</span><span class="p">;</span></div><div class='line' id='LC2657'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pendingDelete</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2658'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods:</span></div><div class='line' id='LC2659'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">chain</span><span class="p">(...</span><span class="nx">tweens</span>: <span class="kt">Phaser.Tween</span><span class="p">[])</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2660'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">delay</span><span class="p">(</span><span class="nx">amount</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2661'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">easing</span><span class="p">(</span><span class="nx">easing</span>: <span class="kt">Function</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2662'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">interpolation</span><span class="p">(</span><span class="nx">interpolation</span>: <span class="kt">Function</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2663'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">loop</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2664'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onUpdateCallback</span><span class="p">(</span><span class="nx">callback</span>: <span class="kt">Function</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2665'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onStartCallback</span><span class="p">(</span><span class="nx">callback</span>: <span class="kt">Function</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2666'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">onCompleteCallback</span><span class="p">(</span><span class="nx">callback</span>: <span class="kt">Function</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2667'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pause</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2668'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">repeat</span><span class="p">(</span><span class="nx">times</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2669'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">resume</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2670'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">start</span><span class="p">(</span><span class="nx">time</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2671'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stop</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2672'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">to</span><span class="p">(</span><span class="nx">properties</span>: <span class="kt">Object</span><span class="p">,</span> <span class="nx">duration?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">ease?</span>: <span class="kt">Function</span><span class="p">,</span> <span class="nx">autoStart?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">delay?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">repeat?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">yoyo?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2673'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">(</span><span class="nx">time</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC2674'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">yoyo</span><span class="p">(</span><span class="nx">yoyo</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2675'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2676'><br/></div><div class='line' id='LC2677'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">TweenManager</span> <span class="p">{</span></div><div class='line' id='LC2678'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2679'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC2680'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2681'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2682'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2683'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">add</span><span class="p">(</span><span class="nx">tween</span>: <span class="kt">Phaser.Tween</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2684'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">create</span><span class="p">(</span><span class="nx">object</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2685'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">getAll</span><span class="p">()</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">[];</span></div><div class='line' id='LC2686'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">isTweening</span><span class="p">(</span><span class="nx">object</span>: <span class="kt">Object</span><span class="p">)</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC2687'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">remove</span><span class="p">(</span><span class="nx">tween</span>: <span class="kt">Phaser.Tween</span><span class="p">)</span><span class="o">:</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Tween</span><span class="p">;</span></div><div class='line' id='LC2688'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">removeAll</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2689'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">resumeAll</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2690'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span></div><div class='line' id='LC2691'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">pauseAll</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2692'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2693'><br/></div><div class='line' id='LC2694'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">module</span> <span class="nx">Utils</span> <span class="p">{</span></div><div class='line' id='LC2695'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">Debug</span> <span class="p">{</span></div><div class='line' id='LC2696'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2697'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC2698'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2699'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">columnWidth</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2700'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">context</span>: <span class="kt">CanvasRenderingContext2D</span><span class="p">;</span></div><div class='line' id='LC2701'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">currentAlpha</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2702'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">currentX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2703'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">currentY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2704'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">font</span>: <span class="kt">string</span><span class="p">;</span></div><div class='line' id='LC2705'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2706'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">lineHeight</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2707'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderShadow</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2708'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2709'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">line</span><span class="p">(</span><span class="nx">text</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2710'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderBodyInfo</span><span class="p">(</span><span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">Number</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2711'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderCameraInfo</span><span class="p">(</span><span class="nx">camera</span>: <span class="kt">Phaser.Camera</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2712'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderCircle</span><span class="p">(</span><span class="nx">circle</span>: <span class="kt">Phaser.Circle</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2713'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderInputInfo</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2714'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderLine</span><span class="p">(</span><span class="nx">line</span>: <span class="kt">Phaser.Line</span><span class="p">,</span> <span class="nx">color</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2715'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderLineInfo</span><span class="p">(</span><span class="nx">line</span>: <span class="kt">Phaser.Line</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2716'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderPhysicsBody</span><span class="p">(</span><span class="nx">body</span>: <span class="kt">Phaser.Physics.Arcade.Body</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2717'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderPixel</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2718'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderPoint</span><span class="p">(</span><span class="nx">point</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2719'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderPointer</span><span class="p">(</span><span class="nx">pointer</span>: <span class="kt">Phaser.Pointer</span><span class="p">,</span> <span class="nx">hideIfUp?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">downColor?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">upColor?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2720'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderPointInfo</span><span class="p">(</span><span class="nx">point</span>: <span class="kt">Phaser.Point</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2721'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderPolygon</span><span class="p">(</span><span class="nx">polygon</span>: <span class="kt">any</span><span class="p">[],</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2722'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderQuadTree</span><span class="p">(</span><span class="nx">quadtree</span>: <span class="kt">Phaser.QuadTree</span><span class="p">,</span> <span class="nx">color</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2723'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderRectangle</span><span class="p">(</span><span class="nx">rect</span>: <span class="kt">Phaser.Rectangle</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2724'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderSoundInfo</span><span class="p">(</span><span class="nx">sound</span>: <span class="kt">Phaser.Sound</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2725'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderSpriteBody</span><span class="p">(</span><span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2726'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderSpriteBounds</span><span class="p">(</span><span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">fill?</span>: <span class="kt">boolean</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2727'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderSpriteCoords</span><span class="p">(</span><span class="nx">line</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2728'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderSpriteCorners</span><span class="p">(</span><span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">showText?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">showBounds?</span>: <span class="kt">boolean</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2729'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderSpriteInfo</span><span class="p">(</span><span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2730'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderSpriteInputInfo</span><span class="p">(</span><span class="nx">sprite</span>: <span class="kt">Phaser.Sprite</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2731'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">renderText</span><span class="p">(</span><span class="nx">text</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">font?</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2732'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">splitline</span><span class="p">(</span><span class="nx">text</span>: <span class="kt">string</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2733'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">start</span><span class="p">(</span><span class="nx">x?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y?</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">color?</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">columnWidth?</span>:<span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2734'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">stop</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2735'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2736'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2737'><br/></div><div class='line' id='LC2738'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">class</span> <span class="nx">World</span> <span class="kr">extends</span> <span class="nx">Phaser</span><span class="p">.</span><span class="nx">Group</span><span class="p">{</span></div><div class='line' id='LC2739'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//constructor</span></div><div class='line' id='LC2740'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kr">constructor</span><span class="p">(</span><span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">);</span></div><div class='line' id='LC2741'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//members</span></div><div class='line' id='LC2742'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">bounds</span>: <span class="kt">Phaser.Rectangle</span><span class="p">;</span></div><div class='line' id='LC2743'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">camera</span>: <span class="kt">Phaser.Camera</span><span class="p">;</span></div><div class='line' id='LC2744'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">centerX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2745'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">centerY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2746'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">currentRenderOrderID</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2747'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">game</span>: <span class="kt">Phaser.Game</span><span class="p">;</span></div><div class='line' id='LC2748'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">height</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2749'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">randomX</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2750'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">randomY</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2751'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">visible</span>: <span class="kt">boolean</span><span class="p">;</span></div><div class='line' id='LC2752'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">width</span>: <span class="kt">number</span><span class="p">;</span></div><div class='line' id='LC2753'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c1">//methods</span></div><div class='line' id='LC2754'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">boot</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2755'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">destroy</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2756'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">preUpdate</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2757'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">postUpdate</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2758'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">setBounds</span><span class="p">(</span><span class="nx">x</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">y</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">width</span>: <span class="kt">number</span><span class="p">,</span> <span class="nx">height</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2759'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">update</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span><span class="p">;</span></div><div class='line' id='LC2760'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC2761'><span class="p">}</span></div></pre></div></td>
-          </tr>
-        </table>
-  </div>
-
-  </div>
-</div>
-
-<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" class="js-jump-to-line" style="display:none">Jump to Line</a>
-<div id="jump-to-line" style="display:none">
-  <form accept-charset="UTF-8" class="js-jump-to-line-form">
-    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
-    <button type="submit" class="button">Go</button>
-  </form>
-</div>
-
-        </div>
-
-      </div><!-- /.repo-container -->
-      <div class="modal-backdrop"></div>
-    </div><!-- /.container -->
-  </div><!-- /.site -->
-
-
-    </div><!-- /.wrapper -->
-
-      <div class="container">
-  <div class="site-footer">
-    <ul class="site-footer-links right">
-      <li><a href="https://status.github.com/">Status</a></li>
-      <li><a href="http://developer.github.com">API</a></li>
-      <li><a href="http://training.github.com">Training</a></li>
-      <li><a href="http://shop.github.com">Shop</a></li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/about">About</a></li>
-
-    </ul>
-
-    <a href="/">
-      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
-    </a>
-
-    <ul class="site-footer-links">
-      <li>&copy; 2014 <span title="0.05877s from github-fe124-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
-        <li><a href="/site/terms">Terms</a></li>
-        <li><a href="/site/privacy">Privacy</a></li>
-        <li><a href="/security">Security</a></li>
-        <li><a href="/contact">Contact</a></li>
-    </ul>
-  </div><!-- /.site-footer -->
-</div><!-- /.container -->
-
-
-    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
-  <div class="fullscreen-container js-fullscreen-container">
-    <div class="textarea-wrap">
-      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
-    </div>
-  </div>
-  <div class="fullscreen-sidebar">
-    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
-      <span class="mega-octicon octicon-screen-normal"></span>
-    </a>
-    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
-      aria-label="Switch themes">
-      <span class="octicon octicon-color-mode"></span>
-    </a>
-  </div>
-</div>
-
-
-
-    <div id="ajax-error-message" class="flash flash-error">
-      <span class="octicon octicon-alert"></span>
-      <a href="#" class="octicon octicon-remove-close close js-ajax-error-dismiss"></a>
-      Something went wrong with that request. Please try again.
-    </div>
-
-  </body>
-</html>
-
+declare class SAT {
+
+    flattenPointsOn(points: Array<SAT.Vector>, normal: SAT.Vector, result: Array<number>): Array<number>;
+    isSeparatingAxis(aPos: SAT.Vector, bPos: SAT.Vector, aPoints: Array<SAT.Vector>, bPoints: Array<SAT.Vector>, axis: SAT.Vector, response: SAT.Response): boolean;
+    vornoiRegion(line: SAT.Vector, point: SAT.Vector): number;
+    testCircleCircle(a: SAT.Circle, b: SAT.Circle, response: SAT.Response): boolean;
+    testPolygonCircle(a: SAT.Polygon, b: SAT.Circle, response: SAT.Response): boolean;
+    testCirclePolygon(a: SAT.Circle, b: SAT.Polygon, response: SAT.Response): boolean;
+    testPolygonPolygon(a: SAT.Polygon, b: SAT.Polygon, response: SAT.Response): boolean;
+
+}
+
+declare module SAT {
+
+    class Vector {
+        constructor(x: number, y: number);
+        x: number;
+        y: number;
+        copy(other: SAT.Vector): SAT.Vector;
+        perp(): SAT.Vector;
+        rotate(angle: number): SAT.Vector;
+        rotatePrecalc(sin: number, cos: number): SAT.Vector;
+        reverse(): SAT.Vector;
+        normalize(): SAT.Vector;
+        add(other: SAT.Vector): SAT.Vector;
+        sub(other: SAT.Vector): SAT.Vector;
+        scale(x: number, y: number): SAT.Vector;
+        project(other: SAT.Vector): SAT.Vector;
+        projectN(other: SAT.Vector): SAT.Vector;
+        reflect(axis: SAT.Vector): SAT.Vector;
+        reflectN(axis: SAT.Vector): SAT.Vector;
+        dot(other: SAT.Vector): SAT.Vector;
+        len2(): SAT.Vector;
+        len(): SAT.Vector;
+    }
+
+    class Circle {
+        constructor(pos: SAT.Vector, radius: number);
+        pos: SAT.Vector;
+        r: number;
+    }
+
+    class Polygon {
+        constructor(pos: SAT.Vector, points: Array<SAT.Vector>);
+        pos: SAT.Vector;
+        points: Array<SAT.Vector>;
+        recalc(): SAT.Polygon;
+        rotate(angle: number): SAT.Polygon;
+        scale(x: number, y: number): SAT.Polygon;
+        translate(x: number, y: number): SAT.Polygon;
+    }
+
+    class Box {
+        constructor(pos: SAT.Vector, w: number, h: number);
+        pos: SAT.Vector;
+        w: number;
+        h: number;
+        toPolygon(): SAT.Polygon;
+    }
+
+    class Response {
+        constructor();
+        a: any;
+        b: any;
+        overlapN: SAT.Vector;
+        overlapV: SAT.Vector;
+        clear(): SAT.Response;
+        aInB: boolean;
+        bInA: boolean;
+        overlap: number;
+    }
+}
+
+declare class Phaser {
+
+    static VERSION: string;
+    static DEV_VERSION: string;
+    static GAMES: Phaser.Game[];
+
+    static AUTO: number;
+    static CANVAS: number;
+    static WEBGL: number;
+    static HEADLESS: number;
+
+    static SPRITE: number;
+    static BUTTON: number;
+    static BULLET: number;
+    static GRAPHICS: number;
+    static TEXT: number;
+    static TILESPRITE: number;
+    static BITMAPTEXT: number;
+    static GROUP: number;
+    static RENDERTEXTURE: number;
+    static TILEMAP: number;
+    static TILEMAPLAYER: number;
+    static EMITTER: number;
+    static POLYGON: number;
+    static BITMAPDATA: number;
+    static CANVAS_FILTER: number;
+    static WEBGL_FILTER: number;
+
+    static NONE: number;
+    static LEFT: number;
+    static RIGHT: number;
+    static UP: number;
+    static DOWN: number;
+
+    static CANVAS_PX_ROUND: boolean;
+    static CANVAS_CLEAR_RECT: boolean;
+}
+
+declare module Phaser {
+
+    class Animation {
+        //constructor
+        constructor(game: Phaser.Game, parent: Phaser.Sprite, name: string, frameData: Phaser.FrameData, frames: string[], delay: number, looped: boolean);
+        constructor(game: Phaser.Game, parent: Phaser.Sprite, name: string, frameData: Phaser.FrameData, frames: number[], delay: number, looped: boolean);
+        //properties
+        currentFrame: Phaser.Frame;
+        delay: number;
+        frame: number;
+        frameTotal: number;
+        game: Phaser.Game;
+        isFinished: boolean;
+        isPaused: boolean;
+        isPlaying: boolean;
+        killOnComplete: boolean;
+        looped: boolean;
+        name: string;
+        paused: boolean;
+        //static methods
+        static generateFrameNames(prefix: string, start: number, stop: number, suffix?: string, zeroPad?: number);
+        //methods
+        destroy(): void;
+        onComplete(): void;
+        play(frameRate?: number, loop?: boolean, killOnComplete?: boolean): Phaser.Animation;
+        restart(): void;
+        stop(resetFrame?: boolean): void;
+        update(): boolean;
+    }
+
+    class AnimationManager {
+        //constructor
+        constructor(sprite: Phaser.Sprite);
+        //members
+        currentFrame: Phaser.Frame;
+        frame: number;
+        frameData: Phaser.FrameData;
+        frameName: string;
+        frameTotal: number;
+        game: Phaser.Game;
+        isLoaded: boolean;
+        paused: boolean;
+        sprite: Phaser.Sprite;
+        updateIfVisible: boolean;
+        //methods
+        add(name: string, frames?: number[], frameRate?: number, loop?: boolean, useNumericIndex?: boolean): Phaser.Animation;
+        add(name: string, frames?: string[], frameRate?: number, loop?: boolean, useNumericIndex?: boolean): Phaser.Animation;
+        destroy(): void;
+        getAnimation(name: string): Phaser.Animation;
+        loadFrameData(frameData: Phaser.FrameData): void;
+        play(name: string, frameRate?: number, loop?: boolean): Phaser.Animation;
+        refreshFrame();
+        stop(name?: string, resetFrame?: boolean): void;
+        update(): boolean;
+        validateFrames(frames: Phaser.Frame[], useNumericIndex?: boolean): boolean;
+    }
+
+    class AnimationParser {
+        //static methods
+        static JSONData(game: Phaser.Game, json: Object, cacheKey: string): Phaser.FrameData;
+        static JSONDataHash(game: Phaser.Game, json: Object, cacheKey: string): Phaser.FrameData;
+        static spriteSheet(game: Phaser.Game, key: string, frameWidth: number, frameHeight: number, frameMax?: number, margin?: number, spacing?: number): Phaser.FrameData;
+        static XMLData(game: Phaser.Game, xml: Object, cacheKey: string): Phaser.FrameData;
+    }
+
+    class BitmapData {
+        //constructor
+        constructor(game: Phaser.Game, width?: number, height?: number);
+        //members
+        baseTexture: any;
+        canvas: HTMLCanvasElement;
+        context: CanvasRenderingContext2D;
+        game: Phaser.Game;
+        height: number;
+        imageData: any[];
+        name: string;
+        pixels: number;
+        texture: any;
+        textureFrame: Phaser.Frame;
+        type: number;
+        width: number;
+        //methods
+        add(sprite: Phaser.Sprite): void;
+        addTo(sprites: Phaser.Sprite[]): void;
+        arc(x: number, y: number, radius: number, startAngle: number, endAngle: number, anticlockwise?: boolean):Phaser.BitmapData;
+        arcTo(x1: number, y1: number, x2: number, y2: number): Phaser.BitmapData;
+        beginFill(color: string): Phaser.BitmapData;
+        beginLinearGradientFill(colors: string[], ratios: number[], x0: number, y0: number, x1: number, y1: number): Phaser.BitmapData;
+        beginPath(): Phaser.BitmapData;
+        beginRadialGradientStroke(colors: string[], ratios: number[], x0: number, y0: number, r0: number, x1: number, y1: number, r1: number): Phaser.BitmapData;
+        beginStoke(color: string): Phaser.BitmapData;
+        bezierCurveTo(cp1x: number, cp1y: number, cp2x: number, cp2y: number, x: number, y: number): Phaser.BitmapData;
+        circle(x: number, y: number, radius: number): Phaser.BitmapData;
+        clear(): void;
+        clearRect(x: number, y: number, width: number, height: number): Phaser.BitmapData;
+        clip(): Phaser.BitmapData;
+        closePath(): Phaser.BitmapData;
+        createLinearGradient(x: number, y: number, width: number, height: number): CanvasGradient;
+        createRadialGradient(x0: number, y0: number, r0: number, x1: number, y1: number, r1: number): CanvasGradient;
+        ellipse(x: number, y: number, w: number, h: number): Phaser.BitmapData;
+        fill(): Phaser.BitmapData;
+        fllRect(x: number, y: number, width: number, height: number): Phaser.BitmapData;
+        fillStyle(color: string): Phaser.BitmapData;
+        font(font: any): Phaser.BitmapData;
+        getPixel(x: number, y: number): number;
+        getPixel32(x: number, y: number): number;
+        getPixels(rect: Phaser.Rectangle): number[];
+        globalAlpha(alpha: number): Phaser.BitmapData;
+        globalCompositeOperation(operation: any): Phaser.BitmapData;
+        lineCap(style: any): Phaser.BitmapData;
+        lineDashOffset(offset: number): Phaser.BitmapData;
+        lineJoin(join: any): Phaser.BitmapData;
+        lineTo(x: number, y: number): Phaser.BitmapData;
+        lineWidth(width: number): Phaser.BitmapData;
+        miterLimit(limit: number): Phaser.BitmapData;
+        moveTo(x: number, y: number): Phaser.BitmapData;
+        quadraticCurveTo(cpx: number, cpy: number, x: number, y: number): Phaser.BitmapData;
+        rect(x: number, y: number, width: number, height: number): Phaser.BitmapData;
+        render(): void;
+        restore(): Phaser.BitmapData;
+        rotate(angle: number): void;
+        save(): Phaser.BitmapData;
+        scale(x: number, y: number): Phaser.BitmapData;
+        scrollPathIntoView(): Phaser.BitmapData;
+        setPixel(x: number, y: number, red: number, green: number, blue: number): void;
+        setPixel32(x: number, y: number, red: number, green: number, blue: number, alpha: number): void;
+        setStrokeStyle(thickness: number, caps?: string, joints?: string, miterLimit?: number, ignoreScale?: boolean): Phaser.BitmapData;
+        setStrokeStyle(thickness: number, caps?: number, joints?: number, miterLimit?: number, ignoreScale?: boolean): Phaser.BitmapData;
+        stroke(): Phaser.BitmapData;
+        strokeRect(x: number, y: number, width: number, height: number): Phaser.BitmapData;
+        strokeStyle(style: string): Phaser.BitmapData;
+    }
+
+    class BitmapText extends Phaser.Text {
+        //constructor
+        constructor(game: Phaser.Game, x?: number, y?: number, text?: string, style?: Object);
+        //members
+        alive: boolean;
+        anchor: Phaser.Point;
+        angle: number;
+        exists: boolean;
+        game: Phaser.Game;
+        group: Phaser.Group;
+        name: string;
+        scale: Phaser.Point;
+        type: number;
+        x: number;
+        y: number;
+        //still valid member? It is not in the JS
+        renderable: boolean;
+        //methods
+        update(): void;
+    }
+
+    class Button extends Phaser.Sprite {
+        //constructor
+        constructor(game: Phaser.Game, x?: number, y?: number, key?: string, callback?: Function, callbackContext?: Object, overFrame?: string, outFrame?: string, downFrame?: string, upFrame?: string);
+        constructor(game: Phaser.Game, x?: number, y?: number, key?: string, callback?: Function, callbackContext?: Object, overFrame?: number, outFrame?: number, downFrame?: number, upFrame?: number);
+        //members
+        forceOut: boolean;
+        freezeFrames: boolean;
+        onDownSound: Phaser.Sound;
+        onDownSoundMarker: string;
+        onInputDown: Phaser.Signal;
+        onInputOut: Phaser.Signal;
+        onInputOver: Phaser.Signal;
+        onInputUp: Phaser.Signal;
+        onOutSound: Phaser.Sound;
+        onOutSoundMarker: string;
+        onOverSound: Phaser.Sound;
+        onOverSoundMarker: string;
+        onUpSound: Phaser.Sound;
+        onUpSoundMaker: string;
+        type: number;
+        //methods
+        clearFrames(): void;
+        setDownSound(sound: Phaser.Sound, marker?: string): void;
+        setFrames(overFrame?: string, outFrame?: string, downFrame?: string, upFrame?: string): void;
+        setFrames(overFrame?: number, outFrame?: number, downFrame?: number, upFrame?: number): void;
+        setOutSound(sound: Phaser.Sound, marker?: string): void;
+        setOverSound(sound: Phaser.Sound, marker?: string): void;
+        setSounds(overSound?: Phaser.Sound, overMarker?: string, downSound?: Phaser.Sound, downMarker?: string, outSound?: Phaser.Sound, outMarker?: string, upSound?: Phaser.Sound, upMarker?: string): void;
+    }
+
+    class Cache {
+        //constructor
+        constructor(game: Phaser.Game);
+        //members
+        game: Phaser.Game;
+        onSoundUnlock: Phaser.Signal;
+        //methods
+        addBinary(key: string, binaryData: Object): void;
+        addBitmapData(key: string, bitmapData: Phaser.BitmapData): Phaser.BitmapData;
+        addBitmapFont(key: string, url: string, data: Object, xmlData: Object): void;
+        addCanvas(key: string, canvas: HTMLCanvasElement, context: CanvasRenderingContext2D): void;
+        addDefaultImage(): void;
+        addImage(key: string, url: string, data: Object): void;
+        addMisingImage(): void;
+        addRenderTexture(key: string, texture: RenderTexture): void;
+        addSound(key: string, url: string, data: Object, webAudio: boolean, audioTag: boolean): void;
+        addSpriteSheet(key: string, url: string, data: Object, frameWidth: number, frameHeight: number, frameMax?: number, margin?: number, spacing?: number): void;
+        addText(key: string, url: string, data: Object): void;
+        addTextureAtlas(key: string, url: string, data: Object, atlasData: Object, format: number): void;
+        addTilemap(key: string, url: string, mapData: Object, format: number): void;
+        checkImageKey(key: string): boolean;
+        decodedSound(key: string, data: Object): void;
+        destroy(): void;
+        getBinary(key: string): Object;
+        getBitmapData(key: string): Phaser.BitmapData;
+        getCanvas(key: string): Object;
+        getFrame(key: string): Phaser.Frame;
+        getFrameByIndex(key: string, frame: string): Phaser.Frame;
+        getFrameByName(key: string, frame: string): Phaser.Frame;
+        getFrameData(key: string): Phaser.FrameData;
+        getImage(key: string): Object;
+        getImageKeys(): string[];
+        getKeys(array: string[]): string[];
+        getSound(key: string): Phaser.Sound;
+        getSoundData(key: string): Object;
+        getSoundKeys(): string[];
+        getText(key: string): Object;
+        getTextKeys(): string[];
+        getTexture(key: string): Phaser.RenderTexture;
+        getTextureFrame(key: string): Phaser.Frame;
+        getTilemap(key: string): Phaser.Tilemap;
+        isSoundDecoded(key: string): boolean;
+        isSoundReady(key: string): boolean;
+        isSpriteSheet(key: string): boolean;
+        reloadSound(key: string): void;
+        reloadSoundComplete(key: string): void;
+        removeCanvas(key: string): void;
+        removeImage(key: string): void;
+        removeSound(key: string): void;
+        removeText(key: string): void;
+        updateSound(key: string, property: string, value: Phaser.Sound): void;
+    }
+
+    class Camera {
+        //constructor
+        constructor(game: Phaser.Game, id: number, x: number, y: number, width: number, height: number);
+        //static members
+        static FOLLOW_LOCKON: number;
+        static FOLLOW_PLATFORMER: number;
+        static FOLLOW_TOPDOWN: number;
+        static FOLLOW_TOPDOWN_TIGHT: number;
+        //members
+        atLimit: { x: boolean; y: boolean; };
+        bounds: Phaser.Rectangle;
+        deadzone: Phaser.Rectangle;
+        displayObject: Object;
+        game: Phaser.Game;
+        height: number;
+        id: number;
+        screenView: Phaser.Rectangle;
+        target: Phaser.Sprite;
+        view: Phaser.Rectangle;
+        visible: boolean;
+        width: number;
+        world: Phaser.World;
+        x: number;
+        y: number;
+        //methods
+        checkWorldBounds(): void;
+        focusOn(displayObject: any): void;
+        focusOnXY(x: number, y: number): void;
+        follow(target: Phaser.Sprite, style?: number): void;
+        setBoundsToWorld(): void;
+        setPosition(x: number, y: number): void;
+        setSize(width: number, height: number): void;
+        update(): void;
+    }
+
+    class Canvas {
+        //static methods
+        static addToDOM(canvas: HTMLCanvasElement, parent: string, overflowHidden?: boolean): HTMLCanvasElement;
+        static addToDOM(canvas: HTMLCanvasElement, parent: HTMLCanvasElement, overflowHidden?: boolean): HTMLCanvasElement;
+        static create(width?: number, height?: number, id?: string): HTMLCanvasElement;
+        static getAspectRatio(canvas: HTMLCanvasElement): number;
+        static getOffset(element: HTMLElement, point?: Phaser.Point): Phaser.Point;
+        static setBackgroundColor(canvas: HTMLCanvasElement, color: string): HTMLCanvasElement;
+        static setImageRenderingBicubic(canvas: HTMLCanvasElement): HTMLCanvasElement;
+        static setImageRenderingCrisp(canvas: HTMLCanvasElement): HTMLCanvasElement;
+        static setSmoothingEnabled(context: CanvasRenderingContext2D, value: boolean): CanvasRenderingContext2D;
+        static setTouchAction(canvas: HTMLCanvasElement, value: string): HTMLCanvasElement;
+        static setTransform(context: CanvasRenderingContext2D, translateX: number, translateY: number, scaleX: number, scaleY: number, skewX: number, skewY: number): CanvasRenderingContext2D;
+        static setUserSelect(canvas: HTMLCanvasElement, value?: string): HTMLCanvasElement;
+    }
+
+    class Circle {
+        //constructor
+        constructor(x?: number, y?: number, diameter?: number);
+        //members
+        area: number;
+        bottom: number;
+        diameter: number;
+        empty: boolean;
+        left: number;
+        radius: number;
+        right: number;
+        top: number;
+        x: number;
+        y: number;
+        //static methods
+        static circumferencePoint(a: Phaser.Circle, angle: number, asDegrees: boolean, output?: Phaser.Point): Phaser.Point;
+        static contains(a: Phaser.Circle, x: number, y: number): boolean;
+        static equals(a: Phaser.Circle, b: Phaser.Circle): boolean;
+        static intersects(a: Phaser.Circle, b: Phaser.Circle): boolean;
+        static intersectsRectangle(c: Phaser.Circle, r: Phaser.Rectangle): boolean;
+        //methods
+        circumference(): number;
+        circumferencePoint(angle: number, asDegrees: number, output?: Phaser.Point): Phaser.Point;
+        clone(out: Phaser.Circle): Phaser.Circle;
+        contains(x: number, y: number): boolean;
+        copyFrom(source: any): Circle;
+        copyTo(dest: Object): Object;
+        distance(dest: Object, round?: boolean): number;
+        offset(dx: number, dy: number): Phaser.Circle;
+        offsetPoint(point: Phaser.Point): Phaser.Circle;
+        setTo(x: number, y: number, diameter: number): Circle;
+        toString(): string;
+    }
+
+    class Color {
+        //static methods
+        static colorToHexstring(color: number): string;
+        static getAlpha(color: number): number;
+        static getAlphaFloat(color: number): number;
+        static getBlue(color: number): number;
+        static getColor(red: number, green: number, blue: number): number;
+        static getColor32(alpha: number, red: number, green: number, blue: number): number;
+        static getColorInfo(color: number): string;
+        static getGreen(color: number): number;
+        static getRandomColor(min?: number, max?: number, alpha?: number): number;
+        static getRed(color: number): number;
+        static getRGB(color: number): Object;
+        static getWebRGB(color: number): string;
+        static hexToRGB(h: string): number;
+        static interpolateColor(color1: number, color2: number, steps: number, currentStep: number, alpha: number): number;
+        static interpolateColorWithRGB(color: number, r: number, g: number, b: number, steps: number, currentStep: number): number;
+        static interpolateRGB(r1: number, g1: number, b1: number, r2: number, g2: number, b2: number, steps: number, currentStep: number): number;
+        static RGBtoHexstring(color: number): string;
+        static RGBtoWebstring(color: number): string;
+    }
+
+    interface CursorKeys {
+        up: Phaser.Key;
+        down: Phaser.Key;
+        left: Phaser.Key;
+        right: Phaser.Key;
+    }   
+
+    class Device {
+        //members
+        android: boolean;
+        arora: boolean;
+        audioData: boolean;
+        canvas: boolean;
+        chrome: boolean;
+        chromeOS: boolean;
+        cocoonJS: boolean;
+        css3D: boolean;
+        desktop: boolean;
+        ejecta: boolean;
+        epiphany: boolean;
+        file: boolean;
+        fileSystem: boolean;
+        firefox: boolean;
+        ie: boolean;
+        ieVersion: number;
+        iOS: boolean;
+        iPad: boolean;
+        iPhone: boolean;
+        iPhone4: boolean;
+        linux: boolean;
+        littleEndian: boolean;
+        localStorage: boolean;
+        m4a: boolean;
+        macOS: boolean;
+        midori: boolean;
+        mobileSafari: boolean;
+        mp3: boolean;
+        mspointer: boolean;
+        ogg: boolean;
+        opera: boolean;
+        opus: boolean;
+        patchAndroidClearRect: boolean;
+        pixelRatio: number;
+        pointerLock: boolean;
+        quirksMode: boolean;
+        safari: boolean;
+        silk: boolean;
+        touch: boolean;
+        trident: boolean;
+        tridentVersion: number;
+        typedArray: boolean;
+        vibration: boolean;
+        wav: boolean;
+        webApp: boolean;
+        webAudio: boolean;
+        webGL: boolean;
+        webm: boolean;
+        windows: boolean;
+        worker: boolean;
+        //methods
+        canPlayAudio(type: string): boolean;
+        isConsoleOpen(): boolean;
+    }
+
+    class DOMSprite {
+        //constructor
+        constructor(game: Phaser.Game, id: string, x: number, y: number, text: string, style: Object);
+        //members
+        alive: boolean;
+        exists: boolean;
+        game: Phaser.Game;
+        group: Phaser.Group;
+        name: string;
+        type: number;
+        visible: boolean;
+    }
+
+    module Easing {
+
+        class Back {
+            static In(k: number): number;
+            static Out(k: number): number;
+            static InOut(k: number): number;
+        }
+
+        class Bounce {
+            static In(k: number): number;
+            static Out(k: number): number;
+            static InOut(k: number): number;
+        }
+
+        class Circular {
+            static In(k: number): number;
+            static Out(k: number): number;
+            static InOut(k: number): number;
+        }
+
+        class Cubic {
+            static In(k: number): number;
+            static Out(k: number): number;
+            static InOut(k: number): number;
+        }
+
+        class Elastic {
+            static In(k: number): number;
+            static Out(k: number): number;
+            static InOut(k: number): number;
+        }
+
+        class Exponential {
+            static In(k: number): number;
+            static Out(k: number): number;
+            static InOut(k: number): number;
+        }
+
+        class Linear {
+            static None(k: number): number;
+        }
+
+        class Quadratic {
+            static In(k: number): number;
+            static Out(k: number): number;
+            static InOut(k: number): number;
+        }
+
+        class Quartic {
+            static In(k: number): number;
+            static Out(k: number): number;
+            static InOut(k: number): number;
+        }
+
+        class Quintic {
+            static In(k: number): number;
+            static Out(k: number): number;
+            static InOut(k: number): number;
+        }
+
+        class Sinusoidal {
+            static In(k: number): number;
+            static Out(k: number): number;
+            static InOut(k: number): number;
+        }
+    }
+
+    class Events {
+        //constuctor
+        constructor(sprite: Phaser.Sprite);
+        //methods
+        parent: Phaser.Sprite;
+        onAddedToGroup: Phaser.Signal;
+        onRemovedFromGroup: Phaser.Signal;
+        onKilled: Phaser.Signal;
+        onRevived: Phaser.Signal;
+        onOutOfBounds: Phaser.Signal;
+        onInputOver: Phaser.Signal;
+        onInputOut: Phaser.Signal;
+        onInputDown: Phaser.Signal;
+        onInputUp: Phaser.Signal;
+        onDragStart: Phaser.Signal;
+        onDragStop: Phaser.Signal;
+        onAnimationStart: Phaser.Signal;
+        onAnimationComplete: Phaser.Signal;
+        onAnimationLoop: Phaser.Signal;
+        onBeginContact: Phaser.Signal;
+        onEndContact: Phaser.Signal;
+    }
+
+    class Filter {
+        //constructor
+        constructor(game: Phaser.Game, uniforms: Object, fragmentSrc: any[]);
+        //members
+        dirty: boolean;
+        fragmentSrc: any[];
+        game: Phaser.Game;
+        height: number;
+        padding: number;
+        type: number;
+        uniform: Object;
+        width: number;
+        //methods
+        destroy(): void;
+        init(): void;
+        setResolution(width: number, height: number);
+        update(pointer?: Phaser.Pointer): void;
+    }
+
+    class Frame {
+        //constructor
+        constructor(index: number, x: number, y: number, width: number, height: number, name: string, uuid: string);
+        //members
+        centerX: number;
+        centerY: number;
+        distance: number;
+        height: number;
+        index: number;
+        name: string;
+        rotated: boolean;
+        rotationDirection: string;
+        sourceSizeH: number;
+        sourceSizeW: number;
+        spriteSourcesizeH: number;
+        spriteSourceSizeW: number;
+        spriteSourceSizeX: number;
+        spriteSourceSizeY: number;
+        trimmed: boolean;
+        uuid: string;
+        width: number;
+        x: number;
+        y: number;
+        //methods      
+        setTrim(trimmed: boolean, actualWidth: number, actualHeight: number, destX: number, destY: number, destWidth: number, destHeight: number): void;
+    }
+
+    class FrameData {
+        //members
+        total: number;
+        //methods
+        addFrame(frame: Frame): Phaser.Frame;
+        checkFrameName(name: string): boolean;
+        getFrame(index: number): Phaser.Frame;
+        getFrameByName(name: string): Phaser.Frame;
+        getFrameIndexes(frames: number[], useNumericIndex?: boolean, output?: number[]): number[]
+        getFrameRange(start: number, end: number, output: Phaser.Frame[]): Phaser.Frame[];
+        getFrames(frames: number[], useNumericIndex?: boolean, output?: Phaser.Frame[]): Phaser.Frame[];
+        //this method no longer exists and can be deleted?
+        checkFrame(name: string): boolean;
+    }
+
+    class Game {
+        //constructor
+        constructor(width?: number, height?: number, renderer?: number, parent?: string, state?: Object, transparent?: boolean, antialias?: boolean);
+        constructor(width?: number, height?: number, renderer?: number, parent?: HTMLElement, state?: Object, transparent?: boolean, antialias?: boolean);
+        //members
+        add: Phaser.GameObjectFactory;
+        antialias: boolean;
+        cache: Phaser.Cache;
+        camera: Phaser.Camera;
+        canvas: HTMLCanvasElement;
+        config: Object;
+        context: Object;
+        debug: Phaser.Utils.Debug;
+        device: Phaser.Device;
+        height: number;
+        id: number;
+        input: Phaser.Input;
+        isBooted: boolean;
+        isRunning: boolean;
+        load: Phaser.Loader;
+        math: Phaser.Math;
+        net: Phaser.Net;
+        parent: HTMLElement;
+        particles: Phaser.Particles;
+        paused: boolean;
+        pendingStep: boolean;
+        physics: Phaser.Physics.Arcade
+        raf: Phaser.RequestAnimationFrame;
+        renderer: number;
+        renderType: number;
+        rnd: Phaser.RandomDataGenerator;
+        sound: Phaser.SoundManager;
+        stage: Phaser.Stage;
+        state: Phaser.StateManager;
+        stepCount: number;
+        stepping: boolean;
+        time: Phaser.Time;
+        transparent: boolean;
+        tweens: Phaser.TweenManager;
+        width: number;
+        world: Phaser.World;
+        //methods
+        boot(): void;
+        destroy(): void;
+        disableStep(): void;
+        enableStep(): void;
+        loadComplete(): void;
+        parseConfig(): void;
+        parseDimensions(): void;
+        setUpRenderer(): void;
+        showDebugHeader(): void;
+        step();
+        update(time: number): void;
+    }
+
+    class GameObjectFactory {
+        //constructor
+        constructor(game: Phaser.Game);
+        //members
+        game: Phaser.Game;
+        world: Phaser.World;
+        //methods
+        audio(key: string, volume?: number, loop?: boolean, connect?: boolean): Phaser.Sound;
+        bitmapData(width?: number, height?: number): Phaser.BitmapData;
+        bitmapText(x: number, y: number, text: string, style: Object, group?: Phaser.Group): Phaser.BitmapText;
+        button(x?: number, y?: number, key?: string, callback?: Function, callbackContext?: Object, overFrame?: any, outFrame?: any, downFrame?: any, upFrame?: any, group?: Phaser.Group): Phaser.Button;
+        child(parent: any, x: number, y: number, key?: any, frame?: any): Phaser.Sprite;
+        emitter(x?: number, y?: number, maxParticles?: number): Phaser.Particles.Arcade.Emitter;
+        existing(object: any): any;
+        filter(filer: string, args: any): Phaser.Filter;
+        graphics(x: number, y: number, group?: Phaser.Group): Phaser.Graphics;
+        group(parent?: any, name?: string): Phaser.Group;
+        renderTexture(key: string, width: number, height: number): Phaser.RenderTexture;
+        sound(key: string, volume?: number, loop?: number, connect?: boolean): Phaser.Sound; 
+        sprite(x: number, y: number, key?: any, frame?: any, group?: Phaser.Group): Phaser.Sprite;
+        text(x: number, y: number, text: string, style: any, group?: Phaser.Group): Phaser.Text;
+        tilemap(key: string, tilesets: any): Phaser.Tilemap;
+        tileSprite(x: number, y: number, width: number, height: number, key?: any, group?: Phaser.Group): Phaser.TileSprite;
+        tween(obj: Object): Phaser.Tween;
+    }
+
+    class GamePad {
+        //constructor
+        constructor(game: Phaser.Game);
+        //members
+        active: boolean;
+        callbackContext: Object;
+        disable: boolean;
+        game: Phaser.Game;
+        onAxisCallBack: Function;
+        onConnectCallback: Function;
+        onDisconnectCallback: Function;
+        onDownCallback: Function;
+        onFloatCallback: Function;
+        onUpCallback: Function;
+        pad1: boolean;
+        pad2: boolean;
+        pad3: boolean;
+        pad4: boolean;
+        padsConnected: boolean;
+        supported: boolean;
+        //methods
+        addCallbacks(context: Object, callbacks: Object): void;
+        isDown(buttonCode: number): boolean;
+        justPressed(buttonCode: number, duration?: number): boolean;
+        reset(): void;
+        setDeadZones(): void;
+        start();
+        stop();
+    }
+
+    class GamepadButton {
+        //constuctor
+        constructor(game: Phaser.Game, buttonCode: number);
+        //members
+        buttonCode: number;
+        duration: number;
+        game: Phaser.Game;
+        isDown: boolean;
+        isUp: boolean;
+        onDown: boolean;
+        onFloat: Phaser.Signal;
+        onUp: Phaser.Signal;
+        repeats: number;
+        timeDown: number;
+        timeUp: number;
+        value: number;
+        //methods
+        justPressed(duration?: number): boolean;
+        processButtonDown(value: Object): void;
+        processButtonFloat(value: Object): void;
+        processButtonUp(value: Object): void;
+    }
+
+    // Actually extends PIXI.Graphics but we skip the abstraction here, since pixi is "part" of phaser
+    // PIXI.Graphics extends PIXI.DisplayObjectContainer extends DisplayObject
+    class Graphics extends Phaser.Sprite {
+        //constructor
+        constructor(game: Phaser.Game, x: number, y: number);
+        //members
+        angle: number;
+        x: number;
+        y: number;
+        //methods
+        lineStyle(lineWidth: number, color?: number, alpha?: number): void;
+        moveTo(x: number, y: number): void;
+        lineTo(x: number, y: number): void;
+        beginFill(color: number, alpha?: number): void;
+        endFill(): void;
+        drawRect(x: number, y: number, width: number, height: number): void;
+        drawCircle(x: number, y: number, radius: number): void;
+        drawElipse(x: number, y: number, width: number, height: number): void;
+        clear(): void;
+        updateFilterBounds(): void;
+    }
+
+    // Wraps a PIXI.DisplayObjectContainer
+    class Group {
+        //constructor
+        constructor(game: Phaser.Game, parent?: any, name?: string, useStage?: boolean);
+        //static members
+        static RETURN_CHILD: number;
+        static RETURN_NONE: number;
+        static RETURN_TOTAL: number;
+        static SORT_ASCENDING: number;
+        static SORT_DESCENDING: number;
+        //members
+        alive: boolean;
+        alpha: number;
+        angle: number;
+        cursor: any;
+        exists: boolean;
+        game: Phaser.Game;
+        group: Phaser.Group;
+        length: number;
+        name: string;
+        pivot: Phaser.Point;
+        rotation: number;
+        scale: Phaser.Point;
+        total: number;
+        type: number;
+        visible: boolean;
+        x: number;
+        y: number;
+        //methods
+        add(child: any): any;
+        addAll(property: string, amount: number, checkAlive: boolean, checkVisible: boolean): void
+        addAt(child: any, index: number): any;
+        bringToTop(child: any): any;
+        callAll(callback: string, callbackContext?: Object, parameter?: any): void;
+        callAllExists(callback: Function, callbackContext: Object, existsValue: boolean): void;
+        callbackFromArray(child: Object, callback: Function, callbackContext: Object, length: number): void;
+        childTest(): void;
+        countDead(): number;
+        countLiving(): number;
+        create(x: number, y: number, key: string, frame?: any, exists?: boolean): Phaser.Sprite;
+        createMultiple(quantity: number, key: string, frame?: any, exists?: boolean): Phaser.Sprite;
+        destroy(destroyChildren?: boolean): void;
+        divideAll(property: string, amount: number, checkAlive?: boolean, checkVisible?: boolean): void;
+        forEach(callback: Function, callbackContext: Object, checkExists: boolean): void;
+        forEachAlive(callback: Function, callbackContext: Object): void;
+        forEachDead(callback: Function, callbackContext: Object): void;
+        getAt(index: number): any;
+        getFirstAlive(): any;
+        getFirstDead(): any;
+        getFirstExists(state: boolean): any;
+        getIndex(child: any): number;
+        getRandom(startIndex: number, length: number): any;
+        iterate(key: string, value: any, returnType: number, callback?: Function, callbackContext?: Object): any;
+        multiplyAll(property: string, amount: number, checkAlive: boolean, checkVisible: boolean): void;
+        next(): void;
+        previous(): void;
+        remove(child: any): boolean;
+        removeAll(): void;
+        removeBetween(startIndex: number, endIndex: number): void;
+        replace(oldChild: any, newChild: any): void;
+        set(child: Phaser.Sprite, key: string, value: any, checkAlive?: boolean, checkVisible?: boolean, operation?: number)
+        setAll(key: string, value: any, checkAlive?: boolean, checkVisible?: boolean, operation?: number): void;
+        setProperty(child: any, key: string[], value: any, operation?: number): void;
+        sort(index?: string, order?: number): void;
+        subAll(property: string, amount: number, checkAlive: boolean, checkVisible: boolean): void;
+        swap(child1: any, child2: any): boolean;
+        swapIndex();
+    }
+
+    class Input {
+        //constructor
+        constructor(game: Phaser.Game);
+        //static members
+        static MOUSE_OVERRIDES_TOUCH: number;
+        static MOUSE_TOUCH_COMBINE: number;
+        static TOUCH_OVERRIDES_MOUSE: number;
+        //members
+        activePointer: Phaser.Pointer;
+        circle: Phaser.Circle;
+        currentPointers: number;
+        disabled: boolean;
+        doubleTapRate: number;
+        game: Phaser.Game;
+        gamepad: Phaser.GamePad;
+        hitCanvas: HTMLCanvasElement;
+        hitContext: CanvasRenderingContext2D;
+        holdRate: number;
+        interactiveItems: Phaser.LinkedList;
+        justPressedRate: number;
+        justReleasedRate: number;
+        keyboard: Phaser.Keyboard;
+        maxPointers: number;
+        mouse: Phaser.Mouse;
+        mousePointer: Phaser.Pointer;
+        moveCallback: Function;
+        moveCallbackContext: Object;
+        mspointer: Phaser.MSPointer;
+        multiInputOverride: any;
+        onDown: Phaser.Signal;
+        onHold: Phaser.Signal;
+        onTap: Phaser.Signal;
+        onUp: Phaser.Signal;
+        pointer1: Phaser.Pointer;
+        pointer2: Phaser.Pointer;
+        pointer3: Phaser.Pointer;
+        pointer4: Phaser.Pointer;
+        pointer5: Phaser.Pointer;
+        pointer6: Phaser.Pointer;
+        pointer7: Phaser.Pointer;
+        pointer8: Phaser.Pointer;
+        pointer9: Phaser.Pointer;
+        pointer10: Phaser.Pointer;
+        pollLocked: boolean;
+        pollRate: number;
+        position: Phaser.Point;
+        recordLimit: number;
+        recordPointerHistory: boolean;
+        recordRate: number;
+        scale: Phaser.Point;
+        speed: Phaser.Point;
+        tapRate: number;
+        totalActivePointers: number;
+        totalInactivePointers: number;
+        touch: Phaser.Touch;
+        worldX: number;
+        worldY: number;
+        x: number;
+        y: number;
+        //methods
+        addPointer(): Phaser.Pointer;
+        boot(): void;
+        destroy(): void;
+        getPointer(state: boolean): Phaser.Pointer;
+        getPointerFromIdentifier(identifier: number): Phaser.Pointer;
+        reset(hard?: boolean): void;
+        resetSpeed(x: number, y: number): void;
+        setMoveCallback(callBack: Function, callbackContext: Object): void;
+        startPointer(event: Event): Phaser.Pointer;
+        stopPointer(event: Event): Phaser.Pointer;
+        update(): void;
+        updatePointer(event: Event): Phaser.Pointer;
+    }
+
+    class InputHandler extends Phaser.LinkedListItem {
+        //constructor
+        constructor(sprite: Phaser.Sprite);
+        //members
+        allowHorizontalDrag: boolean;
+        allowVerticalDrag: boolean;
+        boundwsRect: Phaser.Rectangle;
+        boundsSprite: Phaser.Sprite;
+        bringToTop: boolean;
+        consumePointerEvent: boolean;
+        draggable: boolean;
+        enabled: boolean;
+        game: Phaser.Game;
+        isDragged: boolean;
+        pixelPerfect: boolean;
+        pixelPerfectAlpha: number;
+        priorityID: number;
+        snapOffset: Phaser.Point;
+        snapOffsetX: number;
+        snapOffsetY: number;
+        snapOnDrag: boolean;
+        snapOnRelease: boolean;
+        snapX: number;
+        snapY: number;
+        sprite: Phaser.Sprite;
+        useHandCursor: boolean;
+        //methods
+        checkBoundsRect(): void;
+        checkBoundsSprite(): void;
+        checkPixel(x: number, y: number): boolean;
+        checkPointerOver(pointer: number): boolean;
+        destroy(): void;
+        disableDrag(): void;
+        disableSnap(): void;
+        downDuration(pointer: number): number;
+        enableDrag(lockCenter?: boolean, bringToTop?: boolean, pixelPerfect?: boolean, alphaThreshold?: number, boundsRect?: Phaser.Rectangle, boundsSprite?: Phaser.Rectangle): void;
+        enableSnap(snapX: number, snapY: number, onDrag?: boolean, onRelease?: boolean, snapOffsetX?: number, snapOffsetY?: number): void;
+        justOut(pointer: number, delay: number): boolean;
+        justOver(pointer: number, delay: number): boolean;
+        justPressed(pointer: number, delay: number): boolean;
+        justReleased(pointer: number, delay: number): boolean;
+        overDuration(pointer: number): number;
+        pointerDown(pointer: number): boolean;
+        pointerDragged(pointer: number): boolean;
+        pointerOut(pointer: number): boolean;
+        pointerOver(pointer: number): boolean;
+        pointerTimeDown(pointer: number): number;
+        pointerTimeOut(pointer: number): number;
+        pointerTimeOver(pointer: number): number;
+        pointerTimeUp(pointer: number): number;
+        pointerUp(pointer: number): boolean;
+        pointerX(pointer: number): number;
+        pointerY(pointer: number): number;
+        reset(): void;
+        setDragLock(allowHorizontal?: boolean, allowVertical?: boolean): void;
+        start(priority: number, useHandCursor: boolean): Phaser.Sprite;
+        startDrag(pointer: Phaser.Pointer): void;
+        stop(): void;
+        stopDrag(pointer: Phaser.Pointer): void;
+        update(pointer: Phaser.Pointer): void;
+        updateDrag(pointer: Phaser.Pointer): boolean;
+    }
+
+    class Key {
+        //constructor
+        constructor(game: Phaser.Game, keycode: number)
+        //members
+        altKey: boolean;
+        ctrlKey: boolean;
+        duration: number;
+        game: Phaser.Game;
+        isDown: boolean;
+        isUp: boolean;
+        keyCode: number;
+        onDown: Phaser.Signal;
+        onUp: Phaser.Signal;
+        repeats: number;
+        shiftKey: boolean;
+        timeDown: number;
+        timeUp: number;
+        //methods
+        justPressed(duration?: number): boolean;
+        justReleased(duration?: number): boolean;
+    }
+
+    class Keyboard {
+        //constructor
+        constructor(game: Phaser.Game);
+        //static members
+        static A: number;
+        static B: number;
+        static C: number;
+        static D: number;
+        static E: number;
+        static F: number;
+        static G: number;
+        static H: number;
+        static I: number;
+        static J: number;
+        static K: number;
+        static L: number;
+        static M: number;
+        static N: number;
+        static O: number;
+        static P: number;
+        static Q: number;
+        static R: number;
+        static S: number;
+        static T: number;
+        static U: number;
+        static V: number;
+        static W: number;
+        static X: number;
+        static Y: number;
+        static Z: number;
+        static ZERO: number;
+        static ONE: number;
+        static TWO: number;
+        static THREE: number;
+        static FOUR: number;
+        static FIVE: number;
+        static SIX: number;
+        static SEVEN: number;
+        static EIGHT: number;
+        static NINE: number;
+        static NUMPAD_0: number;
+        static NUMPAD_1: number;
+        static NUMPAD_2: number;
+        static NUMPAD_3: number;
+        static NUMPAD_4: number;
+        static NUMPAD_5: number;
+        static NUMPAD_6: number;
+        static NUMPAD_7: number;
+        static NUMPAD_8: number;
+        static NUMPAD_9: number;
+        static NUMPAD_MULTIPLY: number;
+        static NUMPAD_ADD: number;
+        static NUMPAD_ENTER: number;
+        static NUMPAD_SUBTRACT: number;
+        static NUMPAD_DECIMAL: number;
+        static NUMPAD_DIVIDE: number;
+        static F1: number;
+        static F2: number;
+        static F3: number;
+        static F4: number;
+        static F5: number;
+        static F6: number;
+        static F7: number;
+        static F8: number;
+        static F9: number;
+        static F10: number;
+        static F11: number;
+        static F12: number;
+        static F13: number;
+        static F14: number;
+        static F15: number;
+        static COLON: number;
+        static EQUALS: number;
+        static UNDERSCORE: number;
+        static QUESTION_MARK: number;
+        static TILDE: number;
+        static OPEN_BRACKET: number;
+        static BACKWARD_SLASH: number;
+        static CLOSED_BRACKET: number;
+        static QUOTES: number;
+        static BACKSPACE: number;
+        static TAB: number;
+        static CLEAR: number;
+        static ENTER: number;
+        static SHIFT: number;
+        static CONTROL: number;
+        static ALT: number;
+        static CAPS_LOCK: number;
+        static ESC: number;
+        static SPACEBAR: number;
+        static PAGE_UP: number;
+        static PAGE_DOWN: number;
+        static END: number;
+        static HOME: number;
+        static LEFT: number;
+        static UP: number;
+        static RIGHT: number;
+        static DOWN: number;
+        static INSERT: number;
+        static DELETE: number;
+        static HELP: number;
+        static NUM_LOCK: number;
+        //members
+        callbackContext: Object;
+        disabled: boolean;
+        game: Phaser.Game;
+        onDownCallback: Function;
+        onUpCallback: Function;
+        //methods
+        addCallbacks(context: Object, onDown: Function, onUp?: Function): void;
+        addKey(keycode: number): Phaser.Key;
+        addKeyCapture(keycode: any): void;
+        createCursorKeys(): Phaser.CursorKeys;
+        clearCaptures(): Object;
+        isDown(keycode: number): boolean;
+        justPressed(keycode: number, duration?: number): boolean;
+        justReleased(keycode: number, duration?: number): boolean;
+        removeKey(keycode: number): void;
+        removeKeyCapture(keycode: number): void;
+        reset(): void;
+        start(): void;
+        stop(): void;
+    }
+
+    class Line {
+        //constructor
+        constructor(x1?: number, y1?: number, x2?: number, y2?: number);
+        //members
+        angle: number;
+        end: Phaser.Point;
+        length: number;
+        perpSlope: number;
+        slope: number;
+        start: Phaser.Point;
+        //static methods
+        static intersectsPoints(a: Phaser.Point, b: Phaser.Point, e: Phaser.Point, f: Phaser.Point, asSegment?: boolean, result?: Phaser.Point): Phaser.Point;
+        static intersects(a: Phaser.Line, b: Phaser.Line, asSegment?: boolean, result?: Phaser.Point): Phaser.Point;
+        //methods
+        fromSprite(startSprite: Phaser.Sprite, endSprite: Phaser.Sprite, useCenter?: boolean): Phaser.Line;
+        intersects(line: Phaser.Line, asSegment?: boolean, result?: Phaser.Point): Phaser.Point;
+        pointOnLine(x: number, y: number): boolean;
+        pointOnSegment(x: number, y: number): boolean;
+        setTo(x1?: number, y1?: number, x2?: number, y2?: number): Phaser.Line;
+    }
+
+    class LinkedListItem {
+        //members
+        next: LinkedListItem;
+        prev: LinkedListItem;
+        first: LinkedListItem;
+        last: LinkedListItem;
+    }
+
+    class LinkedList extends LinkedListItem {
+        //members
+        first: LinkedListItem;
+        last: LinkedListItem;
+        next: LinkedListItem;
+        prev: LinkedListItem;
+        total: number;
+        //methods
+        add(child: LinkedListItem): LinkedListItem;
+        callAll(callback: Function): void;
+        remove(child: LinkedListItem): void;
+    }
+
+    class Loader {
+        //constructor
+        constructor(game: Phaser.Game);
+        //static members
+        static TEXTURE_ATLAS_JSON_ARRAY: number;
+        static TEXTURE_ATLAS_JSON_HASH: number;
+        static TEXTURE_ATLAS_XML_STARLING: number;
+        //members
+        baseURL: string;
+        crossOrigin: string;
+        game: Phaser.Game;
+        hasLoaded: boolean;
+        isLoading: boolean;
+        onFileComplete: Phaser.Signal;
+        onFileError: Phaser.Signal;
+        onLoadComplete: Phaser.Signal;
+        onLoadStart: Phaser.Signal;
+        preloadSprite: Phaser.Sprite;
+        progress: number;
+        progressFloat: number;
+        //methods
+        addToFileList(type: string, key: string, url: string, properties: any): void;
+        atlas(key: string, textureURL: string, atlasURL?: string, atlasData?: Object, format?: number): Phaser.Loader;
+        atlasJSONArray(key: string, textureURL: string, atlasURL?: string, atlasData?: Object): Phaser.Loader;
+        atlasJSONHash(key: string, textureURL: string, atlasURL?: string, atlasData?: Object): Phaser.Loader;
+        atlasXML(key: string, textureURL: string, atlasURL?: string, atlasData?: Object): Phaser.Loader;
+        audio(key: string, urls: any, autoDecode?: boolean): Phaser.Loader;
+        binary(key: string, url: string, callback?: Function, callbackContext?: Function): Phaser.Loader;
+        bitmapFont(key: string, textureURL: string, xmlURL?: string, xmlData?: Object): Phaser.Loader;
+        checkKeyExists(type: string, key: string): boolean;
+        csvLoadComplete(index: number): void;
+        dataLoadError(index: number): void;
+        fileComplete(key: number): void;
+        fileError(key: number): void;
+        getAsset(type: string, key: string): any;
+        image(key: string, url: string, overwrite?: boolean): Phaser.Loader;
+        json(key: string, url: string): Phaser.Loader;
+        jsonLoadComplete(index: number): void;
+        removeAll(): void;
+        removeFile(key: string, type: string): void;
+        reset(): void;
+        script(key: string, url: String): Phaser.Loader;
+        setPreloadSprite(sprite: Phaser.Sprite, direction?: number): void;
+        spritesheet(key: string, url: string, frameWidth: number, frameHeight: number, frameMax?: number, margin?: number, spacing?: number): Phaser.Loader;
+        start(): void;
+        text(key: string, url: string, overwrite?: boolean): Phaser.Loader;
+        tilemap(key: string, mapDataURL?: string, mapData?: Object, format?: string): Phaser.Loader;
+        totalLoadedFiles(): number;
+        totalQueuedFiles(): number;
+        xmlLoadComplete(index:number): void;
+        //members no longer used?
+        tileset(key: string, url: string, tileWidth: number, tileHeight: number, tileMargin?: number, tileSpacing?: number, rows?: number, columns?: number, limit?: number): void;
+    }
+
+    class LoaderParser {
+        //static methods
+        static bitmapFont(game: Phaser.Game, xml: Object, cacheKey: Phaser.FrameData): Phaser.FrameData;
+    }
+
+    class Math {
+        //static methods
+        static angleBetween(x1: number, y1: number, x2: number, y2: number): number;
+        static angleLimit(angle: number, min: number, max: number): number;
+        static average(...numbers: number[]): number;
+        static bernstein(n: number, i: number): number;
+        static bezierInterpolation(v: number[], k: number): number;
+        static catmullRom(p0: number, p1: number, p2: number, p3: number, t: number): number;
+        static catmullRomInterpolation(v: number[], k: number): number;
+        static ceil(value: number): number;
+        static ceilTo(value: number, place?: number, base?: number): number;
+        static chanceRoll(chance: number): boolean;
+        static clamp(x: number, a: number, b: number): number;
+        static clampBottom(x: number, a: number): number;
+        static degToRad(degrees: number): number;
+        static difference(a: number, b: number): number;
+        static distance(x1: number, y1: number, x2: number, y2: number): number;
+        static distancePow(xy: number, y1: number, x2: number, y2: number, pow?: number): number;
+        static distanceRounded(x1: number, y1: number, x2: number, y2: number): number;
+        static floor(value: number): number;
+        static floorTo(value: number, place: number, base: number): number;
+        static fuzzyCeil(val: number, epsilon?: number): boolean;
+        static fuzzyEqual(a: number, b: number, epsilon?: number): boolean;
+        static fuzzyFloor(val: number, epsilon?: number): boolean;
+        static fuzzyGreaterThan(a: number, b: number, epsilon?: number): boolean;
+        static fuzzyLessThan(a: number, b: number, epsilon?: number): boolean;
+        static getRandom(objects: Object[], startIndex?: number, length?: number): Object;
+        static interpolateAngles(a1: number, a2: number, weight: number, radians?: boolean, ease?: any): number;
+        static interpolateFloat(a: number, b: number, weight: number): number;
+        static isEven(n: number): boolean;
+        static isOdd(n: number): boolean;
+        static linear(p0: number, p1: number, t: number): number;
+        static linearInterpolation(v: number[], k: number): number;
+        static mapLinear(x: number, a1: number, a2: number, b1: number, b2: number): number;
+        static max(...numbers: number[]): number;
+        static maxAdd(value: number, amount: number, max: number): number;
+        static maxProperty(...numbers: number[]): number;
+        static min(...numbers: number[]): number;
+        static minProperty(...numbers: number[]): number;
+        static minSub(value: number, amount: number, min: number): number;
+        static nearestAngleBetween(a1: number, a2: number, radians?: boolean): number;
+        static normalizeAngle(angle: number, radians?: boolean): number;
+        static normalizeLatitude(lat: number): number;
+        static normalizeLongitude(lng: number): number;
+        static numberArray(min: number, max: number): number[];
+        static PI2: number;
+        static radToDeg(radians: number): number;
+        static randomSign(): number;
+        static reverseAngle(angleRed: number): number;
+        static roundTo(value: number, place?: number, base?: number): number;
+        static shear(n: number): number;
+        static shift(stack: any[]): any;
+        static shuffleArray(array: any[]): any[];
+        static sign(x: number): number;
+        static sinCosGenerator(length: number, sinAmplitude?: number, cosAmplitude?: number, frequency?: number): { sin: number[]; cos: number[]; };
+        static smootherstep(x: number, min: number, max: number): number;
+        static smoothstep(x: number, min: number, max: number): number;
+        static snapTo(input: number, gap: number, start?: number): number;
+        static snapToCeil(input: number, gap: number, start?: number): number;
+        static snapToFloor(input: number, gap: number, start?: number): number;
+        static snapToInArray(input: number, arr: number[], sort?: boolean): number;
+        static truncate(n: number): number;
+        static within(a: number, b: number, tolerance: number): boolean;
+        static wrap(value: number, min: number, max: number): number;
+        static wrapAngle(angle: number): number;
+        static wrapValue(value: number, amount: number, max: number): number;       
+    }
+
+    class Mouse {
+        //constructor
+        constructor(game: Phaser.Game)
+        //static members
+        static LEFT_BUTTON: number;
+        static MIDDLE_BUTTON: number;
+        static NO_BUTTON: number;
+        static RIGHT_BUTTON: number;
+        //members
+        button: number;
+        callbackContext: Object;
+        capture: boolean;
+        disabled: boolean;
+        event: MouseEvent;
+        game: Phaser.Game;
+        locked: boolean;
+        mouseDownCallback: Function;
+        mouseMoveCallback: Function;
+        mouseUpCallback: Function;
+        pointerLock: Phaser.Signal;
+        //methods
+        onMouseDown(): void;
+        onMouseMove(): void;
+        onMouseUp(): void;
+        pointerLockChange(): void;
+        releasePointerLock(): void;
+        requestPointerLock(): void;
+        start(): void;
+        stop();
+    }
+
+    class MSPointer {
+        //constructor
+        constructor(game: Phaser.Game);
+        //members
+        callbackContext: Object;
+        disabled: boolean;
+        game: Phaser.Game;
+        //methods
+        onPointerDown(): void;
+        onPointerMove(): void;
+        onPointerUp(): void;
+        mouseDownCallback(): void;
+        mouseMoveCallback(): void;
+        mouseUpCallback(): void;
+        start(): void;
+        stop(): void;
+    }
+
+    class Net {
+        //constructor
+        constructor(game: Phaser.Game);
+        //members
+        game: Phaser.Game;
+        //methods
+        checkDomainName(domain: string): boolean;
+        decodeURI(value: string): string;
+        getHostName(): string;
+        updateQueryString(key: string, value: any, redirect?: boolean, url?: string): string;
+        getQueryString(parameter?: string): string;
+    }
+
+    class Particles {
+        //constructor
+        constructor(game: Phaser.Game);
+        //members
+        emitters: Object;
+        game: Phaser.Game;
+        ID: number;
+        //methods
+        add(emitter: Phaser.Particles.Arcade.Emitter): Phaser.Particles.Arcade.Emitter;
+        remove(emitter: Phaser.Particles.Arcade.Emitter): void;
+    }
+
+    module Particles {
+        module Arcade {
+            class Emitter extends Phaser.Group {
+                //constructor
+                constructor(game: Phaser.Game, x?: number, y?: number, maxParticles?: number);
+                //members
+                alpha: number;
+                angularDrag: number;
+                bottom: number;
+                bounce: Phaser.Point;
+                emitX: number;
+                emitY: number;
+                exists: boolean;
+                frequency: number;
+                gravity: number;
+                group: Phaser.Group;
+                height: number;
+                left: number;
+                lifespan: number;
+                maxParticles: number;
+                maxParticleScale: number;
+                maxParticleSpeed: Phaser.Point;
+                maxRotation: number;
+                minParticleScale: number;
+                minParticleSpeed: Phaser.Point;
+                minRotation: number;
+                name: string;
+                on: boolean;
+                particleClass: any;
+                particleFriction: number;
+                right: number;
+                top: number;
+                type: number;
+                visible: boolean;
+                width: number;
+                x: number;
+                y: number;
+                //this old and no longer used?
+                particleDrag: Phaser.Point;
+                //methods
+                at(object: any): void;
+                emitParticle(): void;
+                kill(): void;
+                makeParticles(keys: string[], frames: number[], quantity: number, collide?: boolean, collideWorldBounds?: boolean): Phaser.Particles.Arcade.Emitter;
+                setRotation(min?: number, max?: number): void;
+                setSize(width: number, height: number): void;
+                setXSpeed(min: number, max: number): void;
+                setYSpeed(min: number, max: number): void;
+                start(explode?: boolean, lifespan?: number, frequency?: number, quantity?: number): void;
+                update(): void;
+                revive(): void;
+            }
+        }
+    }
+
+    module Physics {
+
+        class Arcade {
+            //constructor
+            constructor(game: Phaser.Game);
+            //static methods
+            static CIRCLE: number;
+            static POLYGON: number;
+            static RECT: number;
+            //members
+            game: Phaser.Game;
+            gravity: Phaser.Point;
+            maxLevels: number;
+            maxObjects: number;
+            quadTree: Phaser.QuadTree;
+            worldBottom: SAT.Box;
+            worldLeft: SAT.Box;
+            worldPolys: SAT.Polygon;
+            worldRight: SAT.Box;
+            worldTop: SAT.Box;
+            //methods
+            accelerateToObject(displayObject: any, destination: any, speed?: number, xSpeedMax?: number, ySpeedMax?: number): number;
+            accelerateToPointer(displayObject: any, pointer: any, speed?: number, xSpeedMax?: number, ySpeedMax?: number): number;
+            accelerateToXY(displayObject: any, x: number, y: number, speed?: number, xSpeedMax?: number, ySpeedMax?: number): number;
+            angleBetween(source: any, target: any): number;
+            angleToPointer(displayObject: any, pointer: number): number;
+            angleToXY(displayObject: any, x: number, y: number): number;
+            checkBounds(body: Phaser.Physics.Arcade.Body): boolean;
+            collide(object1: any, object2: any, collideCallback?: Function, processCallback?: Function, callbackContext?: any): boolean;
+            distanceBetween(source: any, target: any): number;
+            distanceToPointer(displayObject: any, pointer: Phaser.Pointer): number;
+            distanceToXY(displayObject: any, x: number, y: number): number;
+            intersects(a: Object, b: Object): boolean;
+            moveToObject(displayObject: any, destination: any, speed?: number, maxTime?: number): number;
+            moveToPointer(displayObject: any, speed?: number, pointer?: Phaser.Pointer, maxTime?: number): number;
+            moveToXY(displayObject: any, x: number, y: number, speed?: number, maxTime?: number): number;
+            overlap(object1: any, object2: any, overlapCallback?: Function, processCallback?: Function, callbackContext?: any): boolean;
+            processTileSeparation(body: Phaser.Physics.Arcade.Body): boolean;
+            separate(body: Phaser.Physics.Arcade.Body, body2: Phaser.Physics.Arcade.Body, processCallback?: Function, callbackContext?: any, overlapOnly?: boolean): boolean;
+            separateTile(body: Phaser.Physics.Arcade.Body, tile: Phaser.Tile): boolean;
+            separateTiles(body: Phaser.Physics.Arcade.Body, tiles: Phaser.Tile[]): boolean;
+            setBounds(x: number, y: number, width: number, height: number, left?: boolean, right?: boolean, top?: boolean, bottom?: boolean): void;
+            setBoundsToWorld(left?: boolean, right?: boolean, top?: boolean, bottom?: boolean): void;
+            tileIntersects(body: Phaser.Physics.Arcade.Body, tile: Phaser.Tile): boolean;
+            updateMotion(body: Phaser.Physics.Arcade.Body): Phaser.Point;
+            velocityFromAngle(angle: number, speed?: number, point?: any): Phaser.Point;
+            velocityFromRotation(rotation: number, speed?: number, point?: any): Phaser.Point;
+            //I left these methods but I do not think they should be here?
+            collideHandler(object1: any, object2: any, collideCallback: Function, processCallback: Function, callbackContext: any, overlapOnly: boolean): boolean;
+            collideSpriteVsSprite(sprite1: Phaser.Sprite, sprite2: Phaser.Sprite, collideCallback: Function, processCallback: Function, callbackContext: any, overlapOnly: boolean): boolean;
+            collideSpriteVsGroup(sprite1: Phaser.Sprite, group: Phaser.Group, collideCallback: Function, processCallback: Function, callbackContext: any, overlapOnly: boolean): boolean;
+            collideGroupVsSelf(group: Phaser.Group, collideCallback: Function, processCallback: Function, callbackContext: any, overlapOnly: boolean): boolean;
+            collideGroupVsGroup(group: Phaser.Group, group2: Phaser.Group, collideCallback: Function, processCallback: Function, callbackContext: any, overlapOnly: boolean): boolean;
+            collideSpriteVsTilemapLayer(sprite: Phaser.Sprite, tilemapLayer: Phaser.TilemapLayer, collideCallback: Function, processCallback: Function, callbackContext: any): boolean;
+            collideGroupVsTilemapLayer(group: Phaser.Group, tilemapLayer: Phaser.TilemapLayer, collideCallback: Function, processCallback: Function, callbackContext: any): boolean;
+            distanceTo(source: Phaser.Sprite, target: Phaser.Sprite): number;
+        }
+
+        module Arcade {
+
+            class Body {
+                //constructor
+                constructor(sprite: Phaser.Sprite);
+                //static members
+                static CIRCLE: number;
+                static POLYGON: number;
+                static RECT: number;
+                //members
+                acceleration: Phaser.Point;
+                allowGravity: boolean;
+                allowRotation: boolean;
+                angle: number;
+                angularAcceleration: number;
+                angularDrag: number;
+                angularVelocity: number;
+                blocked: FaceChoices;
+                bottom: number;
+                bounce: Phaser.Point;
+                checkCollision: FaceChoices;
+                collideCallback: any;
+                collideCallbackContext: any;
+                collideWorldBounds: boolean;
+                contacts: Phaser.Physics.Arcade.Body[];
+                customSeparateCallback: Function;
+                customSeparateContext: any;
+                facing: number;
+                game: Phaser.Game;
+                gravity: Phaser.Point;
+                height: number;
+                immovable: boolean;
+                left: number;
+                linearDamping: number;
+                mass: number;
+                maxAngular: number;
+                maxVelocity: Phaser.Point;
+                minVelocity: Phaser.Point;
+                moves: boolean;
+                offset: Phaser.Point;
+                overlapX: number;
+                overlapY: number;
+                polygon: SAT.Polygon;
+                preRotation: number;
+                preX: number;
+                preY: number;
+                rebound: boolean;
+                right: number;
+                rotation: number;
+                shape: any;
+                speed: number;
+                sprite: Phaser.Sprite;
+                top: number;
+                touching: FaceChoices;
+                type: any;
+                velocity: Phaser.Point;
+                width: number;
+                x: number;
+                y: number;
+                //methods
+                add(v:SAT.Vector): void;
+                addContact(body: Phaser.Physics.Arcade.Body): boolean;
+                applyDamping(): void;
+                checkBlocked(): void;
+                deltaX(): number;
+                deltaY(): number;
+                deltaZ(): number;
+                destroy(): void;
+                exchange(body: Phaser.Physics.Arcade.Body): void;
+                getDownwardForce(): number;
+                getUpwardForce(): number;
+                give(body: Phaser.Physics.Arcade.Body, response: SAT.Response): void;
+                hitBottom(body: Phaser.Physics.Arcade.Body, response: SAT.Response): void;
+                hitLeft(body: Phaser.Physics.Arcade.Body, response: SAT.Response): void;
+                hitRight(body: Phaser.Physics.Arcade.Body, response: SAT.Response): void;
+                hitTop(body: Phaser.Physics.Arcade.Body, response: SAT.Response): void;
+                inContact(body: Phaser.Physics.Arcade.Body): boolean;
+                integrateVelocity(): void;
+                onFloor(): boolean;
+                onWall(): boolean;
+                overlap(body: Phaser.Physics.Arcade.Body, response: SAT.Response): boolean;
+                postUpdate(): void;
+                preUpdate(): void;
+                processRebound(body: Phaser.Physics.Arcade.Body): void;
+                reboundCheck(x: number, y: number, rebound: boolean): void;
+                removeContact(body: Phaser.Physics.Arcade.Body): boolean;
+                reset(full: boolean): void;
+                separate(body: Phaser.Physics.Arcade.Body, response: SAT.Response): boolean;
+                setCircle(radius: number, offsetX?: number, offsetY?: number): void;
+                setPolygon(points: any[]): void; 
+                setRectangle(width?: number, height?: number, translateX?: number, translateY?: number): void;
+                split(body: Phaser.Physics.Arcade.Body, response: SAT.Response): void;
+                sub(v: SAT.Vector): void;
+                take(body: Phaser.Physics.Arcade.Body, response: SAT.Response): void;
+                translate(x: number, y: number): void;
+                updateBounds(): void;
+                updateScale(): void;
+            }
+
+            class FaceChoices {
+                none: boolean;
+                any: boolean;
+                up: boolean;
+                down: boolean;
+                left: boolean;
+                right: boolean;
+                x: number;
+                y: number;
+            }
+        }
+    }
+
+    class Plugin extends StateCycle {
+        //constrctor
+        constructor(game: Phaser.Game, parent: any);
+        //members
+        active: boolean;
+        game: Phaser.Game;
+        hasPostRender: boolean;
+        hasPostUpdate: boolean;
+        hasPreUpdate: boolean;
+        hasRender: boolean;
+        hasUpdate: boolean;
+        parent: any;
+        visible: boolean;
+        //methods
+        destroy(): void;
+        postRender(): void;
+        preUpdate(): void;
+        render(): void;
+        update(): void;
+    }
+
+    class PluginManager extends StateCycle {
+        //constructor
+        constructor(game: Phaser.Game, parent: any);
+        //members
+        game: Phaser.Game;
+        plugins: Phaser.Plugin[];
+        //methods
+        add(plugin: Phaser.Plugin): Phaser.Plugin;
+        destroy(): void;
+        postRender(): void;
+        postUpdate(): void;
+        preUpdate(): void;
+        remove(plugin: Phaser.Plugin): void;
+        removeAll(): void;
+        render();
+        update();
+    }
+
+    class Point {
+        //constructor
+        constructor(x?: number, y?: number);
+        //members
+        x: number;
+        y: number;
+        //static methods
+        static add(a: Phaser.Point, b: Phaser.Point, out?: Phaser.Point): Phaser.Point;
+        static distance(a: Phaser.Point, b: Phaser.Point, round?: boolean): number;
+        static divide(a: Phaser.Point, b: Phaser.Point, out?: Phaser.Point): Phaser.Point;
+        static equals(a: Phaser.Point, b: Phaser.Point): boolean;
+        static multiply(a: Phaser.Point, b: Phaser.Point, out?: Phaser.Point): Phaser.Point;
+        static rotate(a: Phaser.Point, x: number, y: number, angle: number, asDegrees: boolean, distance: boolean): Phaser.Point;
+        static subtract(a: Phaser.Point, b: Phaser.Point, out?: Phaser.Point): Phaser.Point;
+        //methods
+        add(x: number, y: number): Phaser.Point;
+        clamp(min: number, max: number): Phaser.Point;
+        clampX(min: number, max: number): Phaser.Point;
+        clampY(min: number, max: number): Phaser.Point;
+        clone(output: Phaser.Point): Phaser.Point;
+        copyFrom(source: any): Phaser.Point;
+        copyTo(dest: any): Object;
+        distance(dest: Object, round?: boolean): number;
+        divide(x: number, y: number): Phaser.Point;
+        equals(a: Phaser.Point): boolean;
+        getMagnitude(): number;
+        getMagnitude(magnitude): Phaser.Point;
+        invert(): Phaser.Point;
+        isZero(): boolean;
+        multiply(x: number, y: number): Phaser.Point;
+        normalise(): Phaser.Point;
+        rotate(x: number, y: number, angle: number, asDegrees: boolean, distance?: number): Phaser.Point;
+        setTo(x: number, y: number): Phaser.Point;
+        subtract(x: number, y: number): Phaser.Point;
+        toString(): string;
+    }
+
+    class Pointer {
+        //constrctor
+        constructor(game: Phaser.Game, id: number);
+        //members
+        active: boolean;
+        circle: Phaser.Circle;
+        clientX: number;
+        clientY: number;
+        duation: number;
+        game: Phaser.Game;
+        id: number;
+        isDown: boolean;
+        isMouse: boolean;
+        isUp: boolean;
+        msSinceLastClick: number;
+        pageX: number;
+        pageY: number;
+        position: Phaser.Point;
+        positionDown: Phaser.Point;
+        previousTapTime: number;
+        screenX: number;
+        screenY: number;
+        targetObject: any;
+        timeDown: number;
+        timeUp: number;
+        totalTouches: number;
+        withinGame: boolean;
+        worldX: number;
+        worldY: number;
+        x: number;
+        y: number;
+        //methods
+        justPressed(duration?: number): boolean;
+        justReleased(duration?: number): boolean;
+        leave(event: any): void;
+        move(event: any): void;
+        reset(): void;
+        start(event: any): Phaser.Pointer;
+        stop(event: any): void;
+        update(): void;
+        toString(): string;
+    }
+
+    class QuadTree {
+        //constructor
+        constructor(x: number, y: number, width: number, height: number, maxObject?: number, maxLevels?: number, level?: number);
+        //methods
+        clear(): void;
+        getIndex(rect: Object): number;
+        insert(body: any): void;
+        populate(group: Phaser.Group): void;
+        populateHandler(sprite: Phaser.Sprite): void;
+        retrieve(sprite: Object): any[];
+        split(): void;
+        //I am not sure these are relevant? Searching in the code yeilds no result
+        maxObjects: number;
+        maxLevels: number;
+        level: number;
+        bounds: {
+            x: number;
+            y: number;
+            width: number;
+            height: number;
+            subWidth: number;
+            subHeight: number;
+            right: number;
+            bottom: number;
+        };
+        objects: Array<any>;
+        nodes: Array<any>;
+    }
+
+    class RandomDataGenerator {
+        //constructor
+        constructor(seeds: number[]);
+        //members
+        c: number;
+        s0: number;
+        s1: number;
+        s2: number;
+        //methods
+        angle(): number;
+        frac(): number;
+        hash(data: any): number;
+        integer(): number;
+        integerInRange(min: number, max: number): number;
+        normal(): number;
+        pick(ary: number[]): number;
+        real(): number;
+        realInRange(min: number, max: number): number;
+        rnd(): void;
+        sow(seeds: any[]): void;
+        timestamp(a?: number, b?: number): number;
+        uuid(): number;
+        weightedPick(ary: number[]): number;
+    }
+
+    class Rectangle {
+        //constructor
+        constructor(x: number, y: number, width: number, height: number);
+        //members
+        bottom: number;
+        bottomRight: Phaser.Point;
+        centerX: number;
+        centerY: number;
+        empty: boolean;
+        halfHeight: number;
+        halfWidth: number;
+        height: number;
+        left: number;
+        perimeter: number;
+        right: number;
+        top: number;
+        topLeft: Phaser.Point;
+        volume: number;
+        width: number;
+        x: number;
+        y: number;
+        //static methods
+        static clone(a: Phaser.Rectangle, output?: Phaser.Rectangle): Phaser.Rectangle;
+        static contains(a: Phaser.Rectangle, x: number, y: number): boolean;
+        static containsPoint(a: Phaser.Rectangle, point: Phaser.Point): boolean;
+        static containsRect(a: Phaser.Rectangle, b: Phaser.Rectangle): boolean;
+        static equals(a: Phaser.Rectangle, b: Phaser.Rectangle): boolean;
+        static inflate(a: Phaser.Rectangle, dx: number, dy: number): Phaser.Rectangle;
+        static inflatePoint(a: Phaser.Rectangle, point: Phaser.Point): Phaser.Rectangle;
+        static intersection(a: Phaser.Rectangle, b: Phaser.Rectangle, out?: Phaser.Rectangle): Phaser.Rectangle;
+        static intersects(a: Phaser.Rectangle, b: Phaser.Rectangle, tolerance: number): boolean;
+        static intersectsRaw(left: number, right: number, top: number, bottom: number, tolerance: number): boolean;
+        static size(a: Phaser.Rectangle, output?: Phaser.Point): Phaser.Point;
+        static union(a: Phaser.Rectangle, b: Phaser.Rectangle, out?: Phaser.Rectangle): Phaser.Rectangle;
+        //methods
+        clone(output: Phaser.Rectangle): Phaser.Rectangle;
+        contains(x: number, y: number): boolean;
+        containsRect(b: Phaser.Rectangle): boolean;
+        copyFrom(source: any): Phaser.Rectangle;
+        copyTo(dest: any): Object;
+        equals(b: Phaser.Rectangle): boolean;
+        floor(): void;
+        floorAll(): void;
+        inflate(dx: number, dy: number): Phaser.Rectangle;
+        intersection(b: Phaser.Rectangle, out: Phaser.Rectangle): Phaser.Rectangle;
+        intersects(b: Phaser.Rectangle, tolerance: number): boolean;
+        intersectsRaw(left: number, right: number, top: number, bottom: number, tolerance: number): boolean;
+        offset(dx: number, dy: number): Phaser.Rectangle;
+        offsetPoint(point: Phaser.Point): Phaser.Rectangle;
+        setTo(x: number, y: number, width: number, height: number): Phaser.Rectangle;
+        size(output?: Phaser.Point): Phaser.Point;
+        toString(): string;
+        union(b: Phaser.Rectangle, out?: Phaser.Rectangle): Phaser.Rectangle;
+    }
+
+    class RenderTexture {
+        //constructor
+        constructor(game: Phaser.Game, key: string, width: number, height: number);
+        //members
+        frame: any;
+        game: Phaser.Game;
+        height: number;
+        indentityMatrix: any;
+        name: string;
+        type: number;
+        width: number;
+        //methods
+        render(displayObject: any, position?: Phaser.Point, clear?: boolean, renderHidden?: boolean): void;
+        renderXY(displayObject: any, x: number, y: number, clear?: boolean, renderHidden?: boolean): void;
+        resize(): void;
+    }
+
+    class RequestAnimationFrame {
+        //constructor
+        constructor(game: Phaser.Game);
+        //members
+        game: Phaser.Game;
+        isRunning: boolean;
+        //methods
+        isRAF(): boolean;
+        isSetTimeOut(): boolean;
+        start(): boolean;
+        stop(): void;
+        updateRAF(time: number): void;
+        updateSetTimeout(): void;
+    }
+
+    class Signal {
+        //members
+        active: boolean;
+        memorize: boolean;
+        //methods
+        add(listener: Function, listenerContext?: any, priority?: number): Phaser.SignalBinding;
+        addOnce(listener: Function, listenerContext?: any, priority?: number): Phaser.SignalBinding;
+        dispatch(...params: any[]): void;
+        dispose(): void;
+        forget(): void;
+        getNumListeners(): number;
+        halt(): void;
+        has(listener: Function, context?: any): boolean;
+        remove(listener: Function, context?: any): Function;
+        removeAll(): void;
+        toString(): string;
+        validateListener(listener: Function, fnName: string): void;
+    }
+
+    class SignalBinding {
+        //constructor
+        constructor(signal: Phaser.Signal, listener: Function, isOnce: boolean, listenerContext?: Object, priority?: number);
+        //members
+        active: boolean;
+        context: Object;
+        params: any[];
+        //methods
+        execute(paramsArr?: any[]): void;
+        detach(): Function;
+        isBound(): boolean;
+        isOnce(): boolean;
+        getListener(): Function;
+        getSignal(): Phaser.Signal;
+        toString(): string;
+    }
+
+    class SinglePad {
+        //constructor
+        constructor(game: Phaser.Game, padParent: Object);
+        //members
+        callbackContext: Object;
+        connected: boolean;
+        deadZone: number;
+        game: Phaser.Game;
+        index: number;
+        onAxisCallback: Function;
+        onConnectCallback: Function;
+        onDisconnectCallback: Function;
+        onDownCallback: Function;
+        onFloatCallback: Function;
+        onUpCallback: Function;
+        //methods
+        addButton(buttonCode: number): Phaser.GamepadButton;
+        buttonValue(buttonCode: number): boolean;
+        connect(rawPad: Object): void;
+        disconnect(): void;
+        axis(axisCode: number): number;
+        isDown(buttonCode: number): boolean;
+        justPressed(buttonCode: number, duration?: number): boolean;
+        justReleased(buttonCode: number, duration?: number): boolean;
+        pollStatus(): void;
+        processAxisChange(axisState: Object): void;
+        processButtonDown(buttonCode: number, value: Object): void;
+        processButtonFloat(buttonCode: number, value: Object): void;
+        processButtonUp(buttonCode: number, value: Object): void;
+        reset(): void;
+    }
+
+    class Sound {
+        //constructor
+        constructor(game: Phaser.Game, key: string, volume?: number, loop?: boolean);
+        //members
+        autoplay: boolean;
+        context: any;
+        currentMarker: string;
+        currentTime: number;
+        duration: number;
+        externalNode: Object;
+        game: Phaser.Game;
+        isDecoded: boolean;
+        isDecoding: boolean;
+        isPlaying: boolean;
+        key: string;
+        loop: boolean;
+        markers: Object;
+        mute: boolean;
+        name: string;
+        onDecoded: Phaser.Signal;
+        onLoop: Phaser.Signal;
+        onMarkerComplete: Phaser.Signal;
+        onMute: Phaser.Signal;
+        onPause: Phaser.Signal;
+        onPlay: Phaser.Signal;
+        onResume: Phaser.Signal;
+        onStop: Phaser.Signal;
+        override: boolean;
+        paused: boolean;
+        pausedPosition: number;
+        pausedTime: number;
+        pendingPlayback: boolean;
+        startTime: number;
+        stopTime: number;
+        totalDuration: number;
+        usingAudioTag: boolean;
+        usingWebAudio: boolean;
+        volume: number;
+        //methods
+        addMarker(name: string, start: number, stop: number, volume?: number, loop?: boolean): void;
+        pause(): void;
+        play(marker?: string, position?: number, volume?: number, loop?: boolean, forceRestart?: boolean): Phaser.Sound;
+        removeMarker(name: string): void;
+        restart(marker: string, position: number, volume?: number, loop?: boolean): void;
+        resume(): void;
+        soundHasUnlocked(key: string): void;
+        stop(): void;
+        update(): void;
+    }
+
+    class SoundManager {
+        //constructor
+        constructor(game: Phaser.Game);
+        //members
+        channels: number;
+        connectToMaster: boolean;
+        context: any;
+        game: Phaser.Game;
+        mute: boolean;
+        noAudio: boolean;
+        onSoundDecode: Phaser.Signal;
+        touchLocked: boolean;
+        usingAudioTag: boolean;
+        usingWebAudio: boolean;
+        volume: number;
+        //methods
+        add(key: string, volume?: number, loop?: boolean, connect?: boolean): Phaser.Sound;
+        boot(): void;
+        decode(key: string, sound?: Phaser.Sound): void;
+        pauseAll(): void;
+        play(key: string, volume?: number, loop?: boolean, destroyOnComplete?: boolean): Phaser.Sound;
+        resumeAll(): void;
+        stopAll(): void;
+        unlock(): void;
+        update(): void;
+    }
+
+    class Sprite {
+        //constructor
+        constructor(game: Phaser.Game, x?: number, y?: number, key?: any, frame?: any);
+        //members
+        alive: boolean;
+        anchor: Phaser.Point;
+        angle: number;
+        animations: Phaser.AnimationManager;
+        autoCull: boolean;
+        body: Phaser.Physics.Arcade.Body;
+        bottomLeft: Phaser.Point;
+        bottomRight: Phaser.Point;
+        bounds: Phaser.Rectangle;
+        cameraOffset: Phaser.Point;
+        center: Phaser.Point;
+        crop: Phaser.Rectangle;
+        cropEnabled: boolean;
+        currentFrame: Phaser.Frame;
+        debug: boolean;
+        deltaX: number;
+        deltaY: number;
+        events: Phaser.Events;
+        exists: boolean;
+        fixedToCamera: boolean;
+        frame: number;
+        frameName: string;
+        game: Phaser.Game;
+        group: Phaser.Group;
+        health: number;
+        height: number;
+        inCamera: boolean;
+        input: Phaser.InputHandler;
+        inputEnabled: boolean;
+        inWorld: boolean;
+        inWorldThreshold: number;
+        key: any;
+        lifespan: number;
+        name: string;
+        offset: Phaser.Point;
+        outOfBoundsKill: boolean;
+        position: Phaser.Point;
+        renderable: boolean;
+        renderOrderID: number;
+        scale: Phaser.Point;
+        textureRegion: Phaser.Rectangle;
+        topLeft: Phaser.Point;
+        topRight: Phaser.Point;
+        type: number;
+        visible: boolean;
+        width: number;
+        world: Phaser.Point;
+        worldCenterX: number;
+        worldCenterY: number;
+        x: number;
+        y: number;
+        //members
+        bringToTop(): Phaser.Sprite;
+        centerOn(x: number, y: number): Phaser.Sprite;
+        damage(amount: number): Phaser.Sprite;
+        destroy(): void;
+        getLocalPosition(p: Phaser.Point, x: number, y: number): Phaser.Point;
+        getLocalUnmodifiedPosition(p: Phaser.Point, x: number, y: number): Phaser.Point;
+        kill(): Phaser.Sprite;
+        loadTexture(key: any, frame: any): void;
+        play(name: string, frameRate?: number, loop?: boolean, killOnComplete?: boolean): Phaser.Animation;
+        postUpdate(): void;
+        preUpdate(): void;
+        reset(x: number, y: number, health?: number): Phaser.Sprite;
+        resetCrop(): void;
+        revive(health?: number): Phaser.Sprite;
+        updateAnimation(): void;
+        updateBounds(): void;
+        updateCache(): void;
+        updateCrop(): void;
+        //unknown/still applicable?
+        scrollFactor: Phaser.Point;
+        //I cannot see this in the Sprite.JS code!
+        alpha: number;
+    }
+
+    class Stage {
+        //constructor
+        constructor(game: Phaser.Game, width: number, height: number);
+        //members
+        aspectRatio: number;
+        backgroundColor: any;
+        canvas: HTMLCanvasElement;
+        checkOffsetInterval: any;
+        disableVisibilityChange: boolean;
+        display: any;
+        game: Phaser.Game;
+        offset: Phaser.Point;
+        scale: Phaser.StageScaleMode;
+        scaleMode: number;
+        //methods
+        parseConfig(): void;
+        boot(): void;
+        visibilityChange(event: Event): void;
+    }
+
+    class StageScaleMode {
+        //constructor
+        constructor(game: Phaser.Game, width: number, height: number);
+        //static members
+        static EXACT_FIT: number;
+        static NO_SCALE: number;
+        static SHOW_ALL: number;
+        //members
+        aspectRatio: number;
+        enterIncorrectOrientation: Phaser.Signal;
+        enterLandscape: Phaser.Signal;
+        enterPortrait: Phaser.Signal;
+        event: any;
+        forceLandscape: boolean;
+        forcePortrait: boolean;
+        game: Phaser.Game;
+        hasResized: Phaser.Signal;
+        height: number;
+        incorrectOrientation: boolean;
+        isFullScreen: boolean;
+        isLandscape: boolean;
+        isPortrait: boolean;
+        leaveIncorrectOrientation: Phaser.Signal;
+        margin: Phaser.Point;
+        maxHeight: number;
+        maxIterations: number;
+        maxWidth: number;
+        minHeight: number;
+        minWidth: number;
+        orientation: number;
+        orientationSprite: any;
+        pageAlignHorizontally: boolean;
+        pageAlignVertically: boolean;
+        scaleFactor: Phaser.Point;
+        scaleFactorInversed: Phaser.Point;
+        width: number;
+        //methods
+        checkOrientation(event: any): void;
+        checkOrientationState(): void;
+        checkResize(event: any): void;
+        forceOrientation(forceLandscape: boolean, forcePortrait?: boolean, orientationImage?: string): void;
+        fullScreenChange(event: any): void;
+        refresh(): void;
+        setExactFit(): void;
+        setMaximum(): void;
+        setScreenSize(force: boolean): void;
+        setShowAll(): void;
+        setSize(): void;
+        startFullScreen(antialias:boolean): void;
+        stopFullScreen(): void;
+    }
+
+    class State {
+        //members
+        add: Phaser.GameObjectFactory;
+        cache: Phaser.Cache;
+        camera: Phaser.Camera;
+        game: Phaser.Game;
+        input: Phaser.Input;
+        load: Phaser.Loader;
+        math: Phaser.Math;
+        particles: Phaser.Particles;
+        physics: Phaser.Physics.Arcade;
+        sound: Phaser.SoundManager;
+        stage: Phaser.Stage;
+        time: Phaser.Time;
+        tweens: Phaser.TweenManager;
+        world: Phaser.World;
+        //methods
+        create(): void;
+        destroy(): void;
+        loadRender(): void;
+        loadUpdate(): void;
+        paused(): void;
+        preload(): void;
+        render(): void;
+        update(): void;
+    }
+
+    class StateCycle {
+        preUpdate(): void;
+        update(): void;
+        render(): void;
+        postRender(): void;
+        destroy(): void;
+    }
+
+    class StateManager {
+        //constructor
+        constructor(game: Phaser.Game, pendingState?: Phaser.State);
+        //members
+        current: string;
+        game: Phaser.Game;
+        onCreateCallback: Function;
+        onInitCallback: Function;
+        onLoadRenderCallback: Function;
+        onLoadUpdateCallback: Function;
+        onPausedCallback: Function;
+        onPreloadCallback: Function;
+        onPreRenderCallback: Function;
+        onRenderCallback: Function;
+        onShutDownCallback: Function;
+        onUpdateCallback: Function;
+        states: Object;
+        //methods
+        add(key: string, state: any, autoStart?: boolean): void;
+        boot(): void;
+        checkState(key: string): boolean;
+        destroy(): void;
+        dummy(): void;
+        getCurrentState(): Phaser.State;
+        link(key: string): void;
+        loadComplete(): void;
+        pause(): void;
+        preRender(): void;
+        remove(key: string): void;
+        render(): void;
+        resume(): void;
+        start(key: string, clearWorld?: boolean, clearCache?: boolean): void;
+        update(): void;
+    }
+
+    class Text {
+        //constructor
+        constructor(game: Phaser.Game, x: number, y: number, text: string, style: any);
+        //members
+        alive: boolean;
+        anchor: Phaser.Point;
+        angle: number;
+        cameraOffset: Phaser.Point;
+        content: string;
+        exists: boolean;
+        fixedToCamera: boolean;
+        font: string;
+        game: Phaser.Game;
+        group: Phaser.Group;
+        name: string;
+        position: Phaser.Point;
+        renderable: boolean;
+        scale: Phaser.Point;
+        type: number;
+        text: string;
+        style: any;
+        x: number;
+        y: number;
+        visible: boolean;
+        //is this member still used?
+        scrollFactor: Phaser.Point;
+        //methods
+        destroy(): void;
+        update(): void;
+    }
+
+    class Tile {
+        //constructor
+        constructor(layer: Object, index: number, x: number, y: Number, width: number, height: number);
+        //members
+        alpha: number;
+        bottom: number;
+        callback: Function;
+        callbackContext: Object;
+        canCollide: boolean;
+        collideDown: boolean;
+        collideLeft: boolean;
+        collideNone: boolean;
+        collideRight: boolean;
+        collides: boolean;
+        collideUp: boolean;
+        faceBottom: boolean;
+        faceLeft: boolean;
+        faceRight: boolean;
+        faceTop: boolean;
+        game: Phaser.Game;
+        height: number;
+        index: number;
+        layer: number;
+        left: number;
+        properties: Object;
+        right: number;
+        scanned: boolean;
+        top: number;
+        width: number;
+        x: number;
+        y: number;
+        //are these members still used?
+        mass: number;
+        separateX: boolean;
+        separateY: boolean;
+        tilemap: Tilemap;
+        //methods
+        destroy(): void;
+        resetCollsion(): void;
+        setCollision(left: boolean, right: boolean, up: boolean, down: boolean, reset: boolean, seperateX: boolean, seperateY: boolean): void;
+        setCollisionCallback(callback: Function, context: Object): void;
+        //is this method still valid?
+        toString(): string;
+        copy(tile: Phaser.Tile): void;
+    }
+
+    class Tilemap {
+        //constructor
+        constructor(game: Phaser.Game, key?: string);
+        //static members
+        static CSV: number;
+        static TILED_JSON: number;
+        //members
+        currentLayer: number;
+        debugMap: any[];
+        game: Phaser.Game;
+        height: number;
+        heightInPixels: number;
+        images: any[];
+        key: string;
+        layers: Phaser.TilemapLayer[];
+        objects: any[];
+        orientation: string;
+        properties: Object;
+        tileHeight: number;
+        tiles: Phaser.Tile[];
+        tilesets: Phaser.Tileset[];
+        tileWidth: number;
+        version: number;
+        width: number;
+        widthInPixels: number;
+        //are these members still valid?
+        group: Phaser.Group;
+        name: string;
+        renderOrderID: number;
+        collisionCallback: Function;
+        exists: boolean;
+        visible: boolean;
+        position: Phaser.Point;
+        type: number;
+        mapFormat: string;
+        //methods
+        addTilesetImage(tileset: string, key?: string): void;
+        calculateFaces(layer: number): void;
+        copy(x: number, y: number, width: number, height: number, layer?: any): Phaser.Tile[];
+        create(name: string, width: number, height: number): void;
+        createFromObjects(name: string, gid: number, key: string, frame?: any, exists?: boolean, autoCull?: boolean, group?: Phaser.Group): void;
+        createLayer(layer: any, width?: number, height?: number, group?: Phaser.Group): Phaser.TilemapLayer;
+        destroy(): void;
+        dump(): void;
+        fill(index: number, x: number, y: number, width: number, height: number, layer?: any): void;
+        forEach(callback: number, context: any, x: number, y: Number, width: number, height: number, layer?: any): void;
+        getImageIndex(name: string): number;
+        getIndex(location: any[], name: string): number;
+        getLayer(layer: any): number;
+        getLayerIndex(name: string): number;
+        getObjectIndex(name: string): number;
+        getTile(x: number, y: number, layer?: any): Phaser.Tile;
+        getTileAbove(layer: number, x: number, y: number): Phaser.Tile;
+        getTileBelow(layer: number, x: number, y: number): Phaser.Tile;
+        getTileLeft(layer: number, x: number, y: number): Phaser.Tile;
+        getTileRight(layer: number, x: number, y: number): Phaser.Tile;
+        getTilesetIndex(name: string): number;
+        getTileWorld(x: number, y: number, layer?: any): Phaser.Tile;
+        paste(x: number, y: number, tileblock: Phaser.Tile[], layer?: any): void;
+        putTile(tile: any, x: number, y: number, layer?: any): void;
+        putTileWorldXY(tile: any, x: number, y: number, tileWidth: number, tileHeight: number, layer?: any): void;
+        random(x: number, y: number, width: number, height: number, layer?: any): void;
+        removeAllLayers(): void;
+        replace(source: number, dest: number, x: number, y: number, width: number, height: number, layer?: any): void;
+        setCollision(indexes: any, collides?: boolean, layer?: any): void;
+        setCollisionBetween(start: number, stop: number, collides?: boolean, layer?: any): void;
+        setCollisionByExclusion(indexes: any[], collides?: boolean, layer?: any): void;
+        setCollisionByIndex(index: number, collides?: boolean, layer?: number, recalculate?: boolean): void;
+        setCollisionCallback(callback: Function, callbackContext: Object): void;
+        setLayer(layer: any): void;
+        setTileIndexCallback(indes: any, callback: Function, callbackContext: Object, layer?: any): void;
+        setTileLocationCallback(x: number, y: number, width: number, height: number, callback: Function, callbackContext: Object, layer?: any): void;
+        shuffle(x: number, y: number, width: number, height: number, layer: any): void;
+        swapTile(tileA: number, tileB: number, x: number, y: number, width: number, height: number, layer: any): void;
+        //are these methods still valid?
+        parseCSV(data: string, key: string, tileWidth: number, tileHeight: number): void;
+        parseTiledJSON(json: string, key: string): void;
+        generateTiles(quantity: number): void;
+        setCollisionRange(start: number, end: number, collision: number, resetCollisions?: boolean, separateX?: boolean, separateY?: boolean): void;
+        getTileByIndex(value: number): Tile;
+        getTileFromWorldXY(x: number, y: number, layer?: number): Tile;
+        getTileFromInputXY(layer?: number): Tile;
+        getTileOverlaps(object: Object): Array<any>;
+        collide(objectOrGroup: any, callback: Function, context: Object): boolean;
+        collideGameObject(object: Object): boolean;
+        update(): void;
+    }
+
+    class TilemapLayer {
+        //constructor
+        constructor(game: Phaser.Game, tilemap: Phaser.Tilemap, index: number, width: number, height: number);
+        //members
+        alpha: number;
+        baseTexture: any;
+        cameraOffset: Phaser.Point;
+        canvas: HTMLCanvasElement;
+        collisionHeight: number;
+        collisionWidth: number;
+        context: CanvasRenderingContext2D;
+        debug: boolean;
+        debugAlpha: number;
+        debugCallbackColor: string;
+        debugColor: string;
+        debugFill: boolean;
+        debugFillColor: string;
+        dirty: boolean;
+        fixedToCamera: boolean;
+        game: Phaser.Game;
+        index: number;
+        layer: Object;
+        map: Phaser.Tilemap;
+        name: string;
+        scrollFactorX: number;
+        scrollFactorY: number;
+        scrollX: number;
+        scrollY: number;
+        texture: any;
+        textureFrame: Phaser.Frame;
+        tileColor: string;
+        type: number;
+        visible: boolean;
+        //methods
+        getTiles(x: number, y: number, width: number, height: number, collides?: boolean): any[];
+        getTileX(x: number): Phaser.Tile;
+        getTileXY(x: number, y: number, point: Object): any;
+        getTileY(y: number): Phaser.Tile;
+        postUpdate(): void;
+        render(): void;
+        renderDebug(): void;
+        resizeWorld(): void;
+        updateMax(): void;
+    }
+
+    class TilemapParser {
+        //static methods
+        static parse(game: Phaser.Game, key: string): Phaser.Tileset;
+        static parseCSV(data: string): Phaser.Tilemap;
+        static parseJSON(json: Object): Phaser.Tilemap;
+        static tileset(game: Phaser.Game, key: string, tileWidth: number, tileHeight: number, tileMargin?: number, tileSpacing?: number, rows?: number, colums?: number, total?: number): Phaser.Tileset;
+    }
+
+    class Tileset {
+        //constructor
+        constructor(name: string, firstgid: number, width: number, height: number, margin: number, spacing: number, properties: Object);
+        //members
+        colums: number;
+        firstgid: number;
+        image: Object;
+        name: string;
+        properties: Object;
+        rows: number;
+        tileHeight: number;
+        tileMargin: number;
+        tileSpacing: number;
+        tileWidth: number;
+        total: number;
+        //methods
+        checkTileIndex(index: number): boolean;
+        getTile(index: number): Phaser.Tile;
+        getTileX(index: number): Phaser.Tile;
+        getTileY(index: number): Phaser.Tile;
+        setSpacing(tileMargin?: number, tileSpacing?: number): void;
+    }
+
+    class TileSprite extends Sprite {
+        //constructor
+        constructor(game: Phaser.Game, x: number, y: number, width: number, height: number, key?: any);
+        //members
+        texture: any;
+        tilePosition: Phaser.Point;
+        tileScale: Phaser.Point;
+    }
+
+    class Time {
+        //constructor
+        constructor(game: Phaser.Game);
+        //members
+        elapsed: number;
+        events: Phaser.Timer;
+        fps: number;
+        fpsMax: number;
+        fpsMin: number;
+        frames: number;
+        game: Phaser.Game;
+        lastTime: number;
+        msMax: number;
+        msMin: number;
+        now: number;
+        pausedTime: number;
+        pauseDuration: number;
+        physicsElapsed: number;
+        time: number;
+        timeToCall: number;
+        //methods
+        boot(): void;
+        create(autoDestroy?: boolean): Phaser.Timer;
+        elapsedSecondsSince(since: number): number;
+        elapsedSince(since: number): number;
+        removeAll(): void;
+        reset(): void;
+        totalElapsedSeconds(): number;
+        update(time: number): void;
+    }
+
+    class Timer {
+        //constructor
+        constructor(game: Phaser.Game, autoDestroy?: boolean);
+        //static members
+        static HALF: number;
+        static MINUTE: number;
+        static QUARTER: number;
+        static SECOND: number;
+        //members
+        autoDestroy: boolean;
+        duration: number;
+        events: Phaser.TimerEvent[];
+        expired: boolean;
+        game: Phaser.Game;
+        length: number;
+        ms: number;
+        next: number;
+        nextTick: number;
+        onComplete: Phaser.Signal;
+        running: boolean;
+        paused: boolean;
+        seconds: number;
+        //methods
+        add(delay: number, callback: Function, callbackContext: Object, ...args: any[]): Phaser.TimerEvent;
+        destroy(): void;
+        loop(delay: number, callback: Function, callbackContext: Object, ...args: any[]): Phaser.TimerEvent;
+        order(): void;
+        pause(): void;
+        remove(event: Phaser.TimerEvent): boolean;
+        repeat(delay: number, repeatCount: number, callback: Function, callbackContext: Object, ...args: any[]): Phaser.TimerEvent;
+        resume(): void;
+        sortHandler(): number;
+        start(): void;
+        stop(): void;
+        update(time: number): boolean;
+    }
+
+    class TimerEvent {
+        //constructor
+        constructor(timer: Phaser.Timer, delay: number, tick: number, repeatCount: number, loop: boolean, callback: Function, callbackContext, Object, args: any[]);
+        //members
+        args: any[];
+        callback: Function;
+        callbackContext: Object;
+        delay: number;
+        loop: boolean;
+        pendingDelete: boolean;
+        repeatCount: number;
+        tick: number;
+        timer: Phaser.Timer;
+    }
+
+    class Touch {
+        //constructor
+        constructor(game: Phaser.Game);
+        //members
+        callbackContext: Object;
+        disabled: boolean;
+        event: any;
+        game: Phaser.Game;
+        preventDefault: boolean;
+        touchCancelCallback: Function;
+        touchEndCallback: Function;
+        touchEnterCallback: Function;
+        touchLeaveCallback: Function;
+        touchMoveCallback: Function;
+        touchStartCallback: Function;
+        //methods
+        consumeTouchMove(): void;
+        onTouchCancel(event: any): void;
+        onTouchEnd(event: any): void;
+        onTouchEnter(event: any): void;
+        onTouchLeave(event: any): void;
+        onTouchMove(event: any): void;
+        onTouchStart(event: any): void;
+        start(): void;
+        consumeDocumentTouches(): void;
+        stop(): void;
+    }
+
+    class Tween {
+        //constructor
+        constructor(object: Object, game: Phaser.Game);
+        //members
+        game: Phaser.Game;
+        isRunning: boolean;
+        onComplete: Phaser.Signal;
+        onLoop: Phaser.Signal;
+        onStart: Phaser.Signal;
+        pendingDelete: boolean;
+        //methods:
+        chain(...tweens: Phaser.Tween[]): Phaser.Tween;
+        delay(amount: number): Phaser.Tween;
+        easing(easing: Function): Phaser.Tween;
+        interpolation(interpolation: Function): Phaser.Tween;
+        loop(): Phaser.Tween;
+        onUpdateCallback(callback: Function): Phaser.Tween;
+        onStartCallback(callback: Function): Phaser.Tween;
+        onCompleteCallback(callback: Function): Phaser.Tween;
+        pause(): void;
+        repeat(times: number): Phaser.Tween;
+        resume(): void;
+        start(time: number): Phaser.Tween;
+        stop(): Phaser.Tween;
+        to(properties: Object, duration?: number, ease?: Function, autoStart?: boolean, delay?: number, repeat?: boolean, yoyo?: boolean): Phaser.Tween;
+        update(time: number): boolean;
+        yoyo(yoyo: boolean): Phaser.Tween;
+    }
+
+    class TweenManager {
+        //constructor
+        constructor(game: Phaser.Game);
+        //members
+        game: Phaser.Game;
+        //methods
+        add(tween: Phaser.Tween): Phaser.Tween;
+        create(object: Object): Phaser.Tween;
+        getAll(): Phaser.Tween[];
+        isTweening(object: Object): boolean;
+        remove(tween: Phaser.Tween): Phaser.Tween;
+        removeAll(): void;
+        resumeAll(): void;
+        update(): boolean;
+        pauseAll(): void;
+    }
+
+    module Utils {
+        class Debug {
+            //constructor
+            constructor(game: Phaser.Game);
+            //members
+            columnWidth: number;
+            context: CanvasRenderingContext2D;
+            currentAlpha: number;
+            currentX: number;
+            currentY: number;
+            font: string;
+            game: Phaser.Game;
+            lineHeight: number;
+            renderShadow: boolean;
+            //methods
+            line(text: string, x: number, y: number): void;
+            renderBodyInfo(sprite: Phaser.Sprite, x: number, y: Number, color?: string): void;
+            renderCameraInfo(camera: Phaser.Camera, x: number, y: number, color?: string): void;
+            renderCircle(circle: Phaser.Circle, color?: string): void;
+            renderInputInfo(x: number, y: number, color?: string): void;
+            renderLine(line: Phaser.Line, color: string): void;
+            renderLineInfo(line: Phaser.Line, x: number, y: number, color?: string): void;
+            renderPhysicsBody(body: Phaser.Physics.Arcade.Body, color?: string): void;
+            renderPixel(x: number, y: number, color?: string): void;
+            renderPoint(point: Phaser.Point, color?: string): void;
+            renderPointer(pointer: Phaser.Pointer, hideIfUp?: boolean, downColor?: string, upColor?: string, color?: string): void;
+            renderPointInfo(point: Phaser.Point, x: number, y: number, color?: string): void;
+            renderPolygon(polygon: any[], color?: string): void;
+            renderQuadTree(quadtree: Phaser.QuadTree, color: string): void;
+            renderRectangle(rect: Phaser.Rectangle, color?: string): void;
+            renderSoundInfo(sound: Phaser.Sound, x: number, y: number, color?: string): void;
+            renderSpriteBody(sprite: Phaser.Sprite, color?: string): void;
+            renderSpriteBounds(sprite: Phaser.Sprite, color?: string, fill?: boolean): void;
+            renderSpriteCoords(line: Phaser.Sprite, x: number, y: number, color?: string): void;
+            renderSpriteCorners(sprite: Phaser.Sprite, showText?: boolean, showBounds?: boolean, color?: string): void;
+            renderSpriteInfo(sprite: Phaser.Sprite, x: number, y: number, color?: string): void;
+            renderSpriteInputInfo(sprite: Phaser.Sprite, x: number, y: number, color?: string): void;
+            renderText(text: string, x: number, y: number, color?: string, font?: string): void;
+            splitline(text: string): void;
+            start(x?: number, y?: number, color?: string, columnWidth?:number): void;
+            stop(): void;
+        }
+    }
+
+    class World extends Phaser.Group{
+        //constructor
+        constructor(game: Phaser.Game);
+        //members
+        bounds: Phaser.Rectangle;
+        camera: Phaser.Camera;
+        centerX: number;
+        centerY: number;
+        currentRenderOrderID: number;
+        game: Phaser.Game;
+        height: number;
+        randomX: number;
+        randomY: number;
+        visible: boolean;
+        width: number;
+        //methods
+        boot(): void;
+        destroy(): void;
+        preUpdate(): void;
+        postUpdate(): void;
+        setBounds(x: number, y: number, width: number, height: number): void;
+        update(): void;
+    }
+}
