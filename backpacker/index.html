@@ -15,14 +15,16 @@
 
         function preload () {
             game.load.image('logo', 'assets/bucky_atlas.png');
-            game.load.atlasJSONHash('bucky', 'assets/bucky_atlas.png', 'assets/bucky_atlas.json');
+            game.load.atlasJSONHash('bucky_atlas', 'assets/running_bot.png', 'assets/running_bot.json');
         }
 
         function create () {
             var logo = game.add.sprite(game.world.centerX, game.world.centerY, 'logo');
             logo.anchor.setTo(.5, .5);
-            
-            var bucky = game.add.sprite(98, 98, 'bucky');
+
+            var bucky = game.add.sprite(10, 10, 'bucky_atlas');
+            bucky.animations.add('run');
+            bucky.animations.play('run', 15, true);
         }
 
     };
