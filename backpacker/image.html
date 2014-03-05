@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>The Backpacker!</title>
+        <script src="js/phaser.js"></script>
+    </head>
+    <body>
+
+    <script type="text/javascript">
+
+    window.onload = function() {
+
+        var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create });
+
+        function preload () {
+            game.load.image('atlas', 'assets/bucky_atlas.png');
+        }
+
+        function create () {
+            var logo = game.add.sprite(game.world.centerX, game.world.centerY, 'atlas');
+            logo.anchor.setTo(.5, .5);
+        }
+
+    };
+
+    </script>
+
+    </body>
+</html>

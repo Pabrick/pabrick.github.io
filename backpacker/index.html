@@ -2,35 +2,17 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>The Backpacker!</title>
-        <script src="js/phaser.js"></script>
+        <title>The Backpacker - The Test Game</title>
     </head>
     <body>
-
-    <script type="text/javascript">
-
-    window.onload = function() {
-
-        var game = new Phaser.Game(800, 600, Phaser.AUTO, 'The Backpacker!', { preload: preload, create: create });
-
-        function preload () {
-            game.load.image('logo', 'assets/bucky_atlas.png');
-            //game.load.atlasJSONHash('bot', 'assets/running_bot.png', 'assets/running_bot.json');
-        }
-
-        function create () {
-            var logo = game.add.sprite(game.world.centerX, game.world.centerY, 'logo');
-            logo.anchor.setTo(.5, .5);
-/*
-            var bot = game.add.sprite(200, 200, 'bot');
-            bot.animations.add('run');
-            bot.animations.play('run', 15, true);
-*/
-        }
-
-    };
-
-    </script>
-
+		<h1>The Backpacker - The Test Game</h1>
+		<ul>
+			<li><a href="image.html">Image</a></li>
+        	<li><a href="animation.html">Animation</a></li>
+       		<li><a href="walking.html">Walking</a></li>
+       		<li><a href="walking_circle.html">Walking in circles</a></li>
+       		<li><a href="follow.html">Follow</a></li>
+		</ul>
+        
     </body>
 </html>
