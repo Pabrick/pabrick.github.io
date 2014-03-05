@@ -11,19 +11,16 @@
 
     window.onload = function() {
 
-        var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create });
+        var game = new Phaser.Game(800, 600, Phaser.AUTO, 'The Backpacker!', { preload: preload, create: create });
 
         function preload () {
-
             game.load.image('logo', 'assets/bucky_atlas.png');
-
+            game.load.atlasJSONHash('bucky', 'assets/bucky_atlas.png', 'assets/bucky_atlas.json');
         }
 
         function create () {
-
             var logo = game.add.sprite(game.world.centerX, game.world.centerY, 'logo');
             logo.anchor.setTo(.5, .5);
-
         }
 
     };
