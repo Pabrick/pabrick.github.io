@@ -1,0 +1,54 @@
+{
+    "experience": [
+        {
+            "name": "BSD Enterprise",
+            "type": "Consultora Tenológica",
+            "dateFrom": "Ago. 2017",
+            "dateTo": "Actualidad",
+            "position": "Desarrollador Front-End / Lider Técnico",
+            "description": "Desarrollo de proyectos en AngularJS y Angular para el sector bancario.",
+            "featured": [
+                {
+                    "name": "Banco Santander NuevaWebEmpresas:",
+                    "description": "Mi tarea es liderar un pequeño equipo (entre 4 y 10 personas) y desarrolla el nuevo web-portal así como migrar desde AngularJS (1.5) a Angular 5, cambiando su funcionalidad y su 'look and fell', aplicando 'first mobile' en un diseño responsivo. Como Líder de Equipo tengo comunicación directa con el Product Owner para reolver cualquier problema que pudiera surgir."
+                },
+                {
+                    "name": "Banco Santander SAM:",
+                    "description": "Como miembro de un pequeño equipo nuestra tarea fue desarrollar en AngularJS (1.5) una aplicación que se integrara con la web portal del cliente. Mi responsabilidad era prevenir que el CMS del portal en Wordpress modificara los estilos de nuestra aplicación dentro del iFrame donde se ubicaba."
+                }
+            ]
+        },
+        {
+            "name": "Crazyvity",
+            "type": "Agencia Digital de Producción",
+            "dateFrom": "Ago. 2017",
+            "dateTo": "Oct. 2013",
+            "position": "Desarrollador Front-End / Lider Técnico",
+            "description": "Desarrollo de apps, webs, landings y advergaming, así como gestión del equipo asignado. Análisis técnico junto con el cliente de los proyectos en función de sus necesidades.",
+            "featured": [
+                {
+                    "name": "Librería de Animación para Rich Media (Crazyvity):",
+                    "description": "Los diseñadores necesitaban una forma fácil de poder realizar campañas de Rich Media sin programación. Ya que las plataformas de rich media como DoubleClick y Sizmek tienen una limitación de 100Kbs por anuncio, creé una librería de animación en Vanill JS. Cualquier persona puede realizar facilmente piezas animación, automatizando su trabajo incluso si no tienen conocimientos de programación."
+                },
+                {
+                    "name": "Fan del Mes (Travel Club):",
+                    "description": "Nuestro cliente Travel Club, necesitaba medir las interacciones de Facebook de sus usuarios. Desarrollé en una aplicación Javascript usando VanillaJS y jQuery para la parte Front integrada como una TAB de Facebook usando su API. Una tarea de CRON realziada en PHP recuperaría los mensajes de sus usuarios usando la API de Facebook. También desarrollé un panel de administración para que el cliente pudiera tener control de la aplicación de forma fácil."
+                }
+            ]
+        },
+        {
+            "name": "Monkey-Toons",
+            "type": "Estudio Digital de Producción",
+            "dateFrom": "Sept. 2008",
+            "dateTo": "Ago. 2013",
+            "position": "Desarrollador Front-End / Lider Técnico",
+            "description": "Desarrollo de apps, webs, landings y advergaming, así como gestión del equipo asignado. Análisis técnico junto con el cliente de los proyectos en función de sus necesidades.",
+            "featured": [
+                {
+                    "name": "Plataforma de Christmas Personalizados (Christmas Interactivos):",
+                    "description": "Creamos una plataforma en Javascript para que los puedan personalizar unas plantillas de critsmas animados y enviarlos a sus clientes."
+                }
+            ]
+        }
+    ]  
+}
